@@ -2,14 +2,28 @@
 layout: default
 ---
 
+
 <div class="home">
-  {% if site.theme_settings.header_text %}
-  <div id="main" class="call-out">
+{% if site.theme_settings.header_text %}
+    <div id="main" class="call-out">
     <h1> {{ site.theme_settings.header_text }} </h1>
-  </div>
-  {% endif %}
-
-  <h2> Our recent posts: </h2>
-    {% include blog.html %}
-
+    </div>
+{% endif %}
 </div>
+
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+
+    <h2 class="subtitle" align="center">Our recent posts: </h2>
+
+    <hr />
+    <section class="post-content" align="left">
+    {% if page.bootstrap %}
+        <div class="bootstrap-iso">
+    {% endif %}
+    {% include blog.html %}
+    {% if page.bootstrap %}
+        </div>
+    {% endif %}
+    </section>
+
+</article>
