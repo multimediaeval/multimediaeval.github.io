@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out">
+    <h1> {{ site.theme_settings.header_text }} </h1>
+  </div>
+  {% endif %}
+
+  <h2> Our recent posts: </h2>
+    {% include blog.html %}
+
+</div>
