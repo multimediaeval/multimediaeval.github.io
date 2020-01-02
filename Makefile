@@ -13,4 +13,4 @@ install-dev:
 	sudo bundle install
 
 local:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --trace
