@@ -6,6 +6,7 @@ permalink: /about/
 tags: [About]
 ---
 
+<hr>
 MediaEval is a benchmarking initiative dedicated to evaluating new algorithms for multimedia access and retrieval. It emphasizes the 'multi' in multimedia and focuses on human and social aspects of multimedia tasks. MediaEval attracts participants who are interested in multimodal approaches to multimedia involving, e.g., speech recognition, multimedia content analysis, music and audio analysis, user-contributed information (tags, tweets), viewer affective response, social networks, temporal and geo-coordinates.
 
 For more information about past years see:

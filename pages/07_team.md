@@ -6,6 +6,8 @@ permalink: /organizers/
 tags: [about, organizes]
 ---
 
+<hr>
+
 Each MediaEval tasks is coordinated by a group of task organizers. It is collective efforts of this group of people that makes MediaEval possible. The benchmark as a whole is guided by the MediaEval Community Council (listed below). The main contact person is Martha Larson m.a.larson (at) tudelft.nl.
 
 ### The MediaEval 2018 Organizing Committee (Task Organizers)
@@ -157,13 +159,13 @@ Guillaume Gravier, IRISA, France \\
 Bogdan Ionescu, University Politehnica of Bucharest, Romania \\
 Gareth Jones, Dublin City University, Ireland \\
 Martha Larson, Radboud University and TU Delft, Netherlands \\
-Mohammad Soleymani, University of Geneva, Switzerland \\
+Mohammad Soleymani, University of Geneva, Switzerland
 
 **Thank you to our Task Auxiliaries and Technical/Logistics team including:** \\
 Bogdan Boteanu, University Politehnica of Bucharest, Romania \\
 Gabi Constantin, University Politehnica of Bucharest, Romania \\
 Saskia Peters, TU Delft, Netherlands \\
-Roeland Ordelman, Netherlands Institute for Sound and Vision and University of Twente \\
+Roeland Ordelman, Netherlands Institute for Sound and Vision and University of Twente
 
 ### The MediaEval 2015 Organizing Committee (Task Organizers)
 Anna Aljanaki, Utrecht University, the Netherlands \\
