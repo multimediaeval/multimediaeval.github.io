@@ -3,7 +3,7 @@ layout: page
 title: About
 subtitle: What is MediaEval?
 permalink: /about/
-tags: [About]
+tags: [about]
 ---
 
 <hr>
