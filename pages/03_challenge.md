@@ -2,11 +2,10 @@
 layout: page
 title: Data Challenge
 permalink: /challenge/
-feature-img: "assets/img/rnd_dftech_darker.png"
 tags: [Data science, Data challenge]
 ---
 
-# Dafiti's data-challenge case studies
+# 's data-challenge case studies
 
 Please **read carefully all instructions** before starting any of the challenges:
 
@@ -17,7 +16,7 @@ Please **read carefully all instructions** before starting any of the challenges
 * All non-human help is allowed. You can use the Internet and any site and tools you want. If you have questions about the tasks please don't hesitate to ask!
 * Read the tasks carefully and solve them as described.
 * You may use the editor/IDE and the tools you choose :-)
-* After you finished, please send an email with your solution to: [research-and-development@dafiti.com.br](mailto:research-and-development@dafiti.com.br).<br>Use the following subject line: ```Case Study Tech R&D - <YOUR_NAME>```
+* After you finished, please send an email with your solution to:.<br>Use the following subject line: ```Case Study Tech R&D - <YOUR_NAME>```
 
 <br>
 These are the following available tasks:
@@ -25,9 +24,9 @@ These are the following available tasks:
 
 <ul style="list-style-type:disc;">
 {% for challenge in site.challenges %}
-  
+
   <li><a href="{{ site.url }}{{ site.baseurl }}{{ challenge.permalink }}">{{ challenge.title }}</a></li>
-  
+
 {% endfor %}
 </ul>
 

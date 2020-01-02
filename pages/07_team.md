@@ -2,7 +2,6 @@
 layout: page
 title: People involved
 permalink: /team/
-feature-img: "assets/img/rnd_dftech_darker.png"
 tags: [About, Team]
 ---
 

@@ -2,7 +2,6 @@
 title: Sales Conversion Prediction
 layout: page
 permalink: /challenge/conversionprediction/
-feature-img: "assets/img/rnd_dftech_darker.png"
 tags: [Data science, Data challenge]
 ---
 

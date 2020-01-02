@@ -2,14 +2,13 @@
 title: Product Catalog Categorization
 layout: page
 permalink: /challenge/catalogcategorization/
-feature-img: "assets/img/rnd_dftech_darker.png"
 tags: [Data science, Data challenge]
 ---
 
 
-Dafiti's catalog is receiving lots of new products on a daily basis where each product must have one or more categories, but often the associcated categories for new products are simply wrong. We need to have a solution to identify if the given categories are correct.
+'s catalog is receiving lots of new products on a daily basis where each product must have one or more categories, but often the associcated categories for new products are simply wrong. We need to have a solution to identify if the given categories are correct.
 
-As mentioned above, a dataset with ~300.000 products [is available for download](https://s3.us-east-2.amazonaws.com/case-study.dafiti.gfg.science/catalog-data.csv.gz). The product/categories associations in the existing dataset (`catalog-data.csv`) are considered correct. The file `categories.txt` ([accessible here](https://raw.githubusercontent.com/dafiti/data-challenge/master/categories.txt)) has a list of all allowed categories (one entire category name per line). The hierarchy is not important at this point in time. It must be noted that ~16 % of the images associated with the products in the current dataset/database are not available - this might be due to temporary or permanent errors. In general new products must have a valid image.
+product/categories associations in the existing dataset (`catalog-data.csv`) are considered correct. The file `categories.txt` has a list of all allowed categories (one entire category name per line). The hierarchy is not important at this point in time. It must be noted that ~16 % of the images associated with the products in the current dataset/database are not available - this might be due to temporary or permanent errors. In general new products must have a valid image.
 
 A product has the following attributes:
 
@@ -37,7 +36,6 @@ An example following an example in JSON format:
         "brand": "Marvel",
         "type": "accessories",
         "categories": ["Super Heroes", "Flying Cars", "Cars"],
-        "product_image_url": "http://static.dafiti.com.br/9527534/1-zoom.jpg",
     }
 ```
 
