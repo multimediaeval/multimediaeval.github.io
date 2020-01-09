@@ -3,7 +3,7 @@ clear:
 	rm -r _site
 	rm -r .sass-cache
 
-install-dev:
+install-deb:
 	sudo apt-get install ruby-full build-essential zlib1g-dev && \
 	echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
 	echo 'export GEM_HOME="$$HOME/gems"' >> ~/.bashrc && \
