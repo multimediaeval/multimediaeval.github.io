@@ -19,7 +19,7 @@ theme_settings:
   favicon: assets/favicon.ico
 
   # Header and footer text
-  header_text: "<font size=\"5\" color=\"black\">MediaEval Benchmarking Initiative for Multimedia Evaluation</font><br><font size=\"3\" color=\"grey\">The \"multi\" in multimedia: speech, audio, visual content, tags, users, context</font>"
+  header_text: "<font size=\"7\" color=\"black\">MediaEval Benchmarking Initiative for Multimedia Evaluation</font><br><font size=\"5\" color=\"grey\">The \"multi\" in multimedia: speech, audio, visual content, tags, users, context</font>"
   header_feature_image: assets/img/mediaeval.png
   footer_text: >
     © 2020 MediaEval Multimedia Benchmark
