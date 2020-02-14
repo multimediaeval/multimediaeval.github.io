@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Organizers
+title: Who are we?
 subtitle: Who are we?
-permalink: /organizers/
-tags: [about, organizes]
+permalink: /who/
 ---
 
 <hr>

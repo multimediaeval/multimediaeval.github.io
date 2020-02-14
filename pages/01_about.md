@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
+title: About MediaEval
 subtitle: What is MediaEval?
 permalink: /about/
-tags: [about]
 ---
 
 <hr>

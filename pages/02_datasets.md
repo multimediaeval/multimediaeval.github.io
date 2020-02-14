@@ -3,7 +3,6 @@ layout: page
 title: Datasets
 subtitle: MediaEval Datasets
 permalink: /datasets/
-tags: [datasets]
 ---
 
 {% assign today_date = 'now' | date: '%s' | plus: 0 %}
