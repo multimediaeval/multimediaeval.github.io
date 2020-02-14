@@ -12,5 +12,5 @@ install-deb:
 	sudo gem install jekyll bundler
 	sudo bundle install
 
-local:
+serve:
 	bundle exec jekyll serve --trace
