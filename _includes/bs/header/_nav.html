@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg">
+    <div class='container'>
+        <a class="navbar-brand" href="/" >
+            <img src="{{ site.theme_settings.avatar | relative_url }}" height=45>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#epNavbar" aria-controls="epNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="navbar-collapse collapse" id="epNavbar" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/news/">News</a>
+                </li>
+                {% include bs/header/_nav_menu.html %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
