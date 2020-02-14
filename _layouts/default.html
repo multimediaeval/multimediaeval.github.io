@@ -1,11 +1,25 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {% include navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+    {% include head.html %}
+    <body>
+
+        {% include bs/header/_regular.html %}
+        {% include bs/content/_messages.html %}
+
+        {{ content }}
+
+        {% include bs/footer/footer.html %}
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+
+      <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' }}"></script>
+      <script src="{{ '/assets/js/popper.min.js' }}"></script>
+      <script src="{{ '/assets/js/bootstrap.min.js' }}"></script>
+
+      {% include bs/_cookie_consent.html %}
+    </body>
+
 </html>
