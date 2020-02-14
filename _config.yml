@@ -16,7 +16,7 @@ theme_settings:
   # Meta
   avatar: assets/img/mediaeval.png
   color_image: /assets/img/lineart.png # In post when you set color
-  favicon: assets/favicon.ico
+  favicon: assets/img/mediaeval-favicon.png
 
   # Header and footer text
   header_text: "<font size=\"7\" color=\"black\">MediaEval Benchmarking Initiative for Multimedia Evaluation</font><br><font size=\"5\" color=\"grey\">The \"multi\" in multimedia: speech, audio, visual content, tags, users, context</font>"
@@ -122,7 +122,7 @@ exclude: [
 remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
 
 collections:
-  challenges:
+  editions:
     output: true
     permalink: /:collection/:path/
   datasets:
