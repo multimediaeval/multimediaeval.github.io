@@ -128,3 +128,6 @@ collections:
   datasets:
     output: true
     permalink: /:collection/:path/
+  tasks:
+    output: true
+    permalink: /:collection/:path/
