@@ -3,10 +3,10 @@ title: Memorability task
 permalink: /editions/2020/memorability
 year: 2020
 tags: [memorability, 2020]
-dataRelease: 13 May
-runSubmission: 20 September
-resultsReturned: 23 September
-notesDeadline: 20 September
+dataRelease: 
+runSubmission: 
+resultsReturned: 
+notesDeadline: 
 publicRepoUrl: https://
 siginUrl:
 privateRepoUrl:
@@ -70,7 +70,7 @@ Claire-Hélène Demarty, InterDigital, R&I, France.
 Jon Chamberlain, University of Essex, UK.
 
 **Task Schedule**
-Data release: 13 May \
-Run submission: 20 September \
-Results returned: 23 September \
-Working Notes paper deadline: 20 September
+Data release: \
+Run submission: \
+Results returned: \
+Working Notes paper deadline: 
