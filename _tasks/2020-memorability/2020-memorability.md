@@ -12,14 +12,14 @@ siginUrl:
 privateRepoUrl:
 ---
 
-#Task Description#
+# Task Description
 
-##Introduction##\
+## Introduction\
 Media platforms such as social networks, media advertisement, information retrieval and recommendation systems deal with exponentially growing data day after day. Enhancing the relevance of multimedia occurrences in our everyday life requires new ways to organize – in particular, to retrieve – digital content. Like other metrics of video importance, such as aesthetics or interestingness, memorability can be regarded as useful to help make a choice between competing videos. This is even truer when one considers the specific use cases of creating commercials or creating educational content. Because the impact of different multimedia content, images or videos, on human memory is unequal, the capability of predicting the memorability level of a given piece of content is obviously of high importance for professionals in the field of advertising. Beyond advertising, other applications, such as filmmaking, education, content retrieval, etc., may also be impacted by the proposed task. 
 
 The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, and pre-extracted state-of-the-art visual features.
 
-##New for 2020##\
+## New for 2020
 In this 3rd edition of the task, a more robust collection of videos is provided, which is retrieved from the TREC Video Retrieval Evaluation (TRECVID) task. Optionally, we may use descriptive captions from their use in the TRECVid automatic video captioning task. 
 
 ##Target group##\
