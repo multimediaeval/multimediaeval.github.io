@@ -51,15 +51,15 @@ theme_settings:
 
   # Sharing options
   share_buttons:
-    facebook: true
-    twitter: true
+    facebook: 
+    twitter: 
     tumblr:
     pinterest:
     pocket:
-    reddit: true
+    reddit: 
     linkedin:
     wordpress:
-    email: true
+    email: 
 
   # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"

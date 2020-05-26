@@ -1,13 +1,14 @@
 ---
-title: Emotion and Themes in Music using Jamendo
-parent: MediaEval 2019
+title: The 2019 Emotion and Themes in Music using Jamendo
+subtitle: Emotion and Themes in Music
+# required info
+layout: task
 year: 2019
-level: task
-abstract: Emotion and theme recognition is a popular task in music information retrieval that is relevant for music search and recommendation systems. We invite the participants to try their skills at recognizing moods and themes.
+call: Emotion and theme recognition is a popular task in music information retrieval that is relevant for music search and recommendation systems. We invite the participants to try their skills at recognizing moods and themes.
 ---
 
 **Task Description** \\
-Emotion and theme recognition is a popular task in music information retrieval that is relevant for music search and recommendation systems. We invite the participants to try their skills at recognizing moods and themes
+{{ page.call }}
 
 For full information, please see: [https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/)
 

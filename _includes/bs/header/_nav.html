@@ -1,18 +1,22 @@
+{% assign artifacts = site.editions | where_exp: "item" , "item.path contains 'editions'" %}
+{% assign sorted = artifacts | sort: 'year' %}
+
+
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper green darken-4">
       <a href="/" class="brand-logo">
         <img src="{{ site.theme_settings.avatar | relative_url }}" height=30>
       </a>
-
+      <!-- Small screen definition -->
       <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
+      <!-- Big screen Structure -->
       <ul class="right hide-on-med-and-down">
         <li><a href="/"><i class="material-icons">home</i></a></li>
         {% for page in site.pages %}
           {% unless page.title == null or page.hide or name_page contains page.title %}
-            {% if page.children %}
-              <li><a class="dropdown-trigger" data-target="{{ page.url | relative_url }}">
+            {% if page.has_children %}
+              <li><a class="dropdown-trigger" data-target="editions">
                 {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
               </a></li>
             {% else %}
@@ -25,33 +29,35 @@
   </nav>
 </div>
 
-<!-- Dropdown Structure -->
-{% for page in site.pages %}
-  {% unless page.title == null or page.hide or name_page contains page.title %}
-    {% if page.children %}
-    <ul class="dropdown-content" id="{{ page.url | relative_url }}">
-    {% for subchild in page.children %}
-        <li><a href="{{ subchild.attr.redirect_url|default:subchild.get_absolute_url }}">{{ subchild.get_menu_title }}</a></li>              
-    {% endfor %}
-    </ul>
-    {% endif %}
-  {% endunless %}
+<!-- Big screen dropdown Structure -->
+<ul class="dropdown-content" id="editions">
+{% for artifact in sorted reversed %}
+  {% if artifact.category == 'edition' %}
+    <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
+  {% endif %}
 {% endfor %}
+</ul>
 
+<!-- Mobile Structure -->
 <ul class="sidenav" id="mobile-nav">
   {% for page in site.pages %}
     {% unless page.title == null or page.hide or name_page contains page.title %}
-      {% if page.children %}
-        <!-- Dropdown Structure -->
-        <ul id="{{ page.url | relative_url }}" class="dropdown-content">
-        {% for subchild in page.children %}
-            <li><a href="#!">{{ subchild.get_menu_title }}</a></li>              
-        {% endfor %}
-        </ul>
-        <li><a class="dropdown-trigger" href="#!" data-target="{{ page.url | relative_url }}">{{ page.title }}<i class="material-icons right">arrow_drop_down</i></a></li>
+      {% if page.has_children %}
+        <li><a class="dropdown-trigger" data-target="mobile-editions">
+          {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
+        </a></li>
       {% else %}
         <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
       {% endif %}
     {% endunless %}
+  {% endfor %}
+</ul>
+
+<!-- Mobile dropdown Structure -->
+<ul class="dropdown-content" id="mobile-editions">
+  {% for artifact in sorted reversed%}
+    {% if artifact.category == 'edition' %}
+      <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>

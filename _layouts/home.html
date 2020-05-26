@@ -3,13 +3,9 @@ layout: default
 ---
 
 
-<div class="home">
 {% if site.theme_settings.header_text %}
-    <div id="main" class="call-out">
-    <h1> {{ site.theme_settings.header_text }} </h1>
-    </div>
+    <h1 class='center'> {{ site.theme_settings.header_text }} </h1>
 {% endif %}
-</div>
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
 
