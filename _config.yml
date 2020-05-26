@@ -11,6 +11,8 @@ defaults:
     values:
       image: assets/img/mediaeval.png # seo tag
 
+theme: materialize-jekyll
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -119,15 +121,12 @@ exclude: [
         "assets/gulpfile.js"
     ]
 # theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+# remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
 
 collections:
   editions:
     output: true
     permalink: /:collection/:path/
   datasets:
-    output: true
-    permalink: /:collection/:path/
-  tasks:
     output: true
     permalink: /:collection/:path/
