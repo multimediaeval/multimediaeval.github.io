@@ -1,21 +1,56 @@
-<nav class="navbar navbar-expand-lg">
-    <div class='container'>
-        <a class="navbar-brand" href="/" >
-            <img src="{{ site.theme_settings.avatar | relative_url }}" height=45>
-        </a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#epNavbar" aria-controls="epNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper green darken-4">
+      <a href="/" class="brand-logo">
+        <img src="{{ site.theme_settings.avatar | relative_url }}" height=30>
+      </a>
 
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-        <div class="navbar-collapse collapse" id="epNavbar" style="">
-            <ul class="navbar-nav mr-auto">
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="/news/">News</a>
-                </li> -->
-                {% include bs/header/_nav_menu.html %}
-            </ul>
-        </div>
+      <ul class="right hide-on-med-and-down">
+        {% for page in site.pages %}
+          {% unless page.title == null or page.hide or name_page contains page.title %}
+            {% if page.children %}
+              <li><a class="dropdown-trigger" data-target="{{ page.url | relative_url }}">
+                {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
+              </a></li>
+            {% else %}
+              <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
     </div>
-</nav>
+  </nav>
+</div>
 
+<!-- Dropdown Structure -->
+{% for page in site.pages %}
+  {% unless page.title == null or page.hide or name_page contains page.title %}
+    {% if page.children %}
+    <ul class="dropdown-content" id="{{ page.url | relative_url }}">
+    {% for subchild in page.children %}
+        <li><a href="{{ subchild.attr.redirect_url|default:subchild.get_absolute_url }}">{{ subchild.get_menu_title }}</a></li>              
+    {% endfor %}
+    </ul>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+<ul class="sidenav" id="mobile-nav">
+  {% for page in site.pages %}
+    {% unless page.title == null or page.hide or name_page contains page.title %}
+      {% if page.children %}
+        <!-- Dropdown Structure -->
+        <ul id="{{ page.url | relative_url }}" class="dropdown-content">
+        {% for subchild in page.children %}
+            <li><a href="#!">{{ subchild.get_menu_title }}</a></li>              
+        {% endfor %}
+        </ul>
+        <li><a class="dropdown-trigger" href="#!" data-target="{{ page.url | relative_url }}">{{ page.title }}<i class="material-icons right">arrow_drop_down</i></a></li>
+      {% else %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</ul>

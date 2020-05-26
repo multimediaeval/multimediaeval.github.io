@@ -1,31 +1,27 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="{{ site.theme_settings.favicon | relative_url }}" type="image/png">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="{{ '/assets/css/materialize.min.css' | relative_url }}"  media="screen,projection"/>
 
-    <!--Favicon-->
-    <link rel="shortcut icon" href="{{ site.theme_settings.favicon | relative_url }}" type="image/png">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/mediaeval-bs-theme.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/mediaeval-customisations.css' | relative_url }}">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  {% if site.theme_settings.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.theme_settings.google_analytics }}');
+  </script>
+  {% endif %}
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {% if site.theme_settings.google_analytics %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.theme_settings.google_analytics }}');
-    </script>
-    {% endif %}
+  <!-- seo tags -->
+  {% seo %}
+  <!-- Manual seo tags -->
 
-    <!-- seo tags -->
-    {% seo %}
-    <!-- Manual seo tags -->
-    <!--
-    <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
-    -->
 </head>

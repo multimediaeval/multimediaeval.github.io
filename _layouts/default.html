@@ -10,16 +10,10 @@
         {{ content }}
 
         {% include bs/footer/footer.html %}
-
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-
-      <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' }}"></script>
-      <script src="{{ '/assets/js/popper.min.js' }}"></script>
-      <script src="{{ '/assets/js/bootstrap.min.js' }}"></script>
-
-      {% include bs/_cookie_consent.html %}
+   
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="{{ '/assets/js/materialize.min.js' }}"></script>
+      <script type="text/javascript" src="{{ '/assets/js/main.js' }}"></script>
     </body>
 
 </html>

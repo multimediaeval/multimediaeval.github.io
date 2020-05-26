@@ -1,6 +1,6 @@
 {% for page in site.pages %}
     {% unless page.title == null or page.hide or name_page contains page.title %}
-    <li class="nav-item {% if page.children %} dropdown {% endif %}">
+    <li>
         <a class="nav-link"
         {% if page.children %}
         href="{{ page.url | relative_url }}"
