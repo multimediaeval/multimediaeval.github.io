@@ -1,15 +1,9 @@
 ---
 title: Emotion and Themes in Music using Jamendo
-permalink: /editions/2020/music
-year: 2020
-tags: [music, 2020]
-dataRelease: 13 May
-runSubmission: 20 September
-resultsReturned: 23 September
-notesDeadline: 20 September
-publicRepoUrl: https://
-siginUrl:
-privateRepoUrl:
+parent: MediaEval 2019
+year: 2019
+level: task
+abstract: Emotion and theme recognition is a popular task in music information retrieval that is relevant for music search and recommendation systems. We invite the participants to try their skills at recognizing moods and themes.
 ---
 
 **Task Description** \\

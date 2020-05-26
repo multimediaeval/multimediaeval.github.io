@@ -5,8 +5,6 @@ subtitle: MediaEval Datasets
 permalink: /datasets/
 ---
 
-{% assign today_date = 'now' | date: '%s' | plus: 0 %}
-
 {% assign sorted = site.datasets | sort: 'year' %}
 
 {% for dataset in sorted reversed %}

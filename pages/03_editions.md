@@ -1,32 +1,33 @@
 ---
-layout: post
+layout: page
 title: Editions
-subtitle: MediaEval Yearly Editions
+subtitle: MediaEval Editions
 permalink: /editions/
+has_children: true
 ---
 
-
-{% assign today_date = 'now' | date: '%s' | plus: 0 %}
-
 {% assign sorted_editions = site.editions | sort: 'year' %}
-{% assign sorted_tasks = site.tasks | sort: 'year' %}
 
-{% for edition in sorted_editions reversed %}
+{% for document in sorted_editions reversed %}
+ {% if document.level == "edition" %}
  <hr>
- <h3>{{ edition.title }}</h3>
+ <h3><a href="{{ document.url | relative_url }}">{{ document.title }}</a></h3>
+    
+**Task list:**
 
- {{ edition }}
- <hr>
- {% for task in sorted_tasks reversed %}
-    {% if task.year == edition.year %}
-    <h4>{{ task.title }}</h4>
+   {% assign tasks_folder = site.editions | where_exp: "item" , "item.path contains 'tasks'" %}
+   {% for task in tasks_folder %}
+    {% if task.year == document.year %}
 
-        {{ task }}
+  * <a href="{{ task.url | relative_url }}">{{ task.title }} ({{ task.year }})</a>
 
     {% endif %}
+  {% endfor %}
+ {% endif %}
 
- {% endfor %}
- <hr>
 {% endfor %}
 
 <hr>
+
+Previous editions are available here:
+                <a href='http://www.multimediaeval.org/'>www.multimediaeval.org</a>
