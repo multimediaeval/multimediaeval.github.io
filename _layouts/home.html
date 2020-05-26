@@ -1,25 +1,38 @@
----
-layout: default
----
+<!DOCTYPE html>
 
+<html lang="en">
+  {% include head.html %}
+  <body>
 
-{% if site.theme_settings.header_text %}
-    <h1 class='center'> {{ site.theme_settings.header_text }} </h1>
-{% endif %}
+    {% include bs/header/_with_jumbotron.html %}
+    {% include bs/content/_messages.html %}
+    <div class="container">
+      <div class="row">
+        <article {% if page.feature-img %}class="feature-image"{% endif %}>
 
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
+          <h2 class="subtitle" align="center">Our recent posts: </h2>
+        
+          <hr />
+          <section class="post-content" align="left">
+          {% if page.bootstrap %}
+            <div class="bootstrap-iso">
+          {% endif %}
+          {% include blog.html %}
+          {% if page.bootstrap %}
+            </div>
+          {% endif %}
+          </section>
+        
+        </article>
+      </div>
+    </div>
 
-    <h2 class="subtitle" align="center">Our recent posts: </h2>
+    {% include bs/footer/footer.html %}
 
-    <hr />
-    <section class="post-content" align="left">
-    {% if page.bootstrap %}
-        <div class="bootstrap-iso">
-    {% endif %}
-    {% include blog.html %}
-    {% if page.bootstrap %}
-        </div>
-    {% endif %}
-    </section>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="{{ '/assets/js/materialize.min.js' }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/main.js' }}"></script>
+  </body>
 
-</article>
+</html>
+

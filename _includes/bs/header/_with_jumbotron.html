@@ -1,11 +1,18 @@
-<div id='background_image'>
-    {% include bs/header/_nav.html %}
-    {% include bs/header/_homepage_jumbotron.html %}
-</div>
+{% include bs/header/_nav.html %}
+<header class="jumbotron">
+  <h1 class='center'> {{ site.theme_settings.header_text }} </h1>
+</header>
 
 <style>
-#background_image {
-    /* Only want the background image to occupy full page height on the homepage */
-    height: 100vh;
-}
+  .jumbotron{
+    background: url("{{ '/assets/img/mediaeval-2018.jpg' | relative_url }}");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+  @media screen and (max-width: 310px){
+    .jumbotron{
+      min-height: 250px;
+    }
+  }
 </style>
