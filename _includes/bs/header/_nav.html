@@ -8,6 +8,7 @@
       <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
       <ul class="right hide-on-med-and-down">
+        <li><a href="/"><i class="material-icons">home</i></a></li>
         {% for page in site.pages %}
           {% unless page.title == null or page.hide or name_page contains page.title %}
             {% if page.children %}
