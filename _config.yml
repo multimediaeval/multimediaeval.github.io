@@ -11,8 +11,6 @@ defaults:
     values:
       image: assets/img/mediaeval.png # seo tag
 
-theme: materialize-jekyll
-
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
