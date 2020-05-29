@@ -1,14 +1,11 @@
 {% include bs/header/_nav.html %}
 <header class="jumbotron">
-  <h1 class='center'> 
-    <font size="7" color="black">
-      MediaEval Benchmarking Initiative for Multimedia Evaluation
-    </font>
-    <br>
-    <font size="5" color="grey">
-      The "multi" in multimedia: speech, audio, visual content, tags, users, context
-    </font>
- </h1>
+  <div class="content">
+    <h1 class='center white-text northumbria'> 
+      MediaEval Benchmarking Initiative
+    </h1>
+  </div>
+  
 </header>
 
 <style>
@@ -17,6 +14,22 @@
     background-size: cover;
     background-position: center;
     min-height: 300px;
+    filter: brightness(100%);
+  }
+  @font-face {
+    font-family: "Northumbria";
+    src: url("{{ '/assets/fonts/DKNorthumbria/Dknorthumbria-vyBA.otf' | relative_url }}") format("truetype");
+  }
+  h1.northumbria {
+    font-family: "Northumbria", Verdana;
+  }
+  .jumbotron .content{
+    position: absolute; /* Position the background text */
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
   }
   @media screen and (max-width: 310px){
     .jumbotron{
