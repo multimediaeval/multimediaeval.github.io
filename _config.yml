@@ -112,14 +112,11 @@ exclude: [
         "assets/node_modules",
         "assets/gulpfile.js"
     ]
-    
+
 # theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
 
 collections:
   editions:
-    output: true
-    permalink: /:collection/:path/
-  datasets:
     output: true
     permalink: /:collection/:path/

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Datasets
 subtitle: MediaEval Datasets
@@ -21,4 +21,4 @@ permalink: /datasets/
  {% endif %}
 {% endfor %}
 
-<hr>
+<hr> -->
