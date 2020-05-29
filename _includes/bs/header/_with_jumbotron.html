@@ -1,14 +1,21 @@
 {% include bs/header/_nav.html %}
 <header class="jumbotron">
-  <h1 class='center'> {{ site.theme_settings.header_text }} </h1>
+  <h1 class='center'> 
+    <font size="7" color="black">
+      MediaEval Benchmarking Initiative for Multimedia Evaluation
+    </font><br>
+    <font size="5" color="grey">
+      The "multi" in multimedia: speech, audio, visual content, tags, users, context
+    </font>
+ </h1>
 </header>
 
 <style>
   .jumbotron{
-    background: url("{{ '/assets/img/mediaeval-2018.jpg' | relative_url }}");
+    background: url("{{ '/assets/img/Jumbotron.png' | relative_url }}");
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 300px;
   }
   @media screen and (max-width: 310px){
     .jumbotron{
