@@ -21,8 +21,3 @@ Quang-Khanh-Ngoc Duong, Technicolor, France \\
 Xavier Alameda-Pineda, INRIA, France \\
 Mats Sjöberg, CSC, Finland
 
-**Task Schedule** \\
-Data release: 13 May \\
-Run submission: 20 September \\
-Results returned: 23 September \\
-Working Notes paper deadline: 20 September
