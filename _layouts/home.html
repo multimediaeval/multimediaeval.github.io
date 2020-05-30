@@ -6,12 +6,20 @@
 
     {% include bs/header/_with_jumbotron.html %}
     {% include bs/content/_messages.html %}
+    {% assign sorted_editions = site.editions
+      | sort: "year"
+      | where_exp: "item", "item.layout == 'edition'"
+    %}
+
     <div class="container">
       <div class="row">
         <article {% if page.feature-img %}class="feature-image"{% endif %}>
+          {% for edition in sorted_editions offset:1 %}
+            <h3><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></h3>
+          {% endfor %}
 
           <h2 class="subtitle" align="center">Current information: </h2>
-        
+
           <hr />
           <section class="post-content" align="left">
           {% if page.bootstrap %}
@@ -22,7 +30,7 @@
             </div>
           {% endif %}
           </section>
-        
+
         </article>
       </div>
     </div>
