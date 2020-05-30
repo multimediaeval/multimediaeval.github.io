@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Editions
-subtitle: MediaEval Editions
-permalink: /editions/
+title: MediaEval History
 has_children: true
 ---
 
@@ -12,7 +10,7 @@ has_children: true
  {% if document.level == "edition" %}
  <hr>
  <h3><a href="{{ document.url | relative_url }}">{{ document.title }}</a></h3>
-    
+
 **Task list:**
 
    {% assign tasks_folder = site.editions | where_exp: "item" , "item.path contains 'tasks'" %}
