@@ -1,5 +1,8 @@
-{% assign artifacts = site.editions | where_exp: "item" , "item.path contains 'editions'" %}
-{% assign sorted = artifacts | sort: 'year' %}
+{% assign sorted_editions = site.editions
+  | sort: "year"
+  | reverse
+  | where_exp: "item", "item.layout == 'edition'"
+%}
 
 
 <div class="navbar-fixed">
@@ -13,6 +16,9 @@
       <!-- Big screen Structure -->
       <ul class="right hide-on-med-and-down">
         <li><a href="/"><i class="material-icons">home</i></a></li>
+        {% for edition in sorted_editions limit:1 %}
+          <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
+        {% endfor %}
         {% for page in site.pages %}
           {% unless page.title == null or page.hide or name_page contains page.title %}
             {% if page.has_children %}
@@ -31,15 +37,15 @@
 
 <!-- Big screen dropdown Structure -->
 <ul class="dropdown-content" id="editions">
-{% for artifact in sorted reversed %}
-  {% if artifact.category == 'edition' %}
-    <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
-  {% endif %}
-{% endfor %}
+  {% for edition in sorted_editions offset:1 %}
+    <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
+  {% endfor %}
+  <li><a href="http://www.multimediaeval.org/">pre-2020</a></li>
 </ul>
 
 <!-- Mobile Structure -->
 <ul class="sidenav" id="mobile-nav">
+  <li><a href="/">Home</a></li>
   {% for page in site.pages %}
     {% unless page.title == null or page.hide or name_page contains page.title %}
       {% if page.has_children %}
@@ -55,9 +61,7 @@
 
 <!-- Mobile dropdown Structure -->
 <ul class="dropdown-content" id="mobile-editions">
-  {% for artifact in sorted reversed%}
-    {% if artifact.category == 'edition' %}
-      <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
-    {% endif %}
+  {% for artifact in sorted_editions %}
+    <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
   {% endfor %}
 </ul>
