@@ -1,0 +1,27 @@
+.jumbotron{
+  background: url("/assets/img/Jumbotron.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  filter: brightness(100%);
+}
+@font-face {
+  font-family: "Northumbria";
+  src: url("/assets/fonts/DKNorthumbria/Dknorthumbria-vyBA.otf") format("truetype");
+}
+.northumbria {
+  font-family: "Northumbria", Verdana;
+}
+.jumbotron .content{
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+@media screen and (max-width: 310px){
+  .jumbotron{
+    min-height: 250px;
+  }
+}
