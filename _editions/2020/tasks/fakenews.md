@@ -5,8 +5,8 @@ year: 2020
 hide: false
 
 # required info
-title:
-subtitle:
+title: FakeNews Task
+subtitle: subtitle
 blurb: This is the blurb for fakenews task
 ---
 
