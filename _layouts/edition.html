@@ -25,7 +25,7 @@ layout: default
   <ul class="right hide-on-med-and-down"></ul>
   {% for task in sorted_tasks %}
     <a href="{{ task.url | relative_url }}"><h4>{{ task.title }}</h4></a>
-    <p>{{ task.blurb|truncatewords:"200" }}</p>
+    <p>{{ task.blurb }}</p>
     <a href="{{ task.url | relative_url }}">Read more.</a>
     <br>
   {% endfor %}
