@@ -16,7 +16,7 @@
             {% include post_info.html post=post %}
           </header>
           <div class="excerpt">
-              {{ post.excerpt|truncatewords:"100" }}
+              {{ post.excerpt }}
               <a href="{{ post.url | relative_url }}">read more</a>
           </div>
       </span>
