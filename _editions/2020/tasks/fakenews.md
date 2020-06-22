@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2020
-hide: true
+hide: false
 
 # required info
 title:
 subtitle:
-blurb:
+blurb: This is the blurb for fakenews task
 ---
 
 <!-- # suggested structure below-->
