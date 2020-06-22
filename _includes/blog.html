@@ -15,8 +15,8 @@
             </h4>
             {% include post_info.html post=post %}
           </header>
-          <div class="excerpt">
-              {{ post.excerpt }}
+          <div>
+              {{ post.content }}
               <a href="{{ post.url | relative_url }}">read more</a>
           </div>
       </span>
