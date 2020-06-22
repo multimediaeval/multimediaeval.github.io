@@ -3,37 +3,31 @@ layout: default
 ---
 
   <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
-    <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-    <p class="meta">
-    {{ page.date | date: "%B %-d, %Y" }}
-    {% if page.author %} - {{ page.author }}{% endif %}
-    </p>
+    <h2>{{ page.title }}</h2>
   </header>
-  <section class="post-content">{{ content }}</section>
 
-  ### Task List
+  {{ content }}
+  {% assign sorted_tasks = site.editions
+    | sort: "title"
+    | reverse
+    | where_exp: "item", "item.layout == 'task'"
+    | where_exp: "item", "item.year == page.year"
+    | where_exp: "item", "item.hide == false"
+  %}
+  {% assign psize = sorted_tasks | size %}
 
-The list of tasks offered in 2019 is below. Register to participate on the [MediaEval 2019 registrations website](https://docs.google.com/forms/d/e/1FAIpQLSfxS4LPBhLQUTXSPT5vogtiSy7BuAKrPs6u6pZXcSV1Xs7XEQ/viewform). Once you have registered, please fill in the [MediaEval 2019 Usage Agreement](http://multimediaeval.org/docs/MediaEval2019_UsageAgreement.pdf) and return it following the instructions on the first page.
+  {% if psize > 0 %}
+  <h3>
+    Task List
+  </h3>
 
-{% assign tasks_folder = site.pages | where_exp: "item" , "item.path contains 'tasks'" %}
-{% for task in tasks_folder %}
- {% if task.year == page.year %}
-
-  * **{{ task.title }}** - {{ task.abstract|truncatewords:"50" }} <a href="{{ task.url | relative_url }}">Read more.</a>
-
- {% endif %}
-{% endfor %}
-
-### Task Force
-
-Task forces are groups of people working together to design and plan a task to be offered in future years.
-
-{% assign task_forces = site.pages | where_exp: "item" , "item.path contains 'task_force'" %}
-{% for task_force in task_forces %}
- {% if task_force.year == page.year %}
-
-  **{{ task_force.title }}** \
-  {{ task_force }}
-
- {% endif %}
-{% endfor %}
+  {% assign tasks_folder = site.pages | where_exp: "item" , "item.path contains 'tasks'" %}
+  <ul class="right hide-on-med-and-down"></ul>
+  {% for task in sorted_tasks %}
+    <a href="{{ task.url | relative_url }}"><h4>{{ task.title }}</h4></a>
+    <p>{{ task.blurb }}</p>
+    <a href="{{ task.url | relative_url }}">Read more.</a>
+    <br>
+  {% endfor %}
+</ul>
+{% endif %}

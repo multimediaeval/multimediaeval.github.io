@@ -45,15 +45,15 @@ theme_settings:
 
   # Sharing options
   share_buttons:
-    facebook: 
-    twitter: 
+    facebook:
+    twitter:
     tumblr:
     pinterest:
     pocket:
-    reddit: 
+    reddit:
     linkedin:
     wordpress:
-    email: 
+    email:
 
   # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -83,13 +83,6 @@ theme_settings:
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
-
-# AUTHORS
-authors: # add more authors here
-  ricoms:
-    name: Ricardo Savii
-    url: https://www.linkedin.com/in/ricardoms/
-    avatar: /assets/img/avatars/Ricardo.png
 
 # BUILD SETTINGS
 markdown: kramdown
