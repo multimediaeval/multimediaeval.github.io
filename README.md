@@ -27,4 +27,4 @@ As some parts of this structure is still a work in progress, this might change a
 
 For bibliography management we are using the following package: [https://github.com/inukshuk/jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
 
-As this package is no white-listed to Github pages it's required to deploy via Action, and the following setup is used [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
+As this package is no white-listed to Github pages it's required to deploy via Action, and the following setup is used [https://github.com/marketplace/actions/github-pages-action](https://github.com/marketplace/actions/github-pages-action).
