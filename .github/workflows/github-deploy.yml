@@ -1,5 +1,13 @@
-steps:
-  - uses: actions/checkout@v2
-  - uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+name: Deploy github page with non-whitelist plugins
+# Este fluxo de trabalho é acionado em pushes para o repositório.
+on: [push]
+
+jobs:
+  build:
+    name: Deploy github page
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
