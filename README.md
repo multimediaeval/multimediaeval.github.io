@@ -25,4 +25,4 @@ As some parts of this structure is still a work in progress, this might change a
 
 ### Bibliography management
 
-For bibliography management we are using the following package: [https://github.com/inukshuk/jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
+For bibliography management we are using the following package: [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
