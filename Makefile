@@ -9,7 +9,7 @@ install-deb:
 	echo 'export GEM_HOME="$$HOME/gems"' >> ~/.bashrc && \
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
 	sudo apt install ruby
-	sudo gem install jekyll bundler
+	sudo gem install jekyll bundler jekyll-scholar
 	sudo bundle install
 
 serve:
