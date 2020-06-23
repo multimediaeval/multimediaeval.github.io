@@ -15,21 +15,14 @@ Below is the folder structure inside `_editions` folder. Inside that folder shou
 
 ```
 _editions/
-├── 2019
-│   ├── 2019.md
-│   ├── task_organizers.md
-│   └── tasks
-│       ├── memorability
-│       │   ├── memorability.md
-│       │   └── task_force.md
-│       └── music
-│           └── music.md
 └── 2020
     ├── 2020.md
-    ├── task_organizers.md
     └── tasks
-        └── memorability
-            └── memorability.md
+        └── memorability.md
 ```
 
 As some parts of this structure is still a work in progress, this might change and this README will be outdated. Please, in this case or any other question fill in an issue.
+
+### Bibliography management
+
+For bibliography management we are using the following package: [https://github.com/inukshuk/jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
