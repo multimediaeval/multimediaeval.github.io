@@ -89,7 +89,10 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll/scholar
 exclude: [
         ".jekyll-cache",
         "Gemfile",
