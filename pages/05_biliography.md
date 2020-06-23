@@ -5,4 +5,4 @@ subtitle: Bibliography
 permalink: /bib/
 ---
 
-{% bibliography --file mediaevalbib %}
+Non content for now
