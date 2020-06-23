@@ -92,7 +92,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-scholar
 exclude: [
         ".jekyll-cache",
         "Gemfile",
