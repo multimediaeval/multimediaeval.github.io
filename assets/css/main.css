@@ -71,3 +71,9 @@
         background-size: 400% auto;
     }
 }
+
+a:link {
+  color: #1E7805;
+  background-color: transparent;
+  text-decoration: none;
+}

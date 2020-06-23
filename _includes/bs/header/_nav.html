@@ -9,24 +9,24 @@
   <nav>
     <div class="nav-wrapper green darken-4">
       <a href="/" class="brand-logo" style="padding-left: 20px">
-        <h3 class="northumbria" style="margin-top: 20px">Mediaeval</h3>
+        <h3 class="northumbria" style="margin-top: 20px;color:white;">Mediaeval</h3>
       </a>
       <!-- Small screen definition -->
-      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger" style="color:white;"><i class="material-icons">menu</i></a>
       <!-- Big screen Structure -->
       <ul class="right hide-on-med-and-down">
-        <li><a href="/"><i class="material-icons">home</i></a></li>
+        <li><a href="/"><i class="material-icons" style="color:white;">home</i></a></li>
         {% for edition in sorted_editions limit:1 %}
-          <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
+          <li><a href="{{ edition.url | relative_url }}" style="color:white;">{{ edition.title }}</a></li>
         {% endfor %}
         {% for page in site.pages %}
           {% unless page.title == null or page.hide or name_page contains page.title %}
             {% if page.has_children %}
-              <li><a class="dropdown-trigger" data-target="editions">
+              <li><a class="dropdown-trigger" data-target="editions" style="color:white;">
                 {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
               </a></li>
             {% else %}
-              <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+              <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
             {% endif %}
           {% endunless %}
         {% endfor %}
@@ -44,16 +44,19 @@
 </ul>
 
 <!-- Mobile Structure -->
-<ul class="sidenav" id="mobile-nav">
-  <li><a href="/">Home</a></li>
+<ul class="sidenav green darken-4" id="mobile-nav">
+  <li><a href="/" style="color:white;">Home</a></li>
+  {% for edition in sorted_editions limit:1 %}
+    <li><a href="{{ edition.url | relative_url }}" style="color:white;">{{ edition.title }}</a></li>
+  {% endfor %}
   {% for page in site.pages %}
     {% unless page.title == null or page.hide or name_page contains page.title %}
       {% if page.has_children %}
-        <li><a class="dropdown-trigger" data-target="mobile-editions">
-          {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
+        <li><a class="dropdown-trigger" data-target="mobile-editions" style="color:white;">
+          {{ page.title }}<i class="material-icons right" style="color:white;">arrow_drop_down</i>
         </a></li>
       {% else %}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+        <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
       {% endif %}
     {% endunless %}
   {% endfor %}
@@ -61,7 +64,8 @@
 
 <!-- Mobile dropdown Structure -->
 <ul class="dropdown-content" id="mobile-editions">
-  {% for artifact in sorted_editions %}
-    <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
+  {% for edition in sorted_editions offset:1 %}
+    <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
+  <li><a href="http://www.multimediaeval.org/">pre-2020</a></li>
 </ul>
