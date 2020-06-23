@@ -12,7 +12,9 @@
         <h3 class="northumbria" style="margin-top: 20px;color:white;">Mediaeval</h3>
       </a>
       <!-- Small screen definition -->
-      <a href="#" data-target="mobile-nav" class="sidenav-trigger" style="color:white;"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons" style="color:white;">menu</i>
+      </a>
       <!-- Big screen Structure -->
       <ul class="right hide-on-med-and-down">
         <li><a href="/"><i class="material-icons" style="color:white;">home</i></a></li>
@@ -40,7 +42,7 @@
   {% for edition in sorted_editions offset:1 %}
     <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
-  <li><a href="http://www.multimediaeval.org/">pre-2020</a></li>
+  <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
 </ul>
 
 <!-- Mobile Structure -->
@@ -67,5 +69,5 @@
   {% for edition in sorted_editions offset:1 %}
     <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
-  <li><a href="http://www.multimediaeval.org/">pre-2020</a></li>
+  <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
 </ul>

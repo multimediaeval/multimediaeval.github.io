@@ -3,7 +3,6 @@ baseurl: "/"
 url: ""
 title: "MediaEval Benchmark" # site's title
 description: "MediaEval Benchmarking Initiative Multimedia Evaluation" # used by search engines
-markdown: GFM
 defaults:
   -
     scope:
@@ -107,7 +106,7 @@ exclude: [
     ]
 
 # theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+# remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
 
 collections:
   editions:

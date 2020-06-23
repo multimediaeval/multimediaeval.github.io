@@ -9,7 +9,7 @@
             {% include post_info.html post=post %}
           </header>
           <div>
-              {{ post.content }}
+              {{ post.content | markdownify }}
               <a href="{{ post.url | relative_url }}">read more</a>
           </div>
       </span>
