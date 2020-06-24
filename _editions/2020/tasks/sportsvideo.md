@@ -39,11 +39,13 @@ blurb: Participants are provided with a set of videos of table tennis games and 
 
 #### Task Schedule
 XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+
 XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+
 15 November: Results returned  <!-- Fixed. Please do not change-->
+
 30 November: Working notes paper  <!-- Fixed. Please do not change-->
+
 Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
+
 Workshop will be held online. Exact dates to be announced.
-
-
-#### Task Schedule
