@@ -12,7 +12,7 @@ you will access `edit` mode on the file aand you will see something like below:
 
 There are 2 main parts to the document:
 
-* part 1 (lines 1 to 11) is the task file metadata. Here, you (task organizer), should fill in all fields (title, subtitle, and blurb). When your task content is ready to be published on the website, to be shown on the website then you should edit the `hide` property to `false`, this way your task will be visible on the website.
+* part 1 (lines 1 to 11) is the task file metadata. Here, you (task organizer), should fill in all `# required info` fields (title, subtitle, and blurb). When your task content is ready to be published on the website, to be shown on the website, then you should edit the `hide` property to `false`, this way your task will be visible on the website.
 
 * part 2 (lines 12 to infinity) is the actual task content. There is a suggested structure to the document to be followed. This part accepts content with [Markdown](https://daringfireball.net/projects/markdown/syntax) and HTML syntax.
 
