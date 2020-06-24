@@ -43,4 +43,5 @@ blurb: Participants are provided with a set of videos of table tennis games and 
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
-* Workshop will be held online. Exact dates to be announced.
+
+Workshop will be held online. Exact dates to be announced.
