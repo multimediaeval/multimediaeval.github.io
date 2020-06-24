@@ -73,7 +73,13 @@
 }
 
 a:link {
-  color: #1E7805;
+  color: #289E07;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #35BC0F;
   background-color: transparent;
   text-decoration: none;
 }
