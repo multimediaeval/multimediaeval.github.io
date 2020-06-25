@@ -1,5 +1,5 @@
 <div class="posts">
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts limit:1 %}
     <div>
         <span>
           <header>
@@ -9,7 +9,23 @@
             {% include post_info.html post=post %}
           </header>
           <div>
-              {{ post.content | markdownify }}
+              {{ post.content }}
+          </div>
+      </span>
+    </div>
+    <hr />
+    {% endfor %}
+    {% for post in paginator.posts offset:1 %}
+    <div>
+        <span>
+          <header>
+            <h4>
+                {{ post.title }}
+            </h4>
+            {% include post_info.html post=post %}
+          </header>
+          <div>
+              {{ post.excerpt | truncatewords: 10 }}
               <a href="{{ post.url | relative_url }}">read more</a>
           </div>
       </span>
