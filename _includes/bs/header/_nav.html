@@ -16,7 +16,7 @@
         <i class="material-icons" style="color:white;">menu</i>
       </a>
       <!-- Big screen Structure -->
-      <ul class="right hide-on-med-and-down">
+      <ul class="materialize right hide-on-med-and-down">
         <li><a href="/"><i class="material-icons" style="color:white;">home</i></a></li>
         {% for edition in sorted_editions limit:1 %}
           <li><a href="{{ edition.url | relative_url }}" style="color:white;">{{ edition.title }}</a></li>
@@ -38,36 +38,36 @@
 </div>
 
 <!-- Big screen dropdown Structure -->
-<ul class="dropdown-content" id="editions">
+<ul class="dropdown-content materialize" id="editions">
   {% for edition in sorted_editions offset:1 %}
-    <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
+  <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
   <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
 </ul>
 
 <!-- Mobile Structure -->
-<ul class="sidenav green darken-4" id="mobile-nav">
+<ul class="materialize sidenav green darken-4" id="mobile-nav">
   <li><a href="/" style="color:white;">Home</a></li>
   {% for edition in sorted_editions limit:1 %}
-    <li><a href="{{ edition.url | relative_url }}" style="color:white;">{{ edition.title }}</a></li>
+  <li><a href="{{ edition.url | relative_url }}" style="color:white;">{{ edition.title }}</a></li>
   {% endfor %}
   {% for page in site.pages %}
     {% unless page.title == null or page.hide or name_page contains page.title %}
       {% if page.has_children %}
-        <li><a class="dropdown-trigger" data-target="mobile-editions" style="color:white;">
-          {{ page.title }}<i class="material-icons right" style="color:white;">arrow_drop_down</i>
-        </a></li>
+  <li><a class="dropdown-trigger" data-target="mobile-editions" style="color:white;">
+    {{ page.title }}<i class="material-icons right" style="color:white;">arrow_drop_down</i>
+  </a></li>
       {% else %}
-        <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
+  <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
       {% endif %}
     {% endunless %}
   {% endfor %}
 </ul>
 
 <!-- Mobile dropdown Structure -->
-<ul class="dropdown-content" id="mobile-editions">
+<ul class="dropdown-content materialize" id="mobile-editions">
   {% for edition in sorted_editions offset:1 %}
-    <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
+  <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
   <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
 </ul>
