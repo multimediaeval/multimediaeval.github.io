@@ -48,12 +48,12 @@ Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of
 #### Task Organizers
 You can email us directly at mediaeval.sport.task@diff.u-bordeaux.fr
 
-Jenny Benois-Pineau, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (jenny.benois-pineau@u-bordeaux.fr)
-Pierre-Etienne Martin, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (pierre-etienne.martin@u-bordeaux.fr)
-Renaud Péteri, MIA La Rochelle, France (renaud.peteri@univ-lr.fr)
-Boris Mansencal, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (boris.mansencal@labri.fr)
-Jordan Calandre, MIA La Rochelle, France
-Julien Morlier, IMS Bordeaux, France
+Jenny Benois-Pineau, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (jenny.benois-pineau@u-bordeaux.fr)<br>
+Pierre-Etienne Martin, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (pierre-etienne.martin@u-bordeaux.fr)<br>
+Renaud Péteri, MIA La Rochelle, France (renaud.peteri@univ-lr.fr)<br>
+Boris Mansencal, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (boris.mansencal@labri.fr)<br>
+Jordan Calandre, MIA La Rochelle, France<br>
+Julien Morlier, IMS Bordeaux, France<br>
 Laurent Mascarilla, MIA La Rochelle, France
 
 <!-- # add the email address of the contact organizer-->
