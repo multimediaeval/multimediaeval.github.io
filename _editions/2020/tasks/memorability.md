@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2020
-hide: false
+hide: true
 
 # required info
 title: The 2020 Predicting Media Memorability Task
@@ -32,14 +32,17 @@ blurb: Media platforms such as social networks, media advertisement, information
 
 #### Task organizers
 
-* Alba García Seco de Herrera, Rukiye Savran Kiziltepe, Faiyaz Doctor University of Essex, UK
-* Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania
+* Alba García Seco de Herrera, University of Essex, UK
+* Rukiye Savran Kiziltepe, University of Essex, UK
+* Faiyaz Doctor, University of Essex, UK
+* Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
+* Bogdan Ionescu, University Politehnica of Bucharest, Romania
 * Alan Smeaton, Graham Healy, Dublin City University, Ireland
 * Claire-Hélène Demarty, InterDigital, R&I, France
 
 #### Task auxiliaries
 
-* Jon Chamberlain, University of Essex, UK.
+* Jon Chamberlain, University of Essex, UK
 
 #### Task Schedule
 * XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
