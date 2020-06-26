@@ -30,12 +30,16 @@ blurb: Media platforms such as social networks, media advertisement, information
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 
 
-#### Task Organizers
-<!-- # add the email address of the contact organizer-->
+#### Task organizers
 
+* Alba García Seco de Herrera, Rukiye Savran Kiziltepe, Faiyaz Doctor University of Essex, UK
+* Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania
+* Alan Smeaton, Graham Healy, Dublin City University, Ireland
+* Claire-Hélène Demarty, InterDigital, R&I, France
 
-#### Task Auxiliaries
-<!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
+#### Task auxiliaries
+
+* Jon Chamberlain, University of Essex, UK.
 
 #### Task Schedule
 * XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
@@ -45,7 +49,7 @@ blurb: Media platforms such as social networks, media advertisement, information
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
 
 Workshop will be held online. Exact dates to be announced.
-
+<!-- # Pleaes integrate the information below into the structure above, and then delete everything below this line. Thanks.-->
 
 ### Task Description
 
@@ -94,16 +98,7 @@ The task has been successfully organised in 2018 and 2019. The experience gained
 
 The task benefits from a team from three different research sites and countries, and from different research fields, that have complementary expertise. Most of the organizers already have experience in organizing tasks in the context of the MediaEval and ImageCLEF, and are experts in their fields. University of Essex and University Politehnica of Bucharest are in charge of the creation of the video-based subtask collection. Otherwise, the different teams – University of Essex, University Politehnica of Bucharest and InterDigital – will be involved and will interact in all the aspects of the task (management, dissemination, etc.).
 
-#### Task organizers
 
-Alba García Seco de Herrera, Rukiye Savran Kiziltepe, Faiyaz Doctor University of Essex, UK;\\
-Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;\\
-Alan Smeaton, Graham Healy, Dublin City University, Ireland;\\
-Claire-Hélène Demarty, InterDigital, R&I, France.
-
-#### Task auxiliaries
-
-Jon Chamberlain, University of Essex, UK.
 
 #### Task Schedule
 Data release: \\
