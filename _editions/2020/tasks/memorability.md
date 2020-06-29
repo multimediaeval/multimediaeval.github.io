@@ -7,10 +7,7 @@ hide: true
 # required info
 title: Predicting Media Memorability
 subtitle: 
-blurb: The task requires participants to automatically predict memorability scores for videos, that reflect the
-probability for a video to be remembered. Participants will be provided with an extensive data set of
-videos with memorability annotations, related information, and pre-extracted state-of-the-art visual
-features.
+blurb: The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, and pre-extracted state-of-the-art visual features.
 ---
 
 <!-- # please respect the structure below-->
