@@ -11,6 +11,7 @@ blurb: The task requires participants to automatically predict memorability scor
 probability for a video to be remembered. Participants will be provided with an extensive data set of
 videos with memorability annotations, related information, and pre-extracted state-of-the-art visual
 features.
+---
 
 <!-- # please respect the structure below-->
 
