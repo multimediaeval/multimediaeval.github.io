@@ -5,7 +5,7 @@ year: 2020
 hide: false
 
 # required info
-title:
+title: Scene Change
 subtitle:
 blurb:
 ---
