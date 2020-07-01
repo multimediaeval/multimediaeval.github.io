@@ -7,7 +7,7 @@ hide: false
 # required info
 title: Scene Change
 subtitle: Re-inventing tourist photography
-blurb:
+blurb: Tourist photography is due for a makeover, as people increasingly avoid travel due to environmental or safety concerns. In this task, participants create image composites: given a photo of a person, change the background to a popular tourist site. The special twist\: A Scene Change photo must be fun without being deceptive. In other words, the photo fools you at first, but is identifiable as a composite upon closer inspection.
 ---
 
 <!-- # please respect the structure below-->
