@@ -6,7 +6,7 @@ hide: false
 
 # required info
 title: Scene Change
-subtitle:
+subtitle: Re-inventing tourist photography
 blurb:
 ---
 
