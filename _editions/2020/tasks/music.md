@@ -5,9 +5,9 @@ year: 2020
 hide: true
 
 # required info
-title:
+title: Emotion and Theme recognition in music using Jamendo
 subtitle:
-blurb:
+blurb:  We invite the participants to try their skills in building a classifier to predict the emotions and themes conveyed in a music recording, using our dataset of music audio, pre-computed audio features, and tag annotations (e.g., happy, sad, melancholic). All data we provide comes from Jamendo, an online platform for music under Creative Commons licenses.
 ---
 
 
