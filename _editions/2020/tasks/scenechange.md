@@ -1,8 +1,8 @@
 ---
 # static info
-layout:
-year:
-hide:
+layout: task
+year: 2020
+hide: false
 
 # required info
 title:
