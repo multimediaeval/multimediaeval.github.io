@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2020
-hide: false
+hide: true
 
 # required info
 title: Scene Change
