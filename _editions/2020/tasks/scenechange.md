@@ -16,6 +16,9 @@ blurb: "Tourist photography is due for a makeover, as people increasingly avoid 
 #### Task Description
 
 
+#### Motivation and Background
+
+
 #### Target Group
 
 
