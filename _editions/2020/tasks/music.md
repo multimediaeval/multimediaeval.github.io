@@ -16,6 +16,7 @@ blurb:  We invite the participants to try their skills in building a classifier 
 
 #### Task Description
 
+#### Motivation and Background
 
 #### Target Group
 
