@@ -25,6 +25,8 @@ The participants are invited to submit the results on the following tasks:
 
 2) Algorithm efficiency task (required)  - The algorithm efficiency task is similar to task one but puts a stronger emphasis on the algorithm's speed in terms of frames-per-second. To ensure a fair evaluation, this task requires participants to submit a Docker image so that all algorithms are evaluated on the same hardware. 
 
+#### Motivation and Background
+
 #### Target Group
 The task is of interest to the researchers working with medical image segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.  
 
