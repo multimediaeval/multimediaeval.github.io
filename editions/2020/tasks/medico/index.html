@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-03T20:02:38+00:00" />
+<meta property="article:published_time" content="2020-07-06T13:47:45+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Medico","dateModified":"2020-07-03T20:02:38+00:00","datePublished":"2020-07-03T20:02:38+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/medico/"},"url":"/editions/2020/tasks/medico/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Medico","dateModified":"2020-07-06T13:47:45+00:00","datePublished":"2020-07-06T13:47:45+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/medico/"},"url":"/editions/2020/tasks/medico/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -152,28 +152,68 @@
 
   <!-- # please respect the structure below-->
 
+<h4 id="challenge-description">Challenge Description</h4>
+<p>Colonoscopy is a standard medical procedure for the examination of colon cancer. Colorectal cancer (CRC) is the third most prevailing strain in terms of cancer incidence and second in terms of mortality globally. Regular screening through colonoscopy is a prerequisite for early cancer detection and prevention of colorectal cancer. Regardless of the achievement of colonoscopy in reducing the cancer burden, the estimated adenoma miss rate is around 6-27%. An automated computer-aided diagnosis (CAD) system could be one of the potential solutions for the overlooked polyps. Such detection or surveillance system can help low-cost design solutions and save doctors time, which they could use to look for severe cases.</p>
+
+<p>Common datasets and benchmarking of the methods are essential for developing automated semantic segmentation approaches for clinical translation. The “Medico automatic polyp segmentation task” aims to develop a computer-aided diagnosis system for an automatic polyp segmentation that can detect all polyp (for example, irregular polyp, smaller or flat polyps) with high accuracy. The main goal of the challenge is to benchmark semantic segmentation algorithms on the publicly available dataset, with a specific emphasis on robustness and generalization of the methods to solve the limitation related to data availability and method comparison.</p>
+
 <h4 id="task-description">Task Description</h4>
+<p>The participants are invited to submit the results on the following tasks:</p>
+
+<p>1) Polyp segmentation task (required) - The polyp segmentation task asks participants to develop algorithms for segmenting polyps on a comprehensive dataset.</p>
+
+<p>2) Algorithm efficiency task (required)  - The algorithm efficiency task is similar to task one but puts a stronger emphasis on the algorithm’s speed in terms of frames-per-second. To ensure a fair evaluation, this task requires participants to submit a Docker image so that all algorithms are evaluated on the same hardware.</p>
 
 <h4 id="target-group">Target Group</h4>
+<p>The task is of interest to the researchers working with medical image segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.</p>
 
 <h4 id="data">Data</h4>
+<p>The dataset contains 1000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from https://datasets.simula.no/kvasir/.</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
+<p>The task will use mean Intersection over Union (mIoU) or Jaccard index as an evaluation metric, which is a standard metric for all medical segmentation task. If the teams have the same mIoU values, then the teams will be further evaluated on the basis of the higher value of the dice coefficient. The submissions will be verified by inspecting the corresponding docker image. If you have a problem with submitting the docker image, we are flexible to accept a zip file that contains the predicted mask for task 1.</p>
+
+<h4 id="rules">Rules</h4>
+<p>By registering this challenge, each individual or team agrees to use only the provided dataset. After the challenge, the dataset test dataset will be made available and the authors can only use it for publication or any non-commercial use. A participating team will be allowed to make a maximum of 5 submissions. 
+To participate in this challenge, you must submit a valid docker image as described in the submission guidelines. 
+The test data can not be used while training the model. The results will be evaluated by the organizers and presented at MediaEval Telico 2020.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 
+<ol>
+  <li>
+    <p>Debesh Jha, Pia H. Smedsrud, Michael A. Riegler, Pål Halvorsen, Thomas de Lange, Dag Johansen, and Håvard D. Johansen. 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-37734-2_37">Kvasir-seg: A segmented polyp dataset</a>, In Proceeding of International Conference on Multimedia Modeling (MMM), 451-462.</p>
+  </li>
+  <li>
+    <p>Debesh Jha, Pia H. Smedsrud, Michael A. Riegler, Pål Halvorsen, Thomas de Lange, Dag Johansen, and Håvard D. Johansen. 2019. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8959021">Resunet++: An advanced architecture for medical image segmentation</a>, In International Symposium on Multimedia (ISM),  225-2255.</p>
+  </li>
+  <li>
+    <p>T. Ross et al. 2020. <a href="https://arxiv.org/abs/2003.10299">Robust Medical Instrument Segmentation Challenge 2019</a>, arXiv preprint.</p>
+  </li>
+  <li>
+    <p>M. Alan et al. 2019. [2017 Robotic Instrument Segmentation Challenge],(https://arxiv.org/abs/1902.06426) arXiv preprint.</p>
+  </li>
+</ol>
+
 <h4 id="task-organizers">Task Organizers</h4>
 <!-- # add the email address of the contact organizer-->
+
+<p>Debesh Jha, debesh@simula.no, SimulaMet
+Steven Hicks, steven@simula.no, SimulaMet 
+Michael Riegler, michael@simula.no, SimulaMet 
+Pål Halvorsen, paalh@simula.no, SimulaMet and OsloMet
+Konstantin Pogorelov, konstantin@simula.no, Simula Research Laboratory
+Thomas de Lange, t.d.lange@medisin.uio.no, Sahlgrenska University Hospital, Mölndal, Sweden, and Bærum Hospital, Vestre Viken, Norway.</p>
 
 <h4 id="task-auxiliaries">Task Auxiliaries</h4>
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
-  <li>XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
+  <li>01 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
+  <li>31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
   <li>15 November: Results returned  <!-- Fixed. Please do not change--></li>
   <li>30 November: Working notes paper  <!-- Fixed. Please do not change--></li>
   <li>Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change--></li>
