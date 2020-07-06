@@ -38,7 +38,7 @@ This task provides a sizeable real-world dataset of news items, each consisting 
 
 #### Task Organizers
 Andreas Lommatzsch, TU Berlin, Germany
-Benjamin Kille, TU Berlin, Germany
+Benjamin Kille, TU Berlin, Germany (benjamin.kille@tu-berlin.de)
 Özlem Özgöbek, NTNU Trondheim, Norway
 
 #### Task Auxiliaries
