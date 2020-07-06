@@ -58,12 +58,12 @@ The test data can not be used while training the model. The results will be eval
 #### Task Organizers
 <!-- # add the email address of the contact organizer-->
 
-Debesh Jha, debesh@simula.no, SimulaMet
-Steven Hicks, steven@simula.no, SimulaMet 
-Michael Riegler, michael@simula.no, SimulaMet 
-Pål Halvorsen, paalh@simula.no, SimulaMet and OsloMet
-Konstantin Pogorelov, konstantin@simula.no, Simula Research Laboratory
-Thomas de Lange, t.d.lange@medisin.uio.no, Sahlgrenska University Hospital, Mölndal, Sweden, and Bærum Hospital, Vestre Viken, Norway.
+* Debesh Jha, SimulaMet debesh (at) simula.no, 
+* Steven Hicks, SimulaMet steven (at) simula.no, SimulaMet 
+* Michael Riegler, SimulaMet 
+* Pål Halvorsen, SimulaMet and OsloMet
+* Konstantin Pogorelov, Simula Research Laboratory
+* Thomas de Lange, Sahlgrenska University Hospital, Mölndal, Sweden, and Bærum Hospital, Vestre Viken, Norway.
 
 #### Task Auxiliaries
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
