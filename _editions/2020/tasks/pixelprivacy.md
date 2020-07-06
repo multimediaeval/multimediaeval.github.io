@@ -15,6 +15,8 @@ blurb: In this task, participants develop adversarial approaches that camouflage
 
 #### Task Description
 
+#### Motivation and Background
+
 
 #### Target Group
 
