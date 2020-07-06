@@ -48,12 +48,12 @@ Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. 
 Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of 101 hu- man actions classes from videos in the wild.](https://arxiv.org/pdf/1212.0402.pdf) CoRR 1212.0402 (2012).
 
 #### Task Organizers
-You can email us directly at mediaeval.sport.task@diff.u-bordeaux.fr
+You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 
-Jenny Benois-Pineau, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (jenny.benois-pineau@u-bordeaux.fr)<br>
-Pierre-Etienne Martin, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (pierre-etienne.martin@u-bordeaux.fr)<br>
-Renaud Péteri, MIA, University of La Rochelle, La Rochelle, France (renaud.peteri@univ-lr.fr)<br>
-Boris Mansencal, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (boris.mansencal@labri.fr)<br>
+Jenny Benois-Pineau, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (jenny.benois-pineau (at) u-bordeaux.fr)<br>
+Pierre-Etienne Martin, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (pierre-etienne.martin (at) u-bordeaux.fr)<br>
+Renaud Péteri, MIA, University of La Rochelle, La Rochelle, France (renaud.peteri (at) univ-lr.fr)<br>
+Boris Mansencal, Univ. Bordeaux, CNRS,  Bordeaux INP, LaBRI, UMR 5800, F-33400, Talence, France (boris.mansencal (at) labri.fr)<br>
 Jordan Calandre, MIA, University of La Rochelle, La Rochelle, France<br>
 Julien Morlier, IMS, University of Bordeaux, Talence, France<br>
 Laurent Mascarilla, MIA, University of La Rochelle, La Rochelle, France
