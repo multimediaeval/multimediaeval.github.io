@@ -37,16 +37,16 @@ This task provides a sizeable real-world dataset of news items, each consisting 
 
 
 #### Task Organizers
-Andreas Lommatzsch, TU Berlin, Germany
-Benjamin Kille, TU Berlin, Germany (benjamin.kille@tu-berlin.de)
-Özlem Özgöbek, NTNU Trondheim, Norway
+* Andreas Lommatzsch, TU Berlin, Germany
+* Benjamin Kille, TU Berlin, Germany (benjamin.kille (at) tu-berlin.de)
+* Özlem Özgöbek, NTNU Trondheim, Norway
 
 #### Task Auxiliaries
-Martha Larson, Radboud University, Netherlands
+* Martha Larson, Radboud University, Netherlands
 
 #### Task Schedule
 * 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
-* 31 October: Runs due <!-- # Evaluation will be with the script
+* 31 October: Runs due <!-- # Evaluation will be with the script-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
