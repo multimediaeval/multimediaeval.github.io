@@ -6,8 +6,8 @@ hide: true
 
 # required info
 title: NewsImages
-subtitle: 
-blurb: Images play an important role in online news articles and news consumption patterns. Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images. In the first subtask, Image-Text Re-Matching, participants predict which image was used to accompany each article. In the second subtask,  Hot Image Prediction, participants investigate news articles presented to users by a recommender system. The predict which images accompany the articles that are most frequently clicked when recommended.
+subtitle: The relation between images and text in news articles
+blurb: Images play an important role in online news articles and news consumption patterns. Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images. In the first subtask, Image-Text Re-Matching, participants predict which image was used to accompany each article. In the second subtask, News Click Prediction, participants investigate news articles presented to users by a recommender system. The predict which images accompany the articles that are most frequently clicked when recommended.
 ---
 
 <!-- # please respect the structure below-->
@@ -29,7 +29,7 @@ News websites present users with recommendations of what to read next. These are
 Participants are encouraged to make their code public with their submission.
 
 #### Motivation and Background
-Online news articles are multimodal: the textual content of an article is often accompanied by an image. The image is important for illustrating the content of the text, but also attracting readers' attention. Research in multimedia and recommender systems generally assumes a simple relationship between images and text occurring together. For example, in image captioning, the caption is often assumed to describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship is more complex. The goal of this task is to investigate this complexity in more depth, in order to understand the implications that it may have for the areas of journalism and recommender systems. 
+Online news articles are multimodal: the textual content of an article is often accompanied by an image. The image is important for illustrating the content of the text, but also attracting readers' attention. Research in multimedia and recommender systems generally assumes a simple relationship between images and text occurring together. For example, in image captioning [6], the caption is often assumed to describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship becomes more complex [8]. The goal of this task is to investigate this complexity in more depth, in order to understand the implications that it may have for the areas of journalism and recommender systems. 
 
 The task is formulated into two straightforward subtasks that participants can address using text-based and/or image features. However, the ultimate objective of this task is to gain additional insight. Specifically, we are curious about the connection between the textual content of articles and the images that accompany them and also about the connection between the image and title shown by a recommender system to users and the tendency of users to click on the recommended article. We are especially interested in aspects of images that go beyond the conventional set of concepts studied by concept detection. We are also interested in aspects of images that go beyond the literally depicted content. Such aspects include color, style and framing. 
 
@@ -68,8 +68,8 @@ For both tasks, the ultimate goal is to understand news and news consumption beh
 [8] Oostdijk, N., van Halteren, H., Bașar, E., & Larson, M. (2020, May). [The Connection between the Text and Images of News Articles: New Insights for Multimedia Analysis.](https://www.aclweb.org/anthology/2020.lrec-1.535/) In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 4343-4351).
 
 #### Task Organizers
-* Andreas Lommatzsch, TU Berlin, Germany
 * Benjamin Kille, TU Berlin, Germany (benjamin.kille (at) tu-berlin.de)
+* Andreas Lommatzsch, TU Berlin, Germany (andreas.lommatzsch (at) dai-labor.de)
 * Özlem Özgöbek, NTNU Trondheim, Norway
 
 #### Task Auxiliaries
