@@ -34,7 +34,7 @@ The data set is a large collection of news articles from a German publisher that
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-
+Corsini, Francesco, and Martha A. Larson. "CLEF NewsREEL 2016: image based recommendation." (2016).
 
 #### Task Organizers
 * Andreas Lommatzsch, TU Berlin, Germany
