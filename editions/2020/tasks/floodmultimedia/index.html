@@ -19,9 +19,9 @@
 
   <!-- seo tags -->
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Floodmultimedia | MediaEval Benchmark</title>
+<title>Flood-related Multimedia | MediaEval Benchmark</title>
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Floodmultimedia" />
+<meta property="og:title" content="Flood-related Multimedia" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="MediaEval Benchmarking Initiative Multimedia Evaluation" />
 <meta property="og:description" content="MediaEval Benchmarking Initiative Multimedia Evaluation" />
@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-07T15:23:33+00:00" />
+<meta property="article:published_time" content="2020-07-07T15:24:41+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Floodmultimedia","dateModified":"2020-07-07T15:23:33+00:00","datePublished":"2020-07-07T15:23:33+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/floodmultimedia/"},"url":"/editions/2020/tasks/floodmultimedia/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Flood-related Multimedia","dateModified":"2020-07-07T15:24:41+00:00","datePublished":"2020-07-07T15:24:41+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/floodmultimedia/"},"url":"/editions/2020/tasks/floodmultimedia/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -147,41 +147,86 @@
     <div class="container">
       <div class="row">
           <header id="main" style="background-image: url('')">
-    <h2>Floodmultimedia</h2>
+    <h2>Flood-related Multimedia</h2>
   </header>
 
   <!-- # please respect the structure below-->
 
 <h4 id="task-description">Task Description</h4>
+<p>The Flood-related Multimedia Task tackles the analysis of social multimedia from Twitter for flooding events. In this task, the participants receive a set of Twitter posts (tweets) and their associated images, which contain keywords related to floods in a specific area of interest, specifically, the Eastern Alps partition in Northeastern (NE) Italy. However, the relevance of the tweets to actual flooding incidents in that area is ambiguous. The objective of the task is to build an information retrieval system or a classifier that is able to distinguish whether or not a tweet is relevant to a flooding event in the examined area.</p>
+
+<p>The dataset of the task consists of Italian-language tweets, motivated by the common flood events in the cities of Eastern Alps (e.g., Venice, Vicenza, Trieste) and surrounding areas. Participants can tackle the task using text features, image features, or a combination of both. We choose Italian for this task in order to encourage researchers to move away from a focus on English.</p>
+
+<p><img src="https://lh3.googleusercontent.com/proxy/GCNITQPAo_28JGKL7tnWZumkjuztxxGGRH8ht68uwIcnTaTZ-uJbYsIQHQ-ZwzdJeb1w61NvwO58UMkwd2tZMxN8jBUa1TlBhQ1glX5XWQ" alt="The area of interest: Eastern Alps partition in North-East Italy" /><br />
+<em>The area of interest: Eastern Alps partition in North-East Italy</em></p>
 
 <h4 id="motivation-and-background">Motivation and Background</h4>
+<p><a href="https://www.nationalgeographic.com/environment/natural-disasters/floods/">Floods</a> are a natural disaster that affects most places on Earth and causes a vast number of deaths and damages. Citizen crowdsourcing and social media posts have been proven valuable in all stages of managing such a disaster: a) they can notify about a possible disaster in the pre-emergency phase; b) they can provide insights on the evolution of the incident and detect areas in danger during the disaster; and c) they can assist in the damage control in the post-emergency phase.</p>
+
+<p>However, the large and continuous streams of published posts carry a lot of noise (e.g., the metaphorical use of flood-related words, incidents outside the area of interest, past events), which makes it difficult to collect high-quality information. Automatic estimation of a tweet’s relevance could address this challenge, by filtering out unrelated posts. Better ability to separate relevant and not relevant tweets will contribute to improving the quality of the incoming information available to support first responders and civil protection authorities.</p>
 
 <h4 id="target-group">Target Group</h4>
+<p>Researchers in the areas of social media, multimedia and multilingual analysis, multimedia classification and information retrieval are strongly encouraged to participate in the challenge. Industries and SMEs that develop similar AI technologies for semantic data fusion and retrieval of multi- or cross-lingual content are also warmly invited to participate. In addition, the task could be of interest to researchers and practitioners in the domains of disaster management, emergency response, situational awareness, water management, and any other flood-related domains.</p>
 
 <h4 id="data">Data</h4>
+<p>The dataset is a list of social media posts that have been collected from Twitter between 2017 and 2019, by searching for Italian flood-related keywords (e.g., “allagamento”, “alluvione”) inside the tweet text. All tweets contain an attached image and should be still online at the time of releasing the dataset. In order to be compliant with the Twitter Developer Policy, only the IDs of the tweets can be distributed, but a tool to download them will also be provided.</p>
+
+<p>The ground truth of the dataset has been collected with human annotation, by the Alto Adriatico Water Authority (AAWA), who are experts on flood risk management in the Eastern Alps partition of NE Italy. It should be noted here that only tweets that refer to floods in this specific region have been annotated as relevant.</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
+<p>The evaluation metric for the binary classification of tweets as relevant (1) or not relevant (0) will be F-score.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+<p>[1] Moumtzidou, A., Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S. and Kompatsiaris, I., 2018, April. <a href="https://dl.acm.org/doi/abs/10.1145/3184558.3191620">Flood relevance estimation from visual and textual content in social media streams</a>. In Companion Proceedings of the The Web Conference 2018 (pp. 1621-1627).</p>
+
+<p>[2] Peters, R. and de Albuquerque, J.P., 2015. <a href="">Investigating images as indicators for relevant social media messages in disaster management</a>. In ISCRAM.</p>
+
+<p>[3] Li, H., Guevara, N., Herndon, N., Caragea, D., Neppalli, K., Caragea, C., Squicciarini, A.C. and Tapia, A.H., 2015, May. <a href="http://www.agora.icmc.usp.br/site/wp-content/uploads/2015/08/Peters-and-Albuquerque-2015-Investigating-images-as-indicators-for-relevant-social-media-messages-in-disaster-management.pdf">Twitter Mining for Disaster Response: A Domain Adaptation Approach</a>. In ISCRAM.</p>
+
+<p>[4] Imran, M., Castillo, C., Lucas, J., Meier, P. and Vieweg, S., 2014, April. <a href="https://dl.acm.org/doi/abs/10.1145/2567948.2577034">AIDR: Artificial intelligence for disaster response</a>. In Proceedings of the 23rd International Conference on World Wide Web (pp. 159-162).</p>
+
+<p>[5] Brouwer, T., Eilander, D., Van Loenen, A., Booij, M.J., Wijnberg, K.M., Verkade, J.S. and Wagemaker, J., 2017. <a href="https://core.ac.uk/download/pdf/207400745.pdf">Probabilistic flood extent estimates from social media flood observations</a>. Natural Hazards &amp; Earth System Sciences, 17(5).</p>
+
+<p>We also recommend to read past years’ task papers in the MediaEval Proceedings:</p>
+
+<p>[1] Proceedings of the MediaEval 2019 Workshop.</p>
+
+<p>[2] Martha Larson, et al. (eds.) 2018. <a href="http://ceur-ws.org/Vol-2283/">Proceedings of the MediaEval 2018 Workshop</a>, Sophia Antipolis, France, Oct. 29-31, 2018.</p>
+
+<p>[3] Guillaume Gravier et al. (eds.) 2017. <a href="http://ceur-ws.org/Vol-1984">Proceedings of the MediaEval 2017 Workshop</a>, Dublin, Ireland, Sept. 13-15, 2017.</p>
 
 <h4 id="task-organizers">Task Organizers</h4>
 <!-- # add the email address of the contact organizer-->
+<p>Stelios Andreadis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece, andreadisst@iti.gr<br />
+Ilias Gialampoukidis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece<br />
+Anastasios Karakostas, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece<br />
+Stefanos Vrochidis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece<br />
+Ioannis Kompatsiaris, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece<br />
+Roberto Fiorin, Alto Adriatico Water Authority (AAWA), Italy<br />
+Daniele Norbiato, Alto Adriatico Water Authority (AAWA), Italy<br />
+Michele Ferri, Alto Adriatico Water Authority (AAWA), Italy</p>
 
 <h4 id="task-auxiliaries">Task Auxiliaries</h4>
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
+<p>Benjamin Bischke, German Research Center for Artificial Intelligence (DFKI), Germany<br />
+Patrick Helber, German Research Center for Artificial Intelligence (DFKI), Germany</p>
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
-  <li>XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
+  <li>31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
+  <li>23 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
   <li>15 November: Results returned  <!-- Fixed. Please do not change--></li>
   <li>30 November: Working notes paper  <!-- Fixed. Please do not change--></li>
   <li>Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change--></li>
 </ul>
 
 <p>Workshop will be held online. Exact dates to be announced.</p>
+
+<p><img src="https://eopen-project.eu/wp-content/uploads/2017/12/cropped-logo3b-1.png" alt="EOPEN Project" width="200" /></p>
+
+<p><strong>Acknowledgment:</strong> <a href="https://eopen-project.eu/">EOPEN project</a> has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement 776019.</p>
 
 
       </div>
