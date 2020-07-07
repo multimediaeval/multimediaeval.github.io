@@ -14,7 +14,8 @@ blurb: Images play an important role in online news articles and news consumptio
 
 
 #### Task Description
-task is to better understand the relationship the textual content of the articles (including text body, and headlines) and to understand the impact of these elements on readers’ interest in the news (measured by the number of views)
+News articles use both text and images to communicate their message. The overall goal of this task is to better understand the relationship the textual content of the articles (including text body, and headlines) and to understand the impact of these elements on readers’ interest in the news (measured by the number of views)
+
 Participants receive a data set of news articles and accompanying images. The news articles consist of text snippets (first 256 characters) and headlines. They can participate in either (or both) of two subtasks.
 
 ##### Task 1: Image-Text Re-Matching
