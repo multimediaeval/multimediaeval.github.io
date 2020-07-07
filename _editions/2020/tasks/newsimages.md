@@ -5,9 +5,9 @@ year: 2020
 hide: true
 
 # required info
-title:
-subtitle:
-blurb:
+title: NewsImages
+subtitle: 
+blurb: News articles use both text and images to communicate their message. This task investigates the relationship between the textual content of articles (text body and headlines) and the accompanying images.  and to understand the connection of these elements on readers’ interest in the news (measured by the number of views). Participants must automatically predict the image that accompanies a specified news article. The task also explores image features that are correlated with the popularity of news items.
 ---
 
 <!-- # please respect the structure below-->
@@ -23,10 +23,10 @@ This task provides a sizeable real-world dataset of news items, each consisting 
 #### Motivation and Background
 
 #### Target Group
-
+This task targets researchers who are interested in the connection between images and text and images and user consumption behavior. This includes people working in the areas of computer vision and recommender systems, as well as in the area of news analysis.
 
 #### Data
-
+The data set is a large collection of news articles from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
 
 #### Evaluation Methodology
 
