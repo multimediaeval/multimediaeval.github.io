@@ -29,6 +29,12 @@ This task targets researchers who are interested in the connection between image
 The data set is a large collection of news articles from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
 
 #### Evaluation Methodology
+##### Task 1: Image-Text Re-Matching
+For each news article in the test set, participants return the top five images that they predict to have accompanied that article. Success is measured with Precision@5. 
+##### Task 2: News Click Prediction
+Given a set of news articles, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of topmost articles will be specified. Success is measured with the number of correct predictions. 
+
+For both tasks, the ultimate goal is to understand news and news consumption behavior. We will also judge participants in terms of the quality of the insight that they achieve about the relationship between text and images and in the relationship between images and news consumption behavior.
 
 
 #### References and recommended reading
