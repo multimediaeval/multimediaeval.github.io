@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-07T15:20:20+00:00" />
+<meta property="article:published_time" content="2020-07-07T15:22:33+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"NewsImages","dateModified":"2020-07-07T15:20:20+00:00","datePublished":"2020-07-07T15:20:20+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/newsimages/"},"url":"/editions/2020/tasks/newsimages/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"NewsImages","dateModified":"2020-07-07T15:22:33+00:00","datePublished":"2020-07-07T15:22:33+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/newsimages/"},"url":"/editions/2020/tasks/newsimages/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -153,26 +153,33 @@
   <!-- # please respect the structure below-->
 
 <h4 id="task-description">Task Description</h4>
-<p>News articles use both text and images to communicate their message. Online news is no exception. The overall goal of this task is to better understand the relationship between images accompanying news articles and the textual content of the articles (including text body, and headlines) and to understand the impact of these elements on readers’ interest in the news (measured by the number of views).</p>
+<p>task is to better understand the relationship the textual content of the articles (including text body, and headlines) and to understand the impact of these elements on readers’ interest in the news (measured by the number of views)
+Participants receive a data set of news articles and accompanying images. The news articles consist of text snippets (first 256 characters) and headlines. They can participate in either (or both) of two subtasks.</p>
 
-<p>The task requires the extraction of features from visual images and textual descriptions. Participants must analyze the features’ correlation concerning the context, noise, and the topic domain.</p>
+<h5 id="task-1-image-text-re-matching">Task 1: Image-Text Re-Matching</h5>
 
-<p>This task provides a sizeable real-world dataset of news items, each consisting of textual features (headline, snippet) as well an image (and high-level features computed based on the image). The participant should learn patterns/models describing the relation between the images and the texts as well as the news items and the user interest in the news items (number of views).</p>
+<p>News articles contain images that accompany the text. The connection between the images and text is more complex than often realized. In this task, participants predict (from a set of images) which image was published with a given news article. We also ask participants to report their insights into characteristics that connect the text of news articles and the images.</p>
+
+<h5 id="task-2-news-click-prediction">Task 2: News Click Prediction</h5>
+
+<p>News websites present users with recommendations of what to read next. These are often displayed as the article title plus an accompanying image. In this task, participants investigate whether recommendations that are frequently clicked by users can be predicted using the text content of the article and/or the accompanying image.</p>
+
+<p>Participants are encouraged to make their code public with their submission.</p>
 
 <h4 id="motivation-and-background">Motivation and Background</h4>
 
 <h4 id="target-group">Target Group</h4>
-<p>This task targets researchers who are interested in the connection between images and text and images and user consumption behavior. This includes people working in the areas of computer vision and recommender systems, as well as in the area of news analysis.</p>
+<p>This task targets researchers who are interested in the connection between images and text and images and user consumption behavior. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.</p>
 
 <h4 id="data">Data</h4>
 <p>The data set is a large collection of news articles from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
-<h5 id="task-1-image-text-re-matching">Task 1: Image-Text Re-Matching</h5>
+<h5 id="task-1-image-text-re-matching-1">Task 1: Image-Text Re-Matching</h5>
 <p>For each news article in the test set, participants return the top five images that they predict to have accompanied that article. Success is measured with Precision@5.</p>
-<h5 id="task-2-news-click-prediction">Task 2: News Click Prediction</h5>
+<h5 id="task-2-news-click-prediction-1">Task 2: News Click Prediction</h5>
 <p>Given a set of news articles, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of topmost articles will be specified. Success is measured with the number of correct predictions.</p>
-
+<h5 id="analysis-and-insight">Analysis and Insight</h5>
 <p>For both tasks, the ultimate goal is to understand news and news consumption behavior. We will also judge participants in terms of the quality of the insight that they achieve about the relationship between text and images and in the relationship between images and news consumption behavior.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
