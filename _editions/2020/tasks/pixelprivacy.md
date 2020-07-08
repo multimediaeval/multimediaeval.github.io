@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2020
-hide: true
+hide: false
 
 # required info
 title: Pixel Privacy
@@ -14,34 +14,58 @@ blurb: In this task, participants develop adversarial approaches that camouflage
 
 
 #### Task Description
+High-quality images shared online can be misappropriated for promotional goals. In this task, participants work to defeat an image quality classifier, which effectively hides images.
+The camouflaged image appears to be appealing to the human eye, but the BIQA classifier finds it low quality, dramatically decreasing their automatically predicted quality scores.
 
-#### Motivation and Background
+Participants will receive a set of images (representative of images shared on social media) and are required to enhance them. The enhancement should achieve two goals: (1) Protection: It must block the ability of a binary BIQA classifier from correctly predicting the quality of images and (2) Appeal: It must make the image more beautiful or interesting from the point of view of the user (or at least not ruin the image from users’ point of view.) 
+Note that the task is not focused on concealing sensitive information from humans, rather from automatic inference. 
 
+This year the quality camouflage task is a "whitebox" attack. Participant’s goal is to defeat the BIQA that is intended to predict the objective perceptual quality of images. The BIQA is trained on KonIQ-10k where 10,073 in-the-wild images are annotated with subjective quality scores. 
 
+Participants can choose to address the task in one of two different ways. In the first, the quality camouflage approach seeks to make invisible changes to the image. In the second, the approach makes visible changes to the image, but restricts itself to changes that enhance the image’s appeal, or at least do not bother someone looking at the image.
+
+Participants should release their code.
+
+<!--#### Motivation and Background-->
 #### Target Group
-
+We hope that this task attracts a wide range of participants who are concerned about privacy from computer scientists to artists and photographers. Within the field of computer science, people interested in machine learning, adversarial machine learning, computer graphics, privacy, and computer vision will find the task interesting.
 
 #### Data
-
+Development data will be the KonIQ-10k data set. Test data will be selected from the validation set of the Places365, and different from previous editions, we will use high-resolution images for ensuring relatively high quality. Participants are provided with a set of correctly classified images that are also predicted to have ‘good quality’ by the BIQA model. 
 
 #### Evaluation Methodology
+The protection score will be the accuracy of the BIQA prediction on modified images by participants. We specify the threshold that is to be used by BIQA. Note that we expect that accuracy to decrease after protection, but theoretically it is also possible that protection fails, and that it stays the same. 
 
+Appeal will be evaluated by a set of computer vision experts. Submissions will be ranked as follows: All approaches that achieve a protection score of at least 50% (50% reduction in the accuracy of the prediction) will be ranked in terms of their appeal score.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+Vlad Hosu, Hanhe Lin, Tamas Sziranyi and Dietmar Saupe. <a href=https://ieeexplore.ieee.org/document/8968750> KonIQ-10k: An Ecologically Valid Database for Deep Learning of Blind Image Quality Assessment</a>. In IEEE Transactions on Image Processing 29, (Jan. 2020), 4041-4056.
+
+Samuel Dodge, and Lina Karam. <a href=https://ieeexplore.ieee.org/document/7498955> Understanding How Image Quality Affects Deep Neural Networks</a>. In Proceedings of 8th International Conference on Quality of Multimedia Experience (QoMEX '16). IEEE, 1-6.
+
+Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. <a href=https://arxiv.org/abs/1412.6572> Explaining and Harnessing Adversarial Examples</a>. International Conference on Learning Representations (ICLR '15).
+
+Zhuoran Liu, Zhengyu Zhao, and Martha Larson. <a href=https://dl.acm.org/doi/10.1145/3323873.3325052> Who's Afraid of Adversarial Queries? The Impact of Image Modifications on Content-based Image Retrieval</a>. In Proceedings of the 2019 ACM on International Conference on Multimedia Retrieval (ICMR '19). ACM, New York, NY, USA, 306-314
+
+Jaeyoung Choi, Martha Larson, Xinchao Li, Kevin Li, Gerald Friedland, and Alan Hanjalic. <a href=https://dl.acm.org/doi/10.1145/3078971.3080543>The Geo-Privacy Bonus of Popular Photo Enhancements</a>. In Proceedings of the 2017 ACM on International Conference on Multimedia Retrieval (ICMR '17). ACM, New York, NY, USA, 84-92.
 
 
 #### Task Organizers
 <!-- # add the email address of the contact organizer-->
+<p>Zhuoran Liu, Radboud University, Netherlands, z.liu (at) cs.ru.nl<br />
+Zhengyu Zhao, Radboud University, Netherlands<br />
+Martha Larson, Radboud University, Netherlands</p>
 
 
-#### Task Auxiliaries
+
+<!--#### Task Auxiliaries-->
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
-* XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
-* XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* 15 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
