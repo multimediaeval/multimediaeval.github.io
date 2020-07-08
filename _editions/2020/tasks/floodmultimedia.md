@@ -13,13 +13,13 @@ blurb: Floods are one of the most common natural disasters that occur on our pla
 
 <!-- # please respect the structure below-->
 
-
 #### Task Description
 The Flood-related Multimedia Task tackles the analysis of social multimedia from Twitter for flooding events. In this task, the participants receive a set of Twitter posts (tweets) and their associated images, which contain keywords related to floods in a specific area of interest, specifically, the Eastern Alps partition in Northeastern (NE) Italy. However, the relevance of the tweets to actual flooding incidents in that area is ambiguous. The objective of the task is to build an information retrieval system or a classifier that is able to distinguish whether or not a tweet is relevant to a flooding event in the examined area. 
 
 The dataset of the task consists of Italian-language tweets, motivated by the common flood events in the cities of Eastern Alps (e.g., Venice, Vicenza, Trieste) and surrounding areas. Participants can tackle the task using text features, image features, or a combination of both. We choose Italian for this task in order to encourage researchers to move away from a focus on English.
 
-![The area of interest: Eastern Alps partition in North-East Italy](https://lh3.googleusercontent.com/proxy/GCNITQPAo_28JGKL7tnWZumkjuztxxGGRH8ht68uwIcnTaTZ-uJbYsIQHQ-ZwzdJeb1w61NvwO58UMkwd2tZMxN8jBUa1TlBhQ1glX5XWQ)  
+<img src="https://eopen-project.eu/wp-content/uploads/2020/07/Eastern-Alps-Partition.png" alt="Eastern-Alps-Partition.png"/>
+
 *The area of interest: Eastern Alps partition in North-East Italy*
 
 #### Motivation and Background
