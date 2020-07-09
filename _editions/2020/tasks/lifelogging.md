@@ -70,6 +70,8 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (is t
 
 [8] Anh-Vu Mai-Nguyen, Trong-Dat Phan, Anh-Khoa Vo, Van-Luon Tran, Minh-Son Dao, and Koji Zettsu. 2020. BIDAL-HCMUS@LSC2020: An Interactive Multimodal Lifelog Retrieval with Query-to-Sample Attention-based Search Engine. In Proceedings of the Third Annual Workshop on Lifelog Search Challenge (LSC ’20). Association for Computing Machinery, New York, NY, USA, 43–49. https://dl.acm.org/doi/10.1145/3379172.3391722
 
+[9] Tan-Loc Nguyen-Tai, Dang-Hieu Nguyen, Minh-Tam Nguyen, Thanh-Duong Nguyen, Thanh-Hai Dang, and Minh-Son Dao. 2020. MNR-HCM Data: A Personal Lifelog and Surrounding Environment Dataset in Ho-Chi-Minh City, Viet Nam. In Proceedings of the 2020 Intelligent Cross-Data Analysis and Retrieval Workshop (ICDAR ’20). Association for Computing Machinery, New York, NY, USA, 21–26. https://dl.acm.org/doi/10.1145/3379174.3392320
+
 #### Task Organizers
 Minh-Son Dao (NICT, Japan) dao@nict.go.jp
 
