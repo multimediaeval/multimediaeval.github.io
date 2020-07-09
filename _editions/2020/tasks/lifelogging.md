@@ -72,6 +72,8 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (is t
 
 [9] Tan-Loc Nguyen-Tai, Dang-Hieu Nguyen, Minh-Tam Nguyen, Thanh-Duong Nguyen, Thanh-Hai Dang, and Minh-Son Dao. 2020. MNR-HCM Data: A Personal Lifelog and Surrounding Environment Dataset in Ho-Chi-Minh City, Viet Nam. In Proceedings of the 2020 Intelligent Cross-Data Analysis and Retrieval Workshop (ICDAR ’20). Association for Computing Machinery, New York, NY, USA, 21–26. https://dl.acm.org/doi/10.1145/3379174.3392320
 
+[10] Vahdatpour, M., Sajedi, H. & Ramezani, F. Air pollution forecasting from sky images with shallow and deep classifiers. Earth Sci Inform 11, 413–422 (2018) https://link.springer.com/article/10.1007/s12145-018-0334-x
+
 #### Task Organizers
 Minh-Son Dao (NICT, Japan) dao@nict.go.jp
 
