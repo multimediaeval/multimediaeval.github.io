@@ -46,9 +46,10 @@ For each subtask, the evaluation method is applied as follows:
 -	For the Personal Air Quality Prediction with lifelog data subtask: We use the SMAPE/RMSE/MAE for comparing predicted AQI to the ground truth.  
 
 The formulation for computing AQI value from (PM2.5, O3, and NO2) data can be found at 
+
 https://en.wikipedia.org/wiki/Air_quality_index (Computing the AQI section)
 
-http://taqm.epa.gov.tw/taqm/en/b0201.aspx (is the look-up table for C_low, C_high, I_low, I_high value)
+https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (is the look-up table for C_low, C_high, I_low, I_high value)
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
