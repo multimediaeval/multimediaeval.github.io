@@ -47,10 +47,7 @@ Samuel Dodge, and Lina Karam. [Understanding How Image Quality Affects Deep Neur
 
 Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy.[Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572). International Conference on Learning Representations (ICLR '15).
 
-Zhuoran Liu, Zhengyu Zhao, and Martha Larson. [Who's Afraid of Adversarial Queries? The Impact of Image Modifications on Content-based Image Retrieval](https://dl.acm.org/doi/10.1145/3323873.3325052). In Proceedings of the 2019 ACM on International Conference on Multimedia Retrieval (ICMR '19). ACM, New York, NY, USA, 306-314
-
-Jaeyoung Choi, Martha Larson, Xinchao Li, Kevin Li, Gerald Friedland, and Alan Hanjalic. [The Geo-Privacy Bonus of Popular Photo Enhancements](https://dl.acm.org/doi/10.1145/3078971.3080543). In Proceedings of the 2017 ACM on International Conference on Multimedia Retrieval (ICMR '17). ACM, New York, NY, USA, 84-92.
-
+<!-- # add a note to check out Pixel Privacy in past proceedings; also think about some other references-->
 
 #### Task Organizers
 <!-- # add the email address of the contact organizer-->
