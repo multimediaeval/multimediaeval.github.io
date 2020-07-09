@@ -41,15 +41,15 @@ Appeal will be evaluated by a set of computer vision experts. Submissions will b
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-Vlad Hosu, Hanhe Lin, Tamas Sziranyi and Dietmar Saupe. <a href=https://ieeexplore.ieee.org/document/8968750> KonIQ-10k: An Ecologically Valid Database for Deep Learning of Blind Image Quality Assessment</a>. In IEEE Transactions on Image Processing 29, (Jan. 2020), 4041-4056.
+Vlad Hosu, Hanhe Lin, Tamas Sziranyi and Dietmar Saupe. [KonIQ-10k: An Ecologically Valid Database for Deep Learning of Blind Image Quality Assessment](https://ieeexplore.ieee.org/document/8968750). In IEEE Transactions on Image Processing 29, (Jan. 2020), 4041-4056.
 
-Samuel Dodge, and Lina Karam. <a href=https://ieeexplore.ieee.org/document/7498955> Understanding How Image Quality Affects Deep Neural Networks</a>. In Proceedings of 8th International Conference on Quality of Multimedia Experience (QoMEX '16). IEEE, 1-6.
+Samuel Dodge, and Lina Karam. [Understanding How Image Quality Affects Deep Neural Networks](https://ieeexplore.ieee.org/document/7498955). In Proceedings of 8th International Conference on Quality of Multimedia Experience (QoMEX '16). IEEE, 1-6.
 
-Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. <a href=https://arxiv.org/abs/1412.6572> Explaining and Harnessing Adversarial Examples</a>. International Conference on Learning Representations (ICLR '15).
+Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy.[Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572). International Conference on Learning Representations (ICLR '15).
 
-Zhuoran Liu, Zhengyu Zhao, and Martha Larson. <a href=https://dl.acm.org/doi/10.1145/3323873.3325052> Who's Afraid of Adversarial Queries? The Impact of Image Modifications on Content-based Image Retrieval</a>. In Proceedings of the 2019 ACM on International Conference on Multimedia Retrieval (ICMR '19). ACM, New York, NY, USA, 306-314
+Zhuoran Liu, Zhengyu Zhao, and Martha Larson. [Who's Afraid of Adversarial Queries? The Impact of Image Modifications on Content-based Image Retrieval](https://dl.acm.org/doi/10.1145/3323873.3325052). In Proceedings of the 2019 ACM on International Conference on Multimedia Retrieval (ICMR '19). ACM, New York, NY, USA, 306-314
 
-Jaeyoung Choi, Martha Larson, Xinchao Li, Kevin Li, Gerald Friedland, and Alan Hanjalic. <a href=https://dl.acm.org/doi/10.1145/3078971.3080543>The Geo-Privacy Bonus of Popular Photo Enhancements</a>. In Proceedings of the 2017 ACM on International Conference on Multimedia Retrieval (ICMR '17). ACM, New York, NY, USA, 84-92.
+Jaeyoung Choi, Martha Larson, Xinchao Li, Kevin Li, Gerald Friedland, and Alan Hanjalic. [The Geo-Privacy Bonus of Popular Photo Enhancements](https://dl.acm.org/doi/10.1145/3078971.3080543). In Proceedings of the 2017 ACM on International Conference on Multimedia Retrieval (ICMR '17). ACM, New York, NY, USA, 84-92.
 
 
 #### Task Organizers
