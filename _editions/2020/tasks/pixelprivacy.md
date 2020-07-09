@@ -17,14 +17,14 @@ blurb: In this task, participants develop adversarial approaches that camouflage
 High-quality images shared online can be misappropriated for promotional goals. In this task, participants work to defeat an image quality classifier, which effectively hides images.
 The camouflaged image appears to be appealing to the human eye, but the BIQA classifier finds it low quality, dramatically decreasing their automatically predicted quality scores.
 
-Participants will receive a set of images (representative of images shared on social media) and are required to enhance them. The enhancement should achieve two goals: (1) Protection: It must block the ability of a binary BIQA classifier from correctly predicting the quality of images and (2) Appeal: It must make the image more beautiful or interesting from the point of view of the user (or at least not ruin the image from users’ point of view.) 
+Participants will receive a set of images (representative of images shared on social media) and are required to enhance them. The enhancement should achieve two goals: (1) Protection: It must block the ability of a binary BIQA classifier from correctly predicting the quality of images and (2) Appeal: The chanes made to the image must be as imperceptible to the human eye as possible, or the changes must contribute to enhancing the appeal of the image.
 Note that the task is not focused on concealing sensitive information from humans, rather from automatic inference. 
 
 This year the quality camouflage task is a "whitebox" attack. Participant’s goal is to defeat the BIQA that is intended to predict the objective perceptual quality of images. The BIQA is trained on KonIQ-10k where 10,073 in-the-wild images are annotated with subjective quality scores. 
 
 Participants can choose to address the task in one of two different ways. In the first, the quality camouflage approach seeks to make invisible changes to the image. In the second, the approach makes visible changes to the image, but restricts itself to changes that enhance the image’s appeal, or at least do not bother someone looking at the image.
 
-Participants should release their code.
+We encourage participants to release their code. 
 
 <!--#### Motivation and Background-->
 #### Target Group
