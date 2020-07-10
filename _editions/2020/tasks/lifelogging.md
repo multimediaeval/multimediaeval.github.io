@@ -75,17 +75,17 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (pref
 [10] Vahdatpour, M., Sajedi, H. & Ramezani, F. Air pollution forecasting from sky images with shallow and deep classifiers. Earth Sci Inform 11, 413–422 (2018) https://link.springer.com/article/10.1007/s12145-018-0334-x
 
 #### Task Organizers
-Minh-Son Dao (NICT, Japan) dao@nict.go.jp
+Minh-Son Dao (NICT, Japan) dao (at) nict.go.jp
 
-Peijiang Zhao (NICT, Japan) dlzpj@nict.go.jp
+Peijiang Zhao (NICT, Japan) dlzpj (at) nict.go.jp
 
-Ngoc-Thanh Nguyen (UIT, Vietnam) thanhnn.13@grad.uit.edu.vn
+Ngoc-Thanh Nguyen (UIT, Vietnam) thanhnn.13 (at) grad.uit.edu.vn
 
-Thanh-Binh Nguyen (HCMUS, Vietnam) ngtbinh@hcmus.edu.vn
+Thanh-Binh Nguyen (HCMUS, Vietnam) ngtbinh (at) hcmus.edu.vn
 
-Duc-Tien Dang-Nguyen (UiB, Norway) ductien.dangnguyen@uib.no
+Duc-Tien Dang-Nguyen (UiB, Norway) ductien.dangnguyen (at) uib.no
 
-Cathal Gurrin (DCU, Ireland) cgurrin@computing.dcu.ie
+Cathal Gurrin (DCU, Ireland) cgurrin (at) computing.dcu.ie
 
 #### Task Auxiliaries
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
