@@ -85,6 +85,8 @@ Duc-Tien Dang-Nguyen (UiB, NOrway)
 
 Cathal Gurrin (DCU, Ireland)
 
+Thanh-Binh Nguyen (HCMUS, Vietnam) ngtbinh@hcmus.edu.vn
+
 #### Task Auxiliaries
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 Tan-Loc Nguyen-Tai (UIT, Vietnam)
