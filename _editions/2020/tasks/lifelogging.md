@@ -77,15 +77,15 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (pref
 #### Task Organizers
 Minh-Son Dao (NICT, Japan) dao@nict.go.jp
 
+Peijiang Zhao (NICT, Japan) dlzpj@nict.go.jp
+
 Ngoc-Thanh Nguyen (UIT, Vietnam) thanhnn.13@grad.uit.edu.vn
 
-Peijiang Zhao (NICT, Japan)
-
-Duc-Tien Dang-Nguyen (UiB, NOrway)
-
-Cathal Gurrin (DCU, Ireland)
-
 Thanh-Binh Nguyen (HCMUS, Vietnam) ngtbinh@hcmus.edu.vn
+
+Duc-Tien Dang-Nguyen (UiB, Norway) ductien.dangnguyen@uib.no
+
+Cathal Gurrin (DCU, Ireland) cgurrin@computing.dcu.ie
 
 #### Task Auxiliaries
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
@@ -94,6 +94,12 @@ Tan-Loc Nguyen-Tai (UIT, Vietnam)
 Dang-Hieu Nguyen (UIT, Vietnam)
 
 Minh-Tam Nguyen (UIT, Vietnam)
+
+Quoc-Dat Duong (HCMUS, Vietnam)
+
+Minh-Quan Le (HCMUS, Vietnam)
+
+Trong-Dat Phan (HCMUS, Vietnam)
 
 #### Task Schedule
 * 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
