@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2020
-hide: true
+hide: false
 
 # required info
 title: Insight for Wellbeing
@@ -35,7 +35,7 @@ The personal air quality data (PAQD) were collected from March to April 2019 alo
 
 The glocal air pollution data (GAPD) contains the atmospheric monitoring station data collected by the Atmospheric Environmental Regional Observation System (AEROS) in Japan (http://soramame.taiki.go.jp). AEROS contains real-time atmospheric data at every hour for 2032 meteorological monitoring stations across Japan. The atmospheric data includes eleven types of air pollutant data (SO2, NOx, NO, NO2, CO, Ox, NMHC, CH4, THC, SPM, and PM2.5), and four types of meteorological data (wind direction, wind speed, temperature, and humidity).
 
-All data are stored in CSV format, except images in JPG format. Personal data are protected to guarantee privacy-preserving. All participants should sign the agreement of using these data, released by MediaEval and NICT-Japan, for research purposes only. 
+All data are stored in CSV format, except images in JPG format. Personal data are privacy protected. All task participants should sign the agreement of using these data, released by MediaEval and NICT-Japan, for research purposes only. 
 
 #### Evaluation Methodology
 The ground truth for the dataset of the two subtasks is collected as follows:
