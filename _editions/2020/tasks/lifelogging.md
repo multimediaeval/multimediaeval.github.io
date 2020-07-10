@@ -47,9 +47,9 @@ For each subtask, the evaluation method is applied as follows:
 
 The formulation for computing AQI value from (PM2.5, O3, and NO2) data can be found at 
 
-https://en.wikipedia.org/wiki/Air_quality_index (Computing the AQI section)
+https://en.wikipedia.org/wiki/Air_quality_index (prefer the "Computing the AQI" section)
 
-https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (is the look-up table for C_low, C_high, I_low, I_high value)
+https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (prefer the "real-time table" that is the look-up table for C_low, C_high, I_low, I_high value)
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
