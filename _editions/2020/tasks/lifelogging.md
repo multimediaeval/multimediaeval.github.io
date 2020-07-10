@@ -26,6 +26,7 @@ Let us imagine the following scenario. Yamamoto-san is using the Image-2-AQI app
 
 The critical research question here is, "does the personal air quality be predicted by using other data that is easy to obtain?"
 
+
 #### Target Group
 This task targets (but is not limited to) researchers in the areas of multimedia information retrieval, machine learning, AI, data science, event-based processing and analysis, multimodal multimedia content analysis, lifelog data analysis, urban computing, environmental science, and atmospheric science.    
 
