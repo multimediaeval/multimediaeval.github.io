@@ -9,7 +9,6 @@ layout: default
   {{ content }}
   {% assign sorted_tasks = site.editions
     | sort: "title"
-    | reverse
     | where_exp: "item", "item.layout == 'task'"
     | where_exp: "item", "item.year == page.year"
     | where_exp: "item", "item.hide == false"
