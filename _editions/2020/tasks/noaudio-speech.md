@@ -5,7 +5,7 @@ year: 2020
 hide: false
 
 # required info
-title: "The 2020 No-Audio Multimodal Speech Detection Task"
+title: "No-Audio Multimodal Speech Detection Task"
 subtitle:
 blurb: "Participants receive videos (top view) and sensor readings (acceleration and proximity) of people having conversations in a natural social setting and are required to detect speaking turns. No audio signal is available for use. The task encourages research on better privacy preservation during recordings made to study social interactions, and has the potential to scale to settings where recording audio may be impractical."
 ---
