@@ -19,9 +19,9 @@
 
   <!-- seo tags -->
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Emotion and Theme recognition in music using Jamendo | MediaEval Benchmark</title>
+<title>Emotions and Themes in Music | MediaEval Benchmark</title>
 <meta name="generator" content="Jekyll v3.8.7" />
-<meta property="og:title" content="Emotion and Theme recognition in music using Jamendo" />
+<meta property="og:title" content="Emotions and Themes in Music" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="MediaEval Benchmarking Initiative Multimedia Evaluation" />
 <meta property="og:description" content="MediaEval Benchmarking Initiative Multimedia Evaluation" />
@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-13T15:40:56+00:00" />
+<meta property="article:published_time" content="2020-07-13T15:53:41+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Emotion and Theme recognition in music using Jamendo","dateModified":"2020-07-13T15:40:56+00:00","datePublished":"2020-07-13T15:40:56+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/music/"},"url":"/editions/2020/tasks/music/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Emotions and Themes in Music","dateModified":"2020-07-13T15:53:41+00:00","datePublished":"2020-07-13T15:53:41+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/music/"},"url":"/editions/2020/tasks/music/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -147,35 +147,73 @@
     <div class="container">
       <div class="row">
           <header id="main" style="background-image: url('')">
-    <h2>Emotion and Theme recognition in music using Jamendo</h2>
+    <h2>Emotions and Themes in Music</h2>
   </header>
 
   <!-- # please respect the structure below-->
 
 <h4 id="task-description">Task Description</h4>
 
-<h4 id="motivation-and-background">Motivation and Background</h4>
+<p>Emotion and theme recognition is a popular task in music information retrieval that is relevant for music search and recommendation systems. We invite the participants to try their skills at recognizing moods and themes conveyed by the audio tracks.</p>
+
+<p>This task involves the prediction of moods and themes conveyed by a music track, given the raw audio. The examples of moods and themes are: happy, dark, epic, melodic, love, film, space etc. Each track is tagged with at least one tag that serves as a ground-truth.</p>
+
+<p>Participants are expected to train a model that takes raw audio as an input and outputs the predicted tags. To solve the task, participants can use any audio input representation they desire, be it traditional handcrafted audio features or spectrograms or raw audio inputs for deep learning approaches. We also provide a handcrafted feature set extracted by the <a href="https://essentia.upf.edu/documentation/">Essentia</a> audio analysis library as a reference. We allow usage of third-party datsets for model development and training, but it needs to be mentioned explicitly.</p>
+
+<!-- #### Motivation and Background -->
 
 <h4 id="target-group">Target Group</h4>
 
+<p>Researchers in music information retrieval, music psychology, machine learning, and music and technology enthusiasts in general.</p>
+
 <h4 id="data">Data</h4>
 
+<p>The dataset used for this task is the <code class="highlighter-rouge">autotagging-moodtheme</code> subset of the <a href="https://github.com/MTG/jamendo-dataset">MTG-Jamendo dataset</a> [1], built using audio data from <a href="https://jamendo.com">Jamendo</a> and made available under Creative Commons licenses. This subset includes 18,486 audio tracks with mood and theme annotations. In total, there are 57 tags, and tracks can possibly have more than one tag.</p>
+
+<p>We also provide pre-computed statistical features from <a href="https://essentia.upf.edu">Essentia</a> using the feature extractor for <a href="https://acousticbrainz.org/">AcousticBrainz</a>. These features are were previously used in the MediaEval genre recognition tasks in <a href="https://multimediaeval.github.io/2017-AcousticBrainz-Genre-Task/">2017</a> and <a href="https://multimediaeval.github.io/2018-AcousticBrainz-Genre-Task/">2018</a>.</p>
+
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
+
+<p>Participants should generate predictions for the <a href="https://github.com/MTG/jamendo-dataset/blob/master/data/splits/split-0/autotagging_moodtheme-test.tsv">test split</a> and submit those to the task organizers.</p>
+
+<p>The generated outputs for the test dataset will be evaluated according to the following metrics that are commonly used in the evaluation of auto-tagging systems: Macro <strong>ROC-AUC</strong> and <strong>PR-AUC</strong> on tag prediction scores. Leaderboard will be based on PR-AUC.</p>
+
+<p>For reference, <a href="https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/">here</a> is the website of the 2019 edition of the task.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 
-<h4 id="task-organizers">Task Organizers</h4>
-<!-- # add the email address of the contact organizer-->
+<p>[1] Dmitry Bogdanov, Minz Won, Philip Tovstogan, Alastair Porter and Xavier Serra. 2019. <a href="http://mtg.upf.edu/node/3957">The MTG-Jamendo dataset for automatic music tagging</a>. Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML 2019).</p>
 
-<h4 id="task-auxiliaries">Task Auxiliaries</h4>
+<p>[2] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2019. <a href="https://github.com/multimediaeval/2019-Emotion-and-Theme-Recognition-in-Music-Task/blob/master/jamendo-emotion-theme-task-me19.pdf">MediaEval 2019: Emotion and Theme Recognition in Music Using Jamendo</a>. MediaEval 2019 Workshop.</p>
+
+<p>[3] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. <a href="https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf">1000 songs for emotional analysis of music</a>. In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.</p>
+
+<p>[4] Anna Aljanaki, Yi-Hsuan Yang and Mohammad Soleymani. 2014. <a href="http://ceur-ws.org/Vol-1263/mediaeval2014_submission_33.pdf">Emotion in music task at MediaEval 2014</a>.</p>
+
+<p>[5] Renato Panda, Ricardo Malheiro and Rui Pedro Paiva. 2018. <a href="http://mir.dei.uc.pt/pdf/Conferences/MOODetector/ISMIR_2018_Panda.pdf">Musical texture and expressivity features for music emotion recognition</a>. In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR 2018), 383-391.</p>
+
+<p>[6] Cyril Laurier, Owen Meyers, Joan Serra, Martin Blech and Perfecto Herrera. 2009. <a href="http://mtg.upf.edu/files/publications/Laurier_MusicMoodAnnotator.pdf">Music mood annotator design and integration</a>. In 7th International Workshop on Content-Based Multimedia Indexing (CBMI’09), 156-161.</p>
+
+<p>[7] Youngmoo E. Kim, Erik M. Schmidt, Raymond Migneco, Brandon G. Morton, Patrick Richardson, Jeffrey Scott, Jacquelin A. Speck and Douglas Turnbull. 2010. <a href="http://ismir2010.ismir.net/proceedings/ismir2010-45.pdf">Music emotion recognition: A state of the art review</a>. In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR2010), 255-266.</p>
+
+<p>[8] Xiao Hu and J. Stephen Downie. 2007. <a href="http://ismir2007.ismir.net/proceedings/ISMIR2007_p067_hu.pdf">Exploring Mood Metadata: Relationships with Genre, Artist and Usage Metadata</a>. In Proceedings of the International Conference on Music Information Retrieval (ISMIR2007), 67-72.</p>
+
+<h4 id="task-organizers">Task Organizers</h4>
+<p>Philip Tovstogan, Music Technology Group, Universitat Pompeu Fabra, Spain<br />
+Dmitry Bogdanov, Music Technology Group, Universitat Pompeu Fabra, Spain<br />
+Alastair Porter, Music Technology Group, Universitat Pompeu Fabra, Spain<br />
+Minz Won, Music Technology Group, Universitat Pompeu Fabra, Spain<br />
+(first.last@upf.edu)</p>
+
+<!-- #### Task Auxiliaries -->
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
-  <li>XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
+  <li>13 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
+  <li>31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
   <li>15 November: Results returned  <!-- Fixed. Please do not change--></li>
   <li>30 November: Working notes paper  <!-- Fixed. Please do not change--></li>
   <li>Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change--></li>
