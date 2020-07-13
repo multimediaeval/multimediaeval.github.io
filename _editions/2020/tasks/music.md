@@ -24,7 +24,7 @@ Participants are expected to train a model that takes raw audio as an input and 
 
 #### Target Group
 
-Researchers in areas of music information retrieval, music psychology, machine learning a generally music and technology enthusiasts.
+Researchers in music information retrieval, music psychology, machine learning, and music and technology enthusiasts in general.
 
 #### Data
 
@@ -39,6 +39,8 @@ Participants should generate predictions for the [test split](https://github.com
 
 The generated outputs for the test dataset will be evaluated according to the following metrics that are commonly used in the evaluation of auto-tagging systems: Macro **ROC-AUC** and **PR-AUC** on tag prediction scores. Leaderboard will be based on PR-AUC.
 
+For reference, [here](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) is the website of the 2019 edition of the task.
+
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -46,23 +48,26 @@ The generated outputs for the test dataset will be evaluated according to the fo
 
 [1] Dmitry Bogdanov, Minz Won, Philip Tovstogan, Alastair Porter and Xavier Serra. 2019. [The MTG-Jamendo dataset for automatic music tagging](http://mtg.upf.edu/node/3957). Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML 2019).
 
-[2] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. [1000 songs for emotional analysis of music](https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf). In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.
+[2] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2019. [MediaEval 2019: Emotion and Theme Recognition in Music Using Jamendo](https://github.com/multimediaeval/2019-Emotion-and-Theme-Recognition-in-Music-Task/blob/master/jamendo-emotion-theme-task-me19.pdf). MediaEval 2019 Workshop.
 
-[3] Anna Aljanaki, Yi-Hsuan Yang and Mohammad Soleymani. 2014. [Emotion in music task at MediaEval 2014](http://ceur-ws.org/Vol-1263/mediaeval2014_submission_33.pdf).
+[3] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. [1000 songs for emotional analysis of music](https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf). In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.
 
-[4] Renato Panda, Ricardo Malheiro and Rui Pedro Paiva. 2018. [Musical texture and expressivity features for music emotion recognition](http://mir.dei.uc.pt/pdf/Conferences/MOODetector/ISMIR_2018_Panda.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR 2018), 383-391.
+[4] Anna Aljanaki, Yi-Hsuan Yang and Mohammad Soleymani. 2014. [Emotion in music task at MediaEval 2014](http://ceur-ws.org/Vol-1263/mediaeval2014_submission_33.pdf).
 
-[5] Cyril Laurier, Owen Meyers, Joan Serra, Martin Blech and Perfecto Herrera. 2009. [Music mood annotator design and integration](http://mtg.upf.edu/files/publications/Laurier_MusicMoodAnnotator.pdf). In 7th International Workshop on Content-Based Multimedia Indexing (CBMI'09), 156-161.
+[5] Renato Panda, Ricardo Malheiro and Rui Pedro Paiva. 2018. [Musical texture and expressivity features for music emotion recognition](http://mir.dei.uc.pt/pdf/Conferences/MOODetector/ISMIR_2018_Panda.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR 2018), 383-391.
 
-[6] Youngmoo E. Kim, Erik M. Schmidt, Raymond Migneco, Brandon G. Morton, Patrick Richardson, Jeffrey Scott, Jacquelin A. Speck and Douglas Turnbull. 2010. [Music emotion recognition: A state of the art review](http://ismir2010.ismir.net/proceedings/ismir2010-45.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR2010), 255-266.
+[6] Cyril Laurier, Owen Meyers, Joan Serra, Martin Blech and Perfecto Herrera. 2009. [Music mood annotator design and integration](http://mtg.upf.edu/files/publications/Laurier_MusicMoodAnnotator.pdf). In 7th International Workshop on Content-Based Multimedia Indexing (CBMI'09), 156-161.
 
-[7] Xiao Hu and J. Stephen Downie. 2007. [Exploring Mood Metadata: Relationships with Genre, Artist and Usage Metadata](http://ismir2007.ismir.net/proceedings/ISMIR2007_p067_hu.pdf). In Proceedings of the International Conference on Music Information Retrieval (ISMIR2007), 67-72.
+[7] Youngmoo E. Kim, Erik M. Schmidt, Raymond Migneco, Brandon G. Morton, Patrick Richardson, Jeffrey Scott, Jacquelin A. Speck and Douglas Turnbull. 2010. [Music emotion recognition: A state of the art review](http://ismir2010.ismir.net/proceedings/ismir2010-45.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR2010), 255-266.
+
+[8] Xiao Hu and J. Stephen Downie. 2007. [Exploring Mood Metadata: Relationships with Genre, Artist and Usage Metadata](http://ismir2007.ismir.net/proceedings/ISMIR2007_p067_hu.pdf). In Proceedings of the International Conference on Music Information Retrieval (ISMIR2007), 67-72.
 
 
 #### Task Organizers
+Philip Tovstogan, Music Technology Group, Universitat Pompeu Fabra, Spain  
 Dmitry Bogdanov, Music Technology Group, Universitat Pompeu Fabra, Spain  
 Alastair Porter, Music Technology Group, Universitat Pompeu Fabra, Spain  
-Philip Tovstogan, Music Technology Group, Universitat Pompeu Fabra, Spain  
+Minz Won, Music Technology Group, Universitat Pompeu Fabra, Spain  
 (first.last@upf.edu)
 
 <!-- #### Task Auxiliaries -->
