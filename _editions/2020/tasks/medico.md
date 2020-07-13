@@ -7,7 +7,7 @@ hide: false
 # required info
 title: Medico
 subtitle: Semantic polyp segmentation
-blurb: The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. This task focuses on robust and efficient algorithms for polyp segmentation. The data consists of a large number of endoscopic images of the colon.
+blurb: "The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. This task focuses on robust and efficient algorithms for polyp segmentation. The data consists of a large number of endoscopic images of the colon."
 ---
 
 <!-- # please respect the structure below-->
