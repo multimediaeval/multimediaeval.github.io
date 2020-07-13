@@ -48,7 +48,7 @@ This challenge is targeted at researchers in wearable devices, computer vision, 
 
 The data consists of 70 people who attended one of three separate mingle events (cocktail parties). Overhead camera data as well as wearable tri-axial accelerometer data for an interval of 30 minutes is available for this task. Each person used a wearable device (to record the acceleration acceleration) hung around the neck as a conference badge. A subset of this data will be kept as a test set. All the samples of this test set will be for subjects who are not in the training set.
 
-All the data is synchronized. The video data is mostly complete, with some segments missing as the participants can leave the recording area at any time (eg. go to the bathroom). The frame rate of the video and sample rate of the accelerometer data are captured at 20Hz. Note that due to the crowded nature of the events, there can be strong occlusions between participants in the video which we hope to evaluate in one of our sub-tasks.
+All the data is synchronized. The video data is mostly complete, with some segments missing as the participants can leave the recording area at any time (e.g. to go to the bathroom). The frame rate of the video and sample rate of the accelerometer data are captured at 20Hz. Note that due to the crowded nature of the events, there can be strong occlusions between participants in the video, which we hope to evaluate in one of our sub-tasks.
 
 
 #### Evaluation Methodology
@@ -87,9 +87,9 @@ The data contains occluded and non-occluded moments, and the performance of syst
 
 #### Task Organizers
 <!-- # add the email address of the contact organizer-->
-Laura Cabrera Quiros,  Instituto Tecnológico de Costa Rica, Costa Rica and Delft University of Technology, Netherlands (guest). l dot cabrera at itcr.ac.cr
-Hayley Hung, Delft University of Technology, Netherlands. h dot hung at tudelft dot nl
-Jose Vargas-Quiros, Delft University of Technology, Netherlands. J dot D dot VargasQuiros at tudelft dot nl
+* Laura Cabrera Quiros,  Instituto Tecnológico de Costa Rica, Costa Rica and Delft University of Technology, Netherlands (guest). l dot cabrera at itcr.ac.cr
+* Hayley Hung, Delft University of Technology, Netherlands. h dot hung at tudelft dot nl
+* Jose Vargas-Quiros, Delft University of Technology, Netherlands. J dot D dot VargasQuiros at tudelft dot nl
 
 <!--#### Task Auxiliaries
  # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
