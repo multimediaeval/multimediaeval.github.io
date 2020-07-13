@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-10T14:48:37+00:00" />
+<meta property="article:published_time" content="2020-07-13T10:18:06+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Predicting Media Memorability","dateModified":"2020-07-10T14:48:37+00:00","datePublished":"2020-07-10T14:48:37+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/memorability/"},"url":"/editions/2020/tasks/memorability/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Predicting Media Memorability","dateModified":"2020-07-13T10:18:06+00:00","datePublished":"2020-07-13T10:18:06+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/memorability/"},"url":"/editions/2020/tasks/memorability/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -153,20 +153,47 @@
   <!-- # please respect the structure below-->
 
 <h4 id="task-description">Task Description</h4>
+<p>Media platforms such as social networks, media advertisement, information retrieval and recommendation systems deal with exponentially growing data day after day. Enhancing the relevance of multimedia occurrences in our everyday life requires new ways to organize – in particular, to retrieve – digital content. Like other metrics of video importance, such as aesthetics or interestingness, memorability can be regarded as useful to help make a choice between competing videos. This is even truer when one considers the specific use cases of creating commercials or creating educational content. Because the impact of different multimedia content, images or videos, on human memory is unequal, the capability of predicting the memorability level of a given piece of content is obviously of high importance for professionals in the field of advertising. Beyond advertising, other applications, such as filmmaking, education, content retrieval, etc., may also be impacted by the proposed task.</p>
+
+<p>The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, and pre-extracted state-of-the-art visual features.</p>
 
 <h4 id="background-and-motivation">Background and Motivation</h4>
+<p>Understanding what makes a video memorable has a very broad range of current applications, e.g., education and learning, content retrieval and search, content summarization, storytelling, targeted advertising, content recommendation and filtering. Efficient memorability prediction models will also push forward the semantic understanding of multimedia content, by putting human cognition and perception in the center of the scene understanding.</p>
+
+<p>In this 3rd edition of the task, a more robust collection of videos is provided, which is retrieved from the TREC Video Retrieval Evaluation (TRECVID) task. Optionally, we may use descriptive captions from their use in the TRECVid automatic video captioning task.</p>
+
+<p>The computational understanding of video memorability (VM) follows on from the study of image memorability prediction which has attracted increasing attention since the seminal work of Isola et al. [2]. Models achieved very good results at predicting image memorability [1, 3]. In contrast, research on VM from a computer science point of view is in its early stage. The scarcity of studies on VM can be explained by several reasons. Firstly, there is no publicly available data set to train and test models. The second point, closely related to the previous one, is the lack of a common definition for VM. Regarding modelling, the previous attempts at predicting VM [5, 6] highlighted several features which contribute to the prediction of VM, such as semantic, saliency and color features, but the work is far from complete and our capacity to propose efficient computational models will help to meet the challenge of VM prediction. The goal of this task is to participate in the harmonization and the advancement of this emerging search field. Furthermore, in contrast to previous work on image memorability prediction, where memorability was measured a few minutes after memorization, we propose a dataset with “long-term” memorability annotations. We expect the predictions of the models trained on this data to be more representative of long-term memory, which is used preferably in numerous applications.</p>
 
 <h4 id="target-group">Target Group</h4>
+<p>Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (though not limited to).</p>
 
 <h4 id="data">Data</h4>
+<p>Data is composed of 6,000 short videos retrieved from TRECVid. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [6], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.</p>
+
+<p>The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
+<p>The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+<p>[1] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. <a href="https://ieeexplore.ieee.org/document/7410632">Understanding and predicting image memorability at a large scale</a>. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.</p>
+
+<p>[2] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. <a href="http://web.mit.edu/phillipi/Public/MemorabilityPAMI/index.html">What makes a photograph memorable?</a> IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.</p>
+
+<p>[3] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. <a href="https://ieeexplore.ieee.org/document/8462292">Deep learning for predicting image memorability</a>. In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).</p>
+
+<p>[4] Junwei Han, Changyuan Chen, Ling Shao, Xintao Hu, Jungong Han, and Tianming Liu. 2015. <a href="https://ieeexplore.ieee.org/document/6919270">Learning computational models of video memorability from fMRI brain imaging</a>. IEEE transactions on cybernetics 45, 8 (2015), 1692–1703.</p>
+
+<p>[5] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. <a href="https://arxiv.org/abs/1707.05357">Show and Recall: Learning What Makes Videos Memorable</a>. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.</p>
+
+<p>[6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. <a href="https://arxiv.org/abs/1812.01973">VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability.</a> Proceedings of the IEEE International Conference on Computer Vision. 2019.</p>
+
+<p>[7] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, <a href="https://dl.acm.org/doi/10.1145/3301299">Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates.</a> ACM Computing Surveys, 52(2), 2019.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
+<p>The task benefits from a team from three different research sites and countries, and from different research fields, that have complementary expertise. Most of the organizers already have experience in organizing tasks in the context of the MediaEval and ImageCLEF, and are experts in their fields. University of Essex and University Politehnica of Bucharest are in charge of the creation of the video-based subtask collection. Otherwise, the different teams – University of Essex, University Politehnica of Bucharest and InterDigital – will be involved and will interact in all the aspects of the task (management, dissemination, etc.).</p>
 
 <ul>
   <li>Alba García Seco de Herrera, University of Essex, UK</li>
@@ -195,70 +222,6 @@
 
 <p>Workshop will be held online. Exact dates to be announced.
 <!-- # Pleaes integrate the information below into the structure above, and then delete everything below this line. Thanks.--></p>
-
-<h3 id="task-description-1">Task Description</h3>
-
-<h4 id="introduction">Introduction</h4>
-
-<p>Media platforms such as social networks, media advertisement, information retrieval and recommendation systems deal with exponentially growing data day after day. Enhancing the relevance of multimedia occurrences in our everyday life requires new ways to organize – in particular, to retrieve – digital content. Like other metrics of video importance, such as aesthetics or interestingness, memorability can be regarded as useful to help make a choice between competing videos. This is even truer when one considers the specific use cases of creating commercials or creating educational content. Because the impact of different multimedia content, images or videos, on human memory is unequal, the capability of predicting the memorability level of a given piece of content is obviously of high importance for professionals in the field of advertising. Beyond advertising, other applications, such as filmmaking, education, content retrieval, etc., may also be impacted by the proposed task.</p>
-
-<p>The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, and pre-extracted state-of-the-art visual features.</p>
-
-<h4 id="new-for-2020">New for 2020</h4>
-<p>In this 3rd edition of the task, a more robust collection of videos is provided, which is retrieved from the TREC Video Retrieval Evaluation (TRECVID) task. Optionally, we may use descriptive captions from their use in the TRECVid automatic video captioning task.</p>
-
-<h4 id="target-group-1">Target group</h4>
-<p>Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (though not limited to).</p>
-
-<h4 id="data-1">Data</h4>
-<p>Data is composed of 6,000 short videos retrieved from TRECVid. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [6], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.</p>
-
-<h4 id="ground-truth">Ground Truth</h4>
-<p>The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.</p>
-
-<h4 id="evaluation-methodology-1">Evaluation Methodology</h4>
-<p>The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).</p>
-
-<h4 id="references-and-recommended-reading-1">References and recommended reading</h4>
-<p>[1] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. Understanding and predicting image memorability at a large scale. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.</p>
-
-<p>[2] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. What makes a photograph memorable? IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.</p>
-
-<p>[3] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. Deep learning for predicting image memorability. In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).</p>
-
-<p>[4] Junwei Han, Changyuan Chen, Ling Shao, Xintao Hu, Jungong Han, and Tianming Liu. 2015. Learning computational models of video memorability from fMRI brain imaging. IEEE transactions on cybernetics 45, 8 (2015), 1692–1703.</p>
-
-<p>[5] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. Show and Recall: Learning What Makes Videos Memorable. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.</p>
-
-<p>[6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. “VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability.” Proceedings of the IEEE International Conference on Computer Vision. 2019.</p>
-
-<p>[7] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, “Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates”, ACM Computing Surveys, 52(2), 2019.</p>
-
-<h3 id="big-picture-of-the-task">Big Picture of the Task</h3>
-
-<h4 id="innovation">Innovation</h4>
-<p>The computational understanding of video memorability (VM) follows on from the study of image memorability prediction which has attracted increasing attention since the seminal work of Isola et al. [2]. Models achieved very good results at predicting image memorability [1, 3]. In contrast, research on VM from a computer science point of view is in its early stage. The scarcity of studies on VM can be explained by several reasons. Firstly, there is no publicly available data set to train and test models. The second point, closely related to the previous one, is the lack of a common definition for VM. Regarding modelling, the previous attempts at predicting VM [5, 6] highlighted several features which contribute to the prediction of VM, such as semantic, saliency and color features, but the work is far from complete and our capacity to propose efficient computational models will help to meet the challenge of VM prediction. The goal of this task is to participate in the harmonization and the advancement of this emerging search field. Furthermore, in contrast to previous work on image memorability prediction, where memorability was measured a few minutes after memorization, we propose a dataset with “long-term” memorability annotations. We expect the predictions of the models trained on this data to be more representative of long-term memory, which is used preferably in numerous applications.</p>
-
-<h4 id="focus">Focus</h4>
-<p>Understanding what makes a video memorable has a very broad range of current applications, e.g., education and learning, content retrieval and search, content summarization, storytelling, targeted advertising, content recommendation and filtering. Efficient memorability prediction models will also push forward the semantic understanding of multimedia content, by putting human cognition and perception in the center of the scene understanding.</p>
-
-<h4 id="risk-management">Risk management</h4>
-<p>The task has been successfully organised in 2018 and 2019. The experience gained will help us to anticipate and overcome the inherent difficulties in organizing such a task.</p>
-
-<h4 id="task-organization-team">Task organization team</h4>
-
-<p>The task benefits from a team from three different research sites and countries, and from different research fields, that have complementary expertise. Most of the organizers already have experience in organizing tasks in the context of the MediaEval and ImageCLEF, and are experts in their fields. University of Essex and University Politehnica of Bucharest are in charge of the creation of the video-based subtask collection. Otherwise, the different teams – University of Essex, University Politehnica of Bucharest and InterDigital – will be involved and will interact in all the aspects of the task (management, dissemination, etc.).</p>
-
-<h4 id="task-schedule-1">Task Schedule</h4>
-<ul>
-  <li>01 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
-  <li>31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
-  <li>15 November: Results returned  <!-- Fixed. Please do not change--></li>
-  <li>30 November: Working notes paper  <!-- Fixed. Please do not change--></li>
-  <li>Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change--></li>
-</ul>
-
-<p>Workshop will be held online. Exact dates to be announced.</p>
 
 
       </div>
