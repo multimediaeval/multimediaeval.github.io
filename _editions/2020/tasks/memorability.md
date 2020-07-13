@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2020
-hide: true
+hide: false
 
 # required info
 title: Predicting Media Memorability
