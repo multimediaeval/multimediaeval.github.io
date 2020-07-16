@@ -13,6 +13,7 @@ blurb:
 
 
 #### Task Description
+The Fake News Detection Task 2020 is offering two subtasks on COVID-19-related Fake News Detection. The first subtask includes NLP-based Fake News Detection while the second subtask targets the detection of abnormal spreading patterns. Both tasks are related to misinformation disseminated in the context of the COVID-19 crisis. More specifically, misinformation claiming that the construction of the 5G network, and the associated electromagnetic radiation, triggers the SARS-CoV-2 virus. 
 
 #### Motivation and Background
 
