@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="/assets/img/mediaeval-white.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-20T07:46:39+00:00" />
+<meta property="article:published_time" content="2020-07-20T07:47:02+00:00" />
 <script type="application/ld+json">
-{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Scene Change","dateModified":"2020-07-20T07:46:39+00:00","datePublished":"2020-07-20T07:46:39+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/scenechange/"},"url":"/editions/2020/tasks/scenechange/","@context":"https://schema.org"}</script>
+{"description":"MediaEval Benchmarking Initiative Multimedia Evaluation","image":"/assets/img/mediaeval-white.png","@type":"BlogPosting","headline":"Scene Change","dateModified":"2020-07-20T07:47:02+00:00","datePublished":"2020-07-20T07:47:02+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/editions/2020/tasks/scenechange/"},"url":"/editions/2020/tasks/scenechange/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -153,29 +153,102 @@
   <!-- # please respect the structure below-->
 
 <h4 id="task-description">Task Description</h4>
+<p>The MediaEval 2020 Scene Change Task is interested in exploring fun faux photo’s, images that fool you at first, but can be identified as an imitation on closer inspection. Task participants are provided with images of people (as a “foreground segment”) and are asked to change the background scene to Paris. We call this switch “scene change”.</p>
+
+<p>Based on the dataset provided, participants are asked to develop a system that addresses the main task of creating a composite image:</p>
+
+<ul>
+  <li><strong>Image compositing</strong>: given a foreground segment and a background image, the participant should blend the segment with the background in a manner that is appealing to the user. This is done for several popular landmarks in Paris. Only the foreground segment may be manipulated, so that the background image is recognizable as the specific landmark.</li>
+</ul>
+
+<p>Participants are encouraged to improve the systems that address the main task, by developing additional sub-systems:</p>
+
+<ul>
+  <li>
+    <p><strong>Background image retrieval</strong>: given a foreground segment the participant should retrieve a suitable background image from the collection of background images taken near the same landmark, which is a good fit. Then, the foreground segment should blend with the background image as in the main task with respect to, for example, lighting conditions and perspective.</p>
+  </li>
+  <li>
+    <p><strong>Foreground segmentation</strong>: the foreground segment and the original foreground image is provided. Segmentation has seen some remarkable advances recently, but remains a difficult task, for example with respect to hair. Participants are invited to refine the provided segmentations and gain insights from there.</p>
+  </li>
+</ul>
+
+<p>Note that for this task photorealism is not a goal in and of itself. Similarly to [1], we do strive for realism in the sense of acceptability, which includes enjoyability and shareability, rather than of physical accuracy. Physical accuracy is not required for acceptability, for example it is known that in artistic work impossible lighting conditions and colors do not interfere with the viewer’s understanding of the scene and often go unnoticed [2]. We adopt the assumption that optimizing for this realism captures distracting properties of the composed image, resulting in more appealing final images.</p>
+
+<p><img src="http://multimediaeval.org/mediaeval2019/scenechange/files/page119-scenechangeexample.png" alt="alt text" /></p>
+
+<p><em>Can you tell at first glance who was in Paris? Can you tell at second glance?</em></p>
 
 <h4 id="motivation-and-background">Motivation and Background</h4>
+<p>The task has multiple motivations:</p>
+
+<ul>
+  <li>
+    <p>More and more examples where large group of tourists, often taking selfies, cause harm to the environment arise [5,6]. Scene change could be a partial solution to this problem, relieving pressure on these popular areas.</p>
+  </li>
+  <li>
+    <p>As computer scientists we make methods to make people fool around with photos in a way that is not fully deceptive. Developing technologies for “shallow fakes” provides an alternative to recent work, aimed at deep deception [8], in which the intent of the creator is that the fabricated image is not recognized as such. By benchmarking, we can evaluate methods and metrics for performing and quantifying deceptiveness in multimedia. If we can find practical methods for doing so, people can enjoy new creations without being deceived into accepting fiction as fact.</p>
+  </li>
+  <li>
+    <p>Access to scene change functionality is currently restricted to a small group including painters, photographers, Adobe® Photoshop® users and computer graphics experts. There is a large gap to bridge in commoditizing scene change. Giving users more control over their own photos will allow them to exercise creativity, have fun and promote their privacy more at the same time. The relatively recent surge of creative tools (e.g. Animoji, Snapchat Lenses) suggests that people enjoy creative control over their images and videos. However, closer consideration of the functionality of these tools reveals limitations: the creative possibilities are potentially so much wider than what is currently available to users.</p>
+  </li>
+</ul>
+
+<p>This year we focus on Paris, both for being a highly popular tourist destination and the availability of a Paris Dataset [7]. In 2017, France was the most visited country in the world, with Paris having a total of 23,6 million hotel visits [9, 10].</p>
 
 <h4 id="target-group">Target Group</h4>
+<p>The task targets (but is not limited to) people interested in art and social media, multimedia retrieval, machine learning, adversarial machine learning, privacy and computer vision.</p>
+
+<p>Depending on your research interests, you might want to experiment in other directions. We have provided a recommended reading list (below) with some suggestions. You might consider using a Generative-Adversarial-Network based approach, for instance building on the work of Lin et al. 2018. You could also try an approach similar to that of Lalonde et al. 2007, who retrieve foreground segments that match certain conditions to the background.</p>
 
 <h4 id="data">Data</h4>
+<p>The data will be drawn from the ADE20k [4] dataset and the Paris dataset.</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
+<p>Participants submit scene change examples for all images in the test set. The scene change is evaluated in an user study, where study participants are randomly shown original and composed images and are asked to point out whether the image is original or not. The study is repeated twice, once time-restricted, similar to [3] and once unrestricted (as in the prior example). A good algorithm produces shallow fakes: it demonstrates a high error rate on the time-restricted experiment and a low error rate on the unbounded experiment. Submissions are ranked on the difference in error rates between the two experiments.</p>
 
-<h4 id="references-and-recommended-reading">References and recommended reading</h4>
+<h4 id="references">References</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 
+<p>[1] Karsch, K., Hedau, V., Forsyth, D., &amp; Hoiem, D. (2011). <a href="https://dl.acm.org/doi/10.1145/2070781.2024191">Rendering synthetic objects into legacy photographs</a>. ACM Transactions on Graphics (TOG), 30(6), 157.</p>
+
+<p>[2] Cavanagh, P. (2005). <a href="https://www.nature.com/articles/434301a">The artist as neuroscientist</a>. Nature, 434(7031), 301.</p>
+
+<p>[3] Chaowei Xiao, Jun-Yan Zhu, Bo Li, Warren He, Mingyan Liu, Dawn Song. <a href="https://openreview.net/forum?id=HyydRMZC-">Spatially Transformed Adversarial Examples</a>. ICLR 2018.</p>
+
+<p>[4] Zhou, B., Zhao, H., Puig, X., Fidler, S., Barriuso, A., &amp; Torralba, A. (2017). <a href="https://ieeexplore.ieee.org/document/8100027">Scene parsing through ade20k dataset</a>. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 633-641).</p>
+
+<p>[5] Roy, E. A. (2018, December 06). Instacrammed: The big fib at the heart of New Zealand picture-perfect peaks. Retrieved from https://www.theguardian.com/world/2018/dec/07/instacrammed-the-big-fib-at-the-heart-of-new-zealand-picture-perfect-peaks</p>
+
+<p>[6] Gammon, K. (2019, March 19). #Superbloom or #poppynightmare? Selfie chaos forces canyon closure. Retrieved from https://www.theguardian.com/environment/2019/mar/18/super-bloom-lake-elsinore-poppies-flowers</p>
+
+<p>[7] Philbin, J., Chum, O., Isard, M., Sivic, J., &amp; Zisserman, A. (2008, June). <a href="https://ieeexplore.ieee.org/document/4587635">Lost in quantization: Improving particular object retrieval in large scale image databases</a>. In 2008 IEEE conference on computer vision and pattern recognition (pp. 1-8). IEEE.</p>
+
+<p>[8] Güera, D., &amp; Delp, E. J. (2018, November). <a href="https://ieeexplore.ieee.org/document/8639163">Deepfake video detection using recurrent neural networks</a>. In 2018 15th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS) (pp. 1-6). IEEE.</p>
+
+<p>[9] UNWTO Tourism Highlights, 2017 Edition. (2017, August). Retrieved from http://www2.unwto.org/publication/unwto-tourism-highlights-2017</p>
+
+<p>[10] Tourism in Paris - Key Figures - Paris tourist office. Retrieved from https://press.parisinfo.com/key-figures/Tourism-in-Paris-Key-Figures</p>
+
+<h4 id="recommended-reading">Recommended Reading</h4>
+<p>Lalonde, J. F., Hoiem, D., Efros, A. A., Rother, C., Winn, J., &amp; Criminisi, A. (2007). <a href="https://dl.acm.org/doi/10.1145/1276377.1276381">Photo clip art</a>. ACM transactions on graphics (TOG), 26(3), 3.</p>
+
+<p>Lin, C. H., Yumer, E., Wang, O., Shechtman, E., &amp; Lucey, S. (2018, March). <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Lin_ST-GAN_Spatial_Transformer_CVPR_2018_paper.pdf">ST-GAN: Spatial Transformer Generative Adversarial Networks for Image Compositing</a>. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 9455-9464).</p>
+
+<p>For more insight on the state of the art in segmentation, you could take a look at the winner of COCO 2018. The slides of the winner’s presentation can be found here: http://presentations.cocodataset.org/ECCV18/COCO18-Detect-MMDET.pdf.
+Furthermore there are also industry solutions that offer segmentation, such as https://www.remove.bg and https://online.photoscissors.com.</p>
 <h4 id="task-organizers">Task Organizers</h4>
 <!-- # add the email address of the contact organizer-->
+<p>Zhuoran Liu, Radboud University, Netherlands, z.liu (at) cs.ru.nl<br />
+Martha Larson, Radboud University, Netherlands</p>
 
-<h4 id="task-auxiliaries">Task Auxiliaries</h4>
+<!--#### Task Auxiliaries -->
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
-  <li>XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
+  <li>31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July--></li>
+  <li>31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October--></li>
   <li>15 November: Results returned  <!-- Fixed. Please do not change--></li>
   <li>30 November: Working notes paper  <!-- Fixed. Please do not change--></li>
   <li>Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change--></li>
