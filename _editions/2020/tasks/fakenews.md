@@ -28,7 +28,7 @@ The task is of interest to researchers in the areas of online news, social media
 
 
 #### Data
-The dataset contains two sets of tweets mentioning Corona Virus and 5G that include text, reposting time patterns, and some basic info about reposters. The first set consists of only English language posts. The second set consists of translated twits from German Twitter accounts only. The datasets are balanced with respect to the number of samples of different classes and variations of the amount of data that accompanies each tweet. We provide a wide variety of short, medium, and long tweets with neutral, positive, negative, and sarcastic phrasing.
+The dataset contains two sets of tweets mentioning Corona Virus and 5G that include text, reposting time patterns, and some basic info about reposters. The first set consists of only English language posts. The second set consists of translated tweets from German Twitter accounts only. The datasets are balanced with respect to the number of samples of different classes and variations of the amount of data that accompanies each tweet. We provide a wide variety of short, medium, and long tweets with neutral, positive, negative, and sarcastic phrasing.
 
 
 #### Evaluation Methodology
@@ -58,17 +58,12 @@ The ground truth is created by manual annotation of the collected tweets based o
 
 
 #### Task Organizers
-Konstantin Pogorelov, Simula Research laboratory (Simula), Norway, konstantin (at) simula.no
-Johannes Langguth, Simula Research laboratory (Simula), Norway, langguth (at) simula.no
-Daniel Thilo Schroeder, Simula Research laboratory (Simula), Norway
+* Konstantin Pogorelov, Simula Research laboratory (Simula), Norway, konstantin (at) simula.no
+* Johannes Langguth, Simula Research laboratory (Simula), Norway, langguth (at) simula.no
+* Daniel Thilo Schroeder, Simula Research laboratory (Simula), Norway
 
 <!-- # add the email address of the contact organizer-->
 
-
-#### Task Auxiliaries
-Martha Larson, Radboud University, Netherlands
-
-<!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
 * 10 August: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
