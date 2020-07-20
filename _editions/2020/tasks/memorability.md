@@ -29,37 +29,37 @@ The computational understanding of video memorability (VM) follows on from the s
 Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (though not limited to).
 
 #### Data
-Data is composed of 6,000 short videos retrieved from TRECVid. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [6], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.
-
-The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
+Data is composed of 6,000 short videos retrieved from TRECVid 2019 Video to Text dataset [1]. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [2], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.
 
 #### Evaluation Methodology
+The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
+
 The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-[1] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. [Understanding and predicting image memorability at a large scale](https://ieeexplore.ieee.org/document/7410632). In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.
+[1] Awad, G., Butt, A.A., Lee, Y., Fiscus, J., Godil, A., Delgado, A., Smeaton, A.F. and Graham, Y., [Trecvid 2019: An evaluation campaign to benchmark video activity detection, video captioning and matching, and video search & retrieval](https://www-nlpir.nist.gov/projects/tvpubs/tv19.papers/tv19overview.pdf). 2019.
 
-[2] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. [What makes a photograph memorable?](http://web.mit.edu/phillipi/Public/MemorabilityPAMI/index.html) IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.
+[2] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. [VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cohendet_VideoMem_Constructing_Analyzing_Predicting_Short-Term_and_Long-Term_Video_Memorability_ICCV_2019_paper.pdf). Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
-[3] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. [Deep learning for predicting image memorability](https://ieeexplore.ieee.org/document/8462292). In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).
+[3] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. [Understanding and predicting image memorability at a large scale](https://people.csail.mit.edu/khosla/papers/iccv2015_khosla.pdf). In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.
 
-[4] Junwei Han, Changyuan Chen, Ling Shao, Xintao Hu, Jungong Han, and Tianming Liu. 2015. [Learning computational models of video memorability from fMRI brain imaging](https://ieeexplore.ieee.org/document/6919270). IEEE transactions on cybernetics 45, 8 (2015), 1692–1703.
+[4] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. [What makes a photograph memorable?](http://web.mit.edu/phillipi/www/publications/memory_pami.pdf) IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.
 
-[5] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. [Show and Recall: Learning What Makes Videos Memorable](https://arxiv.org/abs/1707.05357). In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.
+[5] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. [Deep learning for predicting image memorability](https://hal.archives-ouvertes.fr/hal-01629297/file/main.pdf). In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).
 
-[6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. [VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability.](https://arxiv.org/abs/1812.01973) Proceedings of the IEEE International Conference on Computer Vision. 2019.
+[6] Junwei Han, Changyuan Chen, Ling Shao, Xintao Hu, Jungong Han, and Tianming Liu. 2015. [Learning computational models of video memorability from fMRI brain imaging](https://ieeexplore.ieee.org/abstract/document/6919270). IEEE transactions on cybernetics 45, 8 (2015), 1692–1703.
 
-[7] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates.](https://dl.acm.org/doi/10.1145/3301299) ACM Computing Surveys, 52(2), 2019.
+[7] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. [Show and Recall: Learning What Makes Videos Memorable](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w40/Shekhar_Show_and_Recall_ICCV_2017_paper.pdf). In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.
+
+[8] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates](http://campus.pub.ro/lab7/bionescu/index_files/pub/2018_ACM_CSUR-draft.pdf), ACM Computing Surveys, 52(2), 2019.
 
 #### Task organizers
-The task benefits from a team from three different research sites and countries, and from different research fields, that have complementary expertise. Most of the organizers already have experience in organizing tasks in the context of the MediaEval and ImageCLEF, and are experts in their fields. University of Essex and University Politehnica of Bucharest are in charge of the creation of the video-based subtask collection. Otherwise, the different teams – University of Essex, University Politehnica of Bucharest and InterDigital – will be involved and will interact in all the aspects of the task (management, dissemination, etc.).
-
-* Alba García Seco de Herrera, University of Essex, UK
-* Rukiye Savran Kiziltepe, University of Essex, UK
-* Faiyaz Doctor, University of Essex, UK
-* Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
+* Alba García Seco de Herrera, &lt;alba.garcia(at)essex.ac.uk;, University of Essex, UK
+* Rukiye Savran Kiziltepe, &lt;rs16419(at)essex.ac.uk;, University of Essex, UK
+* Faiyaz Doctor, &lt;fdocto(at)essex.ac.uk;, University of Essex, UK
+* Mihai Gabriel Constantin, &lt;cmihaigabriel(at)gmail.com, University Politehnica of Bucharest, Romania
 * Bogdan Ionescu, University Politehnica of Bucharest, Romania
 * Alan Smeaton, Graham Healy, Dublin City University, Ireland
 * Claire-Hélène Demarty, InterDigital, R&I, France
@@ -69,8 +69,8 @@ The task benefits from a team from three different research sites and countries,
 * Jon Chamberlain, University of Essex, UK
 
 #### Task Schedule
-* XX July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
-* XX October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 15 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
