@@ -41,6 +41,8 @@ Development data will be the KonIQ-10k data set. Test data will be selected from
 #### Evaluation Methodology
 The protection score will be the accuracy of the BIQA prediction on modified images by participants. We specify the threshold that is to be used by BIQA. Note that we expect that accuracy to decrease after protection, but theoretically it is also possible that protection fails, and that it stays the same. 
 
+We appreciate approaches that are robust against practical post-processing operations. So the submitted images will be evaluated on their slightly JPEG compressed (quality factor = 90) version. We have confirmed such compression has little impact on the BIQA scores.
+
 Appeal will be evaluated by a set of computer vision experts. Submissions will be ranked as follows: All approaches that achieve a protection score of at least 50% (50% reduction in the accuracy of the prediction) will be ranked in terms of their appeal score.
 
 #### References and recommended reading
@@ -51,6 +53,11 @@ Vlad Hosu, Hanhe Lin, Tamas Sziranyi and Dietmar Saupe. [KonIQ-10k: An Ecologica
 Samuel Dodge, and Lina Karam. [Understanding How Image Quality Affects Deep Neural Networks](https://ieeexplore.ieee.org/document/7498955). In Proceedings of 8th International Conference on Quality of Multimedia Experience (QoMEX '16). IEEE, 1-6.
 
 Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy.[Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572). International Conference on Learning Representations (ICLR '15).
+
+Pixel Privacy Task. 2018. Working Notes Proceedings of the MediaEval 2018 Workshop. Retrieved from http://ceur-ws.org/Vol-2283/
+
+Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen, Michael E. Kounavis, and Duen Horng Chau. 2018. [SHIELD: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression](https://dl.acm.org/doi/10.1145/3219819.3219910). In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD ’18). Association for Computing Machinery, New York, NY, USA, 196–204.
+
 
 <!-- # add a note to check out Pixel Privacy in past proceedings; also think about some other references-->
 
