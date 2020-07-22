@@ -15,7 +15,7 @@ blurb: In this task, participants develop adversarial approaches that camouflage
 
 #### Task Description
 High-quality images shared online can be misappropriated for promotional goals. In this task, participants work to defeat an automatic image quality classifier, which effectively hides images.
-The camouflaged image appears to be appealing to the human eye, but the Blind Image Quality Assessment (BIQA) classifier finds it low quality, dramatically decreasing their automatically predicted quality scores.
+The camouflaged image appears to be appealing to the human eye, but the Blind Image Quality Assessment (BIQA) classifier finds it to be low quality, i.e., there is a dramatic descrease in the image's automatically predicted quality score.
 
 Participants will receive a set of images (representative of images shared on social media) and are required to enhance them. The enhancement should achieve two goals: (1) Protection: It must block the ability of a binary BIQA classifier from correctly predicting the quality of images and (2) Appeal: The chanes made to the image must be as imperceptible to the human eye as possible, or the changes must contribute to enhancing the appeal of the image.
 Note that the task is not focused on concealing sensitive information from humans, rather from automatic inference. 
@@ -41,9 +41,9 @@ Development data will be the KonIQ-10k data set. Test data will be selected from
 #### Evaluation Methodology
 The protection score will be the accuracy of the BIQA prediction on modified images by participants. We specify the threshold that is to be used by BIQA. Note that we expect that accuracy to decrease after protection, but theoretically it is also possible that protection fails, and that it stays the same. 
 
-We appreciate approaches that are robust against practical post-processing operations. So the submitted images will be evaluated on their slightly JPEG compressed (quality factor = 90) version. We have confirmed such compression has little impact on the BIQA scores.
+We appreciate approaches that are robust against practical post-processing operations. So the submitted images will be evaluated on their slightly JPEG compressed (quality factor = 90%) version. We have confirmed such compression has little impact on the BIQA scores.
 
-Appeal will be evaluated by a set of computer vision experts. Submissions will be ranked as follows: All approaches that achieve a protection score of at least 50% (50% reduction in the accuracy of the prediction) will be ranked in terms of their appeal score.
+Appeal will be evaluated by a jury of computer vision experts. Submissions will be ranked as follows: All approaches that achieve a protection score of at least 50% (50% reduction in the accuracy of the prediction) will be ranked in terms of their appeal by the jury.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -73,7 +73,7 @@ Martha Larson, Radboud University, Netherlands</p>
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
-* 15 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
