@@ -7,7 +7,7 @@ hide: true
 # required info
 title: Scene Change
 subtitle: Re-inventing tourist photography
-blurb: "Tourist photography is due for a makeover, as people increasingly avoid travel due to environmental or safety concerns. In this task, participants create image composites given a photo of a person, change the background to a popular tourist site. The special twist: a Scene Change photo must be fun without being deceptive. In other words, the photo fools you at first, but is identifiable as a composite upon closer inspection."
+blurb: "Tourist photography is due for a makeover, as people increasingly avoid travel due to environmental or safety concerns. In this task, participants create image composites: given a photo of a person, they must change the background to a popular tourist site. The special twist: a Scene Change photo must be fun without being deceptive. In other words, the photo fools you at first, but is identifiable as a composite upon closer inspection."
 ---
 
 <!-- # please respect the structure below-->
@@ -38,11 +38,13 @@ The task has multiple motivations:
 
 * More and more examples where large group of tourists, often taking selfies, cause harm to the environment arise [5,6]. Scene change could be a partial solution to this problem, relieving pressure on these popular areas.
 
-* As computer scientists we make methods to make people fool around with photos in a way that is not fully deceptive. Developing technologies for “shallow fakes” provides an alternative to recent work, aimed at deep deception [8], in which the intent of the creator is that the fabricated image is not recognized as such. By benchmarking, we can evaluate methods and metrics for performing and quantifying deceptiveness in multimedia. If we can find practical methods for doing so, people can enjoy new creations without being deceived into accepting fiction as fact.
+* Because of corona virus travel restrictions, people who love to travel have become creative about replacing travel photography [7,8,9,10]. We want to encourage the trend of "traveling from home" to survive beyond times of corona lockdown in order to make the travel experience available to those with health restrictions, who cannot afford travel, or who wish to fly less for environmental reasons. In contrast to services such as https://www.fakeavacation.com/, which target fully deceptive photos, the Scene Change task links into the trend of creating a "vacation from home" experience, 
+
+* As computer scientists we make methods to make people fool around with photos in a way that is not fully deceptive. Developing technologies for “shallow fakes” provides an alternative to recent work, aimed at deep deception [11], in which the intent of the creator is that the fabricated image is not recognized as such. By benchmarking, we can evaluate methods and metrics for performing and quantifying deceptiveness in multimedia. If we can find practical methods for doing so, people can enjoy new creations without being deceived into accepting fiction as fact.
 
 * Access to scene change functionality is currently restricted to a small group including painters, photographers, Adobe® Photoshop® users and computer graphics experts. There is a large gap to bridge in commoditizing scene change. Giving users more control over their own photos will allow them to exercise creativity, have fun and promote their privacy more at the same time. The relatively recent surge of creative tools (e.g. Animoji, Snapchat Lenses) suggests that people enjoy creative control over their images and videos. However, closer consideration of the functionality of these tools reveals limitations: the creative possibilities are potentially so much wider than what is currently available to users.
 
-This year we focus on Paris, both for being a highly popular tourist destination and the availability of a Paris Dataset [7]. In 2017, France was the most visited country in the world, with Paris having a total of 23,6 million hotel visits [9, 10].
+This year we focus on Paris, both for being a highly popular tourist destination and the availability of a Paris Dataset [12]. In 2017, France was the most visited country in the world, with Paris having a total of 23,6 million hotel visits [13,14].
 
 
 #### Target Group
@@ -72,17 +74,25 @@ Participants submit scene change examples for all images in the test set. The sc
 
 [4] Zhou, B., Zhao, H., Puig, X., Fidler, S., Barriuso, A., & Torralba, A. (2017). [Scene parsing through ade20k dataset](https://ieeexplore.ieee.org/document/8100027). In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 633-641).
 
-[5] Roy, E. A. (2018, December 06). Instacrammed: The big fib at the heart of New Zealand picture-perfect peaks. Retrieved from https://www.theguardian.com/world/2018/dec/07/instacrammed-the-big-fib-at-the-heart-of-new-zealand-picture-perfect-peaks
+[5] Roy, E. A. (2018, December 06). Instacrammed: The big fib at the heart of New Zealand picture-perfect peaks. The Guardian. Retrieved from https://www.theguardian.com/world/2018/dec/07/instacrammed-the-big-fib-at-the-heart-of-new-zealand-picture-perfect-peaks
 
-[6] Gammon, K. (2019, March 19). #Superbloom or #poppynightmare? Selfie chaos forces canyon closure. Retrieved from https://www.theguardian.com/environment/2019/mar/18/super-bloom-lake-elsinore-poppies-flowers
+[6] Gammon, K. (2019, March 19). #Superbloom or #poppynightmare? Selfie chaos forces canyon closure. The Guardian. Retrieved from https://www.theguardian.com/environment/2019/mar/18/super-bloom-lake-elsinore-poppies-flowers
 
-[7] Philbin, J., Chum, O., Isard, M., Sivic, J., & Zisserman, A. (2008, June). [Lost in quantization: Improving particular object retrieval in large scale image databases](https://ieeexplore.ieee.org/document/4587635). In 2008 IEEE conference on computer vision and pattern recognition (pp. 1-8). IEEE.
+[7] Rogers,K. (2020, March 20) Coronavirus canceled this family's Disney trip. They made better memories at home. CNN. Retrieved from https://edition.cnn.com/travel/article/texas-family-disney-world-coronavirus/index.html
 
-[8] Güera, D., & Delp, E. J. (2018, November). [Deepfake video detection using recurrent neural networks](https://ieeexplore.ieee.org/document/8639163). In 2018 15th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS) (pp. 1-6). IEEE.
+[8] Compton, N.B. (2020, April 8) Travel photographers are taking epic nature photos using indoor optical illusions. Washington Post. Retrieved from https://www.washingtonpost.com/travel/2020/04/08/travel-photographers-are-taking-epic-nature-photos-using-indoor-optical-illusions/
 
-[9] UNWTO Tourism Highlights, 2017 Edition. (2017, August). Retrieved from http://www2.unwto.org/publication/unwto-tourism-highlights-2017
+[9] Jones, D. (2020, April 15) People miss flying so much they’re re-creating the airplane experience from home. Washington Post. Retrieved from https://www.washingtonpost.com/travel/2020/04/15/people-miss-flying-so-much-theyre-re-creating-airplane-experience-home/
 
-[10] Tourism in Paris - Key Figures - Paris tourist office. Retrieved from https://press.parisinfo.com/key-figures/Tourism-in-Paris-Key-Figures
+[10] Zhou, N. (2020, April 16) Coronavirus vacation: Australian family recreate 15-hour holiday flight in living room. The Guardian. https://www.theguardian.com/australia-news/2020/apr/16/coronavirus-vacation-australian-family-recreate-15-hour-holiday-flight-in-living-room 
+
+[11] Güera, D., & Delp, E. J. (2018, November). [Deepfake video detection using recurrent neural networks](https://ieeexplore.ieee.org/document/8639163). In 2018 15th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS) (pp. 1-6). IEEE.
+
+[12] Philbin, J., Chum, O., Isard, M., Sivic, J., & Zisserman, A. (2008, June). [Lost in quantization: Improving particular object retrieval in large scale image databases](https://ieeexplore.ieee.org/document/4587635). In 2008 IEEE conference on computer vision and pattern recognition (pp. 1-8). IEEE.
+
+[13] UNWTO Tourism Highlights, 2017 Edition. (2017, August). Retrieved from http://www2.unwto.org/publication/unwto-tourism-highlights-2017
+
+[14] Tourism in Paris - Key Figures - Paris tourist office. Retrieved from https://press.parisinfo.com/key-figures/Tourism-in-Paris-Key-Figures
 
 #### Recommended Reading
 Lalonde, J. F., Hoiem, D., Efros, A. A., Rother, C., Winn, J., & Criminisi, A. (2007). [Photo clip art](https://dl.acm.org/doi/10.1145/1276377.1276381). ACM transactions on graphics (TOG), 26(3), 3.
