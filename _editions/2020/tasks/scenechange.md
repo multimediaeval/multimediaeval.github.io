@@ -18,7 +18,7 @@ The MediaEval 2020 Scene Change Task is interested in exploring fun faux photo�
 
 Based on the dataset provided, participants are asked to develop a system that addresses the main task of creating a composite image:
 
-* **Image compositing**: given a foreground segment and a background image, the participant should blend the segment with the background in a manner that is appealing to the user. This is done for several popular landmarks in Paris. Only the foreground segment may be manipulated, so that the background image is recognizable as the specific landmark.
+* **Image compositing**: given a foreground segment and a background image, the participant should blend the segment with the background in an appealing manner. This is done for several popular landmarks in Paris. Only the foreground segment may be manipulated, so that the background image is recognizable as the specific landmark.
 
 Participants are encouraged to improve the systems that address the main task, by developing additional sub-systems:
 
@@ -36,15 +36,15 @@ Note that for this task photorealism is not a goal in and of itself. Similarly t
 #### Motivation and Background
 The task has multiple motivations:
 
-* More and more examples where large group of tourists, often taking selfies, cause harm to the environment arise [5,6]. Scene change could be a partial solution to this problem, relieving pressure on these popular areas.
-
-* Because of corona virus travel restrictions, people who love to travel have become creative about replacing travel photography [7,8,9,10]. We want to encourage the trend of "traveling from home" to survive beyond times of corona lockdown in order to make the travel experience available to those with health restrictions, who cannot afford travel, or who wish to fly less for environmental reasons. In contrast to services such as https://www.fakeavacation.com/, which target fully deceptive photos, the Scene Change task links into the trend of creating an authentic at-home experience of a travel destination.
-
-* As computer scientists we make methods to make people fool around with photos in a way that is not fully deceptive. Developing technologies for “shallow fakes” provides an alternative to recent work, aimed at deep deception [11], in which the intent of the creator is that the fabricated image is not recognized as such. By benchmarking, we can evaluate methods and metrics for performing and quantifying deceptiveness in multimedia. If we can find practical methods for doing so, people can enjoy new creations without being deceived into accepting fiction as fact.
-
 * Access to scene change functionality is currently restricted to a small group including painters, photographers, Adobe® Photoshop® users and computer graphics experts. There is a large gap to bridge in commoditizing scene change. Giving users more control over their own photos will allow them to exercise creativity, have fun and promote their privacy more at the same time. The relatively recent surge of creative tools (e.g. Animoji, Snapchat Lenses) suggests that people enjoy creative control over their images and videos. However, closer consideration of the functionality of these tools reveals limitations: the creative possibilities are potentially so much wider than what is currently available to users.
 
-This year we focus on Paris, both for being a highly popular tourist destination and the availability of a Paris Dataset [12]. In 2017, France was the most visited country in the world, with Paris having a total of 23,6 million hotel visits [13,14].
+* More and more examples where large group of tourists, often taking selfies, cause harm to the environment arise [5,6]. Scene change could be a partial solution to this problem, relieving pressure on these popular areas.
+
+* Because of coronavirus travel restrictions, people who love to travel have become creative about replacing travel photography [7,8,9,10]. We want to encourage the trend of "traveling from home" to survive beyond times of coronavirus lockdown in order to make the travel experience available to those with health restrictions, who cannot afford travel, or who wish to fly less for environmental reasons. Currently, services exist, e.g., https://www.fakeavacation.com/, that target fully deceptive photos. Scene Change disassociates itself from this practice, and instead connects itself trend of creating an authentic at-home experience of a travel destination.
+
+* As computer scientists we make methods that allow people fool around with photos in a way that is not fully deceptive. Developing technologies for “shallow fakes” provides an alternative to recent work, aimed at deep deception [11], in which the intent of the creator is that the fabricated image is not recognized as such. By benchmarking, we can evaluate methods and metrics for performing and quantifying deceptiveness in multimedia. If we can find practical methods for doing so, people can enjoy new creations without being deceived into accepting fiction as fact.
+
+The task focuses on Paris, both because it is a highly popular tourist destination and also due to the availability of a Paris Dataset [12]. In 2017, France was the most visited country in the world, with Paris having a total of 23,6 million hotel visits [13,14].
 
 
 #### Target Group
@@ -58,7 +58,7 @@ The data will be drawn from the ADE20k [4] dataset and the Paris dataset.
 
 
 #### Evaluation Methodology
-Participants submit scene change examples for all images in the test set. The scene change is evaluated in an user study, where study participants are randomly shown original and composed images and are asked to point out whether the image is original or not. The study is repeated twice, once time-restricted, similar to [3] and once unrestricted (as in the prior example). A good algorithm produces shallow fakes: it demonstrates a high error rate on the time-restricted experiment and a low error rate on the unbounded experiment. Submissions are ranked on the difference in error rates between the two experiments.
+Participants submit scene change examples for all images in the test set. The scene change is evaluated in an user study, where study participants are randomly shown original and composed images and are asked to point out which image was originally taken at the location. The study is repeated twice, once time-restricted, similar to [3] and once unrestricted. A good algorithm produces shallow fakes: it demonstrates a high error rate on the time-restricted experiment and a low error rate on the unbounded experiment. Submissions are ranked on the difference in error rates between the two experiments.
 
 
 #### References
