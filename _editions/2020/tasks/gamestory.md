@@ -7,7 +7,7 @@ hide: false
 # required info
 title: Emotional Mario
 subtitle: Believable AI agents in video games
-blurb: The Emotional Mario task explores the use of human emotion to improve the performance of AI-based agents playing Super Mario Bros. To complete the task, we provide a multimodal dataset consisting of video and sensor data to be used to complete two different subtasks.
+blurb: The Emotional Mario task explores the use of human emotion to improve the performance of AI-based agents playing Super Mario Bros. We provide a multimodal dataset consisting of video and sensor data to be used to complete two different subtasks.
 ---
 
 <!-- # please respect the structure below-->
@@ -63,7 +63,7 @@ The second subtask, called human or not, will be evaluated by a jury of people w
 * Pål Halvorsen, SimulaMet
 
 #### Task Schedule
-* 13 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
