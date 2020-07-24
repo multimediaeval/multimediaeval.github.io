@@ -16,7 +16,7 @@ blurb: Participants are provided with a set of videos of table tennis games and 
 #### Task Description
 Participants are provided with a set of videos of table tennis games and are required to build a classification system that automatically labels video segments with the strokes that players can be seen using in those segments. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training.
 
-Action detection and classification is one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes' performances to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many researches benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sport team.  Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue.
+Action detection and classification is one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes' performances to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sport team.  Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue.
 
 This task offers researchers an opportunity to compare their approaches to fine-grained sports Video Annotation by testing them on the task of recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with usual general datasets, like UCF-101 and DeepMind Kinetics.
 
@@ -58,14 +58,9 @@ Jordan Calandre, MIA, University of La Rochelle, La Rochelle, France<br>
 Julien Morlier, IMS, University of Bordeaux, Talence, France<br>
 Laurent Mascarilla, MIA, University of La Rochelle, La Rochelle, France
 
-<!-- # add the email address of the contact organizer-->
-
-
-<!-- #### Task Auxiliaries-->
-<!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
-* 01 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
