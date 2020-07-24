@@ -9,7 +9,8 @@ permalink: /about/
 MediaEval is a benchmarking initiative dedicated to evaluating new algorithms for multimedia access and retrieval. It emphasizes the 'multi' in multimedia and focuses on human and social aspects of multimedia tasks. MediaEval attracts participants who are interested in multimodal approaches to multimedia involving, e.g., speech recognition, multimedia content analysis, music and audio analysis, user-contributed information (tags, tweets), viewer affective response, social networks, temporal and geo-coordinates.
 
 For more information about past years see:
-[SIGMM Records Volume 12, Issue 2, June 2020](https://records.sigmm.org/2020/07/08/mediaeval-multimedia-evaluation-benchmark-tenth-anniversary-and-counting/)
+
+[SIGMM Records Volume 12, Issue 2, June 2020](https://records.sigmm.org/2020/07/08/mediaeval-multimedia-evaluation-benchmark-tenth-anniversary-and-counting/)\\
 [MediaEval 2017 Overview of the Year](https://youtu.be/3eE8A2mC2aw) \\
 [IEEE Multimedia Vol. 24, No. 1, 93-96, 2016 The Benchmarking Initiative for Multimedia Evaluation: MediaEval 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7849098) \\
 [ERCIM News 97, April 2014](http://ercim-news.ercim.eu/en97/events/mediaeval-2013-evaluation-campaign) \\
