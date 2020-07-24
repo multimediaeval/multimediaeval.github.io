@@ -18,7 +18,7 @@ Emotional Mario is structured into two subtasks:
 1. In the first subtask, *Artificial Skill*, participants produce an agent that is able to play Super Mario Bros as well as possible. The goal of this task is for the agent (Mario) to get as far as possible in the game (number of levels beat) with the least amount of lives lost. 
 2. In the second subtask, *Human or Not*, participants of the Emotional Mario task are expected to create an AI that controls Mario throughout the game. We ask participants to submit AIs for two levels of skill: (i) skilled player and (ii) novice player. A jury will then be presented with videos from human players and AIs in a random sequence and has to judge whether the playthrough in the video originates from a skilled or novice player and if they think a human or an AI controls the game, just like in a Turing test. 
 
-Minimizing time and maximizing score and progress has been topic to the Mario AI competition [3]. In the Emotional Mario task, we go beyond these goals and create a more humanlike AI agent that is informed by human emotion. The task provides a data set of videos and sensor readings of people playing Super Mario Bros. Participants use this data set as a source of information about human players' emotional reactions (more information below).
+Minimizing time and maximizing score and progress has been topic to the Mario AI competition [3]. In the Emotional Mario task, we go beyond these goals and create a more humanlike AI agent that is informed by human emotion. The task provides a data set of videos and sensor readings of people playing Super Mario Bros. Participants use this data set as a source of information about human players' emotional reactions.
 
 #### Motivation and Background
 With the rise of deep learning, many large leaps in AI research have been achieved in recent years, such as human-level image recognition or text classification. In tasks like image classification, autonomous driving, or personal assistants, researchers have been able to create believable AI agents that behave like human beings. However, in certain areas, the behavior of AI agents remains far from humanlike. This gap is strikiingly evident with AI agents that are created to play repetitive video games. Human players readily recognize the machine nature of such agents. In the Emotional Mario task, we attempt to address this gap by asking researchers to create more believable AI agents that play one of the most iconic classic video games:  Super Mario Bros. 
@@ -49,8 +49,11 @@ The second subtask, called Human or Not, will be evaluated by a jury of people w
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 [1] Rabin, S. (2014). [Game AI pro: collected wisdom of game AI professionals](http://www.gameaipro.com/). AK Peters/CRC Press.
+
 [2] Berner, C., Brockman, G., Chan, B., Cheung, V., Dębiak, P., Dennison, C., ... & Józefowicz, R. (2019). [Dota 2 with Large Scale Deep Reinforcement Learning](https://arxiv.org/abs/1912.06680).
+
 [3] J. Togelius, S. Karakovskiy and R. Baumgarten, [The 2009 Mario AI Competition](https://ieeexplore.ieee.org/document/5586133), IEEE Congress on Evolutionary Computation, Barcelona, 2010, pp. 1-8, doi:10.1109/CEC.2010.5586133.
+
 [4] Henrik Svoren, Vajira Thambawita, Pål Halvorsen, Petter Jakobsen, Enrique Garcia-Ceja, Farzan Majeed Noori, Hugo L. Hammer, Mathias Lux, Michael Alexander Riegler, and Steven Alexander Hicks. 2020. [Toadstool: A Dataset for Training Emotional Intelligent Machines Playing Super Mario Bros.](https://dl.acm.org/doi/abs/10.1145/3339825.3394939) In Proceedings of the 11th ACM Multimedia Systems Conference (MMSys ’20). Association for Computing Machinery, New York, NY, USA, 309–314.
 
 
