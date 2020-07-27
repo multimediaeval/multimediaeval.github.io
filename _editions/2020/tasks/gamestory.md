@@ -5,7 +5,7 @@ year: 2020
 hide: false
 
 # required info
-title: Emotional Mario: Believable AI agents in video games
+title: "Emotional Mario: Believable AI agents in video games"
 subtitle: 
 blurb: The Emotional Mario task explores the use of human emotion to improve the performance of AI-based agents playing Super Mario Bros. We provide a multimodal dataset consisting of video and sensor data to be used to complete two different subtasks.
 ---
