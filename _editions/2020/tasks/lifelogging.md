@@ -55,27 +55,27 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (pref
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-[1] Sato, T., Dao, M.S., Kuribayashi, K., and Zettsu, K.: SEPHLA: Challenges and Opportunities within Environment – Personal Health Archives, MMM 2018. https://link.springer.com/chapter/10.1007/978-3-030-05710-7_27
+[1] Sato, T., Dao, M.S., Kuribayashi, K., and Zettsu, K.: [SEPHLA: Challenges and Opportunities within Environment – Personal Health Archives](https://link.springer.com/chapter/10.1007/978-3-030-05710-7_27), MMM 2018.
 
-[2] P. Zhao and K. Zettsu, "Decoder Transfer Learning for Predicting Personal Exposure to Air Pollution," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 5620-5629. https://ieeexplore.ieee.org/document/9006604
+[2] P. Zhao and K. Zettsu, [Decoder Transfer Learning for Predicting Personal Exposure to Air Pollution](https://ieeexplore.ieee.org/document/9006604), 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 5620-5629.
 
-[3] N. Nguyen, M. Dao and K. Zettsu, "Complex Event Analysis for Traffic Risk Prediction based on 3D-CNN with Multi-sources Urban Sensing Data," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 1669-1674. https://ieeexplore.ieee.org/abstract/document/9005985
+[3] N. Nguyen, M. Dao and K. Zettsu, [Complex Event Analysis for Traffic Risk Prediction based on 3D-CNN with Multi-sources Urban Sensing Data](https://ieeexplore.ieee.org/abstract/document/9005985), 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 1669-1674.
 
-[4] P. Vo, T. Phan, M. Dao and K. Zettsu, "Association Model between Visual Feature and AQI Rank Using Lifelog Data," 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 4197-4200. https://ieeexplore.ieee.org/document/9005636
+[4] P. Vo, T. Phan, M. Dao and K. Zettsu, [Association Model between Visual Feature and AQI Rank Using Lifelog Data](https://ieeexplore.ieee.org/document/90056360), 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 4197-4200.
 
 [5] Dao, M. S., Zhao, P., Sato, T., Zettsu, K., Dang-Nguyen D. T., Gurrin, C., Nguyen, N. T.: Overview of MediaEval 2019: Insights for Wellbeing TaskMultimodal Personal Health Lifelog Data Analysis, MediaEval Benchmarking Initiative for Multimedia Evaluation (MediaEval 2019), Antipolis, France (November 2019). 
 
-[6] Song, H., Lane, K. J., Kim, H., Kim, H., Byun, G., Le, M., Choi, Y., Park, C. R., & Lee, J. T. (2019). Association between Urban Greenness and Depressive Symptoms: Evaluation of Greenness Using Various Indicators. International journal of environmental research and public health, 16(2), 173. https://pubmed.ncbi.nlm.nih.gov/30634488/
+[6] Song, H., Lane, K. J., Kim, H., Kim, H., Byun, G., Le, M., Choi, Y., Park, C. R., & Lee, J. T. (2019). [Association between Urban Greenness and Depressive Symptoms: Evaluation of Greenness Using Various Indicators](https://pubmed.ncbi.nlm.nih.gov/30634488/), International journal of environmental research and public health, 16(2), 173. 
 
-[7] Darshan Santani, Salvador Ruiz-Correa, and Daniel Gatica-Perez. 2018. Looking South: Learning Urban Perception in Developing Cities. Trans. Soc. Comput. 1, 3, Article 13 (December 2018), 23 pages. https://dl.acm.org/doi/10.1145/3224182
+[7] Darshan Santani, Salvador Ruiz-Correa, and Daniel Gatica-Perez. 2018. [Looking South: Learning Urban Perception in Developing Cities](https://dl.acm.org/doi/10.1145/3224182), Trans. Soc. Comput. 1, 3, Article 13 (December 2018), 23 pages.
 
-[8] Anh-Vu Mai-Nguyen, Trong-Dat Phan, Anh-Khoa Vo, Van-Luon Tran, Minh-Son Dao, and Koji Zettsu. 2020. BIDAL-HCMUS@LSC2020: An Interactive Multimodal Lifelog Retrieval with Query-to-Sample Attention-based Search Engine. In Proceedings of the Third Annual Workshop on Lifelog Search Challenge (LSC ’20). Association for Computing Machinery, New York, NY, USA, 43–49. https://dl.acm.org/doi/10.1145/3379172.3391722
+[8] Anh-Vu Mai-Nguyen, Trong-Dat Phan, Anh-Khoa Vo, Van-Luon Tran, Minh-Son Dao, and Koji Zettsu. 2020. [BIDAL-HCMUS@LSC2020: An Interactive Multimodal Lifelog Retrieval with Query-to-Sample Attention-based Search Engine](https://dl.acm.org/doi/10.1145/3379172.3391722), In Proceedings of the Third Annual Workshop on Lifelog Search Challenge (LSC ’20). Association for Computing Machinery, New York, NY, USA, 43–49.
 
-[9] Tan-Loc Nguyen-Tai, Dang-Hieu Nguyen, Minh-Tam Nguyen, Thanh-Duong Nguyen, Thanh-Hai Dang, and Minh-Son Dao. 2020. MNR-HCM Data: A Personal Lifelog and Surrounding Environment Dataset in Ho-Chi-Minh City, Viet Nam. In Proceedings of the 2020 Intelligent Cross-Data Analysis and Retrieval Workshop (ICDAR ’20). Association for Computing Machinery, New York, NY, USA, 21–26. https://dl.acm.org/doi/10.1145/3379174.3392320
+[9] Tan-Loc Nguyen-Tai, Dang-Hieu Nguyen, Minh-Tam Nguyen, Thanh-Duong Nguyen, Thanh-Hai Dang, and Minh-Son Dao. 2020. [MNR-HCM Data: A Personal Lifelog and Surrounding Environment Dataset in Ho-Chi-Minh City, Viet Nam](https://dl.acm.org/doi/10.1145/3379174.3392320), In Proceedings of the 2020 Intelligent Cross-Data Analysis and Retrieval Workshop (ICDAR ’20). Association for Computing Machinery, New York, NY, USA, 21–26.
 
-[10] Vahdatpour, M., Sajedi, H. & Ramezani, F. Air pollution forecasting from sky images with shallow and deep classifiers. Earth Sci Inform 11, 413–422 (2018) https://link.springer.com/article/10.1007/s12145-018-0334-x
+[10] Vahdatpour, M., Sajedi, H. & Ramezani, F. [Air pollution forecasting from sky images with shallow and deep classifiers](https://link.springer.com/article/10.1007/s12145-018-0334-x), Earth Sci Inform 11, 413–422 (2018).
 
-#### Task Organizers
+#### Task Organizers,
 Minh-Son Dao (NICT, Japan) dao (at) nict.go.jp
 
 Peijiang Zhao (NICT, Japan) dlzpj (at) nict.go.jp
