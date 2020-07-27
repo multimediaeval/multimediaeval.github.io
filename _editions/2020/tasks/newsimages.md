@@ -5,8 +5,8 @@ year: 2020
 hide: false
 
 # required info
-title: NewsImages
-subtitle: The relation between images and text in news articles
+title: "NewsImages: The role of images in online news"
+subtitle: 
 blurb: Images play an important role in online news articles and news consumption patterns. This task aims to achieve additional insight about this role. Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images. The task requires participants to predict which image was used to accompany each article and also predict frequently clicked articles on the basis of accompanying images. 
 ---
 
