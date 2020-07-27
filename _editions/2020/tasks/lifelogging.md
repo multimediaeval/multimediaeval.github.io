@@ -5,8 +5,8 @@ year: 2020
 hide: false
 
 # required info
-title: Insight for Wellbeing
-subtitle: Multimodal personal health lifelog data analysis
+title: "Insight for Wellbeing: Multimodal personal health lifelog data analysis"
+subtitle: 
 blurb: The quality of the air that we breathe as individuals as we go about our daily lives is important for health and wellbeing, However, measuring personal air quality remains a challenge. This task investigates the prediction of personal air quality using open data or data from lifelogs. The data includes images, tags, physiological data, and sensor readings.
 ---
 
