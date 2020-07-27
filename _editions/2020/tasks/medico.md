@@ -50,7 +50,7 @@ By registering this challenge, each individual or team agrees to use only the pr
 
 3. T. Ross et al. 2020. [Robust Medical Instrument Segmentation Challenge 2019](https://arxiv.org/abs/2003.10299), arXiv preprint.
 
-4. M. Alan et al. 2019. [2017 Robotic Instrument Segmentation Challenge],(https://arxiv.org/abs/1902.06426) arXiv preprint.
+4. M. Alan et al. 2019. [2017 Robotic Instrument Segmentation Challenge](https://arxiv.org/abs/1902.06426), arXiv preprint.
 
 
 #### Task Organizers
