@@ -5,8 +5,8 @@ year: 2020
 hide: false
 
 # required info
-title: Pixel Privacy
-subtitle: Quality Camouflage for Social Images
+title: "Pixel Privacy: Quality Camouflage for Social Images"
+subtitle: 
 blurb: In this task, participants develop adversarial approaches that camouflage the quality of images. A camouflaged image appears to be unchanged, or even enhanced, to the human eye. At the same time, the image will fool a Blind Image Quality Assessment algorithm into predicting that its quality is low. Quality camouflage will help to ensure that personal photos, e.g., vacation photos depicting people, are less easily findable via image search engines.
 ---
 
