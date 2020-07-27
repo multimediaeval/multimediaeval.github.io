@@ -5,7 +5,7 @@ year: 2020
 hide: false
 
 # required info
-title: FakeNews 
+title: FakeNews: Corona virus and 5G conspiracy 
 subtitle: Corona virus and 5G conspiracy
 blurb: "Spontaneous and intentional digital Fake News wildfires over on-line social media can be as dangerous as natural fires. A new generation of data mining and analysis algorithms is required for early detection and tracking of information waves. This task focuses on the analysis of tweets around Coronavirus and 5G conspiracy theories in order to detect misinformation spreaders."
 ---
