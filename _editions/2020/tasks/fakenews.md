@@ -36,21 +36,30 @@ The ground truth is created by manual annotation of the collected tweets based o
 
 
 #### References and recommended reading
+
 ***General***
-1. Nyhan, Brendan, and Jason Reifler. 2015. [Displacing misinformation about events: An experimental test of causal corrections]. Journal of Experimental Political Science 2, no. 1, 81-93.
+
+[1] Nyhan, Brendan, and Jason Reifler. 2015. [Displacing misinformation about events: An experimental test of causal corrections](https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/displacing-misinformation-about-events-an-experimental-test-of-causal-corrections/69550AB61F4E3F7C2CD03532FC740D05#). Journal of Experimental Political Science 2, no. 1, 81-93.
 
 ***Twitter data collection and analysis***
-2. Schroeder, Daniel Thilo, Konstantin Pogorelov, and Johannes Langguth. 2019. [FACT: a Framework for Analysis and Capture of Twitter Graphs]. In 2019 Sixth International Conference on Social Networks Analysis, Management and Security (SNAMS), IEEE, 134-141.
-3. Achrekar, Harshavardhan, Avinash Gandhe, Ross Lazarus, Ssu-Hsin Yu, and Benyuan Liu. 2011. [Predicting flu trends using twitter data]. In 2011 IEEE conference on computer communications workshops (INFOCOM WKSHPS), IEEE, 702-707.
-4. Chen, Emily, Kristina Lerman, and Emilio Ferrara. 2020. [Covid-19: The first public coronavirus twitter dataset]. arXiv preprint arXiv:2003.07372.
-5. Kouzy, Ramez, Joseph Abi Jaoude, Afif Kraitem, Molly B. El Alam, Basil Karam, Elio Adib, Jabra Zarka, Cindy Traboulsi, Elie W. Akl, and Khalil Baddour. 2020. [Coronavirus goes viral: quantifying the COVID-19 misinformation epidemic on Twitter]. Cureus 12, no. 3.
+
+[2] Schroeder, Daniel Thilo, Konstantin Pogorelov, and Johannes Langguth. 2019. [FACT: a Framework for Analysis and Capture of Twitter Graphs](https://ieeexplore.ieee.org/document/8931870). In 2019 Sixth International Conference on Social Networks Analysis, Management and Security (SNAMS), IEEE, 134-141.
+
+[3] Achrekar, Harshavardhan, Avinash Gandhe, Ross Lazarus, Ssu-Hsin Yu, and Benyuan Liu. 2011. [Predicting flu trends using twitter data](https://ieeexplore.ieee.org/document/5928903). In 2011 IEEE conference on computer communications workshops (INFOCOM WKSHPS), IEEE, 702-707.
+
+[4] Chen, Emily, Kristina Lerman, and Emilio Ferrara. 2020. [Covid-19: The first public coronavirus twitter dataset](https://arxiv.org/abs/2003.07372v1?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+CoronavirusArXiv+%28Coronavirus+Research+at+ArXiv%29). arXiv preprint arXiv:2003.07372.
+
+[5] Kouzy, Ramez, Joseph Abi Jaoude, Afif Kraitem, Molly B. El Alam, Basil Karam, Elio Adib, Jabra Zarka, Cindy Traboulsi, Elie W. Akl, and Khalil Baddour. 2020. [Coronavirus goes viral: quantifying the COVID-19 misinformation epidemic on Twitter](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7152572/). Cureus 12, no. 3.
 
 ***Natural language processing***
-6. Bourgonje, Peter, Julian Moreno Schneider, and Georg Rehm. 2017. [From clickbait to fake news detection: an approach based on detecting the stance of headlines to articles]. In Proceedings of the 2017 EMNLP Workshop: Natural Language Processing meets Journalism, 84-89.
-7. Imran, Muhammad, Prasenjit Mitra, and Carlos Castillo. 2016. [Twitter as a lifeline: Human-annotated twitter corpora for NLP of crisis-related messages]. arXiv preprint arXiv:1605.05894.
+
+[6] Bourgonje, Peter, Julian Moreno Schneider, and Georg Rehm. 2017. [From clickbait to fake news detection: an approach based on detecting the stance of headlines to articles](https://www.aclweb.org/anthology/W17-4215/). In Proceedings of the 2017 EMNLP Workshop: Natural Language Processing meets Journalism, 84-89.
+
+[7] Imran, Muhammad, Prasenjit Mitra, and Carlos Castillo. 2016. [Twitter as a lifeline: Human-annotated twitter corpora for NLP of crisis-related messages](https://arxiv.org/abs/1605.05894). arXiv preprint arXiv:1605.05894.
 
 ***Information spreading***
-8. Liu, Chuang, Xiu-Xiu Zhan, Zi-Ke Zhang, Gui-Quan Sun, and Pak Ming Hui. 2015. [How events determine spreading patterns: information transmission via internal and external influences on social networks]. New Journal of Physics 17, no. 11.
+
+[8] Liu, Chuang, Xiu-Xiu Zhan, Zi-Ke Zhang, Gui-Quan Sun, and Pak Ming Hui. 2015. [How events determine spreading patterns: information transmission via internal and external influences on social networks](https://iopscience.iop.org/article/10.1088/1367-2630/17/11/113045/pdf). New Journal of Physics 17, no. 11.
 
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
