@@ -31,7 +31,6 @@ Data is composed of 6,000 short videos retrieved from TRECVid 2019 Video to Text
 
 #### Help for Annotations
 We need more annotations for the dataset. We kindly ask for your help to get more annotations. Please visit the [link](https://annotator.uk/mediaeval/index.php) and participate in the funny game to contribute to the dataset. Thanks in advance for your contribution.
-Link: https://annotator.uk/mediaeval/index.php
 
 #### Evaluation Methodology
 The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
