@@ -29,6 +29,10 @@ Researchers will find this task interesting if they work in the areas of human p
 #### Data
 Data is composed of 6,000 short videos retrieved from TRECVid 2019 Video to Text dataset [1]. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [2], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.
 
+#### Help for Annotations
+We need more annotations for the dataset. We kindly ask for your help to get more annotations. Please visit the [link](https://annotator.uk/mediaeval/index.php) and participate in the funny game to contribute to the dataset. Thanks in advance for your contribution.
+Link: https://annotator.uk/mediaeval/index.php
+
 #### Evaluation Methodology
 The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
 
@@ -67,7 +71,7 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 * Jon Chamberlain, University of Essex, UK
 
 #### Task Schedule
-* 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 21 August: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 15 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
