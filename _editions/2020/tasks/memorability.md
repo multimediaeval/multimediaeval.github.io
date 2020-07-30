@@ -11,7 +11,8 @@ blurb: "The task requires participants to automatically predict memorability sco
 ---
 
 <!-- # please respect the structure below-->
-
+#### Help for Annotations
+We need more annotations for the dataset. We kindly ask for your help to get more annotations. Please visit the [link](https://annotator.uk/mediaeval/index.php) and participate in the funny game to contribute to the dataset. Thanks in advance for your contribution.
 
 #### Task Description
 Media platforms such as social networks, media advertisement, information retrieval and recommendation systems deal with exponentially growing data day after day. Enhancing the relevance of multimedia occurrences in our everyday life requires new ways to organize – in particular, to retrieve – digital content. Like other metrics of video importance, such as aesthetics or interestingness, memorability can be regarded as useful to help make a choice between competing videos. This is even truer when one considers the specific use cases of creating commercials or creating educational content. Because the impact of different multimedia content, images or videos, on human memory is unequal, the capability of predicting the memorability level of a given piece of content is obviously of high importance for professionals in the field of advertising. Beyond advertising, other applications, such as filmmaking, education, content retrieval, etc., may also be impacted by the proposed task.
@@ -28,9 +29,6 @@ Researchers will find this task interesting if they work in the areas of human p
 
 #### Data
 Data is composed of 6,000 short videos retrieved from TRECVid 2019 Video to Text dataset [1]. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [2], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.
-
-#### Help for Annotations
-We need more annotations for the dataset. We kindly ask for your help to get more annotations. Please visit the [link](https://annotator.uk/mediaeval/index.php) and participate in the funny game to contribute to the dataset. Thanks in advance for your contribution.
 
 #### Evaluation Methodology
 The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
