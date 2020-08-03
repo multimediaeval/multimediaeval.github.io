@@ -65,7 +65,8 @@ Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen,
 <!-- # add the email address of the contact organizer-->
 <p>Zhuoran Liu, Radboud University, Netherlands, z.liu (at) cs.ru.nl<br />
 Zhengyu Zhao, Radboud University, Netherlands<br />
-Martha Larson, Radboud University, Netherlands</p>
+Martha Larson, Radboud University, Netherlands<br />
+Laurent Amsaleg, CNRS-IRISA, France</p>
 
 
 
