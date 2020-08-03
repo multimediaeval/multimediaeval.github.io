@@ -11,7 +11,7 @@ blurb: In this task, participants develop adversarial approaches that camouflage
 ---
 
 <!-- # please respect the structure below-->
-
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 High-quality images shared online can be misappropriated for promotional goals. In this task, participants work to defeat an automatic image quality classifier, which effectively hides images.
