@@ -11,7 +11,7 @@ blurb: Participants are provided with a set of videos of table tennis games and 
 ---
 
 <!-- # please respect the structure below-->
-
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 Participants are provided with a set of videos of table tennis games and are required to build a classification system that automatically labels video segments with the strokes that players can be seen using in those segments. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training.
