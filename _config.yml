@@ -1,16 +1,16 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: ""
+url: "https://multimediaeval.github.io"
 title: "MediaEval Benchmark" # site's title
 description: "MediaEval Benchmarking Initiative Multimedia Evaluation" # used by search engines
-image: /assets/img/twitter-card.png
+image: "/assets/img/twitter-card.png"
 
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      image: /assets/img/twitter-card.png # seo tag
+      image: "/assets/img/twitter-card.png" # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
