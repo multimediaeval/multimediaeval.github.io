@@ -117,4 +117,4 @@ exclude: [
 collections:
   editions:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path
