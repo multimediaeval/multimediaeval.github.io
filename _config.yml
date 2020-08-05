@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: ""
+url: "https://multimediaeval.github.io/"
 title: "MediaEval Benchmark" # site's title
 description: "MediaEval Benchmarking Initiative Multimedia Evaluation" # used by search engines
 defaults:
