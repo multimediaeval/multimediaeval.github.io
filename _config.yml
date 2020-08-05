@@ -8,12 +8,12 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      image: assets/img/mediaeval-white.png # seo tag
+      image: /assets/img/twitter-card.png # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  avatar: assets/img/mediaeval-white.png
+  avatar: assets/img/mediaeval-favicon.png
   color_image: /assets/img/lineart.png # In post when you set color
   favicon: assets/img/mediaeval-favicon.png
 
