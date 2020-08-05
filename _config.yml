@@ -3,6 +3,7 @@ baseurl: "/"
 url: ""
 title: "MediaEval Benchmark" # site's title
 description: "MediaEval Benchmarking Initiative Multimedia Evaluation" # used by search engines
+image: /assets/img/twitter-card.png
 
 defaults:
   -
