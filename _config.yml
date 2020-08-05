@@ -43,7 +43,7 @@ theme_settings:
   wordpress:
   youtube:
 
-  # Sharing options
+  # Sharing options none
   share_buttons:
     facebook:
     twitter:
