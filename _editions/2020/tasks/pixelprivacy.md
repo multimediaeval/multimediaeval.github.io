@@ -58,6 +58,7 @@ Pixel Privacy Task. 2018. Working Notes Proceedings of the MediaEval 2018 Worksh
 
 Nilaksh Das, Madhuri Shanbhogue, Shang-Tse Chen, Fred Hohman, Siwei Li, Li Chen, Michael E. Kounavis, and Duen Horng Chau. 2018. [SHIELD: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression](https://dl.acm.org/doi/10.1145/3219819.3219910). In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD ’18). Association for Computing Machinery, New York, NY, USA, 196–204.
 
+Zhengyu Zhao, Zhuoran Liu, and Martha Larson. 2020. [Adversarial Color Enhancement: Generating Unrestricted Adversarial Images by Optimizing a Color Filter](https://arxiv.org/abs/2002.01008). In Proceedings of the 31th British Machine Vision Conference (BMVC '20).
 
 <!-- # add a note to check out Pixel Privacy in past proceedings; also think about some other references-->
 
