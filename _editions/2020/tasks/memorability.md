@@ -11,6 +11,8 @@ blurb: "The task requires participants to automatically predict memorability sco
 ---
 
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
+
 #### Help for Annotations
 We need more annotations for the dataset. We kindly ask for your help to get more annotations. Please visit the [link](https://annotator.uk/mediaeval/index.php) and participate in the funny game to contribute to the dataset. Thanks in advance for your contribution.
 
