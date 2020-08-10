@@ -13,7 +13,7 @@ blurb: "The fight against colorectal cancer requires better diagnosis tools. Com
 <!-- # please respect the structure below-->
 
 #### Challenge Description
-The "Medico automatic polyp segmentation task" aims to develop computer-aided diagnosis systems for automatic polyp segmentation to detect all types of polyps (for example, irregular polyp, smaller or flat polyps) with high efficiency and accuracy. The main goal of the challenge is to benchmark semantic segmentation algorithms on a publicly available dataset, emphasizing robustness, speed, and generalization.
+The "Medico automatic polyp segmentation challenge" aims to develop computer-aided diagnosis systems for automatic polyp segmentation to detect all types of polyps (for example, irregular polyp, smaller or flat polyps) with high efficiency and accuracy. The main goal of the challenge is to benchmark semantic segmentation algorithms on a publicly available dataset, emphasizing robustness, speed, and generalization.
 
 Participants will get access to a dataset consisting of 1,000 segmented polyp images from the gastrointestinal tract and a separate testing dataset. The challenge consists of two mandatory tasks, each focused on a different requirement for efficient polyp detection. We hope that this task encourages multimedia researchers to apply their vast knowledge to the medical field and make an impact that may affect real lives.
 
@@ -31,7 +31,7 @@ Colonoscopy is currently the gold-standard medical procedure for examining the c
 The task is of interest to the researchers working with multimedia segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.  
 
 #### Data
-The dataset contains 1,000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from https://datasets.simula.no/kvasir-SEG/. 
+The dataset contains 1,000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from [https://datasets.simula.no/kvasir-seg/](https://datasets.simula.no/kvasir-seg/). 
 
 #### Evaluation Methodology
 The task will use mean Intersection over Union (mIoU) or Jaccard index as an evaluation metric, which is a standard metric for all medical segmentation task. If the teams have the same mIoU values, then the teams will be further evaluated on the basis of the higher value of the dice coefficient. The submissions will be verified by inspecting the corresponding docker image. If you have a problem with submitting the docker image, we are flexible to accept a zip file that contains the predicted mask for task 1. 
@@ -50,7 +50,7 @@ By registering this challenge, each individual or team agrees to use only the pr
 
 3. Tobias Ross et al. 2020. [Robust Medical Instrument Segmentation Challenge 2019](https://arxiv.org/abs/2003.10299), arXiv preprint.
 
-4. Sharib Ali et al. 2020. [An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy (https://www.nature.com/articles/s41598-020-59413-5.pdf), Scientific Reports.
+4. Sharib Ali et al. 2020. [An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy](https://www.nature.com/articles/s41598-020-59413-5.pdf), Scientific Reports.
 
 
 #### Task Organizers
