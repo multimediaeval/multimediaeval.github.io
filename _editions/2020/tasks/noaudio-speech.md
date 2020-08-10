@@ -11,7 +11,7 @@ blurb: "Participants receive videos (top view) and sensor readings (acceleration
 ---
 
 <!-- # please respect the structure below-->
-
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 

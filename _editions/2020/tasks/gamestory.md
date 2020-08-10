@@ -11,6 +11,7 @@ blurb: The Emotional Mario task explores the use of human emotion to improve the
 ---
 
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 Emotional Mario is structured into two subtasks:

@@ -11,9 +11,10 @@ blurb: "The fight against colorectal cancer requires better diagnosis tools. Com
 ---
 
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Challenge Description
-The "Medico automatic polyp segmentation task" aims to develop computer-aided diagnosis systems for automatic polyp segmentation to detect all types of polyps (for example, irregular polyp, smaller or flat polyps) with high efficiency and accuracy. The main goal of the challenge is to benchmark semantic segmentation algorithms on a publicly available dataset, emphasizing robustness, speed, and generalization.
+The "Medico automatic polyp segmentation challenge" aims to develop computer-aided diagnosis systems for automatic polyp segmentation to detect all types of polyps (for example, irregular polyp, smaller or flat polyps) with high efficiency and accuracy. The main goal of the challenge is to benchmark semantic segmentation algorithms on a publicly available dataset, emphasizing robustness, speed, and generalization.
 
 Participants will get access to a dataset consisting of 1,000 segmented polyp images from the gastrointestinal tract and a separate testing dataset. The challenge consists of two mandatory tasks, each focused on a different requirement for efficient polyp detection. We hope that this task encourages multimedia researchers to apply their vast knowledge to the medical field and make an impact that may affect real lives.
 
@@ -25,13 +26,13 @@ The participants are invited to submit the results on the following tasks:
 2) Algorithm efficiency task (required)  - The algorithm efficiency task is similar to task one but puts a stronger emphasis on the algorithm's speed in terms of frames-per-second. To ensure a fair evaluation, **this task requires participants to submit a Docker image** so that all algorithms are evaluated on the same hardware. 
 
 #### Motivation and Background
-Colonoscopy is currently the gold-standard medical procedure for examining the colon for lesions and other abnormalities such as cancer. Colorectal cancer (CRC) is the third most prevailing strain in terms of cancer incidence and second in terms of mortality globally. As early detection is critical for patient survival, regular screening through colonoscopy is a prerequisite for cancer detection and colorectal cancer prevention. Regardless of the success of colonoscopy, it is still estimated to miss around 6-27% of polyps. This is mostly due to the heavy reliance on the skill of the clinician operating the endoscope and his/her ability to detect polyps. An automated computer-aided diagnosis (CAD) system could be one of the potential solutions for the overlooked polyps. Such detection or surveillance systems can give doctors a so-called "third-eye", thereby alerting them of missed polyps or other common lesions.
+Colonoscopy is currently the gold-standard medical procedure for examining the colon for lesions and other abnormalities such as cancer. Colorectal cancer (CRC) is the third most prevailing strain in terms of cancer incidence and second in terms of mortality globally. As early detection is critical for patient survival, regular screening through colonoscopy is a prerequisite for cancer detection and colorectal cancer prevention. Regardless of the success of colonoscopy, it is still estimated to miss around 20% of polyps. This is mostly due to the heavy reliance on the skill of the clinician operating the endoscope and his/her ability to detect polyps. An automated computer-aided diagnosis (CAD) system could be one of the potential solutions for the overlooked polyps. Such detection or surveillance systems can give doctors a so-called "third-eye", thereby alerting them of missed polyps or other common lesions.
 
 #### Target Group
 The task is of interest to the researchers working with multimedia segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.  
 
 #### Data
-The dataset contains 1,000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from https://datasets.simula.no/kvasir/. 
+The dataset contains 1,000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from [https://datasets.simula.no/kvasir-seg/](https://datasets.simula.no/kvasir-seg/). 
 
 #### Evaluation Methodology
 The task will use mean Intersection over Union (mIoU) or Jaccard index as an evaluation metric, which is a standard metric for all medical segmentation task. If the teams have the same mIoU values, then the teams will be further evaluated on the basis of the higher value of the dice coefficient. The submissions will be verified by inspecting the corresponding docker image. If you have a problem with submitting the docker image, we are flexible to accept a zip file that contains the predicted mask for task 1. 
@@ -48,9 +49,9 @@ By registering this challenge, each individual or team agrees to use only the pr
 
 2. Debesh Jha, Pia H. Smedsrud, Michael A. Riegler, Pål Halvorsen, Thomas de Lange, Dag Johansen, and Håvard D. Johansen. 2019. [Resunet++: An advanced architecture for medical image segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8959021), In International Symposium on Multimedia (ISM),  225-2255.
 
-3. T. Ross et al. 2020. [Robust Medical Instrument Segmentation Challenge 2019](https://arxiv.org/abs/2003.10299), arXiv preprint.
+3. Tobias Ross et al. 2020. [Robust Medical Instrument Segmentation Challenge 2019](https://arxiv.org/abs/2003.10299), arXiv preprint.
 
-4. M. Alan et al. 2019. [2017 Robotic Instrument Segmentation Challenge](https://arxiv.org/abs/1902.06426), arXiv preprint.
+4. Sharib Ali et al. 2020. [An objective comparison of detection and segmentation algorithms for artefacts in clinical endoscopy](https://www.nature.com/articles/s41598-020-59413-5.pdf), Scientific Reports.
 
 
 #### Task Organizers

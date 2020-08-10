@@ -9,8 +9,9 @@ title: "FakeNews: Corona virus and 5G conspiracy"
 subtitle: Corona virus and 5G conspiracy
 blurb: "Spontaneous and intentional digital Fake News wildfires over on-line social media can be as dangerous as natural fires. A new generation of data mining and analysis algorithms is required for early detection and tracking of information waves. This task focuses on the analysis of tweets around Coronavirus and 5G conspiracy theories in order to detect misinformation spreaders."
 ---
-<!-- # please respect the structure below-->
 
+<!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 The Fake News Detection Task 2020 offers two Fake News Detection subtasks on COVID-19 and 5G conspiracy topics. The first subtask includes NLP-based Fake News Detection while the second subtask targets the detection of abnormal spreading patterns. Both tasks are related to misinformation disseminated in the context of the COVID-19 crisis. More specifically, misinformation claims that the construction of the 5G network and the associated electromagnetic radiation trigger the SARS-CoV-2 virus. 
