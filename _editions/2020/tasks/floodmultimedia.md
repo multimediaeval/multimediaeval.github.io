@@ -10,8 +10,8 @@ subtitle: Flood classification in social multimedia for Northeastern Italy
 blurb: Floods are one of the most common natural disasters that occur on our planet, and the destruction they cause is enormous. In this task, the participants receive a set of Twitter posts (tweets), including text, images, and other metadata, and are asked to automatically identify which posts are truly relevant to flooding incidents in the specific area of Northeastern Italy. The ground truth labels have been created by experts in flood risk management. The ultimate aim of this task is to develop technology that will support experts in flood disaster management.
 ---
 
-
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 The Flood-related Multimedia Task tackles the analysis of social multimedia from Twitter for flooding events. In this task, the participants receive a set of Twitter posts (tweets) and their associated images, which contain keywords related to floods in a specific area of interest, specifically, the Eastern Alps partition in Northeastern (NE) Italy. However, the relevance of the tweets to actual flooding incidents in that area is ambiguous. The objective of the task is to build an information retrieval system or a classifier that is able to distinguish whether or not a tweet is relevant to a flooding event in the examined area. 
