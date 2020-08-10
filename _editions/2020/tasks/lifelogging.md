@@ -11,6 +11,7 @@ blurb: The quality of the air that we breathe as individuals as we go about our 
 ---
 
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 Task participants create systems that derive insights from multimodal lifelog data that are important for health and wellbeing. The first dataset, namely "personal air quality data" (PAQD), includes air pollution data (PM2.5, O3, and NO2) and lifelog data (e.g., physiological data, tags, and images) collected by using sensors boxes, lifelog cameras, and smartphones along the predefined routes in a city. The second dataset, namely "global air quality data" (GAQD), includes weather and air pollution data collected over the city and provided by the government and crawled from related websites.
