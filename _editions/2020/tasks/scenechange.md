@@ -11,7 +11,7 @@ blurb: "Tourist photography is due for a makeover, as people increasingly avoid 
 ---
 
 <!-- # please respect the structure below-->
-
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 The MediaEval 2020 Scene Change Task is interested in exploring fun faux photo’s, images that fool you at first, but can be identified as an imitation on closer inspection. Task participants are provided with images of people (as a “foreground segment”) and are asked to change the background scene to Paris. We call this switch “scene change”.
