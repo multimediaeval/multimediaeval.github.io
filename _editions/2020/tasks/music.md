@@ -11,6 +11,7 @@ blurb: We invite the participants to try their skills in building a classifier t
 ---
 
 <!-- # please respect the structure below-->
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 
