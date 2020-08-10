@@ -11,7 +11,7 @@ blurb: Images play an important role in online news articles and news consumptio
 ---
 
 <!-- # please respect the structure below-->
-
+*See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### Task Description
 News articles use both text and images to communicate their message. The overall goal of this task is to better understand the relationship the textual content of the articles (including text body, and headlines) and to understand the impact of these elements on readers’ interest in the news (measured by the number of views)
