@@ -37,7 +37,7 @@ The task is formulated into two straightforward subtasks that participants can a
 This task targets researchers who are interested in the connection between images and text and images and user consumption behavior. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.
 
 #### Data
-The data set is a large collection of news articles from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
+The data set is a large collection of news articles (ca. 10k-15k) from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
 
 #### Evaluation Methodology
 ##### Task 1: Image-Text Re-Matching
