@@ -35,7 +35,7 @@ The task is of interest to the researchers working with multimedia segmentation,
 The dataset contains 1,000 polyp images and their corresponding ground truth mask. The datasets were collected from real routine clinical examinations at Vestre Viken Health Trust (VV) in Norway by expert gastroenterologists. The VV is the collaboration of the four hospitals that provide healthcare service to 470,000 peoples. The resolution of images varies from 332✕487 to 1920✕1072 pixels. Some of the images contain green thumbnail in the lower-left corner of the images showing  the position marking from the ScopeGuide (Olympus). The training dataset can be downloaded from [https://datasets.simula.no/kvasir-seg/](https://datasets.simula.no/kvasir-seg/). 
 
 #### Evaluation Methodology
-The task will use mean Intersection over Union (mIoU) or Jaccard index as an evaluation metric, which is a standard metric for all medical segmentation task. If the teams have the same mIoU values, then the teams will be further evaluated on the basis of the higher value of the dice coefficient. The submissions will be verified by inspecting the corresponding docker image. If you have a problem with submitting the docker image, we are flexible to accept a zip file that contains the predicted mask for task 1. 
+The task will use mean Intersection over Union (mIoU) or Jaccard index as an evaluation metric, which is a standard metric for all medical segmentation task. If the teams have the same mIoU values, then the teams will be further evaluated on the basis of the higher value of the dice coefficient. The submissions will be verified by inspecting the corresponding docker image. If you have a problem with submitting the docker image, we are flexible to accept a zip file that contains the predicted mask for task 1. We strongly recommend calculating other standard evaluation metrics such as dice coefficient, precision, recall, F2, and frame per second (FPS) for a comprehensive evaluation. 
 
 #### Rules
 By registering this challenge, each individual or team agrees to use only the provided dataset. After the challenge, the dataset test dataset will be made available and the authors can only use it for publication or any non-commercial use. A participating team will be allowed to make a maximum of 5 submissions. The test data can not be used while training the model. The results will be evaluated by the organizers and presented at MediaEval 2020. 
@@ -69,6 +69,7 @@ By registering this challenge, each individual or team agrees to use only the pr
 
 #### Task Schedule
 * 01 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 01 September: Test Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
