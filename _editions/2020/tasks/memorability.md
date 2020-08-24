@@ -62,7 +62,7 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 * Faiyaz Doctor, &lt;fdocto(at)essex.ac.uk;, University of Essex, UK
 * Mihai Gabriel Constantin, &lt;cmihaigabriel(at)gmail.com, University Politehnica of Bucharest, Romania
 * Bogdan Ionescu, University Politehnica of Bucharest, Romania
-* Alan Smeaton, Graham Healy, Dublin City University, Ireland
+* Alan Smeaton, Dublin City University, Ireland
 * Claire-Hélène Demarty, InterDigital, R&I, France
 
 #### Task auxiliaries
@@ -70,7 +70,7 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 * Jon Chamberlain, University of Essex, UK
 
 #### Task Schedule
-* 21 August: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
+* ~~21~~ 31 August: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * 15 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
 * 15 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
