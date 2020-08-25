@@ -38,6 +38,7 @@ This task targets researchers who are interested in the connection between image
 
 #### Data
 The data set is a large collection of news articles (ca. 10k-15k) from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
+In order to simplify the image analysis, we provide image annotations computed using standard image annotation models (e.g. VGG19) trained on image net. Details about the provided image annoations can be found in the description of the [Multi-Media Recommendation task 2019](http://www.dai-labor.de/fileadmin/Files/Publikationen/Buchdatei/MultiMediaRec2019.pdf) (Section 3.2 - Data).
 
 #### Evaluation Methodology
 ##### Task 1: Image-Text Re-Matching
