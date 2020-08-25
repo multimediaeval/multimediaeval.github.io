@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-08-24T18:32:51+00:00" />
+<meta property="article:published_time" content="2020-08-25T13:32:28+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"NewsImages: The role of images in online news","dateModified":"2020-08-24T18:32:51+00:00","datePublished":"2020-08-24T18:32:51+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2020/tasks/newsimages/"},"description":"See the MediaEval 2020 webpage for information on how to register and participate.","url":"https://multimediaeval.github.io/editions/2020/tasks/newsimages/","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"NewsImages: The role of images in online news","dateModified":"2020-08-25T13:32:28+00:00","datePublished":"2020-08-25T13:32:28+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2020/tasks/newsimages/"},"description":"See the MediaEval 2020 webpage for information on how to register and participate.","url":"https://multimediaeval.github.io/editions/2020/tasks/newsimages/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -184,7 +184,8 @@
 <p>This task targets researchers who are interested in the connection between images and text and images and user consumption behavior. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.</p>
 
 <h4 id="data">Data</h4>
-<p>The data set is a large collection of news articles (ca. 10k-15k) from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.</p>
+<p>The data set is a large collection of news articles (ca. 10k-15k) from a German publisher that publishes news article recommendations on its website. Each article consists of a headline and a text snippet (first 256 characters) plus the link to download the accompanying image. The data is split into a training set (ground truth provided) and a test set. Participants must crawl their own images. To strictly ensure fair comparison, the final test set will include the test set articles for which all participants could successfully access the images.
+In order to simplify the image analysis, we provide image annotations computed using standard image annotation models (e.g. VGG19) trained on image net. Details about the provided image annoations can be found in the description of the <a href="http://www.dai-labor.de/fileadmin/Files/Publikationen/Buchdatei/MultiMediaRec2019.pdf">Multi-Media Recommendation task 2019</a> (Section 3.2 - Data).</p>
 
 <h4 id="evaluation-methodology">Evaluation Methodology</h4>
 <h5 id="task-1-image-text-re-matching-1">Task 1: Image-Text Re-Matching</h5>
