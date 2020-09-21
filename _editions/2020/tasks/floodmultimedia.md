@@ -86,6 +86,6 @@ Patrick Helber, German Research Center for Artificial Intelligence (DFKI), Germa
 
 Workshop will be held online. Exact dates to be announced.
 
-<img src="https://eopen-project.eu/wp-content/uploads/2017/12/cropped-logo3b-1.png" alt="EOPEN Project" width="200"/>
+<img src="https://beaware-project.eu/wp-content/uploads/2017/01/logo.png" alt="beAWARE Project" width="200"/> <img src="https://eopen-project.eu/wp-content/uploads/2017/12/cropped-logo3b-1.png" alt="EOPEN Project" width="200"/> <img src="https://mklab.iti.gr/files/project_logos/aqua3s.png" alt="aqua3S Project" width="200"/>
 
-**Acknowledgment:** [EOPEN project](https://eopen-project.eu/) has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement 776019.
+**Acknowledgment:** This task has been supported by the EU’s Horizon 2020 research and innovation programme under grant agreements H2020-700475 [beAWARE](https://beaware-project.eu/), H2020-776019 [EOPEN](https://eopen-project.eu/) and H2020-832876 [aqua3S](https://aqua3s.eu/).
