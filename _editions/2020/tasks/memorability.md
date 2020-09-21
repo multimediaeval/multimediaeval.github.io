@@ -61,9 +61,9 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 [8] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates](http://campus.pub.ro/lab7/bionescu/index_files/pub/2018_ACM_CSUR-draft.pdf), ACM Computing Surveys, 52(2), 2019.
 
 #### Task organizers
-* Alba García Seco de Herrera, alba.garcia (at) essex.ac.uk;, University of Essex, UK
-* Rukiye Savran Kiziltepe, rs16419 (at) essex.ac.uk;, University of Essex, UK
-* Faiyaz Doctor, fdocto (at) essex.ac.uk;, University of Essex, UK
+* Alba García Seco de Herrera, alba.garcia (at) essex.ac.uk, University of Essex, UK
+* Rukiye Savran Kiziltepe, rs16419 (at) essex.ac.uk, University of Essex, UK
+* Faiyaz Doctor, fdocto (at) essex.ac.uk, University of Essex, UK
 * Mihai Gabriel Constantin, cmihaigabriel (at) gmail.com, University Politehnica of Bucharest, Romania
 * Bogdan Ionescu, University Politehnica of Bucharest, Romania
 * Alan Smeaton, Dublin City University, Ireland
