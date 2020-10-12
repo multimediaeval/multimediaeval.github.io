@@ -14,6 +14,7 @@ blurb: "The task requires participants to automatically predict memorability sco
 *See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### News
+* 12 October: Testing set videos and features have been released
 * 30 September: More annotations for the training set have been released
 
 #### Help for Annotations
