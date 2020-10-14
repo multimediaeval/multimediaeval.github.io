@@ -80,11 +80,11 @@ Patrick Helber, German Research Center for Artificial Intelligence (DFKI), Germa
 #### Task Schedule
 * 31 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
 * ~~23 October~~ 9 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
-* ~~15 November~~ 16 November: Results returned  <!-- Fixed. Please do not change-->
+* 16 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
-* 11, 14-15 December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
+* 11, 14-15 December: MediaEval 2020 Workshop (Fully virtual) <!-- Fixed. Please do not change-->
 
-Workshop will be held online. Exact dates to be announced.
+Workshop will be held online. 
 
 <img src="https://beaware-project.eu/wp-content/uploads/2017/01/logo.png" alt="beAWARE Project" width="200"/> <img src="https://eopen-project.eu/wp-content/uploads/2017/12/cropped-logo3b-1.png" alt="EOPEN Project" width="200"/> <img src="https://mklab.iti.gr/files/project_logos/aqua3s.png" alt="aqua3S Project" width="200"/>
 
