@@ -14,6 +14,7 @@ blurb: "The task requires participants to automatically predict memorability sco
 *See the [MediaEval 2020 webpage](https://multimediaeval.github.io/editions/2020/) for information on how to register and participate.*
 
 #### News
+* 19 October: Latest task schedule published
 * 12 October: Testing set videos and features have been released
 * 30 September: More annotations for the training set have been released
 
@@ -79,8 +80,8 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 
 #### Task Schedule
 * ~~21~~ 31 August: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
-* ~~15~~ 31 October: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
-* 15 November: Results returned  <!-- Fixed. Please do not change-->
+* ~~15~~ ~~31 October~~ 16 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* ~~15~~ 23 November: Results returned  <!-- Fixed. Please do not change-->
 * 30 November: Working notes paper  <!-- Fixed. Please do not change-->
 * Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
 
