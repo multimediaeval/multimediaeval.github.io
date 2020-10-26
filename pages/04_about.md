@@ -6,7 +6,7 @@ permalink: /about/
 ---
 ## What is MediaEval?
 
-MediaEval is a benchmarking initiative dedicated to evaluating new algorithms for multimedia access and retrieval. It emphasizes the 'multi' in multimedia and focuses on human and social aspects of multimedia tasks. MediaEval attracts participants who are interested in multimodal approaches to multimedia involving, e.g., speech recognition, multimedia content analysis, music and audio analysis, user-contributed information (tags, tweets), viewer affective response, social networks, temporal and geo-coordinates.
+MediaEval is a benchmarking initiative dedicated to evaluating new algorithms for multimedia access and retrieval. It emphasizes the 'multi' in multimedia and focuses on human and social aspects of multimedia tasks. Our larger aim is to promote reproducible research that makes multimedia a positive force for society. MediaEval attracts participants who are interested in multimodal approaches to multimedia involving, e.g., speech recognition, multimedia content analysis, music and audio analysis, user-contributed information (tags, tweets), viewer affective response, social networks, temporal and geo-coordinates.
 
 For more information about past years see:
 
@@ -21,23 +21,27 @@ For more information about past years see:
 [SIGMM Records Volume 3, Issue 2, June 2011](http://sigmm.org/records/records1102/featured01.html) \\
 [SIGMM Records Volume 2, Issue 2, June 2010](http://www.sigmm.org/records/records1002/featured03)
 
-## What is the MediaEval Workshop?
+## Who runs MediaEval?
+MediaEval is a community-driven benchmark that is run by the MediaEval organizing committee consisting of the task organizers of all the individual task in a given year. MediaEval tasks are largely autonomous, and each team of task organizers is responsible for running their own tasks.
 
-The culmination of the yearly MediaEval benchmarking cycle is the MediaEval Workshop. The workshop brings together task participants to present their findings, discuss their approaches, learn from each other, and make plans for future work. 
+Two groups work in the background to guide MediaEval and keep it running smoothly.
 
-The MediaEval Workshop co-located itself with ACM Multimedia conferences in 2010, 2013, 2016, 2020 and with the European Conference on Computer Vision in 2012. It was an official satellite event of Interspeech conferences in 2011 and 2015. In 2017, CLEF and MediaEval were held back to back with a overlapping joint session. Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop will take place fully online.
+### The MediaEval Logistics Committee (2020)
+* Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
+* Steven Hicks, SimulaMet, Norway
+* Ngoc-Thanh Nguyen, University of Information Technology, Vietnam
+* Ricardo Manhães Savii
+* With special thanks to Bart Thomee, Verily, US
 
-Each year, the workshop publishes a working notes proceedings containing papers written by the task organizers and task participants. The aims of the MediaEval Working Notes Proceedings are described in more detail [in this paper](http://ceur-ws.org/Vol-1436/Paper90.pdf).
-
-The MediaEval workshop also welcomes attendees who did not participate in specific tasks, but who are interested in multimedia research, or getting involved in MediaEval in the future.
+### The MediaEval Community Council (2020)
+* Martha Larson, Radboud University, Netherlands (Coordinator and contact person)
+* Gareth J. F. Jones, Dublin City University, Dublin, Ireland
+* Bogdan Ionescu, University Politehnica of Bucharest, Romania
 
 ## How can I get involved?
-
 MediaEval is an open initiative, meaning that any interested research group is free to signup and participate. Groups sign up for one or more tasks, they then receive task definitions, data sets and supporting resources, which they use to develop their algorithms. At the very end of the season, groups submit their results and then they attend the MediaEval workshop. See also Why Participate? or watch some video on the [MediaEval video page](http://www.multimediaeval.org/video/index.html).
 
 MediaEval welcomes new task proposals. At the beginning of the year, a call for new task proposals appears. Groups of researchers can propose to organize a new task, or to continue a task organized in past years. Proposing a task requires creating a task organization team, creating a task design (task definition that fits the user scenario, evaluation methodology) and laying the ground work for task logistics (source of data, source of ground truth, evaluation metric). If you have an idea for a task that is not fully developed, you can propose a MediaEval Task Forces, which is a group of people informally working towards a task to be proposed in a future year of MediaEval.
-
-
 
 ## What is a MediaEval task?
 A MediaEval task consists of four parts:
@@ -48,14 +52,22 @@ A MediaEval task consists of four parts:
 
 MediaEval tasks are oriented towards user needs in specific application settings and, to the extent possible, are based on scenarios of use derived from real-world problems.
 
-## How did MediaEval come into being?
-MediaEval is a community-driven benchmark that is run by the MediaEval organizing committee consisting of the task organizers of all the individual task in a given year. 
+## What is the MediaEval Workshop?
 
+The culmination of the yearly MediaEval benchmarking cycle is the MediaEval Workshop. The workshop brings together task participants to present their findings, discuss their approaches, learn from each other, and make plans for future work. 
+
+The MediaEval Workshop co-located itself with ACM Multimedia conferences in 2010, 2013, 2016, 2020 and with the European Conference on Computer Vision in 2012. It was an official satellite event of Interspeech conferences in 2011 and 2015. In 2017, CLEF and MediaEval were held back to back with a overlapping joint session. Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop will take place fully online.
+
+Each year, the workshop publishes a working notes proceedings containing papers written by the task organizers and task participants. The aims of the MediaEval Working Notes Proceedings are described in more detail [in this paper](http://ceur-ws.org/Vol-1436/Paper90.pdf).
+
+The MediaEval workshop also welcomes attendees who did not participate in specific tasks, but who are interested in multimedia research, or getting involved in MediaEval in the future.
+
+## How did MediaEval come into being?
 Martha Larson and Gareth Jones founded MediaEval in 2008 as VideoCLEF, a track in the [CLEF Campaign](http://www.clef-campaign.org/). Martha Larson serves as the overall contact person and the organizing force behind the MediaEval Workshop. 
 
 MediaEval became an independent benchmarking initiative in 2010 under the auspices of the PetaMedia Network of Excellence. In 2011, it also received support from ICT Labs of EIT. Since 2012, MediaEval has run as a fully bottom-up benchmark, in that it is not associated with a single "parent project".
 
-For support over the years we would particularly like to thank the [ELIAS](http://elias-network.eu/) (Evaluating Information Access Systems), an ESF Research Networking Programme, the [ACM SIGIR Special Interest Group on Information Retrieval] (http://sigir.org/), and the [ACM SIGMM Special Interest Group on Multimedia](http://sigmm.org/). We are grateful for the support, especially because it enables us to offer travel grants to students and other researchers in need of support. Please refer to the pages of the individual years for complete lists of supporters. 
+For support over the years we would particularly like to thank the [ELIAS](http://elias-network.eu/) (Evaluating Information Access Systems), an ESF Research Networking Programme, the [ACM SIGIR Special Interest Group on Information Retrieval] (http://sigir.org/), and the [ACM SIGMM Special Interest Group on Multimedia](http://sigmm.org/). We are grateful for the support, specifically, because it enables us to offer travel grants to students and other researchers in need of support. The [Multimedia Computing Group at TU Delft](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing/) has made an important contribution to MediaEval, and we would especially like to thank Saskia Peters. Please refer to the pages of the individual years for complete lists of supporters. 
 
 ### Why participate ?
 
