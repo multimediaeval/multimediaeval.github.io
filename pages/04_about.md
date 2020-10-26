@@ -33,7 +33,29 @@ The MediaEval workshop also welcomes attendees who did not participate in specif
 
 ## How can I get involved?
 
-MediaEval is an open initiative, meaning that any interested research group is free to signup and participate. Groups sign up for one or more tasks, they then receive task definitions, data sets and supporting resources, which they use to develop their algorithms. At the very end of the summer, groups submit their results and in the fall they attend the MediaEval workshop. See also Why Participate? or watch some video on the [MediaEval video page](http://www.multimediaeval.org/video/index.html).
+MediaEval is an open initiative, meaning that any interested research group is free to signup and participate. Groups sign up for one or more tasks, they then receive task definitions, data sets and supporting resources, which they use to develop their algorithms. At the very end of the season, groups submit their results and then they attend the MediaEval workshop. See also Why Participate? or watch some video on the [MediaEval video page](http://www.multimediaeval.org/video/index.html).
+
+MediaEval welcomes new task proposals. At the beginning of the year, a call for new task proposals appears. Groups of researchers can propose to organize a new task, or to continue a task organized in past years. Proposing a task requires creating a task organization team, creating a task design (task definition that fits the user scenario, evaluation methodology) and laying the ground work for task logistics (source of data, source of ground truth, evaluation metric). If you have an idea for a task that is not fully developed, you can propose a MediaEval Task Forces, which is a group of people informally working towards a task to be proposed in a future year of MediaEval.
+
+
+
+## What is a MediaEval task?
+A MediaEval task consists of four parts:
+* Data provided to the benchmark participants,
+* A task definition that describes the problem to be solved,
+* Ground truth against which participants’ algorithms are evaluated,
+* An evaluation metric.
+
+MediaEval tasks are oriented towards user needs in specific application settings and, to the extent possible, are based on scenarios of use derived from real-world problems.
+
+## How did MediaEval come into being?
+MediaEval is a community-driven benchmark that is run by the MediaEval organizing committee consisting of the task organizers of all the individual task in a given year. 
+
+Martha Larson and Gareth Jones founded MediaEval in 2008 as VideoCLEF, a track in the [CLEF Campaign](http://www.clef-campaign.org/). Martha Larson serves as the overall contact person and the organizing force behind the MediaEval Workshop. 
+
+MediaEval became an independent benchmarking initiative in 2010 under the auspices of the PetaMedia Network of Excellence. In 2011, it also received support from ICT Labs of EIT. Since 2012, MediaEval has run as a fully bottom-up benchmark, in that it is not associated with a single "parent project".
+
+For support over the years we would particularly like to thank the [ELIAS](http://elias-network.eu/) (Evaluating Information Access Systems), an ESF Research Networking Programme, the [ACM SIGIR Special Interest Group on Information Retrieval] (http://sigir.org/), and the [ACM SIGMM Special Interest Group on Multimedia](http://sigmm.org/). We are grateful for the support, especially because it enables us to offer travel grants to students and other researchers in need of support. Please refer to the pages of the individual years for complete lists of supporters. 
 
 ### Why participate ?
 
@@ -50,24 +72,3 @@ MediaEval is an open initiative, meaning that any interested research group is f
 **MediaEval is cost effective:** We bundle resources to keep costs low. Participation in MediaEval is free of charge and we are making every effort to make the yearly workshop reasonably priced.
 
 **MediaEval lets you see the world:** MediaEval (previously VideoCLEF) has held events in some pretty interesting places!
-
-## What is a MediaEval task?
-A MediaEval task consists of four parts:
-* Data provided to the benchmark participants,
-* A task definition that describes the problem to be solved,
-* Ground truth against which participants’ algorithms are evaluated,
-* An evaluation metric.
-
-MediaEval tasks are oriented towards user needs in specific application settings and, to the extent possible, are based on scenarios of use derived from real-world problems.
-
-## Who runs MediaEval?
-MediaEval is a community-driven benchmark that is run by the MediaEval organizing committee consisting of the task organizers of all the individual task in a given year. 
-
-Martha Larson and Gareth Jones founded MediaEval in 2008 as VideoCLEF, a track in the [CLEF Campaign](http://www.clef-campaign.org/). Martha Larson serves as the overall contact person and the organizing force behind the MediaEval Workshop. 
-
-MediaEval became an independent benchmarking initiative in 2010 under the auspices of the PetaMedia Network of Excellence. In 2011, it also received support from ICT Labs of EIT. It has also received support from various sources in order to offer student travel grants. Since 2012, MediaEval has run as a fully bottom-up benchmark, in that it is not associated with a single "parent project".
-
-For support over the years we would particularly like to thank the [ELIAS](http://elias-network.eu/) (Evaluating Information Access Systems), an ESF Research Networking Programme, the [ACM SIGIR Special Interest Group on Information Retrieval] (http://sigir.org/), and the [ACM SIGMM Special Interest Group on Multimedia](http://sigmm.org/). Please refer to the pages of the individual years for complete lists of supporters. 
-
-## What is a MediaEval Task Force?
-Proposing a task requires creating a task organization team, creating a task design (task definition that fits the user scenario, evaluation methodology) and laying the ground work for task logistics (source of data, source of ground truth, evaluation metric). MediaEval Task Forces are groups of people informally working towards a task to be proposed in a future year of MediaEval.
