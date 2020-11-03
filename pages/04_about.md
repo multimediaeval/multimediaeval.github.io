@@ -30,7 +30,7 @@ Two groups work in the background to guide MediaEval and keep it running smoothl
 * Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
 * Steven Hicks, SimulaMet, Norway
 * Ngoc-Thanh Nguyen, University of Information Technology, Vietnam
-* Ricardo Manhães Savii
+* Ricardo Manhães Savii, Dafiti Group, Brasil
 * With special thanks to Bart Thomee, Verily, US
 
 #### The MediaEval Community Council (2020)
