@@ -48,6 +48,9 @@ The submissions will be verified by inspecting the corresponding Docker image. I
 #### Rules
 By registering this challenge, each individual or team agrees to use only the provided dataset. After the challenge, the dataset test dataset will be made available and the authors can only use it for publication or any non-commercial use. A participating team will be allowed to make a maximum of 5 submissions. The test data can not be used while training the model. The results will be evaluated by the organizers and presented at MediaEval 2020. 
 
+#### Discord Channel
+To facilitate communication within the participants, we have set up a Discord channel.  You can use this channel for discussion of the challenge or ask questions. Please email debesh@simula.no for the invitation at the Discord. 
+
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
