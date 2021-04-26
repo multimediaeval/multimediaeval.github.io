@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2021
-hide: true  <!-- # change this to false once you finish editing-->
+hide: true 
 
 # required info
-title: GameStory: Emotional Mario
+title: "GameStory: Emotional Mario"
 subtitle: <!-- # leave this blanck-->
-blurb: <!-- # add the task blurb here-->
+blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
 ---
 
 <!-- # please respect the structure below-->
