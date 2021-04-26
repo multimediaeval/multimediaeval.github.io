@@ -40,7 +40,7 @@ Participants should generate predictions for the [test split](https://github.com
 
 The generated outputs for the test dataset will be evaluated according to the following metrics that are commonly used in the evaluation of auto-tagging systems: Macro **ROC-AUC** and **PR-AUC** on tag prediction scores. Leaderboard will be based on PR-AUC.
 
-For reference, [here](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) is the website of the 2019 edition of the task.
+For reference, here are the [2019](https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/) and [2020](https://multimediaeval.github.io/2020-Emotion-and-Theme-Recognition-in-Music-Task/) editions of the task.
 
 
 #### References and recommended reading
@@ -49,19 +49,21 @@ For reference, [here](https://multimediaeval.github.io/2019-Emotion-and-Theme-Re
 
 [1] Dmitry Bogdanov, Minz Won, Philip Tovstogan, Alastair Porter and Xavier Serra. 2019. [The MTG-Jamendo dataset for automatic music tagging](http://mtg.upf.edu/node/3957). Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML 2019).
 
-[2] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2019. [MediaEval 2019: Emotion and Theme Recognition in Music Using Jamendo](https://github.com/multimediaeval/2019-Emotion-and-Theme-Recognition-in-Music-Task/blob/master/jamendo-emotion-theme-task-me19.pdf). MediaEval 2019 Workshop.
+[2] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2019. [MediaEval 2019: Emotion and Theme Recognition in Music Using Jamendo](http://ceur-ws.org/Vol-2670/MediaEval_19_paper_31.pdf). MediaEval 2019 Workshop.
 
-[3] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. [1000 songs for emotional analysis of music](https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf). In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.
+[3] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2020. [MediaEval 2020: Emotion and Theme Recognition in Music Using Jamendo](https://eigen.no/MediaEval_20_paper_7.pdf). MediaEval 2020 Workshop.
 
-[4] Anna Aljanaki, Yi-Hsuan Yang and Mohammad Soleymani. 2014. [Emotion in music task at MediaEval 2014](http://ceur-ws.org/Vol-1263/mediaeval2014_submission_33.pdf).
+[4] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. [1000 songs for emotional analysis of music](https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf). In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.
 
-[5] Renato Panda, Ricardo Malheiro and Rui Pedro Paiva. 2018. [Musical texture and expressivity features for music emotion recognition](http://mir.dei.uc.pt/pdf/Conferences/MOODetector/ISMIR_2018_Panda.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR 2018), 383-391.
+[5] Anna Aljanaki, Yi-Hsuan Yang and Mohammad Soleymani. 2014. [Emotion in music task at MediaEval 2014](http://ceur-ws.org/Vol-1263/mediaeval2014_submission_33.pdf).
 
-[6] Cyril Laurier, Owen Meyers, Joan Serra, Martin Blech and Perfecto Herrera. 2009. [Music mood annotator design and integration](http://mtg.upf.edu/files/publications/Laurier_MusicMoodAnnotator.pdf). In 7th International Workshop on Content-Based Multimedia Indexing (CBMI'09), 156-161.
+[6] Renato Panda, Ricardo Malheiro and Rui Pedro Paiva. 2018. [Musical texture and expressivity features for music emotion recognition](http://mir.dei.uc.pt/pdf/Conferences/MOODetector/ISMIR_2018_Panda.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR 2018), 383-391.
 
-[7] Youngmoo E. Kim, Erik M. Schmidt, Raymond Migneco, Brandon G. Morton, Patrick Richardson, Jeffrey Scott, Jacquelin A. Speck and Douglas Turnbull. 2010. [Music emotion recognition: A state of the art review](http://ismir2010.ismir.net/proceedings/ismir2010-45.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR2010), 255-266.
+[7] Cyril Laurier, Owen Meyers, Joan Serra, Martin Blech and Perfecto Herrera. 2009. [Music mood annotator design and integration](http://mtg.upf.edu/files/publications/Laurier_MusicMoodAnnotator.pdf). In 7th International Workshop on Content-Based Multimedia Indexing (CBMI'09), 156-161.
 
-[8] Xiao Hu and J. Stephen Downie. 2007. [Exploring Mood Metadata: Relationships with Genre, Artist and Usage Metadata](http://ismir2007.ismir.net/proceedings/ISMIR2007_p067_hu.pdf). In Proceedings of the International Conference on Music Information Retrieval (ISMIR2007), 67-72.
+[8] Youngmoo E. Kim, Erik M. Schmidt, Raymond Migneco, Brandon G. Morton, Patrick Richardson, Jeffrey Scott, Jacquelin A. Speck and Douglas Turnbull. 2010. [Music emotion recognition: A state of the art review](http://ismir2010.ismir.net/proceedings/ismir2010-45.pdf). In Proceedings of the International Society on Music Information Retrieval Conference (ISMIR2010), 255-266.
+
+[9] Xiao Hu and J. Stephen Downie. 2007. [Exploring Mood Metadata: Relationships with Genre, Artist and Usage Metadata](http://ismir2007.ismir.net/proceedings/ISMIR2007_p067_hu.pdf). In Proceedings of the International Conference on Music Information Retrieval (ISMIR2007), 67-72.
 
 
 #### Task Organizers
@@ -75,10 +77,10 @@ Minz Won, Music Technology Group, Universitat Pompeu Fabra, Spain
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
-* 13 July: Data release <!-- # Replace XX with your date. Latest possible is 31 July-->
-* 6 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
-* 15 November: Results returned  <!-- Fixed. Please do not change-->
-* 30 November: Working notes paper  <!-- Fixed. Please do not change-->
-* Early December: MediaEval 2020 Workshop <!-- Fixed. Please do not change-->
+* May-July: Data releases <!-- # Replace XX with your date. Latest possible is 31 July-->
+* Mid November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* Mid November: Results returned  <!-- Fixed. Please do not change-->
+* End November: Working notes paper due  <!-- Fixed. Please do not change-->
+* Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change-->
 
 Workshop will be held online. Exact dates to be announced.
