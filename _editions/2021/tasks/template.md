@@ -13,15 +13,11 @@ blurb: <!-- # add the task blurb here-->
 <!-- # please respect the structure below-->
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
-#### News
-* xx May: data updated
-* xx March: data published
-
 #### Task Description
 
-#### Introduction
+#### Motivation and background
 
-#### New for 2021
+#### Introduction
 
 #### Target group
 
@@ -52,3 +48,6 @@ blurb: <!-- # add the task blurb here-->
 * XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+
+#### Acknolwedgments
+<!-- # optional, delete if not used-->
