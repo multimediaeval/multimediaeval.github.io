@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: false 
+hide: true 
 
 # required info
 title: "In-Car Driver Video Privacy Challenge"
