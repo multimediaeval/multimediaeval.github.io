@@ -5,7 +5,7 @@ year: 2021
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: Predicting Media Memorability
+title: Predicting Media Memorability 
 subtitle: <!-- # leave this blanck-->
 blurb: <!-- # add the task blurb here-->
 ---
