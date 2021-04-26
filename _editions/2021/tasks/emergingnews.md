@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true  <!-- # change this to false once you finish editing-->
+hide: true 
 
 # required info
 title: "Emerging News: Detecting emerging stories from social media and news feeds"
