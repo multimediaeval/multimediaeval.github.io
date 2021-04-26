@@ -6,7 +6,7 @@ hide: true
 
 # required info
 title: "FakeNews"
-subtitle: <!-- # leave this blanck-->
+subtitle:
 blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
 ---
 
