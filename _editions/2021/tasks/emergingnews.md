@@ -5,9 +5,9 @@ year: 2021
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: Emerging News: Detecting emerging stories from social media and news feeds
-subtitle: <!-- # leave this blanck-->
-blurb: <!-- # add the task blurb here-->
+title: "Emerging News: Detecting emerging stories from social media and news feeds"
+subtitle: 
+blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
 ---
 
 <!-- # please respect the structure below-->
