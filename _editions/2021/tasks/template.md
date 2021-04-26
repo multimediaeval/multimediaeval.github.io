@@ -1,7 +1,7 @@
 ---
 # static info
-layout: task <!-- # do not change this-->
-year: 2021 <!-- # do not change this-->
+layout: task
+year: 2021
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
