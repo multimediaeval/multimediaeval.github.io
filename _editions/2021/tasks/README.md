@@ -1,4 +1,4 @@
-This folder contains `Markdown` (.md) files to all tasks for 2020 MediaEval edition.
+This folder contains `Markdown` (.md) files to all tasks for 2021 MediaEval edition.
 
 ## How to edit
 
