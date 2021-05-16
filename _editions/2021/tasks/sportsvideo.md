@@ -76,13 +76,6 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 * Julien Morlier, IMS, University of Bordeaux, France 
 * Laurent Mascarilla, MIA, University of La Rochelle, France 
 
-
-<!-- # #### Task auxiliaries-->
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
-
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
