@@ -14,6 +14,7 @@ blurb: "Carry out analysis of emotion on videos and biometric data of players to
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
+In this task, participants carry out multimedia analysis in order to gain insight into the emotion of players playing video games. The task is called *Emotional Mario* because it focuses on the iconic video game Super Mario Bros. 
 
 ***Subtask 1: Event Detection:*** Participants carry out emotional anlaysis on facial videos and biometric data (e.g., heart rate and skin conductivity) collected from players playing the game. The goal is to identify key events (i.e., events of high significance in the gameplay). Such key events include *the end of a level*, a *power-up* or *extra life for Mario*, or *Mario’s death*. 
 
@@ -21,9 +22,16 @@ blurb: "Carry out analysis of emotion on videos and biometric data of players to
 
 <img src="" alt="Emotional Mario gameplay screen shot"/>
 
-Subtask 1: Event Detection is a technical and easily approachable subtask and Subtask 2: Gameplay Summarization is an open creative subtask that builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.
+Subtask 1 is a technical task, and easily approachable. Subtask 2 is an open, creative task, which builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.
+
+<!-- # Consider adding the following line:
+*Participants are encouraged to make their code public with their submission.* 
+-->
 
 #### Motivation and background
+As games are designed to evoke emotions [1], we hypothesize that emotions in the player are reflected in the visuals of the video game. Simple examples are when players are happy after having mastered a particularly complicated challenge, when they are shocked by a jump scare scene in a horror game, or when they are excited after unlocking a new resource. These things can be measured by questionnaires after playing [3], but in the Emotional Mario task, we want to interconnect emotions and gameplay based on data instead of asking the players. 
+
+With the rise of deep learning, many large leaps in research have been achieved in recent years such as human-level image recognition, text classification, and even content creation. Games and deep learning also have a rather long history together, specifically in the context of reinforcement learning. However, video games still pose a lot of challenges. Games are understood as engines of experience [1], and as such, they need to invoke human emotions. While emotion recognition has come a far way over the last decade [2], the connection between emotions and video games is still an open and interesting research question. In the Emotional Mario task, we aim to leverage deep learning to move forward our understanding of the role of emotiona in video games
 
 #### Target group
 The target group for this task is diverse and broad. It includes researchers and practitioners from game design and development, game studies, machine learning, and artificial intelligence, and interactive multimedia. We also encourage interdisciplinary research involving people from psychology, game studies, and the humanities discussing the interrelation of biometric data, facial expressions, and gameplay. In any case, regardless of the research background, the submission will help to have a basic understanding of how we can better understand the connection between gameplay and the reaction of the player.
@@ -34,14 +42,15 @@ For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video
 Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. <!-- # Please add a sentence here on how the ground truth was created.--> The remaining two will serve as data for the runs to be submitted. 
 
 #### Evaluation methodology
-For the first part -- event detection -- we ask participants to identify events in the gameplay by investigating biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth will be provided. 
 
-For the second part -- summarizing the gameplay -- participants are asked to submit a summary video for a study participant from the Toadstool data. There is no constraint on the modalities of the story, so it can be video, audio, text, images, or a combination thereof. An expert panel with  professionals and researchers from the field of game development, game studies, e-sports, and media sciences will then investigate the submissions and judge them for:
-Informative value (i.e. is it a good summary of the gameplay),
+***Subtask 1: Event Detection:*** In this subtask, participants identify events in the gameplay by making use of biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth will be provided. 
+<!-- # Please add a sentence here on the evaluation metric.--> 
+<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
 
-Accuracy (i.e. does it reflect the emotional up and downs and the skill of the play), and
-Innovation (ie. surprisingly new approach, non-linearity of the story, creative use of cuts, etc.)
-
+***Subtask 2: Gameplay Summarization:*** In this subtask, participants are asked to submit a summary video for a study participant from the Toadstool data. There is no constraint on the modalities of the story, so it can be video, audio, text, images, or a combination thereof. An expert panel with  professionals and researchers from the field of game development, game studies, e-sports, and media sciences will then investigate the submissions and judge them for:
+* Informative value (i.e. is it a good summary of the gameplay),
+* Accuracy (i.e. does it reflect the emotional up and downs and the skill of the play), and
+* Innovation (ie. surprisingly new approach, non-linearity of the story, creative use of cuts, etc.)
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
