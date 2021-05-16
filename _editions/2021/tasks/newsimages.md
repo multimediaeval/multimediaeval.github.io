@@ -27,15 +27,15 @@ The task requires extracting features from visual images and textual description
 
 The NewsImages task includes two subtasks: Image-Text Re-Matching and News Click Prediction. The participants can choose to participate in either or both subtasks.
 
-_Participants are encouraged to make their code public with their submission._ 
+*Participants are encouraged to make their code public with their submission.* 
 <!-- # The following sentence is strange. All tasks are headed for the proceedings. I would leave it out and then later announce the special issue if/when relevant
 There will also be publishing opportunities at the end of the task.-->
 
-*Subtask 1: Image-Text Re-Matching*
+**Subtask 1: Image-Text Re-Matching**
 
 News articles often contain images that accompany the text. The connection between the images and the text is more complex than often realized. Aspects such as readers’ attention, difference between authentic imagery and stock photos, and placement on the website play important roles. We encourage participants to consider the explainability of their models. In this subtask, by using the news articles and accompanying images in the provided dataset, participants should predict which image was published with a given news article. We also ask participants to report their insights into characteristics that connect the text of news articles and the images. We expect that these insights contribute to the understanding of the image-text relationship in news articles. 
 
-*Subtask 2: News Click Prediction*
+**Subtask 2: News Click Prediction**
 
 News websites present recommendations to users suggesting what to read next. These are often displayed as the article title accompanied by an image. In this task, participants investigate whether recommendations that are frequently clicked by users can be predicted using the textual content of the article and/or the accompanying image. Publishers tend to focus on click-related scores to determine the value of recommendations.
 
