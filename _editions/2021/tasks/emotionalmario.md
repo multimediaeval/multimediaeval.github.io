@@ -7,7 +7,7 @@ hide: true
 # required info
 title: "Emotional Mario: A Games Analytics Challenge"
 subtitle: 
-blurb: "Carry out analysis of emotion on videos and biometric data of players to predict key moments in the gameplay. Optionally, use these predictions to create a highlights video containing the best moments of gameplay."
+blurb: "Carry out analysis of emotion on videos and biometric data of players to predict key events in the gameplay. Optionally, use these predictions to create a highlights video containing the best moments of gameplay."
 ---
 
 <!-- # please respect the structure below-->
@@ -15,13 +15,13 @@ blurb: "Carry out analysis of emotion on videos and biometric data of players to
 
 #### Task Description
 
-In the first subtask, we want participants to identify events of high significance in the gameplay by just analyzing the facial video and the biometric data. Such significant events include the end of a level, a power-up or extra life for Mario, or Mario’s death. 
+***Subtask 1: Event Detection:*** Participants carry out emotional anlaysis on facial videos and biometric data (e.g., heart rate and skin conductivity) collected from players playing the game. The goal is to identify key events (i.e., events of high significance in the gameplay). Such key events include *the end of a level*, a *power-up* or *extra life for Mario*, or *Mario’s death*. 
 
-For the second subtask, which is optional, we ask participants to create a video summary of the best moments of the play. This can include gameplay scenes, facial video, data visualization, and whatever comes to your mind for helping such a summary. 
+***Subtask 2: Gameplay Summarization (Optional):*** Participants create a video summary of the best moments of the play. This can include gameplay scenes, facial video, data visualization, and whatever comes to your mind that you find important to tell the *game story*, the story of what happened during the game. 
 
 <img src="" alt="Emotional Mario gameplay screen shot"/>
 
-The Emotional Mario task is split into a technical and easily approachable subtask, and an open, creative one. While for the latter subtask there is no “wrong”, it has been shown in previous competitions involving games that people are more willing to submit to a clearly defined task, as the first subtask.  
+Subtask 1: Event Detection is a technical and easily approachable subtask and Subtask 2: Gameplay Summarization is an open creative subtask that builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.
 
 #### Motivation and background
 
@@ -29,9 +29,9 @@ The Emotional Mario task is split into a technical and easily approachable subta
 The target group for this task is diverse and broad. It includes researchers and practitioners from game design and development, game studies, machine learning, and artificial intelligence, and interactive multimedia. We also encourage interdisciplinary research involving people from psychology, game studies, and the humanities discussing the interrelation of biometric data, facial expressions, and gameplay. In any case, regardless of the research background, the submission will help to have a basic understanding of how we can better understand the connection between gameplay and the reaction of the player.
 
 #### Data
-For the task, we provide Toadstool [4], a data set gathered from ten participants playing Super Mario Bros. For Toadstool, we gathered gameplay, video, and sensor data while people played Super Mario Bros. Data includes for instance heart rate, skin conductivity, videos of the players’ faces synchronized to the gameplay, but also the gameplay itself, demographics on the players and their scores and times spent in the game. Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. The remaining two will serve as data for the runs to be submitted. 
+For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video game and provide a multimodal data set based on a Super Mario Bros. implementation for OpenAI Gym. The data set, called Toadstool [4], contains for a population of ten players their game input, demographics, biomedical sensory input from a medical-grade device (e.g., heart rate and skin conductivity) as well as videos of their faces while playing the game. The data set also contains he gameplay itself, demographics on the players and their scores and times spent in the game.he gameplay itself, demographics on the players and their scores and times spent in the game.
 
-#### Ground truth
+Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. <!-- # Please add a sentence here on how the ground truth was created.--> The remaining two will serve as data for the runs to be submitted. 
 
 #### Evaluation methodology
 For the first part -- event detection -- we ask participants to identify events in the gameplay by investigating biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth will be provided. 
