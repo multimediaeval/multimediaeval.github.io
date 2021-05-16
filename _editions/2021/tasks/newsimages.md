@@ -31,11 +31,11 @@ The NewsImages task includes two subtasks: Image-Text Re-Matching and News Click
 <!-- # The following sentence is strange. All tasks are headed for the proceedings. I would leave it out and then later announce the special issue if/when relevant
 There will also be publishing opportunities at the end of the task.-->
 
-**Subtask 1: Image-Text Re-Matching**
+***Subtask 1: Image-Text Re-Matching***
 
 News articles often contain images that accompany the text. The connection between the images and the text is more complex than often realized. Aspects such as readers’ attention, difference between authentic imagery and stock photos, and placement on the website play important roles. We encourage participants to consider the explainability of their models. In this subtask, by using the news articles and accompanying images in the provided dataset, participants should predict which image was published with a given news article. We also ask participants to report their insights into characteristics that connect the text of news articles and the images. We expect that these insights contribute to the understanding of the image-text relationship in news articles. 
 
-**Subtask 2: News Click Prediction**
+***Subtask 2: News Click Prediction***
 
 News websites present recommendations to users suggesting what to read next. These are often displayed as the article title accompanied by an image. In this task, participants investigate whether recommendations that are frequently clicked by users can be predicted using the textual content of the article and/or the accompanying image. Publishers tend to focus on click-related scores to determine the value of recommendations.
 
@@ -57,11 +57,11 @@ The data set is a large collection of news articles from a German publisher that
 <!-- # If you are planning to release image features, that information should be added here.-->
 
 #### Evaluation methodology
-*Task 1: Image-Text Re-Matching:* For each news article in the test set, participants return the top five images that they predict to have accompanied that article. We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
+***Task 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
 
 <!-- # Please add a sentence to explicitly explain the ground truth.-->
 
-*Task 2: News Click Prediction:* Given a set of images, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of top images will be specified. Success is measured by precision. More concretely, participants score each image which induces a ranking. We will determine the precision at a suited cut off point. Again, we encourage participants to examine their models and try to explain what they have picked up.
+***Task 2: News Click Prediction:*** Given a set of images, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of top images will be specified. Success is measured by precision. More concretely, participants score each image which induces a ranking. We will determine the precision at a suited cut off point. Again, we encourage participants to examine their models and try to explain what they have picked up.
 
 *Analysis and Insight:* For both tasks, the ultimate goal is to understand news and news consumption behavior. We will also judge participants in terms of the quality of the insight that they achieve about the relationship between text and images and in the relationship between images and news consumption behavior.
 
