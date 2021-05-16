@@ -53,11 +53,11 @@ The data set is a large collection of news articles from a German publisher that
 <!-- # If you are planning to release image features, that information should be added here.-->
 
 #### Evaluation methodology
-***Task 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
+***Subtask 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
 
 <!-- # Please add a sentence to explicitly explain the ground truth.-->
 
-***Task 2: News Click Prediction:*** Given a set of images, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of top images will be specified. Success is measured by precision. More concretely, participants score each image which induces a ranking. We will determine the precision at a suited cut off point. Again, we encourage participants to examine their models and try to explain what they have picked up.
+***Subtask 2: News Click Prediction:*** Given a set of images, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of top images will be specified. Success is measured by precision. More concretely, participants score each image which induces a ranking. We will determine the precision at a suited cut off point. Again, we encourage participants to examine their models and try to explain what they have picked up.
 
 *Analysis and Insight:* For both tasks, the ultimate goal is to understand news and news consumption behavior. We will also judge participants in terms of the quality of the insight that they achieve about the relationship between text and images and in the relationship between images and news consumption behavior.
 
