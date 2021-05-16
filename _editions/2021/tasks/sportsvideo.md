@@ -43,8 +43,10 @@ The dataset used for training is composed of videos of table tennis matches with
 <!-- # Please edit the sentence above so it is clear which labels are released for use in training for each task. At the moment, it seems like there are not stroke labels for subtask 1-->
 
 ***Subtask 1: Stroke Classification:***  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy. 
+
 ***Subtask 2: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
 
+<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
