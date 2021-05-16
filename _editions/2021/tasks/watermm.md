@@ -72,13 +72,6 @@ We also recommend to read past years’ task papers in the MediaEval Proceedings
 * Daniele Norbiato, Eastern Alps River Basin District, Italy
 * Michele Ferri, Eastern Alps River Basin District, Italy
 
-
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
-
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
