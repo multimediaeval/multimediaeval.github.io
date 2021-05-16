@@ -14,10 +14,23 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
+News articles use both text and images to communicate their message. The overall goal of this task is to better understand the relationship between the textual and visual (images) content of news articles, and the impact of these elements on readers’ interest in the news. 
+
+Within this task participants are expected to discover and develop patterns/models to describe the relation between:
+* The images and the text of news articles (including text body, and headlines), and
+* The news items and the users’ interest in them (measured by the number of views).
+
+<!-- # Check the following sentence. Are you releasing the actual images or the links to images (usually we try to do the latter, and we also state this explicitly)-->
+To do this, the participants will be provided a sizable real-world dataset of news items, each consisting of textual features (headline and snippet) as well an image (including the high-level features computed based on the image). 
+
+The task requires extracting features from visual images and textual descriptions. Participants must analyze the features' correlation concerning the context, noise, and the topic domain.
+
+The NewsImages task includes two subtasks: Image-Text Re-Matching and News Click Prediction. The participants can choose to participate in either or both subtasks.
+
+Participants are encouraged to make their code public with their submission. There will also be publishing opportunities at the end of the task.
+
 
 #### Motivation and background
-
-#### Introduction
 
 #### Target group
 
