@@ -5,45 +5,65 @@ year: 2021
 hide: true 
 
 # required info
-title: "Sports Video Classification"
+title: "Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos"
 subtitle: 
-blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
+blurb: "Participants are provided with a set of videos of table tennis games and are required to analyze them (i.e., carry out classification and detection of strokes). The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training."
 ---
 
 <!-- # please respect the structure below-->
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
+This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101. The task offers two subtasks:
+
+***Subtask 1: Stroke Classification:*** Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 21 possible stroke classes. 
+
+***Subtask 2: Stroke Detection:*** Participans are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
+
+Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the data set with new and more diverse stroke samples. 
+
+<!-- # Consider adding the following line:
+*Participants are encouraged to make their code public with their submission.* 
+-->
 
 #### Motivation and background
-
-#### Introduction
+Action detection and classification are one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sport team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training. 
 
 #### Target group
+The task is of interest to researchers in the areas of machine learning, visual content analysis, computer vision and sport performance. We explicitly encourage researchers focusing specifically in domains of computer-aided analysis of sport performance. 
 
 #### Data
-
-#### Ground truth
+Our focus is on recordings that have been made by widespread and cheap video cameras, e.g., GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centred videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.
 
 #### Evaluation methodology
+Twenty stroke classes are considered according to the rules of table tennis. This taxonomy was designed with professional table tennis teachers. We are working on videos recorded at the Faculty of Sports of the University of Bordeaux. Students are the sportsmen filmed and the teachers are supervising exercises conducted during the recording sessions. The recordings are markerless and allow the players to perform in natural conditions. 
+<!-- # Please add a sentence about how the ground truth is generated. This point is part of what makes your task attractive and interesting.-->
+
+The dataset used for training is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file. 
+<!-- # Please edit the sentence above so it is clear which labels are released for use in training for each task. At the moment, it seems like there are not stroke labels for subtask 1-->
+
+***Subtask 1: Stroke Classification:***  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy. 
+***Subtask 2: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
+
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # The logic of the ordering of the papers is not clear. Can they be alphabetical?-->
 
-[Crisp Project](https://github.com/P-eMartin/crisp)
+[1] [Crisp Project](https://github.com/P-eMartin/crisp)
 
-Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. 2020. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks.](https://link.springer.com/epdf/10.1007/s11042-020-08917-3) Multimedia Tools and Applications (19 Apr 2020).
+[2] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. 2020. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks.](https://link.springer.com/epdf/10.1007/s11042-020-08917-3) Multimedia Tools and Applications (19 Apr 2020).
 
-Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [3D attention mechanism for fine-grained classification of table tennis strokes using a Twin Spatio-Temporal Convolutional Neural Networks](https://hal.archives-ouvertes.fr/hal-02977646/document). 25th International Conference on Pattern Recognition (ICPR2020), Jan 2021, Milano, Italy. 
+[3] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [3D attention mechanism for fine-grained classification of table tennis strokes using a Twin Spatio-Temporal Convolutional Neural Networks](https://hal.archives-ouvertes.fr/hal-02977646/document). 25th International Conference on Pattern Recognition (ICPR2020), Jan 2021, Milano, Italy. 
 
-Gül Varol, Ivan Laptev, and Cordelia Schmid. 2018. [Long-Term Temporal Convolutions for Action Recognition.](https://arxiv.org/pdf/1604.04494.pdf) IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
+[3] Gül Varol, Ivan Laptev, and Cordelia Schmid. 2018. [Long-Term Temporal Convolutions for Action Recognition.](https://arxiv.org/pdf/1604.04494.pdf) IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
 
-Joao Carreira and Andrew Zisserman. 2017. [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.](https://arxiv.org/pdf/1705.07750.pdf) CoRR abs/1705.07750 (2017).
+[4] Joao Carreira and Andrew Zisserman. 2017. [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.](https://arxiv.org/pdf/1705.07750.pdf) CoRR abs/1705.07750 (2017).
 
-Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. 2017. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions.](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf) CoRR abs/1705.08421 (2017).
+[5] Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. 2017. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions.](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf) CoRR abs/1705.08421 (2017).
 
-Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of 101 hu- man actions classes from videos in the wild.](https://arxiv.org/pdf/1212.0402.pdf) CoRR 1212.0402 (2012).
+[6] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of 101 human actions classes from videos in the wild.](https://arxiv.org/pdf/1212.0402.pdf) CoRR 1212.0402 (2012).
 
 #### Task organizers
 You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr 
