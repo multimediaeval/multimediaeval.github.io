@@ -22,9 +22,9 @@
 
   <!-- seo tags -->
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Medico Multimedia Task | MediaEval Benchmark</title>
+<title>Medico: Transparency in Medical Image Segmentation | MediaEval Benchmark</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Medico Multimedia Task" />
+<meta property="og:title" content="Medico: Transparency in Medical Image Segmentation" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="See the MediaEval 2021 webpage for information on how to register and participate." />
 <meta property="og:description" content="See the MediaEval 2021 webpage for information on how to register and participate." />
@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-16T20:57:10+00:00" />
+<meta property="article:published_time" content="2021-05-16T21:21:01+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"Medico Multimedia Task","dateModified":"2021-05-16T20:57:10+00:00","datePublished":"2021-05-16T20:57:10+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/medico/","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/medico/"},"description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"Medico: Transparency in Medical Image Segmentation","dateModified":"2021-05-16T21:21:01+00:00","datePublished":"2021-05-16T21:21:01+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/medico/","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/medico/"},"description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -158,51 +158,75 @@
     <div class="container">
       <div class="row">
           <header id="main" style="background-image: url('')">
-    <h2>Medico Multimedia Task</h2>
+    <h2>Medico: Transparency in Medical Image Segmentation</h2>
   </header>
 
   <!-- # please respect the structure below-->
 <p><em>See the <a href="https://multimediaeval.github.io/editions/2021/">MediaEval 2021 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task Description</h4>
+<!-- # Adapted from 2020, please confirm-->
+<p>The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. This task focuses on robust and efficient algorithms for polyp and instrument segmentation. 
+<!-- # Add a sentence here on transparency.--></p>
+
+<p>The data consists of a large number of endoscopic images of the colon.
+<!-- # Add a phrase here about how the ground truth was created, since that is a strength of the data--></p>
+
+<p><em>Subtask 1: Polyp Segmentation:</em> The polyp segmentation task asks participants to develop algorithms for segmenting polyps in images taken from endoscopies. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset. Since <a href="https://multimediaeval.github.io/editions/2020/tasks/medico/">Medico 2020</a>, we have extended the development dataset and created a new testing dataset to which the submissions will be evaluated on.</p>
+
+<p><em>Subtask 2: Instrument Segmentation</em> Similar to the polyp segmentation task, the instrument segmentation task asks participants to develop algorithms for segmenting instruments present in colonoscopy videos. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset.</p>
+
+<!-- # People might get confused on the difference between transparency, explainability, and interpretibility when it comes to machine learning. Could this be made clearer?-->
+<p><em>Subtask 3: Transparent Machine Learning Systems</em> The transparency task tries to measure the transparency of the systems used for the aforementioned segmentation tasks. The main focus for this task is to evaluate systems from a transparency point of view, meaning for example explanations of how the model was trained, the data that was used, and interpretation of a model’s predictions.</p>
+
+<!-- # Consider adding the following line:
+*Participants are encouraged to make their code public with their submission.* 
+-->
 
 <h4 id="motivation-and-background">Motivation and background</h4>
-
-<h4 id="introduction">Introduction</h4>
+<p>Medical image segmentation is a topic that has garnered a lot of attention over the last few years. Compared to classification and object detection, segmentation gives a more precise region of interest for a given class. This is immensely useful for the doctors as it not only specifies that an image contains something interesting but also where to look at which also provides some kind of inherent explanation. Colonoscopies are a perfect use-case for medical image segmentation as they contain a great variety of different findings that may be easily overlooked during the procedure. Furthermore, transparent and interpretable machine learning systems are important to explain the <em>whys</em> and the <em>hows</em> of the predictions. This is especially important in medicine, where conclusions based on wrong decisions resulted from either biased or incorrect data, faulty evaluation or simply a bad model could be fatal. For this reason, the <em>Medico: Transparency in Medical Image Segmentation</em> task aims to develop automatic segmentation systems that are transparent and explainable.</p>
 
 <h4 id="target-group">Target group</h4>
+<!-- # Copied from 2020, please confirm-->
+<p>The task is of interest to the researchers working with multimedia segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.</p>
 
 <h4 id="data">Data</h4>
+<p><em>Subtask 1: Polyp Segmentation:</em> We will use a slightly modified version of the segmentation part of HyperKvasir [1] that will include additional polyps for training and a separate testing dataset.</p>
+
+<p><em>Subtask 2: Instrument Segmentation</em> For the instrument segmentation task, we will use Kvasir-Instrument [2] for the development dataset and a different testing dataset.</p>
+
+<p><em>Subtask 3: Transparent Machine Learning Systems</em> The transparent machine learning system task will be based on the previous two tasks and will use each respective dataset.</p>
 
 <h4 id="ground-truth">Ground truth</h4>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
+<p><em>Subtask 1: Polyp Segmentation and Subtask 2: Instrument Segmentation</em> We will use the standard metrics commonly used to evaluate segmentation tasks, similar to what was presented in <a href="https://multimediaeval.github.io/editions/2020/tasks/medico/">Medico 2020</a>. This includes the Dice coefficient, pixel accuracy, and the Intersection-Over-Union (Jaccard index). The metric which will be used to rank submissions will be the Intersection-Over-Union coefficient.</p>
+
+<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
+
+<p><em>Subtask 3: Transparent Machine Learning Systems:</em> We perform a qualitative evaluation of the submission. Here, a multi-disciplinary team will evaluate the submissions based on how transparent and understandable they are.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # Please add the links! The paper title should be a hyperlink leading to the paper online-->
+<!-- # Adding more literature on explainability would be helpful-->
+<p>[1] Borgli, H., Thambawita, V., Smedsrud, P.H. et al. HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy. Sci Data 7, 283 (2020).</p>
+
+<p>[2] Jha D. et al. (2021) Kvasir-Instrument: Diagnostic and Therapeutic Tool Segmentation Dataset in Gastrointestinal Endoscopy. In: Lokoč J. et al. (eds) MultiMedia Modeling. MMM 2021. Lecture Notes in Computer Science, vol 12573.</p>
+
+<p>[3] Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.</p>
+
+<p>[4] Weller A. Transparency: motivations and challenges. InExplainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
-  <li>
-    <!-- # First organizer-->
-  </li>
-  <li>
-    <!-- # Second organizer-->
-    <!-- # and so on-->
-  </li>
-</ul>
-
-<h4 id="task-auxiliaries">Task auxiliaries</h4>
-<!-- # optional, delete if not used-->
-<ul>
-  <li>
-    <!-- # First auxiliary-->
-  </li>
-  <li>
-    <!-- # Second auxiliary-->
-    <!-- # and so on-->
-  </li>
+  <li>Steven Hicks, SimulaMet, Norway steven (at) simula.no</li>
+  <li>Debesh Jha, SimulaMet, Norway  debesh (at) simula.no</li>
+  <li>Vajira Thambawita, SimulaMet and OsloMet, Norway</li>
+  <li>Thomas de Lange, Bærum Hospital, Norway</li>
+  <li>Sravanthi Parasa, Swedish Medical Center, Sweden</li>
+  <li>Michael Riegler, SimulaMet, Norway</li>
+  <li>Pål Halvorsen, SimulaMet and OsloMet, Norway</li>
 </ul>
 
 <h4 id="task-schedule">Task Schedule</h4>
@@ -214,8 +238,8 @@
   <li>Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided--></li>
 </ul>
 
-<h4 id="acknolwedgments">Acknolwedgments</h4>
-<!-- # optional, delete if not used-->
+<!-- #### Acknolwedgments
+# optional, delete if not used-->
 
 
       </div>
