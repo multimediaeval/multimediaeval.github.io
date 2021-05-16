@@ -49,11 +49,29 @@ The evaluation metric for the binary classification of tweets as relevant (1) or
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # Not clear why the papers are ordered like this: Could you alphabetize?-->
+[1] Moumtzidou, A., Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S. and Kompatsiaris, I., 2018, April. [Flood relevance estimation from visual and textual content in social media streams](https://dl.acm.org/doi/abs/10.1145/3184558.3191620). In Companion Proceedings of the The Web Conference 2018 (pp. 1621-1627).
+
+[2] Edo-Osagie, O., Smith, G., Lake, I., Edeghere, O. and De La Iglesia, B., 2019. [Twitter mining using semi-supervised classification for relevance filtering in syndromic surveillance](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210689). PLOS One, 14(7), p.e0210689.
+
+[3] Cobo, A., Parra, D. and Navón, J., 2015, May. [Identifying relevant messages in a twitter-based citizen channel for natural disaster situations](https://dl.acm.org/doi/abs/10.1145/2740908.2741719?casa_token=tH_-uutS5owAAAAA%3AYlj7i0gkAYBXjejuLTSI5m7YSihArnQufXwxYdYgaX31EIJlYSJprAvObcruvmGncG75CRh_38Tt). In Proceedings of the 24th International Conference on World Wide Web (pp. 1189-1194).
+
+[4] Sharma, A., Tian, Y. and Lo, D., 2015, March. [NIRMAL: Automatic identification of software relevant tweets leveraging language model.](https://ieeexplore.ieee.org/document/7081855) In 2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER) (pp. 449-458). IEEE.
+
+We also recommend to read past years’ task papers in the MediaEval Proceedings.
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
+* Stelios Andreadis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece, andreadisst@iti.gr
+* Ilias Gialampoukidis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece
+* Anastasia Moumtzidou, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece
+* Anastasios Karakostas, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece
+* Stefanos Vrochidis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece
+* Ioannis Kompatsiaris, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece
+* Roberto Fiorin, Eastern Alps River Basin District, Italy
+* Francesca Lombardo, Eastern Alps River Basin District, Italy
+* Daniele Norbiato, Eastern Alps River Basin District, Italy
+* Michele Ferri, Eastern Alps River Basin District, Italy
+
 
 #### Task auxiliaries
 <!-- # optional, delete if not used-->
@@ -69,4 +87,4 @@ The evaluation metric for the binary classification of tweets as relevant (1) or
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
-<!-- # optional, delete if not used-->
+This task has been supported by the EU’s Horizon 2020 research and innovation programme under grant agreements H2020-832876 [aqua3S](https://aqua3s.eu/), H2020-883484 [PathoCERT](https://pathocert.eu/), and H2020-101004157 [WQeMS](https://wqems.eu/project).
