@@ -5,7 +5,7 @@ year: 2021
 hide: true 
 
 # required info
-title: "Medico Multimedia Task"
+title: "Medico: Transparency in Medical Image Segmentation"
 subtitle:
 blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
 ---
@@ -14,33 +14,67 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
+<!-- # Adapted from 2020, please confirm-->
+The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. This task focuses on robust and efficient algorithms for polyp and instrument segmentation. 
+<!-- # Add a sentence here on transparency.-->
+
+The data consists of a large number of endoscopic images of the colon.
+<!-- # Add a phrase here about how the ground truth was created, since that is a strength of the data-->
+
+*Subtask 1: Polyp Segmentation:* The polyp segmentation task asks participants to develop algorithms for segmenting polyps in images taken from endoscopies. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset. Since [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/), we have extended the development dataset and created a new testing dataset to which the submissions will be evaluated on.
+
+*Subtask 2: Instrument Segmentation* Similar to the polyp segmentation task, the instrument segmentation task asks participants to develop algorithms for segmenting instruments present in colonoscopy videos. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset. 
+
+<!-- # People might get confused on the difference between transparency, explainability, and interpretibility when it comes to machine learning. Could this be made clearer?-->
+*Subtask 3: Transparent Machine Learning Systems* The transparency task tries to measure the transparency of the systems used for the aforementioned segmentation tasks. The main focus for this task is to evaluate systems from a transparency point of view, meaning for example explanations of how the model was trained, the data that was used, and interpretation of a model's predictions.
+
+<!-- # Consider adding the following line:
+*Participants are encouraged to make their code public with their submission.* 
+-->
 
 #### Motivation and background
-
-#### Introduction
+Medical image segmentation is a topic that has garnered a lot of attention over the last few years. Compared to classification and object detection, segmentation gives a more precise region of interest for a given class. This is immensely useful for the doctors as it not only specifies that an image contains something interesting but also where to look at which also provides some kind of inherent explanation. Colonoscopies are a perfect use-case for medical image segmentation as they contain a great variety of different findings that may be easily overlooked during the procedure. Furthermore, transparent and interpretable machine learning systems are important to explain the *whys* and the *hows* of the predictions. This is especially important in medicine, where conclusions based on wrong decisions resulted from either biased or incorrect data, faulty evaluation or simply a bad model could be fatal. For this reason, the *Medico: Transparency in Medical Image Segmentation* task aims to develop automatic segmentation systems that are transparent and explainable.
 
 #### Target group
+<!-- # Copied from 2020, please confirm-->
+The task is of interest to the researchers working with multimedia segmentation, deep learning (semantic segmentation), and computer vision. We especially encourage young researchers to contribute to the field of endoscopy by developing an automated computer-aided diagnosis system that could be potentially used in clinical settings.  
 
 #### Data
+*Subtask 1: Polyp Segmentation:* We will use a slightly modified version of the segmentation part of HyperKvasir [1] that will include additional polyps for training and a separate testing dataset. 
+
+*Subtask 2: Instrument Segmentation* For the instrument segmentation task, we will use Kvasir-Instrument [2] for the development dataset and a different testing dataset. 
+
+*Subtask 3: Transparent Machine Learning Systems* The transparent machine learning system task will be based on the previous two tasks and will use each respective dataset.
 
 #### Ground truth
 
 #### Evaluation methodology
+*Subtask 1: Polyp Segmentation and Subtask 2: Instrument Segmentation* We will use the standard metrics commonly used to evaluate segmentation tasks, similar to what was presented in [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/). This includes the Dice coefficient, pixel accuracy, and the Intersection-Over-Union (Jaccard index). The metric which will be used to rank submissions will be the Intersection-Over-Union coefficient.
+
+<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
+
+*Subtask 3: Transparent Machine Learning Systems:* We perform a qualitative evaluation of the submission. Here, a multi-disciplinary team will evaluate the submissions based on how transparent and understandable they are.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # Please add the links! The paper title should be a hyperlink leading to the paper online-->
+<!-- # Adding more literature on explainability would be helpful-->
+[1] Borgli, H., Thambawita, V., Smedsrud, P.H. et al. HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy. Sci Data 7, 283 (2020).
+
+[2] Jha D. et al. (2021) Kvasir-Instrument: Diagnostic and Therapeutic Tool Segmentation Dataset in Gastrointestinal Endoscopy. In: Lokoč J. et al. (eds) MultiMedia Modeling. MMM 2021. Lecture Notes in Computer Science, vol 12573.
+
+[3] Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.
+
+[4] Weller A. Transparency: motivations and challenges. InExplainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
-
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
+* Steven Hicks, SimulaMet, Norway steven (at) simula.no
+* Debesh Jha, SimulaMet, Norway  debesh (at) simula.no
+* Vajira Thambawita, SimulaMet and OsloMet, Norway 
+* Thomas de Lange, Bærum Hospital, Norway
+* Sravanthi Parasa, Swedish Medical Center, Sweden
+* Michael Riegler, SimulaMet, Norway  
+* Pål Halvorsen, SimulaMet and OsloMet, Norway 
 
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
@@ -49,5 +83,5 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
-#### Acknolwedgments
-<!-- # optional, delete if not used-->
+<!-- #### Acknolwedgments
+# optional, delete if not used-->
