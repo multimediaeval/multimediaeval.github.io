@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-16T19:59:12+00:00" />
+<meta property="article:published_time" content="2021-05-16T20:14:28+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"Emotional Mario: A Games Analytics Challenge","dateModified":"2021-05-16T19:59:12+00:00","datePublished":"2021-05-16T19:59:12+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/"},"description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","headline":"Emotional Mario: A Games Analytics Challenge","dateModified":"2021-05-16T20:14:28+00:00","datePublished":"2021-05-16T20:14:28+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/"},"description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -166,13 +166,13 @@
 
 <h4 id="task-description">Task Description</h4>
 
-<p>In the first subtask, we want participants to identify events of high significance in the gameplay by just analyzing the facial video and the biometric data. Such significant events include the end of a level, a power-up or extra life for Mario, or Mario’s death.</p>
+<p><strong><em>Subtask 1: Event Detection:</em></strong> Participants carry out emotional anlaysis on facial videos and biometric data (e.g., heart rate and skin conductivity) collected from players playing the game. The goal is to identify key events (i.e., events of high significance in the gameplay). Such key events include <em>the end of a level</em>, a <em>power-up</em> or <em>extra life for Mario</em>, or <em>Mario’s death</em>.</p>
 
-<p>For the second subtask, which is optional, we ask participants to create a video summary of the best moments of the play. This can include gameplay scenes, facial video, data visualization, and whatever comes to your mind for helping such a summary.</p>
+<p><strong><em>Subtask 2: Gameplay Summarization (Optional):</em></strong> Participants create a video summary of the best moments of the play. This can include gameplay scenes, facial video, data visualization, and whatever comes to your mind that you find important to tell the <em>game story</em>, the story of what happened during the game.</p>
 
 <p><img src="" alt="Emotional Mario gameplay screen shot" /></p>
 
-<p>The Emotional Mario task is split into a technical and easily approachable subtask, and an open, creative one. While for the latter subtask there is no “wrong”, it has been shown in previous competitions involving games that people are more willing to submit to a clearly defined task, as the first subtask.</p>
+<p>Subtask 1: Event Detection is a technical and easily approachable subtask and Subtask 2: Gameplay Summarization is an open creative subtask that builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
 
@@ -180,9 +180,9 @@
 <p>The target group for this task is diverse and broad. It includes researchers and practitioners from game design and development, game studies, machine learning, and artificial intelligence, and interactive multimedia. We also encourage interdisciplinary research involving people from psychology, game studies, and the humanities discussing the interrelation of biometric data, facial expressions, and gameplay. In any case, regardless of the research background, the submission will help to have a basic understanding of how we can better understand the connection between gameplay and the reaction of the player.</p>
 
 <h4 id="data">Data</h4>
-<p>For the task, we provide Toadstool [4], a data set gathered from ten participants playing Super Mario Bros. For Toadstool, we gathered gameplay, video, and sensor data while people played Super Mario Bros. Data includes for instance heart rate, skin conductivity, videos of the players’ faces synchronized to the gameplay, but also the gameplay itself, demographics on the players and their scores and times spent in the game. Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. The remaining two will serve as data for the runs to be submitted.</p>
+<p>For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video game and provide a multimodal data set based on a Super Mario Bros. implementation for OpenAI Gym. The data set, called Toadstool [4], contains for a population of ten players their game input, demographics, biomedical sensory input from a medical-grade device (e.g., heart rate and skin conductivity) as well as videos of their faces while playing the game. The data set also contains he gameplay itself, demographics on the players and their scores and times spent in the game.he gameplay itself, demographics on the players and their scores and times spent in the game.</p>
 
-<h4 id="ground-truth">Ground truth</h4>
+<p>Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. <!-- # Please add a sentence here on how the ground truth was created.--> The remaining two will serve as data for the runs to be submitted.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
 <p>For the first part – event detection – we ask participants to identify events in the gameplay by investigating biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth will be provided.</p>
