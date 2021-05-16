@@ -27,10 +27,23 @@ The task requires extracting features from visual images and textual description
 
 The NewsImages task includes two subtasks: Image-Text Re-Matching and News Click Prediction. The participants can choose to participate in either or both subtasks.
 
-Participants are encouraged to make their code public with their submission. There will also be publishing opportunities at the end of the task.
+Participants are encouraged to make their code public with their submission. 
+<!-- # The following sentence is strange. All tasks are headed for the proceedings. I would leave it out and then later announce the special issue if/when relevant-->
+[//]: # There will also be publishing opportunities at the end of the task.
 
+##### Subtask 1: Image-Text Re-Matching
+
+News articles often contain images that accompany the text. The connection between the images and the text is more complex than often realized. Aspects such as readers’ attention, difference between authentic imagery and stock photos, and placement on the website play important roles. We encourage participants to consider the explainability of their models. In this subtask, by using the news articles and accompanying images in the provided dataset, participants should predict which image was published with a given news article. We also ask participants to report their insights into characteristics that connect the text of news articles and the images. We expect that these insights contribute to the understanding of the image-text relationship in news articles. 
+
+##### Subtask 2: News Click Prediction
+
+News websites present recommendations to users suggesting what to read next. These are often displayed as the article title accompanied by an image. In this task, participants investigate whether recommendations that are frequently clicked by users can be predicted using the textual content of the article and/or the accompanying image. Publishers tend to focus on click-related scores to determine the value of recommendations.
 
 #### Motivation and background
+Online news articles are multimodal: the textual content of an article is often accompanied by an image. The image is important for illustrating the content of the text, but also attracting readers’ attention. Research in multimedia and recommender systems generally assumes a simple relationship between images and text occurring together. For example, in image captioning [6], the caption is often assumed to describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship becomes less clear [8]. The goal of this task is to investigate these intricacies in more depth, in order to understand the implications that it may have for the areas of journalism and recommender systems.
+
+The task is formulated into two straightforward subtasks that participants can address using text-based and/or image features. However, the ultimate objective of this task is to gain additional insight. Specifically, we are curious about the connection between the textual content of articles and the images that accompany them and also about the connection between the image and title shown by a recommender system to users and the tendency of users to click on the recommended article. We are especially interested in aspects of images that go beyond the conventional set of concepts studied by concept detection. We are also interested in aspects of images that go beyond the literally depicted content. Such aspects include color, style, and framing.
+
 
 #### Target group
 
