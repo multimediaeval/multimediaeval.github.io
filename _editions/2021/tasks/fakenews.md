@@ -17,8 +17,6 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 
 #### Motivation and background
 
-#### Introduction
-
 #### Target group
 
 #### Data
