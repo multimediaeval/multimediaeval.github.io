@@ -53,17 +53,17 @@ For each subtask, we also encourage participants to carry out a failure analysis
 
 [1] [Crisp Project](https://github.com/P-eMartin/crisp)
 
-[2] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. 2020. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks.](https://link.springer.com/epdf/10.1007/s11042-020-08917-3) Multimedia Tools and Applications (19 Apr 2020).
+[2] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. 2020. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks](https://link.springer.com/epdf/10.1007/s11042-020-08917-3). Multimedia Tools and Applications 79, 2020, 20429–20447.
 
-[3] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [3D attention mechanism for fine-grained classification of table tennis strokes using a Twin Spatio-Temporal Convolutional Neural Networks](https://hal.archives-ouvertes.fr/hal-02977646/document). 25th International Conference on Pattern Recognition (ICPR2020), Jan 2021, Milano, Italy. 
+[3] Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. [3D attention mechanism for fine-grained classification of table tennis strokes using a Twin Spatio-Temporal Convolutional Neural Networks](https://hal.archives-ouvertes.fr/hal-02977646/document). 2020 25th International Conference on Pattern Recognition (ICPR), 2021, 6019-6026.
 
-[3] Gül Varol, Ivan Laptev, and Cordelia Schmid. 2018. [Long-Term Temporal Convolutions for Action Recognition.](https://arxiv.org/pdf/1604.04494.pdf) IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
+[3] Gül Varol, Ivan Laptev, and Cordelia Schmid. 2018. [Long-Term Temporal Convolutions for Action Recognition](https://arxiv.org/pdf/1604.04494.pdf). IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
 
-[4] Joao Carreira and Andrew Zisserman. 2017. [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.](https://arxiv.org/pdf/1705.07750.pdf) CoRR abs/1705.07750 (2017).
+[4] Joao Carreira and Andrew Zisserman. 2017. [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf). 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, 4724-4733.
 
-[5] Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. 2017. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions.](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf) CoRR abs/1705.08421 (2017).
+[5] Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. 2017. [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf). 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2018, 6047-6056.
 
-[6] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of 101 human actions classes from videos in the wild.](https://arxiv.org/pdf/1212.0402.pdf) CoRR 1212.0402 (2012).
+[6] Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. 2012. [UCF101: A dataset of 101 human actions classes from videos in the wild](https://arxiv.org/pdf/1212.0402.pdf). Computer Vision and Pattern Recognition (cs.CV), CRCV-TR-12-01.
 
 #### Task organizers
 You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr 
