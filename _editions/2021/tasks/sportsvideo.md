@@ -22,9 +22,7 @@ This task offers researchers an opportunity to test their fine-grained classific
 
 Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the data set with new and more diverse stroke samples. 
 
-<!-- # Consider adding the following line:
-*Participants are encouraged to make their code public with their submission.* 
--->
+Participants are encouraged to make their code public with their submission.
 
 #### Motivation and background
 Action detection and classification are one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sport team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training. 
@@ -46,7 +44,7 @@ The dataset used for training is composed of videos of table tennis matches with
 
 ***Subtask 2: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
 
-<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
+For each subtask, we also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
