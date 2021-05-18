@@ -52,9 +52,6 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
 * Alba García Seco de Herrera, University of Essex, UK, alba.garcia (at) essex.ac.uk
 * Rukiye Savran Kiziltepe, University of Essex, UK, rs16419 (at) essex.ac.uk
 * Faiyaz Doctor, University of Essex, UK
