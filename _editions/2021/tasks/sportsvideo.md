@@ -86,4 +86,4 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
-<!-- # optional, delete if not used-->
+We would like to thank all the players and annotators for their involvement in the acquisition and annotation processes and Alain Coupet from sport faculty of Bordeaux, expert and teacher in table tennis, for the proposed table tennis strokes taxonomy.
