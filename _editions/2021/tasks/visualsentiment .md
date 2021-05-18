@@ -16,12 +16,17 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 #### Task Description
 
 Disaster-related images are complex and often evoke an emotional response, both good and bad. This task focuses on performing visual sentiment analysis on images collected from disasters across the world. 
+<!-- # Add information to make clear kinds of images are being processed and what the source of the emotional impact is: intentional framing/semantic content/both-->
 
 *Subtask 1: Single-label Image Classification* The first task aims at a single-label image classification task, where the images are arranged in three different classes, namely positive, negative, and neutral with a bias towards the negative samples, due to the topic taken into consideration. 
 
 *Subtask 2: Multi-label Image Classification* This is a multi-label image classification task where the participants will be provided with multi-labeled images. The multi-label classification strategy, which assigns multiple labels to an image, better suits our visual sentiment classification problem and is intended to show the correlation of different sentiments. In this task seven classes, namely joy, sadness, fear, disgust, anger, surprise, and neutral, are covered. 
 
 *Subtask 3: Multi-label Image Classification* The task is also a multi-label, however, a wider range of sentiment classes are covered. Going deeper in the sentiment hierarchy, the complexity of the task increases.  The sentiment categories covered in this task include  anger, anxiety, craving, empathetic pain, fear, horror, joy, relief, sadness, and surprise.  
+
+<!-- # Consider adding the following line:
+*Participants are encouraged to make their code public with their submission.* 
+-->
 
 #### Motivation and background
 As implied by the popular proverb "a picture is worth a thousand words," visual contents are an effective means to convey not only facts but also cues about sentiments and emotions. Such cues representing the emotions and sentiments of the photographers may trigger similar feelings from the observer and could be of help in understanding visual contents beyond semantic concepts in different application domains, such as education, entertainment, advertisement, and journalism. To this aim, masters of photography have always utilized smart choices, especially in terms of scenes, perspective, angle of shooting, and color filtering, to let the underlying information smoothly flow to the general public. Similarly, every user aiming to increase in popularity on the Internet will utilize the same tricks. However, it is not fully clear how such emotional cues can be evoked by visual contents and more importantly how the sentiments derived from a scene by an automatic algorithm can be expressed. This opens an interesting line of research to interpret emotions and sentiments perceived by users viewing visual contents.
@@ -33,9 +38,13 @@ Researchers in Machine Learning, Multimedia retrieval, sentiment analysis, and v
 For the visual sentiment analysis, we will use a slightly modified version of our visual sentiment analysis dataset [1] that will include different training and testing sets. 
 
 #### Ground truth
+<!-- # Important for the participants to know this information-->
+
 
 #### Evaluation methodology
 All the tasks will be evaluated in terms of F1-scores.
+
+<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
