@@ -31,7 +31,7 @@ Efficient memorability prediction models will also push forward the semantic und
 Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (though not limited to). 
 
 #### Data
-<!-- # Please rewrite this next sentence. The description of the data should not imply that the reader should know anything about what happend last year. It's  important to note that it is the same data, but do that at the end for completeness and not at the beginning.-->
+<!-- # Please rewrite this next sentence. The description of the data should not imply that the reader should know anything about what happend last year. It's  important to note that it is the same video data, but do that at the end for completeness and not at the beginning. Strictly speaking the data is not the same because there are new annotations.-->
 In 2021, the task will use the same data as in 2020. More annotations will be provided to improved the quality of the collection.
  
 Apart from traditional video information like metadata and extracted visual features, part of the data will be accompanied by Electroencephalography (EEG) recordings that would allow to explore the physical reaction of the user. Optionally, we may use descriptive captions from their use in the TRECVid automatic video captioning task. 
@@ -48,7 +48,7 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # Please add your links! The paper title should be a hyperlink leading to the paper online-->
 [1] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. Understanding and predicting image memorability at a large scale. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.\
 [2] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. What makes a photograph memorable? IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.\
 [3] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. Deep learning for predicting image memorability. In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).\
