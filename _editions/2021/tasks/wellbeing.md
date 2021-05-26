@@ -22,7 +22,7 @@ Participants in this task tackle three challenging subtasks:
 
 *Subtask 2: Personal Air Quality:* Task participants develop approaches to automatically predict personal AQI (Air Quality Index) at specific positions and time durations using either the underspecified data or the full data from a subset of data sources. The aim of Personal AQI is to measure the wellbeing of individual people with respect to the quality of the air that they are breathing.
 
-*Subtask 3: Transformer Learning:* Task participants first develop a model on the given dataset, and then transform that model to work on another dataset (probably having different time and date). This task uses dataset from subtask 1 and 2.
+*Subtask 3: Transfer Learning:* Task participants first develop a model on the given dataset, and then transform that model to work on another dataset (probably having different time and date). This task uses dataset from subtask 1 and 2.
 
 #### Motivation and background
 The association between people’s wellbeing and properties of the surrounding environment is an important area of investigation. Although these investigations have a long and rich history, they have focused on the general population. There is a surprising lack of research that investigates the impact of the environment at the scale of individual people. At personal scale, local information about air pollution (e.g. PM2.5, NO2, O3), weather (e.g. temperature, humidity), urban nature (e.g. greenness, liveliness, quietness), and personal behavior (e.g. psychophysiological data) play an important role. It is not always possible to gather plentiful amounts of such data. As the result, a key research question remains open: Can sparse or incomplete data can be used to gain insight into wellbeing? In other words, is there a hypothesis about the associations within the data so that wellbeing can be understood by using a limited amount data? Developing hypotheses about the associations within the heterogeneous data contributes towards building good multimodal models that make it possible to understand the impact of environment on wellbeing at the local and individual scale. Such models are necessary since not all cities are fully covered by standard air pollution and weather stations, and not all people experience the same reaction to the same environment situation. Moreover, images captured by the first-person view could give important cues to help understand that environmental situation in cases in which precise data from air pollution stations is lacking.
@@ -62,8 +62,7 @@ For each subtask, the evaluation method is applied as follows:
 [7] Dang-Nguyen, D.T., Piras, L., Riegler, M., Zhou, L., Lux, M., and Gurrin, C.: Overview of ImageCLEFlifelog 2018: Daily Living Understanding and Lifelog Moment Retrieval, CLEF2018 Working Notes, Avignon, France, 2018.
 
 #### Task organizers
-* Minh-Son Dao, National Institute of Information and Communications Technology, Japan (NICT)
-* dao (at) nict (dot) go (dot) jp
+* Minh-Son Dao, National Institute of Information and Communications Technology, Japan (NICT) dao (at) nict (dot) go (dot) jp
 * Duc-Tien Dang-Nguyen, University of Bergen, Norway (UiB)
 * Cathal Gurrin, Dublin City University, Ireland (DCU)
 * Thanh Nguyen, University of Information Technology, Vietnam (UIT)
