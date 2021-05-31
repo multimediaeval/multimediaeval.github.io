@@ -71,8 +71,8 @@ The task is of interest to the researchers working with multimedia segmentation,
 * Pål Halvorsen, SimulaMet and OsloMet, Norway 
 
 #### Task Schedule
-* XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 1 July: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 7 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
