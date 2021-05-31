@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-31T13:33:37+00:00" />
+<meta property="article:published_time" content="2021-05-31T13:34:22+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/"},"headline":"Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos","dateModified":"2021-05-31T13:33:37+00:00","datePublished":"2021-05-31T13:33:37+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/"},"headline":"Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos","dateModified":"2021-05-31T13:34:22+00:00","datePublished":"2021-05-31T13:34:22+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -167,7 +167,7 @@
 <h4 id="task-description">Task Description</h4>
 <p>This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101. The task offers two subtasks:</p>
 
-<p><strong><em>Subtask 1: Stroke Detection:</em></strong> Participants are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.</p>
+<p><strong><em>Subtask 1: Stroke Detection:</em></strong> Participans are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.</p>
 
 <p><strong><em>Subtask 2: Stroke Classification:</em></strong> Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 21 possible stroke classes.</p>
 
@@ -189,7 +189,7 @@
 
 <p>The training dataset shared for each subtask is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file, with the corresponding stroke label.</p>
 
-<p><strong><em>Subtask 1: Stroke Detection:</em></strong>  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation.</p>
+<p><strong><em>Subtask 1: Stroke Detection:</em></strong>  The dataset used for training is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file. Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation.</p>
 
 <p><strong><em>Subtask 2: Stroke Classification:</em></strong>  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy.</p>
 
