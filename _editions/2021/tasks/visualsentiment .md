@@ -14,7 +14,9 @@ blurb: "The Visual Sentiment Analysis task aims at finding methods that can pred
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
-Disaster-related images are complex and often evoke an emotional response, both good and bad. This task focuses on performing visual sentiment analysis on images collected from disasters across the world. The images contained in the provided dataset aim to provoke an emotional response through both intentional framining and based on the contents itself.
+Disaster-related images are complex and often evoke an emotional response, both good and bad. This task focuses on performing visual sentiment analysis on images collected from disasters across the world. 
+<!-- # Here you need a short sentence so that people know that it is the sentiment expressed by the photographer as judged by crowdsourcing workers-->
+The images contained in the provided dataset aim to provoke an emotional response through both intentional framining and based on the contents itself.
 
 *Subtask 1: Single-label Image Classification* The first task aims at a single-label image classification task, where the images are arranged in three different classes, namely positive, negative, and neutral with a bias towards the negative samples, due to the topic taken into consideration. 
 
@@ -35,7 +37,7 @@ For the visual sentiment analysis, we will use a slightly modified version of ou
 
 #### Ground truth
 The dataset was annotated through a crowd-sourcing study using Microworkers, where at least five different participants were assigned to annotate each image. The final tags were chosen based on a majority vote from the five participants assigned to it. The study concluded with 10,010 different responses from 2,338 participants. The participants included individuals from different age groups and 98 countries. The time spent by a participant on an image, which helped filter out careless or inappropriate responses. Before the study, two trial studies were performed to test, correct errors, and improve clarity and readability.
-
+<!-- # This description needs to make clear what the crowdworkers were actually asked. It seems that they are not reporting their own experience of the emotional impact of the photographs, but rather the intention of the photographer-->
 
 #### Evaluation methodology
 All the tasks will be evaluated using standard classification metrics, where F1-Score will be used to rank the different submissions. We also encourage participants to carry out a failure analysis of the results to gain insight into why a classifier may make a mistake.
