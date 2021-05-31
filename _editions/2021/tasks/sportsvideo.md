@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true 
+hide: false 
 
 # required info
 title: "Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos"
@@ -16,7 +16,7 @@ blurb: "Participants are provided with a set of videos of table tennis games and
 #### Task Description
 This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101. The task offers two subtasks:
 
-***Subtask 1: Stroke Detection:*** Participans are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
+***Subtask 1: Stroke Detection:*** Participants are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
 
 ***Subtask 2: Stroke Classification:*** Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 21 possible stroke classes. 
 
@@ -38,7 +38,7 @@ Twenty stroke classes are considered according to the rules of table tennis. Thi
 
 The training dataset shared for each subtask is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file, with the corresponding stroke label.
 
-***Subtask 1: Stroke Detection:***  The dataset used for training is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file. Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
+***Subtask 1: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
 
 ***Subtask 2: Stroke Classification:***  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy. 
 
