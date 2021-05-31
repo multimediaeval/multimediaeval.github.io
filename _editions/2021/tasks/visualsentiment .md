@@ -7,7 +7,7 @@ hide: true
 # required info
 title: "Visual Sentiment Analysis: A Natural Disaster Use-case"
 subtitle: 
-blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
+blurb: "The Visual Sentiment Analysis task aims at finding methods that can predict the emotional response from disaster-related images."
 ---
 
 <!-- # please respect the structure below-->
@@ -28,17 +28,17 @@ Disaster-related images are complex and often evoke an emotional response, both 
 As implied by the popular proverb "a picture is worth a thousand words," visual contents are an effective means to convey not only facts but also cues about sentiments and emotions. Such cues representing the emotions and sentiments of the photographers may trigger similar feelings from the observer and could be of help in understanding visual contents beyond semantic concepts in different application domains, such as education, entertainment, advertisement, and journalism. To this aim, masters of photography have always utilized smart choices, especially in terms of scenes, perspective, angle of shooting, and color filtering, to let the underlying information smoothly flow to the general public. Similarly, every user aiming to increase in popularity on the Internet will utilize the same tricks. However, it is not fully clear how such emotional cues can be evoked by visual contents and more importantly how the sentiments derived from a scene by an automatic algorithm can be expressed. This opens an interesting line of research to interpret emotions and sentiments perceived by users viewing visual contents.
 
 #### Target group
-Researchers in Machine Learning, Multimedia retrieval, sentiment analysis, and visual analysis.
+The task is appropriate for researchers in machine learning, multimedia retrieval, sentiment analysis, and visual analysis.
 
 #### Data
-For the visual sentiment analysis, we will use a slightly modified version of our visual sentiment analysis dataset [1] that will include different training and testing sets. 
+For the visual sentiment analysis, we will use a slightly modified version of our visual sentiment analysis dataset [1] that will include a different training and testing sets. 
 
 #### Ground truth
 The dataset was annotated through a crowd-sourcing study using Microworkers, where at least five different participants were assigned to annotate each image. The final tags were chosen based on a majority vote from the five participants assigned to it. The study concluded with 10,010 different responses from 2,338 participants. The participants included individuals from different age groups and 98 countries. The time spent by a participant on an image, which helped filter out careless or inappropriate responses. Before the study, two trial studies were performed to test, correct errors, and improve clarity and readability.
 
 
 #### Evaluation methodology
-All the tasks will be evaluated using standard classification metrics, where F1-Score will be used to rank the different submissions. We also encourage participants to carry out a failure analysis of their results to gain insight into the mistakes that their classifiers make.
+All the tasks will be evaluated using standard classification metrics, where F1-Score will be used to rank the different submissions. We also encourage participants to carry out a failure analysis of the results to gain insight into why a classifier may make a mistake.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
