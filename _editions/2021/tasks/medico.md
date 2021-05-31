@@ -7,7 +7,7 @@ hide: true
 # required info
 title: "Medico: Transparency in Medical Image Segmentation"
 subtitle:
-blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
+blurb: "The Medico task explores the use of transparent approaches to automatically segment images collected from the human colon."
 ---
 
 <!-- # please respect the structure below-->
