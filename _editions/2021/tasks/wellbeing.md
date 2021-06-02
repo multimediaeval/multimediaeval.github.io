@@ -5,7 +5,7 @@ year: 2021
 hide: true 
 
 # required info
-title: "Insight for Wellbeing: Multimodal personal health lifelog data analysis"
+title: "Insight for Wellbeing: Cross-Data Haze Prediction"
 subtitle: 
 blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
 ---
