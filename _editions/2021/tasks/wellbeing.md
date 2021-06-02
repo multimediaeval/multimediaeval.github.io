@@ -19,7 +19,7 @@ Participants in this task will tackle two subtasks:
 
 *Subtask 1: 3-Day Localized Air Pollution Prediction:* : in this subtask, the objective is to predict the PM10 value at different locations in multiple countries using data only from each country itself. This subtask will explore the accuracy of predicting air pollution for few days ahead (currently 3), and it is designed to evaluate how well this objective can be achieved if each country depends only on its own available data. .
 
-*Subtask 2: 3-Day Transboundary Air Pollution Prediction:* : in this subtask, the objective is to predict the PM10 value in multiple countries by considering other data sources available from neighboring countries.  This subtask will indirectly measure transboundary haze effect, by observing the improvements of prediction accuracy once the haze and weather situation in neighboring countries is taken into account. 
+*Subtask 2: 3-Day Transboundary Air Pollution Prediction:* : in this subtask, the objective is to predict the PM10 value in multiple countries by considering other data sources available from neighboring countries (e.g., wind direction, wind speed).  This subtask will indirectly measure transboundary haze effect, by observing the improvements of prediction accuracy once the haze and weather situation in neighboring countries is taken into account. 
 
 *Subtask 3: Transfer Learning:* Task participants first develop a model on the given dataset, and then transform that model to work on another dataset (probably having different time and date). This task uses dataset from subtask 1 and 2.
 
