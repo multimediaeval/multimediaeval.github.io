@@ -42,9 +42,13 @@ All data will be provided in CSV format, without inclusion of any Personal data.
 
 #### Evaluation methodology
 There will be two timeseries datasets, one for training and one for testing, for each country. Separate data files will include air pollution readings and weather parameters, which are timestamped and with location information.
+
 The testing datasets will be created from the ending tail of the timeseries data in each station/country, and will have some values hidden (multiple 3-day windows) which the participants will need to predict and use as their submissions for the two involved subtasks. The predicted values will be compared with the (kept aside) ground truth values, where the metrics of root mean squared error (RMSE), symmetric mean absolute percentage error (SMAPE), and mean absolute error (MAE) will be calculated and averaged for all stations in each country. 
+
 Accurate predictions are supposed to have smallest possible error values on each of the metrics across all stations in a single country. Participants may opt to use same or different methods for different countries in their predictions. It is expected that the models should be accurate across countries as well, so the average of the errors over countries will be computed as a general indicator. However, individual accurate models per country are the focus.
+
 It is to be emphasized that for the first subtask (localized air pollution), participants should use only the data from each specific country when developing their models and performing test data predictions. However, for the second subtask (transboundary air pollution), participants are expected to utilize all available data (across countries), and potentially other data sources that help in capturing the transboundary nature of the problem.
+
 At the end of the challenge, participants are expected to submit their source code and any other necessary resources, together with their testing files predictions, in order to validate the applied methodologies.
 
 
@@ -53,21 +57,26 @@ At the end of the challenge, participants are expected to submit their source co
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 
 [1] Donkelaar A.V., Martin R., Brauer M., Kahn R., Levy R.C., Verduzco C., Villeneuve P.J., 2010, Global estimates of ambient fine particulate matter concentrations from satellite-based aerosol optical depth: development and application, Environment Health Perspectives, 118(6), 847-855.
+
 [2] Saeed S., Hussain L., Awan I.A., Idris A., 2017, Comparative analysis of different statistical methods for prediction of PM2.5 and PM10 concentrations in advance for several hours, International Journal of Computer Science and Network Security, 17(11), 45–52.
+
 [3] Zhao P., Zettsu K., 2018, Convolution recurrent neural networks for short-term prediction of atmospheric sensing data, 2018 IEEE International Conference on Internet of Things and IEEE Green Computing and Communications and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData), 30th July–3rd August 2018, Halifax, NS, Canada.
+
 [4] Zhao P., Zettsu K., 2019, Convolution recurrent neural networks based dynamic transboundary air pollution prediction, 2019 IEEE 4th International Conference on Big Data Analytics (ICBDA), 15th March–18th March 2019, Suzhou, China.
+
 [5] Yang G., Lee H., Lee G., 2020, A hybrid deep learning model to forecast particulate matter concentration levels in Seoul, South Korea, Atmosphere 2020, 11(4), 348–367.
+
 [6] E. N. Aziz, A. Kasem, W. S. H. Suhaili, and P. Zhao, Convolution Recurrent Neural Network for Daily Forecast of PM10 Concentrations in Brunei Darussalam. Journal of Chemical Engineering Transactions, 2021, Vol. 83, pp. 355–360.
 
 
 #### Task organizers
 * Asem Kasem (UTB, Brunei) asem.kasem (at) utb.edu.bn
-* Wida Suhaili (UTB, Brunei)  wida.suhaili (at) utb.edu. bn
 * Minh-Son Dao, National Institute of Information and Communications Technology, Japan (NICT) dao (at) nict (dot) go (dot) jp
+* Thanh Nguyen, University of Information Technology, Vietnam (UIT)
 * Duc-Tien Dang-Nguyen, University of Bergen, Norway (UiB)
 * Cathal Gurrin, Dublin City University, Ireland (DCU)
-* Thanh Nguyen, University of Information Technology, Vietnam (UIT)
 * Tran Minh Triet, University of Science, Vietnam (HCMUS)
+* Wida Suhaili, Universiti Teknologi Brunei (UTB)
 
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
