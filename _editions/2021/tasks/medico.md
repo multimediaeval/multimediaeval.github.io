@@ -41,6 +41,7 @@ The task is of interest to the researchers working with multimedia segmentation,
 *Subtask 3: Transparent Machine Learning Systems* The transparent machine learning system task will be based on the previous two tasks and will use each respective dataset.
 
 #### Ground truth
+The ground truth for the provided dataset was created by an experienced computer scientist and medical doctor, which was then verified by an expert gastroenterologist with over ten years of experience.
 
 #### Evaluation methodology
 *Subtask 1: Polyp Segmentation and Subtask 2: Instrument Segmentation* We will use the standard metrics commonly used to evaluate segmentation tasks, similar to what was presented in [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/). This includes the Dice coefficient, pixel accuracy, and the Intersection-Over-Union (Jaccard index). The metric which will be used to rank submissions will be the Intersection-Over-Union coefficient.
