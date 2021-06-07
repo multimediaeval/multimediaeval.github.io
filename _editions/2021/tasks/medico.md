@@ -54,13 +54,15 @@ The ground truth for the provided dataset was created by an experienced computer
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # Please add the links! The paper title should be a hyperlink leading to the paper online-->
 <!-- # Adding more literature on explainability would be helpful-->
-[1] Borgli, H., Thambawita, V., Smedsrud, P.H. et al. HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy. Sci Data 7, 283 (2020).
+[1] [Borgli, H., Thambawita, V., Smedsrud, P.H. et al. HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy. Sci Data 7, 283 (2020).](https://www.nature.com/articles/s41597-020-00622-y)
 
-[2] Jha D. et al. (2021) Kvasir-Instrument: Diagnostic and Therapeutic Tool Segmentation Dataset in Gastrointestinal Endoscopy. In: Lokoč J. et al. (eds) MultiMedia Modeling. MMM 2021. Lecture Notes in Computer Science, vol 12573.
+[2] [Jha D. et al. (2021) Kvasir-Instrument: Diagnostic and Therapeutic Tool Segmentation Dataset in Gastrointestinal Endoscopy. In: Lokoč J. et al. (eds) MultiMedia Modeling. MMM 2021. Lecture Notes in Computer Science, vol 12573.](https://link.springer.com/chapter/10.1007/978-3-030-67835-7_19)
 
-[3] Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.
+[3] [Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)
 
-[4] Weller A. Transparency: motivations and challenges. InExplainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.
+[4] [Weller, A. (2019). Transparency: Motivations and Challenges. In W. Samek, G. Montavon, A. Vedaldi, L. K. Hansen, & K.-R. Müller (Eds.), Explainable AI: Interpreting, Explaining and Visualizing Deep Learning (pp. 23–40). Springer International Publishing.](https://doi.org/10.1007/978-3-030-28954-6_2)
+
+[5] [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.](https://link.springer.com/book/10.1007/978-3-030-28954-6)
 
 #### Task organizers
 * Steven Hicks, SimulaMet, Norway steven (at) simula.no
