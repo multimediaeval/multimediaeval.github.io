@@ -45,11 +45,11 @@ All the tasks will be evaluated using standard classification metrics, where F1-
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-[1] Hassan, Syed Zohaib, et al. "Visual Sentiment Analysis from Disaster Images in Social Media." arXiv preprint arXiv:2009.03051 (2020).
+[1] [Hassan, Syed Zohaib, et al. "Visual Sentiment Analysis from Disaster Images in Social Media." arXiv preprint arXiv:2009.03051 (2020).](https://arxiv.org/pdf/2009.03051.pdf)
 
-[2] Hassan, Syed Zohaib, et al. "Sentiment analysis from images of natural disasters." International Conference on Image Analysis and Processing. Springer, Cham, 2019. 
+[2] [Hassan, Syed Zohaib, et al. "Sentiment analysis from images of natural disasters." International Conference on Image Analysis and Processing. Springer, Cham, 2019.](https://arxiv.org/abs/1910.04416) 
 
-[3] Ortis, Alessandro, Giovanni Maria Farinella, and Sebastiano Battiato. "Survey on visual sentiment analysis." IET Image Processing 14.8 (2020): 1440-1456.
+[3] [Ortis, Alessandro, Giovanni Maria Farinella, and Sebastiano Battiato. "Survey on visual sentiment analysis." IET Image Processing 14.8 (2020): 1440-1456.](https://arxiv.org/pdf/2004.11639.pdf)
 
 #### Task organizers
 * Kashif Ahmad, kahmad (at) hbku.edu.qa, Hamad Bin Khalifa University, Doha, Qatar
@@ -61,8 +61,8 @@ All the tasks will be evaluated using standard classification metrics, where F1-
 * Ala Al-Fuqaha, aalfuqaha (at) hbku.edu.qa, Hamad Bin Khalifa University, Doha, Qatar 
 
 #### Task Schedule
-* XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* June-July : Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 5 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
