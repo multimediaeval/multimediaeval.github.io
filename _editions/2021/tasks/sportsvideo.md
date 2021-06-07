@@ -14,7 +14,7 @@ blurb: "Participants are provided with a set of videos of table tennis games and
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
-This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101. The task offers two subtasks:
+This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. (The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101.) The task offers two subtasks:
 
 ***Subtask 1: Stroke Detection:*** Participants are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
 
