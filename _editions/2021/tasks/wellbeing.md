@@ -14,7 +14,10 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
-Task participants will work on developing models for transboundary haze prediction using timeseries data describing air pollution (PM10) concentration changes over time, and weather data, which are recorded at multiple locations across countries in the ASEAN region. The task is organized as multiple subtasks to encourage multi-disciplinary research that can consider additional data sources (cross-data) to improve prediction and/or find insights based on environmental factors, satellite remote sensing, social/news data, etc.
+Task participants will work on developing models for transboundary haze prediction using timeseries data describing air pollution (PM10) concentration changes over time, and weather data, which are recorded at multiple locations across countries in the ASEAN region.
+<!-- # Please add a sentence that explains what is meant by haze prediction and what the "transboundary" part is: it must be clear that haze is air pollution-->
+<!-- # Please connect to personal health.-->
+The task is organized as multiple subtasks to encourage multi-disciplinary research that can consider additional data sources (cross-data) to improve prediction and/or find insights based on environmental factors, satellite remote sensing, social/news data, etc.
 
 Participants in this task will tackle three subtasks:
 
@@ -23,6 +26,8 @@ Participants in this task will tackle three subtasks:
 *Subtask 2: 3-Day Transboundary Air Pollution Prediction:* : in this subtask, the objective is to predict the PM10 value in multiple countries by considering other data sources available from the same country or neighboring countries (remote sensing, social media streams, news, etc.). This subtask is encouraged to address transboundary haze effects, for example by observing the improvements of prediction accuracy once the haze and weather situation (e.g. wind/fire information) in neighboring countries is taken into account, or through other insights and conclusions that the participants find. 
  
 *Subtask 3: Transfer Learning:* in this subtask, participants will re-visit subtasks 1 or 2 above, by considering transfer learning techniques in their solutions using pre-trained models for predicting new data, or by using models from subtask-1 in subtask-2, etc.
+
+<!-- # add a second sentence on why it is interesting to investigate-->
 
 #### Motivation and background
 Haze air pollution describes the pollution consisting of particulate matter of smoke, dust, and other vapours present in the air, which originate from large-scale forest and land fires, factories, and cars. This mixture of air-borne pollutants, when it reaches high levels, causes respiratory health problems, and has negative impacts on visibility, economic production, transportation, and tourism.  
