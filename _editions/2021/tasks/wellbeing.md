@@ -15,7 +15,7 @@ blurb: "Insert blurb here, keep it between the quotes in order to handle any spe
 
 #### Task Description
 Task participants will work on developing models for transboundary haze prediction using timeseries data describing air pollution (PM10) concentration changes over time, and weather data, which are recorded at multiple locations across countries in the ASEAN region.
-<!-- # Please add a sentence that explains what is meant by haze prediction and what the "transboundary" part is: it must be clear that haze is air pollution-->
+<!-- # Please add a sentence that explains what is meant by haze prediction and what the "transboundary" part is: it must be clear that haze is air pollution and use PM10 only after it has been defined (maybe introduce it below)-->
 <!-- # Please connect to personal health.-->
 The task is organized as multiple subtasks to encourage multi-disciplinary research that can consider additional data sources (cross-data) to improve prediction and/or find insights based on environmental factors, satellite remote sensing, social/news data, etc.
 
