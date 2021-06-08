@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-06-08T14:19:41+00:00" />
+<meta property="article:published_time" content="2021-06-08T18:30:07+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/watermm/"},"headline":"WaterMM: Water Quality in Social Multimedia","dateModified":"2021-06-08T14:19:41+00:00","datePublished":"2021-06-08T14:19:41+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/watermm/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/watermm/"},"headline":"WaterMM: Water Quality in Social Multimedia","dateModified":"2021-06-08T18:30:07+00:00","datePublished":"2021-06-08T18:30:07+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/watermm/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -161,28 +161,19 @@
     <h2>WaterMM: Water Quality in Social Multimedia</h2>
   </header>
 
-  <!-- # please respect the structure below-->
-<p><em>See the <a href="https://multimediaeval.github.io/editions/2021/">MediaEval 2021 webpage</a> for information on how to register and participate.</em></p>
+  <p><em>See the <a href="https://multimediaeval.github.io/editions/2021/">MediaEval 2021 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task Description</h4>
 <p>The WaterMM Task deals with the analysis of social media posts from Twitter with regards to issues of water quality, safety and security. The participants of this task are provided with a set of Twitter post IDs in order to download the text, the attached image and the metadata of tweets that have been selected with keyword-based search that involved words/phrases about the quality of drinking water (e.g., strange color, smell or taste, related illnesses, etc.). Because the occurrence of such phrases in a tweet might not necessarily reflect a case of water contamination, participants are asked to build a binary classification system that will be able to distinguish whether a post is relevant or not to water-quality issues.</p>
 
-<p>The dataset is bilingual (English and Italian), and participants can tackle the task by using textual information, visual information, metadata or a combination of the above.</p>
-
-<!-- # Consider adding the following line:
-*Participants are encouraged to make their code public with their submission.* 
--->
+<p>The dataset is bilingual (English and Italian), and participants can tackle the task by using textual information, visual information, metadata or a combination of the above. In addition, participants are highly encouraged to make their code public along with their submission.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
-<p>The rise of social media has led to discussion of a broad range of topics related to everyday life. One of the topics that we expect to be mentioned in social media posts is water quality, safety and security. The acquisition of posts containing citizen complaints on the condition of drinking water, as an addition to traditional means such as phone calls, could support situational awareness in a water distribution network. However, within the post stream we expect that number posts containing water-quality related keywords do not refer to actual cases of polluted water. To minimize the incoming noise, automatic prediction of a post’s relevance is required. Filtering out irrelevant posts will improve the quality of the information that water utilities receive from social media.
-<!-- # In this sentence above, expand water utilities to include other relevant organization. It is not clear, for example, that Eastern Alps River Basin District is a water utility. Note that countries differentiate between public and privte utilities.
---></p>
+<p>The rise of social media has led to discussion of a broad range of topics related to everyday life. One of the topics that we expect to be mentioned in social media posts is water quality, safety and security. The acquisition of posts containing citizen complaints on the condition of drinking water, as an addition to traditional means such as phone calls, could support situational awareness in a water distribution network. However, within the post stream we expect that a number of posts containing water-quality-related keywords does not refer to actual cases of polluted water. To minimize the incoming noise, automatic prediction of a post’s relevance is required. Filtering out irrelevant posts will improve the quality of the information that interested organizations, such as water utilities or water protection agencies, receive from social media.</p>
 
-<!-- Please check the following, which has been edited in order to draw attention/make the contrast with to your previous efforts
--->
-<p>Research on developing classifiers for social media monitoring is often related to <em>sudden crisis</em> (see last year’s <a href="https://multimediaeval.github.io/editions/2020/tasks/floodmultimedia/">Flood-related Multimedia Task</a>). Studying water quality allows us to expand the scope in include so-called <em>creeping crisis</em>, i.e., a dangerous situation emerges slowly.</p>
+<p>Research on developing classifiers for social media monitoring is often related to <em>sudden crisis</em> (see last year’s <a href="https://multimediaeval.github.io/editions/2020/tasks/floodmultimedia/">Flood-related Multimedia Task</a>). Studying water quality allows us to expand the scope in order to include the so-called <em>creeping crisis</em>, i.e., a dangerous situation that emerges slowly.</p>
 
-<p>The dataset is bilingual (English and Italian) to encourage researchers to tackle the real-world challenge of multiple languages in the data.</p>
+<p>Moreover, the dataset is bilingual (English and Italian) to encourage researchers to tackle the real-world challenge of multiple languages in the data.</p>
 
 <h4 id="target-group">Target group</h4>
 <p>Researchers in the areas of social media, multimedia and multilingual analysis, multimedia classification and information retrieval are strongly encouraged to participate in the WaterMM Task. Industries and SMEs that develop similar AI technologies for semantic data fusion and retrieval of multi- or cross-lingual content are also warmly invited to participate. Furthermore, the challenge could be interesting to researchers and practitioners in water-related domains, such as water engineering, water distribution, and water management in general.</p>
@@ -194,26 +185,22 @@
 <p>The ground truth of the dataset reflects the relevance of a tweet (relevant / not relevant) and has been manually collected with human annotation, realized by the Eastern Alps River Basin District, who are responsible for hydrogeological defense, i.e., the protection of water resources and aquatic environments, in the Eastern Alps partition of North-East Italy.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
-<p>The evaluation metric for the binary classification of tweets as relevant (1) or not relevant (0) will be F-score.
-<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.--></p>
+<p>The evaluation metric for the binary classification of tweets as relevant (1) or not relevant (0) will be F-score. Participants are also encouraged to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.</p>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
-<!-- # Not clear why the papers are ordered like this: Could you alphabetize?-->
-<p>[1] Moumtzidou, A., Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S. and Kompatsiaris, I., 2018, April. <a href="https://dl.acm.org/doi/abs/10.1145/3184558.3191620">Flood relevance estimation from visual and textual content in social media streams</a>. In Companion Proceedings of the The Web Conference 2018 (pp. 1621-1627).</p>
+<p>[1] Anastasia Moumtzidou, Stelios Andreadis, Ilias Gialampoukidis, Anastasios Karakostas, Stefanos Vrochidis, and Ioannis Kompatsiaris. 2018. <a href="https://dl.acm.org/doi/abs/10.1145/3184558.3191620">Flood relevance estimation from visual and textual content in social media streams</a>. In <em>Companion Proceedings of the The Web Conference 2018</em>, April 23, 2018, 1621-1627.</p>
 
-<p>[2] Edo-Osagie, O., Smith, G., Lake, I., Edeghere, O. and De La Iglesia, B., 2019. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210689">Twitter mining using semi-supervised classification for relevance filtering in syndromic surveillance</a>. PLOS One, 14(7), p.e0210689.</p>
+<p>[2] Abhishek Sharma, Yuan Tian, and David Lo. 2015. <a href="https://ieeexplore.ieee.org/document/7081855">NIRMAL: Automatic identification of software relevant tweets leveraging language model.</a> In <em>2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)</em>, 449-458.</p>
 
-<p>[3] Cobo, A., Parra, D. and Navón, J., 2015, May. <a href="https://dl.acm.org/doi/abs/10.1145/2740908.2741719?casa_token=tH_-uutS5owAAAAA%3AYlj7i0gkAYBXjejuLTSI5m7YSihArnQufXwxYdYgaX31EIJlYSJprAvObcruvmGncG75CRh_38Tt">Identifying relevant messages in a twitter-based citizen channel for natural disaster situations</a>. In Proceedings of the 24th International Conference on World Wide Web (pp. 1189-1194).</p>
+<p>[3] Alfredo Cobo, Denis Parra, D., and Jaime Navón. 2015. <a href="https://dl.acm.org/doi/abs/10.1145/2740908.2741719">Identifying relevant messages in a twitter-based citizen channel for natural disaster situations</a>. In <em>Proceedings of the 24th International Conference on World Wide Web</em>, May 18, 2015, 1189-1194.</p>
 
-<p>[4] Sharma, A., Tian, Y. and Lo, D., 2015, March. <a href="https://ieeexplore.ieee.org/document/7081855">NIRMAL: Automatic identification of software relevant tweets leveraging language model.</a> In 2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER) (pp. 449-458). IEEE.</p>
+<p>[4] Oduwa Edo-Osagie, Gillian Smith, Iain Lake, Obaghe Edeghere, and Beatriz De La Iglesia. 2019. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210689">Twitter mining using semi-supervised classification for relevance filtering in syndromic surveillance</a>. <em>PLOS One</em>, 14, Article 7.</p>
 
 <p>We also recommend to read past years’ task papers in the MediaEval Proceedings.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
-  <li>Stelios Andreadis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece, andreadisst@iti.gr</li>
+  <li>Stelios Andreadis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece, <a href="mailto:andreadisst@iti.gr">andreadisst@iti.gr</a></li>
   <li>Ilias Gialampoukidis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece</li>
   <li>Anastasia Moumtzidou, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece</li>
   <li>Anastasios Karakostas, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece</li>
@@ -227,15 +214,17 @@
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July--></li>
-  <li>XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline--></li>
-  <li>XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November--></li>
-  <li>22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided--></li>
-  <li>Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided--></li>
+  <li>23 July: Data release</li>
+  <li>01 November: Runs due</li>
+  <li>12 November: Results returned</li>
+  <li>22 November: Working notes paper</li>
+  <li>Beginning December: MediaEval 2020 Workshop</li>
 </ul>
 
 <h4 id="acknolwedgments">Acknolwedgments</h4>
 <p>This task has been supported by the EU’s Horizon 2020 research and innovation programme under grant agreements H2020-832876 <a href="https://aqua3s.eu/">aqua3S</a>, H2020-883484 <a href="https://pathocert.eu/">PathoCERT</a>, and H2020-101004157 <a href="https://wqems.eu/project">WQeMS</a>.</p>
+
+<p><img src="https://m4d.iti.gr/wp-content/uploads/2020/07/aqua3s.png" alt="aqua3S Project" width="150" />      <img src="https://m4d.iti.gr/wp-content/uploads/2020/10/PathoCERT-final-logo-PNG.png" alt="PathoCERT Project" width="150" />      <img src="https://m4d.iti.gr/wp-content/uploads/2020/11/WQEMS.png" alt="WQeMS Project" width="150" /></p>
 
 
       </div>
