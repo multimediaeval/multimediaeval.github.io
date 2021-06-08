@@ -44,12 +44,12 @@ An expert panel evaluates the results based on their relevance. The expert panel
 * License: MIT License
 
 #### References and recommended reading
-[1]	Jorge Vázquez-Herrero, Sabela Direito-Rebollal, Alba Silva-Rodríguez and Xosé López-García. 2020. Journalistic Metamorphosis: Media Transformation in the Digital Age. Springer International Publishing.\
-[2]   Ulrich Germann, Renārs Liepins, Guntis Barzdins, Didzis Gosko, Sebastião Miranda and David Nogueira. 2018. The SUMMA platform: A scalable infrastructure for multi-lingual multimedia monitoring. System Demonstrations, Proceedings of ACL 2018.\
-[3] Raffi Krikorian. 2013. New tweets per second record, and how!. Twitter Blog.\
-[4] Felix Hamborg, Norman Meuschke and Bela Gipp. 2020 Bias-aware news analysis using matrix-based news aggregation. International Journal on Digital Libraries.\
-[5]  Marc Gallofré Ocaña and Andreas Lothe Opdahl. 2020. Challenges and opportunities for journalistic knowledge platforms. Proceedings of the CIKM 2020 Workshops. Galway, Ire-land (2020)\
-[6]  Marc Gallofré Ocaña, Lars Nyre, Andreas Lothe Opdahl, Bjørnar Tessem, Christoph Trattner, Csaba Veres. 2018. Towards a big data platform for news angles. The 4th Norwegian Big Data Symposium (NOBIDS).
+[1]	Jorge Vázquez-Herrero, Sabela Direito-Rebollal, Alba Silva-Rodríguez and Xosé López-García. 2020. [Journalistic Metamorphosis: Media Transformation in the Digital Age](https://doi.org/10.1007/978-3-030-36315-4). Springer International Publishing.\
+[2]   Ulrich Germann, Renārs Liepins, Guntis Barzdins, Didzis Gosko, Sebastião Miranda and David Nogueira. 2018. [The SUMMA platform: A scalable infrastructure for multi-lingual multimedia monitoring](https://doi.org/10.18653/v1/P18-4017). System Demonstrations, Proceedings of ACL 2018.\
+[3] Raffi Krikorian. 2013. [New tweets per second record, and how!](https://blog.twitter.com/engineering/en_us/a/2013/new-tweets-per-second-record-and-how.html). Twitter Blog.\
+[4] Felix Hamborg, Norman Meuschke and Bela Gipp. 2020. [Bias-aware news analysis using matrix-based news aggregation](https://doi.org/10.1007/s00799-018-0239-9). International Journal on Digital Libraries.\
+[5]  Marc Gallofré Ocaña and Andreas Lothe Opdahl. 2020. [Challenges and opportunities for journalistic knowledge platforms](http://ceur-ws.org/Vol-2699/paper43.pdf). Proceedings of the CIKM 2020 Workshops. Galway, Ire-land (2020)\
+[6]  Marc Gallofré Ocaña, Lars Nyre, Andreas Lothe Opdahl, Bjørnar Tessem, Christoph Trattner, Csaba Veres. 2018. [Towards a big data platform for news angles](http://ceur-ws.org/Vol-2316/paper1.pdf). The 4th Norwegian Big Data Symposium (NOBIDS).
 
 #### Task organizers
 * Marc Gallofré Ocaña, University of Bergen, Norway
