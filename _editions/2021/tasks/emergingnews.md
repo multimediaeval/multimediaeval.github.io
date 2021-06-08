@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true 
+hide: false 
 
 # required info
 title: "Emerging News: Detecting emerging stories from social media and news feeds"
@@ -44,12 +44,12 @@ An expert panel evaluates the results based on their relevance. The expert panel
 * License: MIT License
 
 #### References and recommended reading
-[1]	Vázquez Herrero, J., Direito-Rebollal, S., Rodríguez, A.S., García, X.: Journalistic Metamorphosis: Media Transformation in the Digital Age. Springer International Publishing (2020).\
-[2]   Germann, U., Liepins, R., Barzdins, G., Gosko, D., Miranda, S., Nogueira, D.:The SUMMA platform: A scalable infrastructure for multi-lingual multimedia monitoring. In: Proceedings of ACL, System Demonstrations. pp. 99–104 (Jul 20)\
-[3] Krikorian, R.: New tweets per second record, and how! (Aug 2013)\
-[4]  Hamborg, F., Meuschke, N., Gipp, B.: Bias-aware news analysis using matrix-based news aggregation. International Journal on Digital Libraries21(2), 129–147 (2020)\
-[5]  Gallofré Ocaña, M., Opdahl, A.L.: Challenges and opportunities for journalistic knowledge platforms. In: Proceedings of the CIKM 2020 Workshops. Galway, Ire-land (2020)\
-[6]  M. Gallofré Ocaña, L. Nyre, A. L. Opdahl,B. Tessem, C. Trattner, C. Veres, Towards a big data platform for news angles, in: 4th Norwegian Big Data Symposium (NOBIDS) 2018, 2018
+[1]	Jorge Vázquez-Herrero, Sabela Direito-Rebollal, Alba Silva-Rodríguez and Xosé López-García. 2020. Journalistic Metamorphosis: Media Transformation in the Digital Age. Springer International Publishing.\
+[2]   Ulrich Germann, Renārs Liepins, Guntis Barzdins, Didzis Gosko, Sebastião Miranda and David Nogueira. 2018. The SUMMA platform: A scalable infrastructure for multi-lingual multimedia monitoring. System Demonstrations, Proceedings of ACL 2018.\
+[3] Raffi Krikorian. 2013. New tweets per second record, and how!. Twitter Blog.\
+[4] Felix Hamborg, Norman Meuschke and Bela Gipp. 2020 Bias-aware news analysis using matrix-based news aggregation. International Journal on Digital Libraries.\
+[5]  Marc Gallofré Ocaña and Andreas Lothe Opdahl. 2020. Challenges and opportunities for journalistic knowledge platforms. Proceedings of the CIKM 2020 Workshops. Galway, Ire-land (2020)\
+[6]  Marc Gallofré Ocaña, Lars Nyre, Andreas Lothe Opdahl, Bjørnar Tessem, Christoph Trattner, Csaba Veres. 2018. Towards a big data platform for news angles. The 4th Norwegian Big Data Symposium (NOBIDS).
 
 #### Task organizers
 * Marc Gallofré Ocaña, University of Bergen, Norway
@@ -58,8 +58,8 @@ An expert panel evaluates the results based on their relevance. The expert panel
 
 
 #### Task Schedule
-* XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 18 July: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
