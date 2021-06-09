@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true 
+hide: false 
 
 # required info
 title: "Visual Sentiment Analysis: A Natural Disaster Use-case"
