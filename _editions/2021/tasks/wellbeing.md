@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true 
+hide: false 
 
 # required info
 title: "Insight for Wellbeing: Cross-Data Analytics for (transboundary) Haze Prediction"
@@ -24,9 +24,9 @@ The task is organized as multiple subtasks to encourage multi-disciplinary resea
 
 Participants in this task will tackle three subtasks:
 
-*Subtask 1: 3-Day Localized Air Pollution Prediction:* : in this subtask, the objective is to predict the PM10 value at different locations in multiple countries using data only from each country itself. This subtask will explore the accuracy of predicting air pollution for a few days ahead (currently 3), and it is designed to evaluate how well this objective can be achieved if each country depends only on its own direct weather data. 
+*Subtask 1: 3-Day Localized Air Pollution Prediction:* in this subtask, the objective is to predict the PM10 value at different locations in multiple countries using data only from each country itself. This subtask will explore the accuracy of predicting air pollution for a few days ahead (currently 3), and it is designed to evaluate how well this objective can be achieved if each country depends only on its own direct weather data. 
 
-*Subtask 2: 3-Day Transboundary Air Pollution Prediction:* : the objective in this subtask is to predict the PM10 value in multiple countries by considering other data sources available from the same country or neighboring countries (remote sensing, social media streams, news, etc.). This subtask is encouraged to address transboundary haze effects, for example by observing the improvements of prediction accuracy once the haze and weather situation (e.g. wind/fire information) in neighboring countries is taken into account, or through other insights and conclusions that the participants find. 
+*Subtask 2: 3-Day Transboundary Air Pollution Prediction:* the objective in this subtask is to predict the PM10 value in multiple countries by considering other data sources available from the same country or neighboring countries (remote sensing, social media streams, news, etc.). This subtask is encouraged to address transboundary haze effects, for example by observing the improvements of prediction accuracy once the haze and weather situation (e.g. wind/fire information) in neighboring countries is taken into account, or through other insights and conclusions that the participants find. 
  
 *Subtask 3: Transfer Learning:* in this subtask, participants will re-visit subtasks 1 or 2 above, by considering transfer learning techniques in their solutions using pre-trained models for predicting new data, or by using models from subtask-1 in subtask-2, etc. The application of transfer learning can demonstrate that certain patterns learnt from other regions’ data sources or models (eg. via access to larger datasets) help in improving predictions for different regions (eg. where data is scarce or less granular). 
 <!-- # DONE  ✓: add a second sentence on why it is interesting to investigate-->
