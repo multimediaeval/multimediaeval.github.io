@@ -53,9 +53,10 @@ The data set is a large collection of news articles from a German publisher that
 <!-- # If you are planning to release image features, that information should be added here.-->
 
 #### Evaluation methodology
-***Subtask 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
+***Subtask 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. The ground truth (the correct news article-image-connection) is defined by the image that was published in the news article on the web portal. 
+We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
 
-<!-- # Please add a sentence to explicitly explain the ground truth.-->
+<!-- # Please add a sentence to explicitly explain the ground truth. AL: I added one sentence explaining this issue. -->
 
 ***Subtask 2: News Click Prediction:*** Given a set of images, participants predict the topmost news articles that are likely to be clicked when they are recommended. The number of top images will be specified. Success is measured by precision. More concretely, participants score each image which induces a ranking. We will determine the precision at a suited cut off point. Again, we encourage participants to examine their models and try to explain what they have picked up.
 
@@ -90,11 +91,11 @@ The data set is a large collection of news articles from a German publisher that
 
 
 #### Task Schedule
-* XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 30 June 2021: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 07 November 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 15 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 <!-- #### Acknolwedgments-->
 <!-- # optional, delete if not used-->
