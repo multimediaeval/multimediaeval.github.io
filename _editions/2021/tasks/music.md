@@ -70,17 +70,16 @@ For reference, here are the [2019](https://multimediaeval.github.io/2019-Emotion
 Philip Tovstogan, Music Technology Group, Universitat Pompeu Fabra, Spain  
 Dmitry Bogdanov, Music Technology Group, Universitat Pompeu Fabra, Spain  
 Alastair Porter, Music Technology Group, Universitat Pompeu Fabra, Spain  
-Minz Won, Music Technology Group, Universitat Pompeu Fabra, Spain  
 (first.last@upf.edu)
 
 <!-- #### Task Auxiliaries -->
 <!-- # if there are people helping with the task, but are not bearing the main responsibility for the task, they are auxiliaries. Please delete this heading if you have no auxiliaries-->
 
 #### Task Schedule
-* May-July: Data releases <!-- # Replace XX with your date. Latest possible is 31 July-->
-* Mid November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
-* Mid November: Results returned  <!-- Fixed. Please do not change-->
-* End November: Working notes paper due  <!-- Fixed. Please do not change-->
+* 1 June: Data releases <!-- # Replace XX with your date. Latest possible is 31 July-->
+* 5 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* 12 November: Results returned  <!-- Fixed. Please do not change-->
+* 22 November: Working notes paper due  <!-- Fixed. Please do not change-->
 * Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change-->
 
 Workshop will be held online. Exact dates to be announced.
