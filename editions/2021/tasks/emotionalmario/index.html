@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-06-18T10:33:22+00:00" />
+<meta property="article:published_time" content="2021-06-18T10:33:58+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/"},"headline":"Emotional Mario: A Games Analytics Challenge","dateModified":"2021-06-18T10:33:22+00:00","datePublished":"2021-06-18T10:33:22+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/"},"headline":"Emotional Mario: A Games Analytics Challenge","dateModified":"2021-06-18T10:33:58+00:00","datePublished":"2021-06-18T10:33:58+00:00","url":"https://multimediaeval.github.io/editions/2021/tasks/emotionalmario/","description":"See the MediaEval 2021 webpage for information on how to register and participate.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -177,30 +177,26 @@
 
 <p><img src="https://github.com/multimediaeval/multimediaeval.github.io/blob/gh-page/_editions/2021/docs/me21_emo_mario.jpg" alt="Emotional Mario gameplay screen shot" /></p>
 
-<p>Subtask 1 is a technical task, and easily approachable. Subtask 2 is an open, creative task, which builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.</p>
-
-<!-- # Consider adding the following line:
-*Participants are encouraged to make their code public with their submission.* 
--->
+<p>Subtask 1 is a technical task, and easily approachable. Subtask 2 is an open, creative task, which builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.
+<em>Participants are encouraged to make their code public with their submission.</em></p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
 <p>As games are designed to evoke emotions [1], we hypothesize that emotions in the player are reflected in the visuals of the video game. Simple examples are when players are happy after having mastered a particularly complicated challenge, when they are shocked by a jump scare scene in a horror game, or when they are excited after unlocking a new resource. These things can be measured by questionnaires after playing [2], but in the Emotional Mario task, we want to interconnect emotions and gameplay based on data instead of asking the players.</p>
 
-<p>With the rise of deep learning, many large leaps in research have been achieved in recent years such as human-level image recognition, text classification, and even content creation. Games and deep learning also have a rather long history together, specifically in the context of reinforcement learning. However, video games still pose a lot of challenges. Games are understood as engines of experience [1], and as such, they need to invoke human emotions. While emotion recognition has come a far way over the last decade [3], the connection between emotions and video games is still an open and interesting research question. In the Emotional Mario task, we aim to leverage deep learning to move forward our understanding of the role of emotiona in video games</p>
+<p>With the rise of deep learning, many large leaps in research have been achieved in recent years such as human-level image recognition, text classification, and even content creation. Games and deep learning also have a rather long history together, specifically in the context of reinforcement learning. However, video games still pose a lot of challenges. Games are understood as engines of experience [1], and as such, they need to invoke human emotions. While emotion recognition has come a far way over the last decade [3], the connection between emotions and video games is still an open and interesting research question. In the Emotional Mario task, we aim to leverage deep learning to move forward our understanding of the role of emotions in video games</p>
 
 <h4 id="target-group">Target group</h4>
-<p>The target group for this task is diverse and broad. It includes researchers and practitioners from game design and development, game studies, machine learning, and artificial intelligence, and interactive multimedia. We also encourage interdisciplinary research involving people from psychology, game studies, and the humanities discussing the interrelation of biometric data, facial expressions, and gameplay. In any case, regardless of the research background, the submission will help to have a basic understanding of how we can better understand the connection between gameplay and the reaction of the player.</p>
+<p>The target group for this task is diverse and broad. It includes researchers and practitioners from game design and development, game studies, machine learning, artificial intelligence, and interactive multimedia. We also encourage interdisciplinary research involving people from psychology, game studies, and the humanities discussing the interrelation of biometric data, facial expressions, and gameplay. In any case, regardless of the research background, the submission will help to have a basic understanding of how we can better understand the connection between gameplay and the reaction of the player.</p>
 
 <h4 id="data">Data</h4>
 <p>For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video game and provide a multimodal data set based on a Super Mario Bros. implementation for OpenAI Gym. The data set, called Toadstool [4], contains for a population of ten players their game input, demographics, biomedical sensory input from a medical-grade device (e.g., heart rate and skin conductivity) as well as videos of their faces while playing the game. The data set also contains he gameplay itself, demographics on the players and their scores and times spent in the game.he gameplay itself, demographics on the players and their scores and times spent in the game.</p>
 
-<p>Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. <!-- # Please add a sentence here on how the ground truth was created.--> The remaining two will serve as data for the runs to be submitted.</p>
+<p>Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. The remaining two will serve as data for the runs to be submitted. The ground truth is extracted from the gameplay data.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
 
-<p><strong><em>Subtask 1: Event Detection:</em></strong> In this subtask, participants identify events in the gameplay by making use of biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth will be provided. 
-<!-- # Please add a sentence here on the evaluation metric.--> 
-<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.--></p>
+<p><strong><em>Subtask 1: Event Detection:</em></strong> In this subtask, participants identify events in the gameplay by making use of biometric data and videos of facial expressions. These events include player deaths, obtaining power-ups, and completing a level. Ground truth as well as an evaluation script will be provided. 
+We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.</p>
 
 <p><strong><em>Subtask 2: Gameplay Summarization:</em></strong> In this subtask, participants are asked to submit a summary video for a study participant from the Toadstool data. There is no constraint on the modalities of the story, so it can be video, audio, text, images, or a combination thereof. An expert panel with  professionals and researchers from the field of game development, game studies, e-sports, and media sciences will then investigate the submissions and judge them for:</p>
 <ul>
@@ -210,20 +206,18 @@
 </ul>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
 
-<p>[1] Sylvester, T. (2013). <a href="https://www.oreilly.com/library/view/designing-games/9781449338015/">Designing games: A guide to engineering experiences</a>. O’Reilly Media, Inc.</p>
+<p>[1] Tynan Sylvester. 2013. <a href="https://www.oreilly.com/library/view/designing-games/9781449338015/">Designing games: A guide to engineering experiences</a>. O’Reilly Media, Inc.</p>
 
-<p>[2] Abeele, V. V., Spiel, K., Nacke, L., Johnson, D., &amp; Gerling, K. (2020). <a href="https://lirias.kuleuven.be/retrieve/580761">Development and validation of the player experience inventory: A scale to measure player experiences at the level of functional and psychosocial consequences</a>. International Journal of Human-Computer Studies, 135, 102370.</p>
+<p>[2] Abeele, V. V., Spiel, K., Nacke, L., Johnson, D., and Gerling, K. 2020. <a href="https://lirias.kuleuven.be/retrieve/580761">Development and validation of the player experience inventory: A scale to measure player experiences at the level of functional and psychosocial consequences</a>. International Journal of Human-Computer Studies, 135, 102370.</p>
 
-<p>[3] Saxena, Anvita, Ashish Khanna, and Deepak Gupta. <a href="https://iecscience.org/uploads/jpapers/202003/dnQToaqdF8IRjhE62pfIovCkDJ2jXAcZdK6KHRzM.pdf">Emotion recognition and detection methods: A comprehensive survey.</a> Journal of Artificial Intelligence and Systems 2.1 (2020): 53-79.</p>
+<p>[3] Saxena, Anvita, Ashish Khanna, and Deepak Gupta. 2020. <a href="https://iecscience.org/uploads/jpapers/202003/dnQToaqdF8IRjhE62pfIovCkDJ2jXAcZdK6KHRzM.pdf">Emotion recognition and detection methods: A comprehensive survey.</a> Journal of Artificial Intelligence and Systems 2.1 (2020): 53-79.</p>
 
 <p>[4] Henrik Svoren, Vajira Thambawita, Pål Halvorsen, Petter Jakobsen, Enrique Garcia-Ceja, Farzan Majeed Noori, Hugo L. Hammer, Mathias Lux, Michael Alexander Riegler, and Steven Alexander Hicks. 2020. <a href="https://dl.acm.org/doi/abs/10.1145/3339825.3394939">Toadstool: A Dataset for Training Emotional Intelligent Machines Playing Super Mario Bros.</a> In Proceedings of the 11th ACM Multimedia Systems Conference (MMSys ’20). Association for Computing Machinery, New York, NY, USA, 309–314.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
-  <li>Mathias Lux (Alpen-Adria-Universität Klagenfurt, AT)</li>
+  <li>Mathias Lux (Alpen-Adria-Universität Klagenfurt, AT; mathias.lux@aau.at)</li>
   <li>Michael Riegler, Pål Halvorsen, Vajira Thambawita, and Steven Hicks (SimulaMet Oslo, NO)</li>
   <li>Duc-Tien Dang-Nguyen and Kristine Jorgensen (University of Bergen, NO)</li>
 </ul>
@@ -237,8 +231,6 @@
   <li>Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided--></li>
 </ul>
 
-<!-- #### Acknolwedgments-->
-<!-- # optional, delete if not used-->
 
 
       </div>
