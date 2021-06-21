@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2021
-hide: true 
+hide: false 
 
 # required info
 title: "NewsImages"
@@ -54,7 +54,8 @@ The data set is a large collection of news articles from a German publisher that
 
 #### Evaluation methodology
 ***Subtask 1: Image-Text Re-Matching:*** For each news article in the test set, participants return the top five images that they predict to have accompanied that article. The ground truth (the correct news article-image-connection) is defined by the image that was published in the news article on the web portal. 
-We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
+We encourage participants to additionally provide confidence scores such that we can learn more about the robustness of their methods. Success is measured with Precision@5. This means, that for each news item, 5 images should be suggested. If the correct images is in the suggested set, the predction is seen as correct. Since only one image per news item is correct, the metric could also be seen as Recall@5.
+Additionally, we promote the idea of explainability and ask the participants to look into the inner workings of their methods. What does the model tell? For which instances has the method failed and why?
 
 <!-- # Please add a sentence to explicitly explain the ground truth. AL: I added one sentence explaining this issue. -->
 
