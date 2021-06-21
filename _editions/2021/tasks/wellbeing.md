@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "Insight for Wellbeing: Cross-Data Analytics for (transboundary) Haze Prediction"
 subtitle: 
-blurb: "The task is organized as multiple subtasks to encourage multi-disciplinary research to consider additional data sources (cross-data) to improve prediction and/or find insights for wellbeing based on environmental factors, satellite remote sensing, social/news data, etc. The problems this task tries to tackle are "air pollution" and "transboundary haze."
+blurb: "The task is organized as multiple subtasks to encourage multi-disciplinary research to consider additional data sources (cross-data) to improve prediction and/or find insights for wellbeing based on environmental factors, satellite remote sensing, social/news data, etc. The problems this task tries to tackle are \"air pollution\" and \"transboundary haze\"."
 ---
 
 <!-- # please respect the structure below-->
