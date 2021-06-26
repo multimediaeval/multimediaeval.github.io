@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "In-Car Driver Video Privacy"
 subtitle: 
-blurb: "Insert blurb here, keep it between the quotes in order to handle any special characters"
+blurb: "The In-Car Driver Video Privacy task aims to explore methods for obscuring driver identity in driver-facing video recordings while preserving human behavioral information."
 ---
 
 <!-- # please respect the structure below-->
@@ -67,7 +67,7 @@ The organizers of this Task encourage open source code with a MIT license, and t
 
 
 #### Task organizers
-Please get in touch. Experts from the data collection and processing team are available for mentoring and any questions.
+Please get in touch. Experts from the data collection and processing team are available for mentoring and any questions. We will be updating the information below throughout the summer.
 
 * Meredith Lee, University of California, Berkeley, USA mmlee (at) berkeley.edu
 * Gerald Friedland, University of California, Berkeley, USA  fractor (at) berkeley.edu
@@ -78,8 +78,8 @@ Please get in touch. Experts from the data collection and processing team are av
 
 <!--#### Task auxiliaries -->
 <!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
+<!-- # First auxiliary-->
+<!-- # Second auxiliary-->
 <!-- # and so on-->
 
 #### Task Schedule
@@ -89,7 +89,7 @@ Please get in touch. Experts from the data collection and processing team are av
 * October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December 2021: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 6-8 December 2021: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
 <!-- # optional, delete if not used-->
