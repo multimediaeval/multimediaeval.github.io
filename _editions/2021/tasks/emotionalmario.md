@@ -70,5 +70,5 @@ We also encourage participants to carry out a failure analysis of their results 
 * 31 October: Runs due 
 * 15 November: Results returned  
 * 22 November: Working notes paper  <!-- Fixed. Please do not change.-->
-* Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 6-8 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
