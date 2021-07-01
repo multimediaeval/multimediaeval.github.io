@@ -91,7 +91,7 @@ Please use the ACM format for references https://www.acm.org/publications/author
 #### Task organizers
 * Asem Kasem, Universiti Teknologi Brunei (UTB), Brunei Darussalam, asem(dot)kasem(at)utb(dot)edu(dot)bn
 * Minh-Son Dao, National Institute of Information and Communications Technology, Japan (NICT), dao(at)nict(dot)go(dot)jp
-* Thanh Nguyen, University of Information Technology, Vietnam (UIT) 
+* Ngoc-Thanh Nguyen, Western Norway University of Applied Sciences, Norway (HVL), ntng(at)hvl(dot)no 
 * Duc-Tien Dang-Nguyen, University of Bergen, Norway (UiB)
 * Cathal Gurrin, Dublin City University, Ireland (DCU)
 * Tran Minh Triet, University of Science, Vietnam (HCMUS)
