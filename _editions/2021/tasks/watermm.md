@@ -66,7 +66,7 @@ We also recommend to read past years’ task papers in the MediaEval Proceedings
 * 22 November: Working notes paper
 * Beginning December: MediaEval 2020 Workshop
 
-#### Acknolwedgments
+#### Acknowledgments
 This task has been supported by the EU’s Horizon 2020 research and innovation programme under grant agreements H2020-832876 [aqua3S](https://aqua3s.eu/), H2020-883484 [PathoCERT](https://pathocert.eu/), and H2020-101004157 [WQeMS](https://wqems.eu/project).
 
 <img src="https://m4d.iti.gr/wp-content/uploads/2020/07/aqua3s.png" alt="aqua3S Project" width="150"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://m4d.iti.gr/wp-content/uploads/2020/10/PathoCERT-final-logo-PNG.png" alt="PathoCERT Project" width="150"/> &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://m4d.iti.gr/wp-content/uploads/2020/11/WQEMS.png" alt="WQeMS Project" width="150"/>
