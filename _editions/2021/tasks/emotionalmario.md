@@ -20,7 +20,7 @@ In this task, participants carry out multimedia analysis in order to gain insigh
 
 ***Subtask 2: Gameplay Summarization (Optional):*** Participants create a video summary of the best moments of the play. This can include gameplay scenes, facial video, data visualization, and whatever comes to your mind that you find important to tell the *game story*, the story of what happened during the game. 
 
-<img src="https://raw.githubusercontent.com/multimediaeval/multimediaeval.github.io/gh-page/_editions/2021/docs/me21_emo_mario.jpg" alt="Emotional Mario gameplay screen shot"/>
+<!-- <img src="https://raw.githubusercontent.com/multimediaeval/multimediaeval.github.io/gh-page/_editions/2021/docs/me21_emo_mario.jpg" alt="Emotional Mario gameplay screen shot"/> -->
 
 Subtask 1 is a technical task, and easily approachable. Subtask 2 is an open, creative task, which builds on event detection. Past experience has shown that it is easier to step into the task with a technical subtask, and use that as inspiration for the creative task. The ultimate goal of the Emotional Mario task is to develop new approaches to the creative task of telling the story of a game.
 *Participants are encouraged to make their code public with their submission.* 
