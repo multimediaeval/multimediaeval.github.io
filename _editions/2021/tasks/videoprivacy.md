@@ -5,9 +5,9 @@ year: 2021
 hide: false
 
 # required info
-title: "In-Car Driver Video Privacy"
+title: "Driving Road Safety Forward: Video Data Privacy"
 subtitle: 
-blurb: "The In-Car Driver Video Privacy task aims to explore methods for obscuring driver identity in driver-facing video recordings while preserving human behavioral information."
+blurb: "This task aims to explore methods for obscuring driver identity in driver-facing video recordings while preserving human behavioral information."
 ---
 
 <!-- # please respect the structure below-->
