@@ -75,11 +75,11 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 * Laurent Mascarilla, MIA, University of La Rochelle, France 
 
 #### Task Schedule
-* 15 June: Data release (subject to change) <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 25 October: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* 8 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 22 June 2021: Data release (subject to change) <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 25 October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 8 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 6-8 December 2021: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
 We would like to thank all the players and annotators for their involvement in the acquisition and annotation processes and Alain Coupet from sport faculty of Bordeaux, expert and teacher in table tennis, for the proposed table tennis strokes taxonomy.
