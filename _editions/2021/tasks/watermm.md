@@ -60,11 +60,12 @@ We also recommend to read past years’ task papers in the MediaEval Proceedings
 * Michele Ferri, Eastern Alps River Basin District, Italy
 
 #### Task Schedule
-* 23 July: Data release
-* 01 November: Runs due
-* 12 November: Results returned
-* 22 November: Working notes paper
-* Beginning December: MediaEval 2020 Workshop
+* 23 July 2021: Development set release
+* 11 October 2021: Test set release
+* 01 November 2021: Runs due
+* 12 November 2021: Results returned
+* 22 November 2021: Working notes paper
+* 6-8 December 2021: MediaEval 2020 Workshop
 
 #### Acknowledgments
 This task has been supported by the EU’s Horizon 2020 research and innovation programme under grant agreements H2020-832876 [aqua3S](https://aqua3s.eu/), H2020-883484 [PathoCERT](https://pathocert.eu/), and H2020-101004157 [WQeMS](https://wqems.eu/project).
