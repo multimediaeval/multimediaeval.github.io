@@ -71,6 +71,8 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 * Alan Smeaton, Dublin City University, Ireland
 * Claire-Hélène Demarty, InterDigital, R&I, France
 * Camilo Fosco, Massachusetts Institute of Technology Cambridge, Massachusetts, USA
+* Lorin Sweeney, Dublin City University, Ireland
+* Graham Healy, Dublin City University, Ireland
 
 #### Task Schedule
 * 21 August: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
