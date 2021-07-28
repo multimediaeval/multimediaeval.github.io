@@ -16,11 +16,11 @@ blurb: "Participants are provided with a set of videos of table tennis games and
 #### Task Description
 This task offers researchers an opportunity to test their fine-grained classification methods for detecting and recognizing strokes in table tennis videos. (The low inter-class variability makes the task more difficult than with usual general datasets like UCF-101.) The task offers two subtasks:
 
-***Subtask 1: Stroke Detection:*** Participants are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
+***Subtask 1: Stroke Detection:*** Participants are required to build a system that detects whether a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (between strokes, picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed. 
 
 ***Subtask 2: Stroke Classification:*** Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 21 possible stroke classes. 
 
-Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the data set with new and more diverse stroke samples. 
+Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. 
 
 Participants are encouraged to make their code public with their submission.
 
@@ -75,7 +75,7 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 * Laurent Mascarilla, MIA, University of La Rochelle, France 
 
 #### Task Schedule
-* 22 June 2021: Data release (subject to change) <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 1 August 2021: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 25 October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 8 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
