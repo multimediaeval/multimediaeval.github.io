@@ -33,7 +33,7 @@ As implied by the popular proverb "a picture is worth a thousand words," visual 
 The task is appropriate for researchers in machine learning, multimedia retrieval, sentiment analysis, and visual analysis.
 
 #### Data
-For the visual sentiment analysis, we will use a slightly modified version of our visual sentiment analysis dataset [1] that will include a different training and testing sets. 
+We provide a slightly modified version of our visual sentiment analysis dataset [1], including a different training and testing set, consisting of disaster-related images collected from social media platforms such as Google, Flickr, and Twitter.
 
 #### Ground truth
 The dataset was annotated through a crowd-sourcing study using Microworkers, where at least five different participants were assigned to annotate each image. The final tags were chosen based on a majority vote from the five participants assigned to it. The study concluded with 10,010 different responses from 2,338 participants. The participants included individuals from different age groups and 98 countries. The time spent by a participant on an image, which helped filter out careless or inappropriate responses. Before the study, two trial studies were performed to test, correct errors, and improve clarity and readability.
