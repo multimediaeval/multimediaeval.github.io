@@ -20,8 +20,11 @@ Understanding what makes a video memorable has a very broad range of current app
 Participants are required to generate automatic systems that predict short-term and long-term memorability scores of new videos based on the given video dataset and their memorability scores. 
 <!-- # Please add a short description of what the participant must do for this subtask. (Possibly some of the info from the data section below can be moved here.)-->
 
-*Subtask 2: EEG-based prediction (pilot):*
-Participants are required to generate automatic systems that predict short-term memorability scores of new videos based on the given EEG data.
+*Subtask 2: Generalization (optional):* 
+Participants will train their system on one of the two sources of data we provide and will test them on the other source of data. This is an optional subtask.
+
+*Subtask 3: EEG-based prediction (pilot):*
+Participants are required to generate automatic systems that predict short-term memorability scores of new videos based on the given EEG data. This is a pilot subtask.
 <!-- # Same as above. Please add a short description of what the participant must do for this subtask. (Possibly some of the info from the data section below can be moved here.)-->
 
 #### Motivation and background
@@ -34,13 +37,15 @@ Researchers will find this task interesting if they work in the areas of human p
 
 #### Data
 <!-- # Please rewrite this next sentence. The description of the data should not imply that the reader should know anything about what happend last year. It's  important to note that it is the same video data, but do that at the end for completeness and not at the beginning. Strictly speaking the data is not the same because there are new annotations.-->
-In 2021, the task will use a subset of TRECVID 2019 Video-to-Text video dataset similar to the previous year. This year, more annotations will be provided to improve the quality of the collection.
+In 2021, the task will use a subset of TRECVID 2019 Video-to-Text video dataset similar to the previous year. This year, more annotations will be provided to improve the quality of the collection. Additionally, we will also use data from the Memento [8] dataset, that contains short-term memorability annotations, while distributing a similar set of features.
  
 Apart from traditional video information like metadata and extracted visual features, part of the data will be accompanied by Electroencephalography (EEG) recordings that would allow to explore the physical reaction of the user. Optionally, we may use descriptive captions from their use in the TRECVid automatic video captioning task. 
 
 *Subtask 1: Video-based prediction:* Data is a subset of a collection consisting of 1,500 short videos retrieved from TRECVid. Each video consists of a coherent unit in terms of meaning and is associated with two scores of memorability that refer to its probability to be remembered after two different durations of memory retention. Similar to previous editions of the task [6], memorability has been measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos (short term), and then 24 to 72 hours later (long term). In 2021, the same training and test sets as in 2020 will be used  including 590 videos as part of the training set and 410 additional videos as part of the development set. More annotations will be collected to improve the quality of the collection. The videos are shared under Creative Commons licenses that allow their redistribution. They come with a set of pre-extracted features, such as: Aesthetic Features, C3D, Captions, Colour Histograms, HMP, HoG, Fc7 layer from InceptionV3, LBP, or ORP.  In comparison to the videos used in this task in 2018 and 2019, the TRECVid videos have much more action happening in them and thus are more interesting for subjects to view.
 
-*Subtask 2: EEG-based prediction (pilot):* Data is composed of a subset of the video-based subtask collection containing up to 1,500 of the short videos used in subtask 1. As in subtask 1, short-term memorability is measured using recognition tests, i.e., through an objective measure, a few minutes after the memorization of the videos. EEG data is collected from 30 subjects while the short-term memorability is annotated. The EEG acquisition is carried out in two different locations with different equipment each (10 subjects per location) to be able to explore the effects of the experimental conditions. As for subtask 1, the videos are shared under Creative Commons licenses that allow their redistribution.
+*Subtask 2: Generalization (optional):* The aim of the Generalization subtask is to check system performance on other types of video data. Participants will use their systems, trained on one of the two sources of data we propose, to predict the memorability of videos from the testing set of the other source of data. We believe this would provide interesting insights into the performance of the developed systems, given that, while the two sources of data measure memorability in a similar way, the videos may be somewhat different with regards to their content, general subjects or length. As this will be an optional task, participants are not required to participate in it.
+
+*Subtask 3: EEG-based prediction (pilot):* The aim of the Memorability-EEG pilot subtask is to promote interest in the use of neural signals—either alone, or in combination with other data sources—in the context of predicting video memorability by demonstrating what EEG data can provide. The dataset will be a subset of videos from subtask 1 for which EEG data has been gathered, and pre-extracted features will be used. This demonstration pilot will enable interested researchers to see how they could use neural signals without any of the requisite domain knowledge in a future Memorability task, potentially increasing interdisciplinary interest in the subject of memorability, and opening the door to novel EEG-computer vision combined approaches to predicting video memorability. Pre-selected participants in this pilot demonstration will use the dataset to explore all manners of machine learning and processing strategies to predict video memorability. This will lead to a short paper and presentation on their findings, which will ultimately contribute towards the collaborative definition of a fully-fledged task at MediaEval 2022, where participating teams will submit runs and be benchmarked.
 
 #### Ground truth
 The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance. 
@@ -58,6 +63,8 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 [5] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. [Show and Recall: Learning What Makes Videos Memorable](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w40/Shekhar_Show_and_Recall_ICCV_2017_paper.pdf). In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2730–2739.\
 [6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. 2019. [VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability](https://openaccess.thecvf.com/content_ICCV_2019/papers/Cohendet_VideoMem_Constructing_Analyzing_Predicting_Short-Term_and_Long-Term_Video_Memorability_ICCV_2019_paper.pdf). In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2531-2540. \
 [7] Mihai Gabriel Constantin, Miriam Redi, Gloria Zen, and Bodgan Ionescu. 2019. [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates](http://campus.pub.ro/lab7/bionescu/index_files/pub/2018_ACM_CSUR-draft.pdf). ACM Computing Surveys, 52(2).
+[8] Anelise Newman, Camilo Fosco, Vincent Casser, Allen Lee, Barry McNamara, and Aude Oliva. 2020. [Modeling Effects of Semantics and Decay on Video Memorability
+](https://arxiv.org/pdf/2009.02568.pdf). European Conference on Computer Vision (ECCV), 2020.
 
 
 #### Task organizers
