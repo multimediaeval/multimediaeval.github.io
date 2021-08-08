@@ -11,7 +11,7 @@ blurb: "This task aims to explore methods for obscuring driver identity in drive
 ---
 
 <!-- # please respect the structure below-->
-*See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
+*See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate. In addition, [register here](https://bit.ly/VideoDataPrivacy) to access data from the GitHub repository and receive announcements about Jupyter Notebook tutorials, team formation, and seed funding opportunities. *
 
 #### Task Description
 The goal of this video data task is to explore methods for obscuring driver identity in driver-facing video recordings while preserving human behavioral information.
@@ -95,13 +95,13 @@ Please get in touch. Experts from the data collection and processing team are av
 Special thanks to our collaborators, advisors, and mentors, including:
 
 
-Asal Barakchi, School of Behavior and Brain Science, The University of Texas at Dallas
-Alice O’Toole, School of Behavior and Brain Science, The University of Texas at Dallas
-Thomas P. Karnowski, Oak Ridge National Laboratory
-Regina Ferrell, Oak Ridge National Laboratory
-Charles Fay, U.S. Department of Transportation, Federal Highway Administration
-David Kuehn, U.S. Department of Transportation, Federal Highway Administration
-as well as Natalie Evans Harris, Lauren Smith, René Bastón, David E. Culler, and the NSF Big Data Hubs network.
+Asal Barakchi, School of Behavior and Brain Science, The University of Texas at Dallas\
+Alice O’Toole, School of Behavior and Brain Science, The University of Texas at Dallas\
+Thomas P. Karnowski, Oak Ridge National Laboratory\
+Regina Ferrell, Oak Ridge National Laboratory\
+Charles Fay, U.S. Department of Transportation, Federal Highway Administration\
+David Kuehn, U.S. Department of Transportation, Federal Highway Administration\
+as well as Natalie Evans Harris, Lauren Smith, René Bastón, David E. Culler, and the NSF Big Data Hubs network.\
 
 This effort is made possible through community volunteers and National Science Foundation Grants 1916573, 1916481, and 1915774.
 <!-- # optional, delete if not used-->
