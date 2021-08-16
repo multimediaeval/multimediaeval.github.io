@@ -37,7 +37,9 @@ The target group for this task is diverse and broad. It includes researchers and
 #### Data
 For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video game and provide a multimodal data set based on a Super Mario Bros. implementation for OpenAI Gym. The data set, called Toadstool [4], contains for a population of ten players their game input, demographics, biomedical sensory input from a medical-grade device (e.g., heart rate and skin conductivity) as well as videos of their faces while playing the game. The data set also contains he gameplay itself, demographics on the players and their scores and times spent in the game.he gameplay itself, demographics on the players and their scores and times spent in the game.
 
-Additionally, we  provide ground truth for special events within the gameplay for eight of the study participants. The remaining two will serve as data for the runs to be submitted. The ground truth is extracted from the gameplay data.
+Additionally, we provide ground truth for special events within the gameplay for eight of the study participants. We extracted the data from the gameplay session file. The remaining two serve as data for the runs to be submitted. 
+
+The toadstool data is available from https://osf.io/qrkcf/ and the ground truth can be downloaded from https://www.itec.aau.at/~mlux/files/EmotionalMario2001_Training_Data.zip
 
 #### Evaluation methodology
 
