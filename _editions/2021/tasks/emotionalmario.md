@@ -39,7 +39,7 @@ For the EmotionalMario challenge, we focus on the iconic Super Mario Bros. video
 
 Additionally, we provide ground truth for special events within the gameplay for eight of the study participants. We extracted the data from the gameplay session file. The remaining two serve as data for the runs to be submitted. 
 
-The toadstool data is available from https://osf.io/qrkcf/ and the ground truth can be downloaded from https://www.itec.aau.at/~mlux/files/EmotionalMario2001_Training_Data.zip
+The toadstool data is available from [https://osf.io/qrkcf/](https://osf.io/qrkcf/) and the ground truth can be downloaded from [https://www.itec.aau.at/~mlux/files/EmotionalMario2021_Training_Data.zip](https://www.itec.aau.at/~mlux/files/EmotionalMario2021_Training_Data.zip). For a head start we've done an analysis with [FER](https://github.com/justinshenk/fer) of the facial videos. You can find the result [here](https://drive.google.com/drive/folders/1L2kYwcmYDFuALLGdI5vHgOLESMCS6EJ_?usp=sharing).
 
 #### Evaluation methodology
 
