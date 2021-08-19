@@ -26,14 +26,13 @@ MediaEval is a community-driven benchmark that is run by the MediaEval organizin
 
 Two groups work in the background to guide MediaEval and keep it running smoothly.
 
-#### The MediaEval Logistics Committee (2020)
+#### The MediaEval Logistics Committee (2021)
 * Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
 * Steven Hicks, SimulaMet, Norway
 * Ngoc-Thanh Nguyen, University of Information Technology, Vietnam
-* Ricardo Manhães Savii, Dafiti Group, Brasil
-* With special thanks to Bart Thomee, Verily, US
+* Ricardo Manhães Savii, Dafiti Group, Brasil (Website)
 
-#### The MediaEval Community Council (2020)
+#### The MediaEval Community Council (2021)
 * Martha Larson, Radboud University, Netherlands (Coordinator and contact person)
 * Gareth J. F. Jones, Dublin City University, Dublin, Ireland
 * Bogdan Ionescu, University Politehnica of Bucharest, Romania
