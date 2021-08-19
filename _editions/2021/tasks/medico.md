@@ -14,13 +14,13 @@ blurb: "The Medico task explores the use of transparent approaches to automatica
 *See the [MediaEval 2021 webpage](https://multimediaeval.github.io/editions/2021/) for information on how to register and participate.*
 
 #### Task Description
-The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. As machine learning becomes more common, even in high-risk fields like medicine, the need for transparent systems becomes more critical. In this case, transparency is defined as giving as much detail as possible on the different parts that make up a machine learning pipeline, including everything from data collection to final prediction. This task focuses on robust, transparent, and efficient algorithms for polyp and instrument segmentation. 
+The fight against colorectal cancer requires better diagnosis tools. Computer-aided diagnosis systems can reduce the chance that diagnosticians overlook a polyp during a colonoscopy. As machine learning becomes more common, even in high-risk fields like medicine, the need for transparent systems becomes more critical. In this case, transparency is defined as giving as much detail as possible on the different parts that make up a machine learning pipeline, including everything from data collection to final prediction. This task focuses on robust, transparent, and efficient algorithms for polyp segmentation. 
 
 The data consists of a large number of endoscopic images of the colon, which have been labeled by expert gastroenterologists.
 
 *Subtask 1: Polyp Segmentation:* The polyp segmentation task asks participants to develop algorithms for segmenting polyps in images taken from endoscopies. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset. Since [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/), we have extended the development dataset and created a new testing dataset to which the submissions will be evaluated on.
 
-*Subtask 2: Instrument Segmentation* Similar to the polyp segmentation task, the instrument segmentation task asks participants to develop algorithms for segmenting instruments present in colonoscopy videos. The main focus of this task is to achieve high segmentation metrics on the supplied test dataset. 
+*Subtask 2: Algorithm Efficiency* The algorithm efficiency task is similar to subtask one, but puts a stronger emphasis on the algorithm's speed in terms of frames-per-second. To ensure a fair evaluation, this task requires participants to submit a Docker image so that all algorithms are evaluated on the same hardware.
 
 <!-- # People might get confused on the difference between transparency, explainability, and interpretibility when it comes to machine learning. Could this be made clearer?-->
 *Subtask 3: Transparent Machine Learning Systems* The transparency task tries to measure the transparency of the systems used for the aforementioned segmentation tasks. The main focus for this task is to evaluate systems from a transparency point of view, meaning for example explanations of how the model was trained, the data that was used, and interpretation of a model's predictions.
@@ -36,7 +36,7 @@ The task is of interest to the researchers working with multimedia segmentation,
 #### Data
 *Subtask 1: Polyp Segmentation:* We will use a slightly modified version of the segmentation part of HyperKvasir [1] that will include additional polyps for training and a separate testing dataset. 
 
-*Subtask 2: Instrument Segmentation* For the instrument segmentation task, we will use Kvasir-Instrument [2] for the development dataset and a different testing dataset. 
+*Subtask 2: Algorithm Efficiency* Same as subtask 1.
 
 *Subtask 3: Transparent Machine Learning Systems* The transparent machine learning system task will be based on the previous two tasks and will use each respective dataset.
 
@@ -44,10 +44,10 @@ The task is of interest to the researchers working with multimedia segmentation,
 The ground truth for the provided dataset was created by an experienced computer scientist and medical doctor, which was then verified by an expert gastroenterologist with over ten years of experience.
 
 #### Evaluation methodology
-*Subtask 1: Polyp Segmentation and Subtask 2: Instrument Segmentation* We will use the standard metrics commonly used to evaluate segmentation tasks, similar to what was presented in [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/). This includes the Dice coefficient, pixel accuracy, and the Intersection-Over-Union (Jaccard index). The metric which will be used to rank submissions will be the Intersection-Over-Union coefficient.
+*Subtask 1: Polyp Segmentation* We will use the standard metrics commonly used to evaluate segmentation tasks, similar to what was presented in [Medico 2020](https://multimediaeval.github.io/editions/2020/tasks/medico/). This includes the Dice coefficient, pixel accuracy, and the Intersection-Over-Union (Jaccard index). The metric which will be used to rank submissions will be the Intersection-Over-Union coefficient.
 
-<!-- # Please considering adding: We also encourage participants to carry out a failure analysis of their results in order to gain insight in the mistakes that their classifiers make.-->
-
+*Subtask 2: Algorithm Efficiency* For the Algorithm Efficiency Task, we require participants to submit their detection algorithm as part of a Docker image so that we can evaluate it on our hardware. Submissions for this task will be evaluated based on the algorithms speed and segmentation performance. Speed will be measured by frames-per-second, while segmentation performance will be measured using the same metrics as described in Task 1.
+ 
 *Subtask 3: Transparent Machine Learning Systems:* We perform a qualitative evaluation of the submission. Here, a multi-disciplinary team will evaluate the submissions based on how transparent and understandable they are. We encourage participants to perform failure analysis on their results, which will contribute to more insight into where a model makes mistakes, contributing to the overall transparency of the system.
 
 #### References and recommended reading
@@ -56,13 +56,11 @@ The ground truth for the provided dataset was created by an experienced computer
 <!-- # Adding more literature on explainability would be helpful-->
 [1] [Borgli, H., Thambawita, V., Smedsrud, P.H. et al. HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy. Sci Data 7, 283 (2020).](https://www.nature.com/articles/s41597-020-00622-y)
 
-[2] [Jha D. et al. (2021) Kvasir-Instrument: Diagnostic and Therapeutic Tool Segmentation Dataset in Gastrointestinal Endoscopy. In: Lokoč J. et al. (eds) MultiMedia Modeling. MMM 2021. Lecture Notes in Computer Science, vol 12573.](https://link.springer.com/chapter/10.1007/978-3-030-67835-7_19)
+[2] [Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)
 
-[3] [Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation. In Proceeding of International Conference on Medical image computing and computer-assisted intervention (MICCAI), 234-241, 2015.](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28)
+[3] [Weller, A. (2019). Transparency: Motivations and Challenges. In W. Samek, G. Montavon, A. Vedaldi, L. K. Hansen, & K.-R. Müller (Eds.), Explainable AI: Interpreting, Explaining and Visualizing Deep Learning (pp. 23–40). Springer International Publishing.](https://doi.org/10.1007/978-3-030-28954-6_2)
 
-[4] [Weller, A. (2019). Transparency: Motivations and Challenges. In W. Samek, G. Montavon, A. Vedaldi, L. K. Hansen, & K.-R. Müller (Eds.), Explainable AI: Interpreting, Explaining and Visualizing Deep Learning (pp. 23–40). Springer International Publishing.](https://doi.org/10.1007/978-3-030-28954-6_2)
-
-[5] [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.](https://link.springer.com/book/10.1007/978-3-030-28954-6)
+[4] [Explainable AI: Interpreting, Explaining and Visualizing Deep Learning 2019 (pp. 23-40). Springer, Cham.](https://link.springer.com/book/10.1007/978-3-030-28954-6)
 
 #### Task organizers
 * Steven Hicks, SimulaMet, Norway steven (at) simula.no
