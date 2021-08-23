@@ -97,14 +97,14 @@ Evaluation will be performed using standard implementation of the multi-class ge
 * Daniel Thilo Schroeder, Simula Research laboratory (Simula), Norway
 
 
-#### Task auxiliaries
+<!--#### Task auxiliaries-->
 <!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
+<!--* # First auxiliary-->
+<!--* # Second auxiliary-->
 <!-- # and so on-->
 
 #### Task Schedule
-* 1 August: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 25 August: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 7 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
