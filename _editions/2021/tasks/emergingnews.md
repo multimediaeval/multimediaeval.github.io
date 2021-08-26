@@ -58,7 +58,7 @@ An expert panel evaluates the results based on their relevance. The expert panel
 
 
 #### Task Schedule
-* 18 July: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 18 July: Data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
