@@ -31,12 +31,15 @@ As part of the News Angler project, we developed an evolving platform that harve
 This task is of interest to researchers that work in domains like information and news retrieval, knowledge graphs, semantic technologies, natural-language processing and that are interested in creating a better environment and tools for journalists.
 
 #### Data
-Different data sets will be delivered. They contain a collection of JSON-LD with RDF serialized in TURTLE representing social media and news items. The RDF representation contains also the text from which the named entities have been extracted. The text is provided to help participants to understand the representations and results, it is not meant to be used for identifying emerging events. The data sets will be windows batches ranging from 5 min to 15 days.
+The data is delivered through an API (participants need to fill a task-specific Usage Agreement to get access). The API provides a stream of JSON-LD with RDF graphs serialized in TURTLE. The RDF graphs annotate the social media and news items with the entities found in the text. The text is provided to help participants to understand the RDF annotations, it is not meant to be used for identifying emerging events, but it can be used for evaluation purposes. 
+
+An example of the RDF graphs: http://newshunter.uib.no:5555/example (Text has been omitted)
+
 
 #### Evaluation methodology
 An expert panel evaluates the results based on their relevance. The expert panel will be formed by experts with relevant background in journalism and media. The experts will use the developed solution and judge if the information provided can be considered as an emerging story or not and how useful the information is. During the evaluation, all participants will use the same data set. Experts do not know RDF, therefore they will base their decisions on the textual information provided on the RDF representations.
 
-* Input: stream of JSON-LD data (it can be either a continuous stream or time windows batches of 5, 10, 15, 20 min. We expend participants to choose the most suitable set up for their solution and discuss it).
+* Input: stream of JSON-LD data (it can be either a continuous stream or time windows batches of. for example, 5, 10, 15, 20 min. We expect participants to choose the most suitable set up for their solution and discuss it).
 * Output: a group of JSON-LD items that belongs to the emerging story or a single JSON-LD item that is an emerging story (we leave it to the participants' decision too)
 * Visualization: a User Interface is optional
 * Expected delivery: Dockerized API and instructions on how to run it. Optionally it can be accompanied by another python code or docker that simulates the data input/interaction.
@@ -56,10 +59,9 @@ An expert panel evaluates the results based on their relevance. The expert panel
 * Duc-Tien Dang-Nguyen, University of Bergen, Norway
 * Andreas L. Opdahl, University of Bergen, Norway
 
-
 #### Task Schedule
-* 18 July: Data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 16 August: Data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 6-8 December 2021: MediaEval 2021 Workshop in Bergen, Norway with opportunity for online participation <!-- Fixed. Please do not change. Exact date to be decided-->
