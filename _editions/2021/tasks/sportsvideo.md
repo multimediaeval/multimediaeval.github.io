@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos"
 subtitle: 
-blurb: "Participants are provided with a set of videos of table tennis games and are required to analyze them (i.e., carry out classification and detection of strokes). The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training."
+blurb: "Participants are provided with a set of videos of table tennis games and are required to analyze them (i.e., carry out classification and detection of strokes). The ultimate goal of this research is to produce automatic annotation tools for sports faculties, local clubs and associations to help coaches to better assess and advise athletes during training."
 ---
 
 <!-- # please respect the structure below-->
@@ -20,21 +20,21 @@ This task offers researchers an opportunity to test their fine-grained classific
 
 ***Subtask 2: Stroke Classification:*** Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 20 possible stroke classes. 
 
-Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. 
+Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. The overviw paper of the task is already available [here](https://www.labri.fr/projet/AIV/MediaEval/Sports_Video_Task_2021.pdf).
 
 Participants are encouraged to make their code public with their submission.
 
 #### Motivation and background
-Action detection and classification are one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sports team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sports faculties, local clubs and associations to help coaches better assess and advise athletes during training. 
+Action detection and classification are one of the main challenges in visual content analysis and mining. Sports video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sports activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sports gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sports team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sports faculties, local clubs and associations to help coaches better assess and advise athletes during training. 
 
 #### Target group
-The task is of interest to researchers in the areas of machine learning, visual content analysis, computer vision and sport performance. We explicitly encourage researchers focusing specifically in domains of computer-aided analysis of sport performance. 
+The task is of interest to researchers in the areas of machine learning, visual content analysis, computer vision and sports performance. We explicitly encourage researchers focusing specifically in domains of computer-aided analysis of sports performance. 
 
 #### Data
-Our focus is on recordings that have been made by widespread and cheap video cameras, e.g., GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.
+Our focus is on recordings that have been made by widespread and cheap video cameras, e.g., GoPro. We use a dataset specifically recorded at a sports faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it. The dataset is subject to a specific usage agreement accesible [here](https://www.labri.fr/projet/AIV/MediaEval/Particular_conditions.pdf).
 
 #### Evaluation methodology
-Twenty stroke classes are considered according to the rules of table tennis. This taxonomy was designed with professional table tennis teachers. We are working on videos recorded at the Faculty of Sports of the University of Bordeaux. Students are the sportsmen filmed and the teachers are supervising exercises conducted during the recording sessions. The dataset has been recorded in a sport faculty facility using a light-weight equipment, such as GoPro cameras. The recordings are markerless and allow the players to perform in natural conditions from different viewpoints. These sequences were manually annotated, and the annotation sessions were supervised by professional players and teachers using a crowdsourced annotation platform.
+Twenty stroke classes are considered according to the rules of table tennis. This taxonomy was designed with professional table tennis teachers. We are working on videos recorded at the Faculty of Sports of the University of Bordeaux. Students are the sportsmen filmed and the teachers are supervising exercises conducted during the recording sessions. The dataset has been recorded in a sports faculty facility using a light-weight equipment, such as GoPro cameras. The recordings are markerless and allow the players to perform in natural conditions from different viewpoints. These sequences were manually annotated, and the annotation sessions were supervised by professional players and teachers using a crowdsourced annotation platform.
 
 The training dataset shared for each subtask is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file, with the corresponding stroke label.
 
@@ -75,11 +75,11 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 * Laurent Mascarilla, MIA, University of La Rochelle, France 
 
 #### Task Schedule
-* 1 August 2021: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 1 August - 15 October 2021: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 25 October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 8 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * 6-8 December 2021: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
-We would like to thank all the players and annotators for their involvement in the acquisition and annotation processes and Alain Coupet from sport faculty of Bordeaux, expert and teacher in table tennis, for the proposed table tennis strokes taxonomy.
+We would like to thank all the players and annotators for their involvement in the acquisition and annotation processes and Alain Coupet from sports faculty of Bordeaux, expert and teacher in table tennis, for the proposed table tennis strokes taxonomy.
