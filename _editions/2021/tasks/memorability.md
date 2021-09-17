@@ -72,7 +72,6 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 #### Task organizers
 * Alba García Seco de Herrera, University of Essex, UK, alba.garcia (at) essex.ac.uk
 * Rukiye Savran Kiziltepe, University of Essex, UK, rs16419 (at) essex.ac.uk
-* Faiyaz Doctor, University of Essex, UK
 * Sebastian Halder, University of Essex, UK
 * Ana Matrán Fernandez, University of Essex, UK
 * Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
@@ -84,8 +83,8 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 * Graham Healy, Dublin City University, Ireland
 
 #### Task Schedule
-* 3 September: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 5 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 17 September: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
+* 11 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
