@@ -20,7 +20,7 @@ This task offers researchers an opportunity to test their fine-grained classific
 
 ***Subtask 2: Stroke Classification:*** Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 20 possible stroke classes. 
 
-Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. The overviw paper of the task is already available [here](https://www.labri.fr/projet/AIV/MediaEval/Sports_Video_Task_2021.pdf).
+Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. The overview paper of the task is already available [here](https://www.labri.fr/projet/AIV/MediaEval/Sports_Video_Task_2021.pdf).
 
 Participants are encouraged to make their code public with their submission.
 
