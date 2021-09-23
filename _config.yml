@@ -114,3 +114,7 @@ collections:
   editions:
     output: true
     permalink: /:collection/:path/
+
+# BIBLIOGRAPHY SETTINGS
+scholar:
+  bibliography_list_tag: ul
