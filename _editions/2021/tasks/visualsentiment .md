@@ -40,7 +40,7 @@ The dataset was annotated through a crowd-sourcing study using Microworkers, whe
 <!-- # This description needs to make clear what the crowdworkers were actually asked. It seems that they are not reporting their own experience of the emotional impact of the photographs, but rather the intention of the photographer-->
 
 #### Evaluation methodology
-All the tasks will be evaluated using standard classification metrics, where F1-Score will be used to rank the different submissions. We also encourage participants to carry out a failure analysis of the results to gain insight into why a classifier may make a mistake.
+All the tasks will be evaluated using standard classification metrics, where weighted F1-Score will be used to rank the different submissions. We also encourage participants to carry out a failure analysis of the results to gain insight into why a classifier may make a mistake.
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -62,7 +62,7 @@ All the tasks will be evaluated using standard classification metrics, where F1-
 
 #### Task Schedule
 * August : Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 5 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 10 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * 6-8 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
