@@ -91,12 +91,12 @@ Additionally, we promote the idea of explainability and ask the participants to 
 * Mehdi Elahi, University of Bergen, Norway
 
 
-#### Task Schedule
+#### Task Schedule (Updated)
 * 30 June 2021: Data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 07 November 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 29 November 2021: Working notes paper due <!-- Fixed. Please do not change-->
+* 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change-->
 
 <!-- #### Acknolwedgments-->
 <!-- # optional, delete if not used-->
