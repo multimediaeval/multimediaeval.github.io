@@ -72,9 +72,9 @@ The ground truth for the provided dataset was created by an experienced computer
 * Michael Riegler, SimulaMet, Norway  
 * Pål Halvorsen, SimulaMet and OsloMet, Norway 
 
-#### Task Schedule
+#### Task Schedule (Updated)
 * 1 July: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 7 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* 6-8 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change. Exact date to be decided-->
