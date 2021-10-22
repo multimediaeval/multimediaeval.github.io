@@ -89,9 +89,6 @@ Evaluation will be performed using standard implementation of the multi-class ge
 
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
 * Konstantin Pogorelov, Simula Research laboratory (Simula), Norway, konstantin (at) simula.no
 * Johannes Langguth, Simula Research laboratory (Simula), Norway, langguth (at) simula.no
 * Daniel Thilo Schroeder, Simula Research laboratory (Simula), Norway
