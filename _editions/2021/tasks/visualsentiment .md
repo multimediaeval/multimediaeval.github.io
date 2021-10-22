@@ -60,9 +60,9 @@ All the tasks will be evaluated using standard classification metrics, where wei
 * Pål Halvorsen, paalh (at) simula.no, SimulaMet and OsloMet, Norway
 * Ala Al-Fuqaha, aalfuqaha (at) hbku.edu.qa, Hamad Bin Khalifa University, Doha, Qatar 
 
-#### Task Schedule
+#### Task Schedule (Updated)
 * August : Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 10 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* 6-8 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 13-15 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
