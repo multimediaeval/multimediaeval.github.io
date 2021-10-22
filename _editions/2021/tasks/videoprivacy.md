@@ -82,14 +82,14 @@ Please get in touch. Experts from the data collection and processing team are av
 <!-- # Second auxiliary-->
 <!-- # and so on-->
 
-#### Task Schedule
+#### Task Schedule (Updated)
 * July 2021: Registration on Submittable opens
 * July 2021: Data release to registered participants <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * August-October 2021: Community webinars/mentoring
 * October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 22 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* 6-8 December 2021: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 29 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 13-15 December 2021: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknowledgments
 Special thanks to our collaborators, advisors, and mentors, including:
