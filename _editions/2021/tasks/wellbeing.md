@@ -98,12 +98,12 @@ Please use the ACM format for references https://www.acm.org/publications/author
 * Nguyen Thanh Binh, University of Science, Vietnam (HCMUS)
 * Wida Suhaili, Universiti Teknologi Brunei (UTB)
 
-#### Task Schedule
+#### Task Schedule (Updated)
 * 01 July: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * 30 October: Runs due + Start writing working notes paper <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 30 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* Beginning December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 13-15 December: MediaEval 2021 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 <!-- #### Acknolwedgments
 <!-- # optional, delete if not used. I will update this soon, so keep commented for now-->
