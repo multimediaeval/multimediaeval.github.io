@@ -22,7 +22,7 @@ This task offers researchers an opportunity to test their fine-grained classific
 
 Compared with [Sports Video 2020](https://multimediaeval.github.io/editions/2020/tasks/sportsvideo/), this year we extend the task in the direction of detection and also enrich the dataset with new and more diverse stroke samples. The overview paper of the task is already available [here](https://www.labri.fr/projet/AIV/MediaEval/Sports_Video_Task_2021.pdf).
 
-Participants are encouraged to make their code public with their submission.
+Participants are encouraged to make their code public with their submission. We provide a public baseline, have a look [here](https://github.com/ccp-eva/SportTaskME21).
 
 #### Motivation and background
 Action detection and classification are one of the main challenges in visual content analysis and mining. Sports video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sports activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sports gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sports team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sports faculties, local clubs and associations to help coaches better assess and advise athletes during training. 
@@ -76,7 +76,7 @@ You can email us directly at mediaeval.sport.task (at) diff.u-bordeaux.fr
 
 #### Task Schedule (Updated)
 * 1 August - 15 October 2021: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 25 October 2021: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 7 November 2021 ~~25 October 2021~~: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * 8 November 2021: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 29 November 2021: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * 13-15 December 2021: MediaEval 2020 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
