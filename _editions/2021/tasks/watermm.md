@@ -62,8 +62,8 @@ We also recommend to read past years’ task papers in the MediaEval Proceedings
 #### Task Schedule (Updated)
 * 23 July 2021: Development set release
 * 11 October 2021: Test set release
-* 01 November 2021: Runs due
-* 12 November 2021: Results returned
+* 10 November 2021: Runs due
+* 19 November 2021: Results returned
 * 29 November 2021: Working notes paper
 * 13-15 December 2021: MediaEval 2020 Workshop
 
