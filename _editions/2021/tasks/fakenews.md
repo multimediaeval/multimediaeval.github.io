@@ -15,18 +15,19 @@ blurb: "The FakeNews task explores various machine-learning approaches to automa
 
 #### Task Description
 
-The FakeNews Detection Task offers three fake news detection subtasks on COVID-19-related conspiracy theories. The first subtask includes text-based fake news detection, the second subtask targets the detection of abnormal spreading patterns, and the third subtask tackles the emerging conspiracy topics detection. All subtasks are related to misinformation disseminated in the context of the long-lasting COVID-19 crisis. We focus on the well-known conspiracy theories that assume a causal relationship between various human activities and new technologies and COVID-19 virus, but text blocks and spreading graphs that talks about non-conspiracy CODID-19-related topics, e.g., vaccination are presented and labelled as well. 
+The FakeNews Detection Task offers three fake news detection subtasks on COVID-19-related conspiracy theories. The first subtask includes text-based fake news detection, the second subtask targets the detection of conspiracy theory topics, and the third subtask combines topic and conspiracy detection. All subtasks are related to misinformation disseminated in the context of the long-lasting COVID-19 crisis. We focus on conspiracy theories that assume some kind of nefarious actions by governments or other actors related to CODID-19, such as intentionally spreading the pandemic, lying about the nature of the pandemic, or using vaccines that have some hidden functionality and purpose.
 
-***Text-Based Misinformation Detection***: In this subtask, the participants receive a dataset consisting of tweet IDs in English related to COVID-19 and various conspiracy theories, along with a script to download these tweets from Twitter. The participants are encouraged to build a multi-class multi-labelling classifier that can predict whether a tweet promotes at least one of the conspiracy theories and if yes - compute probabilities of promoting the particular conspiracy theories from the pre-defined set.
+***Text-Based Misinformation Detection***: In this subtask, the participants receive a dataset consisting of tweet text blocks in English related to COVID-19 and various conspiracy theories. **The participants are encouraged to build a multi-class classifier that can flag whether a tweet promotes/supports or discusses at least one (or many) of the conspiracy theories**. In the case if the particular tweet promotes/supports one conspiracy theory and just discusses another, the result of the detection for the particular tweet is experted to be equal to "**stronger**" class: promote/support in the given sample.
 
-***Structure-Based Misinformation Detection***: Here, the participants receive a set of information spreading graphs. Each graph is a sub-graph of the Twitter follower graph and corresponds to a single tweet. The vertices are the accounts that posted or retweeted it. They are labelled by posting time. In addition, anonymized global IDs are available for training, but not for evaluation. The classification task is the same as above, i.e., detect promotion of conspiracies and estimate probability for each theory. 
+***Text-Based Conspiracy Theories Recognition***: In this subtask, the participants receive a dataset consisting of tweet text blocks in English related to COVID-19 and various conspiracy theories. **The main goal of this subtask is to build a detector that can detect whether a text in any form mentions or refers to any of the predefined conspiracy topics**.
 
-***Text-Based Emerging Conspiracy Detection***: In this subtask, the participants receive a dataset consisting of anonymized, cleaned and pre-processed text blocks in English related to COVID-19 and various conspiracy theories. The main goal of this subtask is to build a detector that can detect whether a text contains conspiracy-supporting or promoting talks on the already seen or absolutely new topics. Original text blocks can be acquired from Twitter, YouTube and online news sources, and, thus, can significantly vary in length and style.
+***Text-Based Combined Misinformation and Conspiracies Detection***: In this subtask, the participants receive a dataset consisting of tweet text blocks in English related to COVID-19 and various conspiracy theories. **The goal of this subtask is to build a complex multi-labelling multi-class detector that for each topic from a list of predefined conspiracy topics can predict whether a tweet promotes/supports or just discusses that particular topic**.
+
 
 
 #### Motivation and background
 
-Digital wildfires, i.e., fast-spreading inaccurate, counterfactual, or intentionally misleading information, can quickly permeate public consciousness and have severe real-world implications, and they are among the top global risks in the 21st century. While a sheer endless amount of misinformation exists on the internet, only a small fraction of it spreads far and affects people to a degree where they commit harmful and/or criminal acts in the real world. The COVID-19 pandemic has severely affected people worldwide, and consequently, it has dominated world news for months. Thus, it is no surprise that it has also been the topic of a massive amount of misinformation, which was most likely amplified by the fact that many details about the virus were unknown at the start of the pandemic. This task is aiming development of methods capable of detecting such misinformation and its active spreaders. We consider primarily the narrative that *the COVID-19 outbreak is a deliberate consequence of human activity or is somehow connected to emerging technologies*, covering various conspiracy theories about COVID-19.  
+Digital wildfires, i.e., fast-spreading inaccurate, counterfactual, or intentionally misleading information, can quickly permeate public consciousness and have severe real-world implications, and they are among the top global risks in the 21st century. While a sheer endless amount of misinformation exists on the internet, only a small fraction of it spreads far and affects people to a degree where they commit harmful and/or criminal acts in the real world. The COVID-19 pandemic has severely affected people worldwide, and consequently, it has dominated world news for months. Thus, it is no surprise that it has also been the topic of a massive amount of misinformation, which was most likely amplified by the fact that many details about the virus were unknown at the start of the pandemic. This task aims at the development of methods capable of detecting such misinformation. Since many different misinformation narratives exist, such methods must be capable of distinguishing between them. For that reason we consider a variety of well-known conspiracy theories related to COVID-19.   
 
 
 #### Target group
@@ -36,12 +37,7 @@ The task is of interest to researchers in the areas of online news, social media
 
 #### Data
 
-The dataset contains two sets of tweets mentioning Corona Virus and different conspiracy theories that include text, reposting time patterns, and the networks of reposters. The first set consists of only English language posts. It contains a wide variety of short, medium, and long tweets with neutral, positive, negative, and sarcastic phrasing. The second set consists of the networks and reposting time patterns. Both datasets are ***not balanced*** with respect to the number of samples of conspiracy-promoting and other tweets, and the conspiracy class is further subdivided in 
-multiple different conspiracies.
-
-The Twitter-based dataset consists of two main sets: annotated tweet IDs for ***Text-Based Misinformation Detection*** subtask and annotated retweet graphs for ***Structure-Based Misinformation Detection*** subtask that have been collected from Twitter during a period between 1st of January 2020 and 15th of May 2021, by searching for the Corona-virus-related keywords (e.g., "corona", "COVID-19", etc.) inside the tweets' text. All tweets should still be online at the time of releasing the dataset (we check for this regularly and will populate the update to the dataset). In order to be compliant with the Twitter Developer Policy, only the IDs of the tweets can be distributed, but an additional tool to download the complete tweets and embedded images are provided (our script is based on the one developed by Benjamin Bischke for the MediaEval 2018 event).
-
-The mixed dataset for ***Text-Based Emerging Conspiracy Detection*** subtask consist of fully anonymized and pre-processed subset of tweets from ***Text-Based Misinformation Detection*** subtask mixed with an additional corpus of texts captured from COVID-19-related videos publicly available on YouTube and randomly selected online news articles referenced in the GDELT database.
+The dataset contains several sets of tweet texts mentioning Corona Virus and different conspiracy theories. The dataset set consists of only English language posts and it contains a variety of long tweets with neutral, positive, negative, and sarcastic phrasing. The datasets is ***not balanced*** with respect to the number of samples of conspiracy-promoting and other tweets, and the number of tweets per each conspiracy class. The dataset items have been collected from Twitter during a period between 20th of January 2020 and 31st of July 2021, by searching for the Corona-virus-related keywords (e.g., "corona", "COVID-19", etc.) inside the tweets' text, followed by a search for keywords related to the conspiracy theories. Since not all tweets are available online, the partipants will be provided a full-text set of already downloaded tweets. In order to be compliant with the Twitter Developer Policy, only the members of the participants' participating temas are allowed to access and use the provided dataset. Distribution, publication, sharing and any form of usage of the provided data apart of the research purposes within the FakeNews task is strictly prohibited. A copy of the dataset in form of Tweet ID and annotations will be published after the end of MediaEval 2021.
 
 
 #### Ground truth
@@ -94,20 +90,18 @@ Evaluation will be performed using standard implementation of the multi-class ge
 * Daniel Thilo Schroeder, Simula Research laboratory (Simula), Norway
 
 
-<!--#### Task auxiliaries-->
-<!-- # optional, delete if not used-->
-<!--* # First auxiliary-->
-<!--* # Second auxiliary-->
-<!-- # and so on-->
+#### Task auxiliaries
+* Özlem Özgöbek, Norwegian University of Science and Technology (NTNU), Norway
 
 #### Task Schedule (Updated)
-* 25 August: First data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* 7 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
-* 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
-* 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change. Exact date to be decided-->
+* 25 August: Initial development set release
+* 21 October: Full development set release
+* 14 November: Final test set release
+* 19 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 22 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 29 November: Working notes paper due  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 13 December - 15 December, 14:00-18:30 CET (UTC+1): MediaEval 2021 Workshop  <!-- Fixed. Please do not change. Exact date to be decided-->
 
 
 #### Acknowledgments
-<!-- # optional, delete if not used-->
 This work was funded by the Norwegian Research Council under contracts #272019 and #303404 and has benefited from the Experimental Infrastructure for Exploration of Exascale Computing (eX3), which is financially supported by the Research Council of Norway under contract #270053. We also acknowledge support from Michael Kreil in the collection of Twitter data.
