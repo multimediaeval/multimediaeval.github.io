@@ -69,8 +69,8 @@ We also encourage participants to carry out a failure analysis of their results 
 
 #### Task Schedule (Updated)
 * 13 July: Data release 
-* 31 October: Runs due 
-* 15 November: Results returned  
+* 14 November: Runs due 
+* 22 November: Results returned  
 * 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change. Exact date to be decided-->
 
