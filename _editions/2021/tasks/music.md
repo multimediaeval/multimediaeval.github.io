@@ -77,8 +77,8 @@ Alastair Porter, Music Technology Group, Universitat Pompeu Fabra, Spain
 
 #### Task Schedule (Updated)
 * 1 June: Data releases <!-- # Replace XX with your date. Latest possible is 31 July-->
-* 5 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
-* 12 November: Results returned  <!-- Fixed. Please do not change-->
+* 12 November: Runs due <!-- # Replace XX with your date. Latest possible is 31 October-->
+* 19 November: Results returned  <!-- Fixed. Please do not change-->
 * 29 November 2021: Working notes paper due <!-- Fixed. Please do not change-->
 * 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change-->
 
