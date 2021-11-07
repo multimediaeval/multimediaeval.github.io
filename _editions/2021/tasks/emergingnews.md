@@ -39,6 +39,7 @@ An example of the RDF graphs: http://newshunter.uib.no:5555/example (Text has be
 #### Evaluation methodology
 An expert panel evaluates the results based on their relevance. The expert panel will be formed by experts with relevant background in journalism and media. The experts will use the developed solution and judge if the information provided can be considered as an emerging story or not and how useful the information is. During the evaluation, all participants will use the same data set. Experts do not know RDF, therefore they will base their decisions on the textual information provided on the RDF representations.
 
+### Task requirements
 * Input: stream of JSON-LD data (it can be either a continuous stream or time windows batches of. for example, 5, 10, 15, 20 min. We expect participants to choose the most suitable set up for their solution and discuss it).
 * Output: a group of JSON-LD items that belongs to the emerging story or a single JSON-LD item that is an emerging story (we leave it to the participants' decision too)
 * Visualization: a User Interface is optional
@@ -56,12 +57,12 @@ An expert panel evaluates the results based on their relevance. The expert panel
 
 #### Task organizers
 * Marc Gallofré Ocaña, University of Bergen, Norway
-* Duc-Tien Dang-Nguyen, University of Bergen, Norway
 * Andreas L. Opdahl, University of Bergen, Norway
+* Duc-Tien Dang-Nguyen, University of Bergen, Norway
 
 #### Task Schedule (Updated)
 * 16 August: Data is made available <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* 1 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* 15 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
+* 15 November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
+* 22 November: Results returned  <!-- Replace XX with your date. Latest possible should be 15 November-->
 * 29 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
 * 13-15 December 2021: MediaEval 2021 Workshop Online <!-- Fixed. Please do not change. Exact date to be decided-->
