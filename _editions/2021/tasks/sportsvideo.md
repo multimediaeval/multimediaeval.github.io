@@ -38,11 +38,30 @@ Twenty stroke classes are considered according to the rules of table tennis. Thi
 
 The training dataset shared for each subtask is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file, with the corresponding stroke label.
 
-***Subtask 1: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation. 
+***Subtask 1: Stroke Detection:***  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The mAP and IoU metrics on temporal segments will be used for evaluation. 
 
 ***Subtask 2: Stroke Classification:***  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy. 
 
 For each subtask, participants may submit up to five runs. We also encourage participants to carry out a failure analysis of their results in order to gain insight into the mistakes that their classifiers make.
+
+#### Leaderboard
+
+##### Subtask 1: Stroke Detection
+
+| Rank | Team | mAP | Global IoU |
+| :--: | :--: | :-: | :--------: |
+| 1 | Baseline | 0.0173	| 0.144 |
+| 2 | QuantEx	| 0.00124	| 0.070 |
+| 3 | SSNCSE | 0.000525	| 0.247 |
+
+##### Subtask 2: Stroke Classification
+
+| Rank | Team | Global Acc in % |
+| :--: | :--: | :--------: |
+| 1 | INF | 74.2 |
+| 2 | SELAB-HCMUS | 68.8 | 
+| 3 | Baseline | 20.4	| 
+| 4 | SSNCSE | 9.95	| 
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
