@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-11-18T21:37:51+00:00" />
+<meta property="article:published_time" content="2021-12-01T14:03:00+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","datePublished":"2021-11-18T21:37:51+00:00","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/"},"url":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/","headline":"Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos","description":"See the MediaEval 2021 webpage for information on how to register and participate.","dateModified":"2021-11-18T21:37:51+00:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/"},"url":"https://multimediaeval.github.io/editions/2021/tasks/sportsvideo/","headline":"Sports Video: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos","dateModified":"2021-12-01T14:03:00+00:00","description":"See the MediaEval 2021 webpage for information on how to register and participate.","datePublished":"2021-12-01T14:03:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -193,11 +193,80 @@
 
 <p>The training dataset shared for each subtask is composed of videos of table tennis matches with temporal borders of performed strokes supplied in an xml file, with the corresponding stroke label.</p>
 
-<p><strong><em>Subtask 1: Stroke Detection:</em></strong>  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The IoU metric on temporal segments will be used for evaluation.</p>
+<p><strong><em>Subtask 1: Stroke Detection:</em></strong>  Participants are asked to temporally segment regions where a stroke is performed on unknown videos of matches. The mAP and IoU metrics on temporal segments will be used for evaluation.</p>
 
 <p><strong><em>Subtask 2: Stroke Classification:</em></strong>  Participants produce an xml file where each stroke of test sequences is labeled according to the given taxonomy. Submissions will be evaluated in terms of accuracy per class and global accuracy.</p>
 
 <p>For each subtask, participants may submit up to five runs. We also encourage participants to carry out a failure analysis of their results in order to gain insight into the mistakes that their classifiers make.</p>
+
+<h4 id="leaderboard">Leaderboard</h4>
+
+<h5 id="subtask-1-stroke-detection">Subtask 1: Stroke Detection</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Rank</th>
+      <th style="text-align: center">Team</th>
+      <th style="text-align: center">mAP</th>
+      <th style="text-align: center">Global IoU</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">Baseline</td>
+      <td style="text-align: center">0.0173</td>
+      <td style="text-align: center">0.144</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">QuantEx</td>
+      <td style="text-align: center">0.00124</td>
+      <td style="text-align: center">0.070</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">SSNCSE</td>
+      <td style="text-align: center">0.000525</td>
+      <td style="text-align: center">0.247</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="subtask-2-stroke-classification">Subtask 2: Stroke Classification</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Rank</th>
+      <th style="text-align: center">Team</th>
+      <th style="text-align: center">Global Acc in %</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">INF</td>
+      <td style="text-align: center">74.2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">SELAB-HCMUS</td>
+      <td style="text-align: center">68.8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">Baseline</td>
+      <td style="text-align: center">20.4</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">SSNCSE</td>
+      <td style="text-align: center">9.95</td>
+    </tr>
+  </tbody>
+</table>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
