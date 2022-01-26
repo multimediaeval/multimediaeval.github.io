@@ -1,6 +1,16 @@
 [
    
       {
+        "title"    : "MediaEval 2021 Workshop",
+        "category" : "",
+        "tags"     : " ",
+        "url"      : "/2021/12/03/workshop-2021.html",
+        "date"     : "December 3, 2021",
+        "excerpt"  : "Workshop registration is now open for the 2021 edition of the MediaEval Multiedia Evaluation workshop. \nRegistration link and more information is available on the MediaEval 2021 webpage&lt;/...",
+        "content"  : "Workshop registration is now open for the 2021 edition of the MediaEval Multiedia Evaluation workshop. \nRegistration link and more information is available on the MediaEval 2021 webpage Multimedia Evaluation Workshop is underway. \nThe workshop runs from 14:00-18:30 CET on Monday 13 December through Wednesday 15 December 2020 and is fully online.\n\nThe goal of the workshop is to gain insight into MediaEval tasks and how they can be solved. \nTeams will be talking about how they addressed the tasks, but also about why they chose the solution that they did and about what they learned. \nWe are looking forward to a dynamic and productive workshop.\n"
+      } ,
+   
+      {
         "title"    : "Registration 2021",
         "category" : "",
         "tags"     : " ",
@@ -8,16 +18,6 @@
         "date"     : "June 16, 2021",
         "excerpt"  : "The Benchmarking Initiative for Multimedia Evaluation (MediaEval) offers challenges related to multimedia analysis, retrieval and exploration. MediaEval tasks involve multiple modalities, (e.g., audio, visual, textual, and/or contextual) and fo...",
         "content"  : "The Benchmarking Initiative for Multimedia Evaluation (MediaEval) offers challenges related to multimedia analysis, retrieval and exploration. MediaEval tasks involve multiple modalities, (e.g., audio, visual, textual, and/or contextual) and focus on the human and social aspects of multimedia. Our larger aim is to promote reproducible research that makes multimedia a positive force for society.\n\nRegistration for participation in MediaEval 2021 is now open. Please visit the MediaEval 2021 webpage for more information and the link to the registration page.\n"
-      } ,
-   
-      {
-        "title"    : "MediaEval 2021 Workshop",
-        "category" : "",
-        "tags"     : " ",
-        "url"      : "/2021/03/12/workshop-2021.html",
-        "date"     : "March 12, 2021",
-        "excerpt"  : "Workshop registration is now open for the 2021 edition of the MediaEval Multiedia Evaluation workshop. \nRegistration link and more information is available on the MediaEval 2021 webpage&lt;/...",
-        "content"  : "Workshop registration is now open for the 2021 edition of the MediaEval Multiedia Evaluation workshop. \nRegistration link and more information is available on the MediaEval 2021 webpage Multimedia Evaluation Workshop is underway. \nThe workshop runs from 14:00-18:30 CET on Monday 13 December through Wednesday 15 December 2020 and is fully online.\n\nThe goal of the workshop is to gain insight into MediaEval tasks and how they can be solved. \nTeams will be talking about how they addressed the tasks, but also about why they chose the solution that they did and about what they learned. \nWe are looking forward to a dynamic and productive workshop.\n"
       } ,
    
       {
