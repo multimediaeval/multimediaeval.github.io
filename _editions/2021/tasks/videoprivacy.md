@@ -95,13 +95,13 @@ Please get in touch. Experts from the data collection and processing team are av
 Special thanks to our collaborators, advisors, and mentors, including:
 
 
-Asal Barakchi, School of Behavior and Brain Science, The University of Texas at Dallas\
+Asal Baragchizadeh, School of Behavior and Brain Science, The University of Texas at Dallas\
 Alice O’Toole, School of Behavior and Brain Science, The University of Texas at Dallas\
 Thomas P. Karnowski, Oak Ridge National Laboratory\
 Regina Ferrell, Oak Ridge National Laboratory\
 Charles Fay, U.S. Department of Transportation, Federal Highway Administration\
 David Kuehn, U.S. Department of Transportation, Federal Highway Administration\
-as well as Natalie Evans Harris, Lauren Smith, René Bastón, David E. Culler, and the NSF Big Data Hubs network\
+as well as Natalie Evans Harris, Lauren Smith, René Bastón, David E. Culler, and the NSF Big Data Hubs network
 
 This effort is made possible through community volunteers and National Science Foundation Grants 1916573, 1916481, and 1915774.
 <!-- # optional, delete if not used-->
