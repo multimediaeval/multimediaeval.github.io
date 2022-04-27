@@ -5,7 +5,7 @@ year: 2022
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: <!-- # add your title here-->
+title: FakeNews Detection
 subtitle: <!-- # leave this blanck-->
 blurb: <!-- # add the task blurb here-->
 ---
