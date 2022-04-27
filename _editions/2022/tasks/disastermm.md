@@ -54,10 +54,13 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * What additional challenges are met when analyzing Italian text, compared to English?
 
 #### References and recommended reading
-[1] Andreadis, S., Gialampoukidis, I., Bozas, A., Moumtzidou, A., Fiorin, R., Lombardo, F., Karakostas, A., Norbiato, D., Vrochidis, S., Ferri,M., and Kompatsiaris, I., 2021, December. WaterMM: Water Quality in Social Multimedia Task at MediaEval 2021. In Proceedings of the MediaEval 2021 Workshop, Online.
-[2] Andreadis, S., Antzoulatos, G., Mavropoulos, T., Giannakeris, P., Tzionis, G., Pantelidis, N., Ioannidis, K., Karakostas, A., Gialampoukidis, I., Vrochidis, S., Kompatsiaris, I., 2021, May. A social media analytics platform visualising the spread of COVID-19 in Italy via exploitation of automatically geotagged tweets. In Online Social Networks and Media Journal, Elsevier, Volume 23, pp. 100-134.
-[3] Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S., Kompatsiaris, I., Fiorin, R., Norbiato, D. and Ferri, M., 2020, December. The flood-related multimedia task at mediaeval 2020. In Proceedings of the MediaEval 2020 Workshop, Online (pp. 14-15).
-[4] Moumtzidou, A., Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S. and Kompatsiaris, I., 2018, April.  Flood relevance estimation from visual and textual content in social media streams. In Companion Proceedings of the The Web Conference 2018 (pp. 1621-1627).
+[1] Andreadis, S., Gialampoukidis, I., Bozas, A., Moumtzidou, A., Fiorin, R., Lombardo, F., Karakostas, A., Norbiato, D., Vrochidis, S., Ferri,M., and Kompatsiaris, I., 2021, December. [WaterMM: Water Quality in Social Multimedia Task at MediaEval 2021](https://2021.multimediaeval.com/paper4.pdf). In Proceedings of the MediaEval 2021 Workshop, Online.
+
+[2] Andreadis, S., Antzoulatos, G., Mavropoulos, T., Giannakeris, P., Tzionis, G., Pantelidis, N., Ioannidis, K., Karakostas, A., Gialampoukidis, I., Vrochidis, S., Kompatsiaris, I., 2021, May. [A social media analytics platform visualising the spread of COVID-19 in Italy via exploitation of automatically geotagged tweets](https://doi.org/10.1016/j.osnem.2021.100134). In Online Social Networks and Media Journal, Elsevier, Volume 23, pp. 100-134.
+
+[3] Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S., Kompatsiaris, I., Fiorin, R., Norbiato, D. and Ferri, M., 2020, December. [The flood-related multimedia task at mediaeval 2020](http://ceur-ws.org/Vol-2882/paper5.pdf). In Proceedings of the MediaEval 2020 Workshop, Online (pp. 14-15).
+
+[4] Moumtzidou, A., Andreadis, S., Gialampoukidis, I., Karakostas, A., Vrochidis, S. and Kompatsiaris, I., 2018, April. [Flood relevance estimation from visual and textual content in social media streams](https://dl.acm.org/doi/abs/10.1145/3184558.3191620). In Companion Proceedings of the The Web Conference 2018 (pp. 1621-1627).
 
 #### Task organizers
 * Lead task organizer: Stelios Andreadis, Information Technologies Institute - Centre of Research and Technology Hellas (ITI - CERTH), Greece, andreadisst@iti.gr
@@ -72,12 +75,6 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * Daniele Norbiato, Eastern Alps River Basin District, Italy
 * Michele Ferri, Eastern Alps River Basin District, Italy
 
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
-
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
@@ -85,5 +82,3 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * 21 November: Working notes paper  <!-- Fixed. Please do not change.-->
 * Beginning December: MediaEval 2022 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
-#### Acknolwedgments
-<!-- # optional, delete if not used-->
