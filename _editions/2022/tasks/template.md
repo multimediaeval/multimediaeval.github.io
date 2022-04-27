@@ -27,6 +27,12 @@ blurb: <!-- # add the task blurb here-->
 
 #### Evaluation methodology
 
+#### Quest for insight
+Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
+* <!-- # First research question-->
+* <!-- # Second research question-->
+<!-- # and so on-->
+
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
