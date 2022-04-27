@@ -52,7 +52,7 @@ Here are several research questions related to this challenge that participants 
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
 * XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
 * XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 10 November-->
-* 21 November: Working notes paper  <!-- Fixed. Please do not change. Exact date to be decided-->
+* 21 November: Working notes paper  <!-- Fixed. Please do not change.-->
 * Beginning December: MediaEval 2022 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
 #### Acknolwedgments
