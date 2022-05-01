@@ -14,18 +14,40 @@ blurb: <!-- # add the task blurb here-->
 *See the [MediaEval 2022 webpage](https://multimediaeval.github.io/editions/2022/) for information on how to register and participate.*
 
 #### Task Description
+Task participants create systems that derive insights from multimodal data to understand urban life and air pollution. 
+
+The organizers provide two datasets. The first one, namely "environmental data," contains air quality data such as PM10, PM2.5, CO, NO2, SO2, O3 and weather factors such as temperature, humidity, wind, rainfall, and UV collected from 10 stations spread over Dalat City, Vietnam. The second one, namely "traffic data," contains videos/images captured from the CCTV system of Dalat city, Vietnam. 
+
+The task requires participants to tackle the "multimodal/crossmodal air pollution prediction" and "periodic traffic-pollution patterns discovery" subtasks. The former required participants to predict Air Quality Index (AQI) in the short- and mid-term future using multimodal/cross-modal data. Remarkably, the participants must predict AQI using (1) only station data, and (2) station and CCTV data. The latter asked participants to discover periodic traffic-pollution patterns that can bring citizens' awareness of traffic-pollution mutual impacts using the given datasets. 
+
+1. Multimodal/crossmodal air pollution prediction: The participants must predict AQI levels using 
+    1. only station data: Participants must predict AQI levels using only station data. 
+    2. station and CCTV data: Participants must build the crossmodal models to predict AQI levels from Images extracted from CCTV data and vice versa. In other words, participants can use both station and CCTV to train their models but must use only CCTV data to predict/estimate AQI levels and vice versa.
+
+2. Periodic traffic-pollution patterns discovery: The participants must discover the correlation, co-occurrence, or causality between the weather, traffic, and air pollution. Among these discoveries, participants must point out a set of period-frequent patterns that can be expressed by natural language. 
+
+The participants are encouraged to read the works presented in [1-6] to understand the task requirements.
+
 
 #### Motivation and background
 
 #### Introduction
 
 #### Target group
+This task targets (but is not limited to) researchers in the areas of multimedia information retrieval, machine learning, AI, data science, data mining, knowledge discover, event-based processing and analysis, multimodal multimedia content analysis, lifelog data analysis, urban computing, urban management, environmental science, and atmospheric science. 
 
 #### Data
+The task introduces a novel dataset that includes weather and air quality data from ten stations and traffic data from the CCTV system. The datasets are published online at a specific website. 
 
-#### Ground truth
+The weather and air quality are recorded every five minutes, including sensor's profiles (SensorID, SensorCode, SensorName, Latitude, Longtitude, Altitude),	recorded time (Date,Time), weatther (Temperature,	Humidity, WindSpeed, WindGust, Direction, Rainfall), and air quality (PM1.0, PM2.5,	PM10,	CO, NO2, SO2, O3, UV). The traffic data contains video streaming from CCTV system. Nevertheless, the archive traffic data contains only one frame per five seconds.
 
-#### Evaluation methodology
+#### Ground truth and Evaluation methodology
+The ground truth for the dataset is collected as follows:
+* Collect data for three months. Delete data randomly and save these deleted data as the ground truth.
+
+For each subtask, the evaluation method is applied as follows:
+* For the Multimodal/crossmodal air pollution prediction subtask: We use the SMAPE/RMSE/MAE for comparing AQI value with the ground truth.
+
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
@@ -34,19 +56,24 @@ Here are several research questions related to this challenge that participants 
 <!-- # and so on-->
 
 #### References and recommended reading
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+[1] Tuan-Vinh La, Minh-Son Dao, Kazuki Tejima, Rage Uday Kiran, Koji Zettsu: Improving the Awareness of Sustainable Smart Cities by Analyzing Lifelog Images and IoT Air Pollution Data. IEEE BigData 2021: 3589-3594
+
+[2] Minh-Son Dao, Koji Zettsu, Rage Uday Kiran: IMAGE-2-AQI: Aware of the Surrounding Air Qualification by a Few Images. IEA/AIE (2) 2021: 335-346 
+
+[3] Vo, P.B., Phan, T.D., Dao, M.S., Zettsu, K.: Association Model between Visual Feature and AQI Rank Using Lifelog Data, IEEE Big Data 2019, pp. 4197-4200
+
+[4] Dat Q. Duong, Quang M. Le, Tan-Loc Nguyen-Tai, Hien D. Nguyen, Minh-Son Dao, Binh T. Nguyen: An Effective AQI Estimation Using Sensor Data and Stacking Mechanism. SoMeT 2021: 405-418
+
+[5] So Nakamura, R. Uday Kiran, Palla Likhitha, Penugonda Ravikumar, Yutaka Watanobe, Minh-Son Dao, Koji Zettsu, Masashi Toyoda: Efficient Discovery of Partial Periodic-Frequent Patterns in Temporal Databases. DEXA (1) 2021: 221-227
+
+[6] Ngoc-Thanh Nguyen, Minh-Son Dao, Koji Zettsu: Complex Event Analysis for Traffic Risk Prediction based on 3D-CNN with Multi-sources Urban Sensing Data. IEEE BigData 2019: 1669-1674
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
-
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
+* Thanh-Hai Dang, Dalat City University, Vietnam (DLU). Email: haidt@dlu.edu.vn
+* Thanh-Binh Nguyen, Vietnam National University in HCM City, University of Science (VNUHCM-US). Email: ngtbinh@hcmus.edu.vn
+* Tan-Loc Nguyen-Tai, LOC GOLD Technology MTV Ltd. Co. Email: mailto:tanlocmamut92@gmail.com
+* Minh-Son Dao, National Institute of Information and Communications Technology, Japan (NICT) dao (at) nict (dot) go (dot) jp
+* Duc-Tien Dang-Nguyen, University of Bergen, Norway (UiB). Email. Ductien.dangnguyen@uib.no
 
 #### Task Schedule
 * XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
@@ -55,5 +82,3 @@ Here are several research questions related to this challenge that participants 
 * 21 November: Working notes paper  <!-- Fixed. Please do not change.-->
 * Beginning December: MediaEval 2022 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
 
-#### Acknolwedgments
-<!-- # optional, delete if not used-->
