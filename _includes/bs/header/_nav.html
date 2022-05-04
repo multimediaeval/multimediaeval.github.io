@@ -30,13 +30,7 @@
                 {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
               </a></li>
             {% else %}
-              {% if page.has_children and page.title == "About MediaEval" %}
-                <li><a class="dropdown-trigger" data-target="abouts" style="color:white;">
-                  {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
-                </a></li>
-              {% else %}
                 <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
-              {% endif %}
             {% endif %}
           {% endunless %}
         {% endfor %}
@@ -51,12 +45,6 @@
   <li><a href="{{ edition.url | relative_url }}">{{ edition.title }}</a></li>
   {% endfor %}
   <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
-</ul>
-
-<ul class="dropdown-content materialize" id="abouts">
-  {% for aboutitem in abouts %}
-  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-  {% endfor %}
 </ul>
 
 <!-- Mobile Structure -->
