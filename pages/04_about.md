@@ -3,6 +3,7 @@ layout: page
 title: About MediaEval
 subtitle: 
 permalink: /about/
+has_children: true
 ---
 ### What is MediaEval?
 
