@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What Is MediaEval
+title: About MediaEval
 subtitle: 
 permalink: /about/whatis.md
 ---
