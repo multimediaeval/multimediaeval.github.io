@@ -5,7 +5,7 @@ subtitle:
 permalink: /about/mentions.md
 ---
 
-### 2022
+### 2021
 
 To *Omar Meriwani (Real Sciences)*
 * For: For his creativity on taking one step-forward using the task data and exploring other approaches.
@@ -52,9 +52,9 @@ To *Ali Akbar, Muhammad Atif Tahir, Muhammad Rafi*
 * From: Organizers of the task: Insight for Wellbeing: Cross-Data Analytics for (transboundary) Haze Prediction
 
 To *Andrea Storås (SimulaMet)*
-For: For her unique submission on generating segmentation masks unsupervised.
-From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
+* For: For her unique submission on generating segmentation masks unsupervised.
+* From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
 
 To *Felicia Ly Jacobsen (University of Oslo)*
-For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
-From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
+* For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
+* From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
