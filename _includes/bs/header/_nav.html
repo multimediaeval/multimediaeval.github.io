@@ -29,12 +29,14 @@
               <li><a class="dropdown-trigger" data-target="editions" style="color:white;">
                 {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
               </a></li>
-            {% elif page.has_children and page.title == "About MediaEval" %}
-              <li><a class="dropdown-trigger" data-target="abouts" style="color:white;">
-                {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
-              </a></li>
             {% else %}
-              <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
+              {% if page.has_children and page.title == "About MediaEval" %}
+                <li><a class="dropdown-trigger" data-target="abouts" style="color:white;">
+                  {{ page.title }}<i class="material-icons right">arrow_drop_down</i>
+                </a></li>
+              {% else %}
+                <li><a href="{{ page.url | relative_url }}" style="color:white;">{{ page.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endunless %}
         {% endfor %}
