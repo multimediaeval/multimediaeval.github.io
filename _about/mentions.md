@@ -2,5 +2,5 @@
 layout: page
 title: Distinctive Mentions
 subtitle: 
-permalink: /_about/mentions.md
+permalink: /about/mentions.md
 ---
