@@ -103,7 +103,7 @@ To *FAST-NU-DS*
 To *AISIA*
 * For: Their overall scores and the best utilization of lifelog data characteristics.
 * From: Insight for Wellbeing Task organizers
-* Paper: [A2QI: An Approach for Air Pollution Estimation in MediaEval 2020]http://ceur-ws.org/Vol-2882/paper23.pdf
+* Paper: [A2QI: An Approach for Air Pollution Estimation in MediaEval 2020](http://ceur-ws.org/Vol-2882/paper23.pdf)
 * Presentation: [SlideShare link](https://www.slideshare.net/multimediaeval/a2qi-an-approach-for-air-pollution-estimation-in-mediaeval-2020)
 * Video: [YouTube link](https://youtu.be/Q3YVnQUbR0w)
 
