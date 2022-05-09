@@ -98,7 +98,7 @@ To *FAST-NU-DS*
 * From: Flood-related Multimedia organizers
 * Paper: [An Ensemble Based Method for the Classification of Flooding Event Using Social Media Data](http://ceur-ws.org/Vol-2882/paper37.pdf)
 * Presentation: [SlideShare link](https://www.slideshare.net/multimediaeval/ensemble-based-method-for-the-classification-of-flooding-event-using-social-media-data)
-* Video: https://youtu.be/4ROoOzdQzEI
+* Video: [YouTube link](https://youtu.be/4ROoOzdQzEI)
 
 To *AISIA*
 * For: Their overall scores and the best utilization of lifelog data characteristics.
@@ -130,7 +130,7 @@ To *DCU-Audio*
 To *MG-UCB*
 * For: Their good results and their use of multiple sources (audio, text, visual) in their approach.
 * From: Predicting Media Memorability Task organisers
-* Paper: [http://ceur-ws.org/Vol-2882/paper53.pdf](http://ceur-ws.org/Vol-2882/paper53.pdf)
+* Paper: [Multi-Modal Ensemble Models for Predicting Video Memorability](http://ceur-ws.org/Vol-2882/paper53.pdf)
 * Video: [YouTube link](https://youtu.be/qJZkNFYgE-I)
 
 To *HCMUS_Team*
