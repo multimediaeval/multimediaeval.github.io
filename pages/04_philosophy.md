@@ -8,6 +8,7 @@ permalink: /philosophy/
 These are the distinctive mentions awarded at MediaEval.
 
 ### 2021
+The papers, videos, and presentations are not yet published. We will update the details as they become available.
 
 To *Omar Meriwani (Real Sciences)*
 * For: For his creativity on taking one step-forward using the task data and exploring other approaches.
@@ -61,3 +62,113 @@ To *Felicia Ly Jacobsen (University of Oslo)*
 * For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
 * From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
 
+### 2020
+
+To *SAIL-MiM-USC*
+* For: Using different loss functions to overcome the dataset imbalance and showing importance of optimization.
+* From: Emotions and Themes in Music Task organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper67.pdf
+* Presentation: https://www.slideshare.net/multimediaeval/mediaeval-2020-emotion-and-theme-recognition-in-music-task-loss-function-approaches-for-multilabel-music-tagging
+* Video: https://youtu.be/5XN9345xx-I
+
+To *Linkmedia*
+* For: Their overall performance in both text and graph classification by using artificial examples and user reputation.
+* From: FakeNews Task organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper63.pdf
+* Video: https://youtu.be/NjTAnRp2BMM
+
+To *MG-UCB*
+* For: Their creative graph sampling approach exploring retweet cascade properties in small subgraphs.
+* From: FakeNews Task organizers
+* Paper:
+* Presentation:
+* Video:
+
+To *DL-TXST*
+* For: heir implementation of auxiliary optical character recognition for text classification and creation of website with an overview of task-related information and resources.
+* From: FakeNews Task organizers
+* Paper:
+* Presentation:
+* Video:
+
+To *FIG*
+* For: For using only textual information and for tackling class imbalance with random undersampling instead of oversampling.
+* From: Flood-related Multimedia organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper25.pdf
+
+To *FAST-NU-DS*
+* For: For using fused textual and visual information and for ensembling different classifiers.
+* From: Flood-related Multimedia organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper37.pdf
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
+
+To **
+* For:
+* From:
+* Paper:
+* Presentation:
+* Video:
