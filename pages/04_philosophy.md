@@ -100,75 +100,61 @@ To *FAST-NU-DS*
 * For: For using fused textual and visual information and for ensembling different classifiers.
 * From: Flood-related Multimedia organizers
 * Paper: http://ceur-ws.org/Vol-2882/paper37.pdf
-* Presentation:
-* Video:
+* Presentation: https://www.slideshare.net/multimediaeval/ensemble-based-method-for-the-classification-of-flooding-event-using-social-media-data
+* Video: https://youtu.be/4ROoOzdQzEI
 
-To **
-* For:
-* From:
+To *AISIA*
+* For: Their overall scores and the best utilization of lifelog data characteristics.
+* From: Insight for Wellbeing Task organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper23.pdf
+* Presentation: https://www.slideshare.net/multimediaeval/a2qi-an-approach-for-air-pollution-estimation-in-mediaeval-2020
+* Video: https://youtu.be/Q3YVnQUbR0w
+
+To *QHL-UIT*
+* For: Their simple but efficient approach for capturing spatio-temporal-concept correlation of cross-data.
+* From: Insight for Wellbeing Task organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper51.pdf
+
+To *AI-JMU*
+* For: Not only showing where their method succeeded, but also showing where it failed.
+* From: Medico Task Organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper12.pdf
+
+To *All Medico Participants*
+* For: Making this the biggest year for Medico despite this year's challenges and it being online.
+* From: Medico Task Organizers
+
+To *DCU-Audio*
+* For: Their overall performance and the use of Memento dataset as external data.
+* From: Predicting Media Memorability Task organisers
+* Paper: http://ceur-ws.org/Vol-2882/paper43.pdf
+* Video: https://youtu.be/WNZ9erlzCWA
+
+To *MG-UCB*
+* For: Their good results and their use of multiple sources (audio, text, visual) in their approach.
+* From: Predicting Media Memorability Task organisers
 * Paper:
 * Presentation:
 * Video:
 
-To **
-* For:
-* From:
+To *HCMUS_Team*
+* For: Their novel approach to achieving both the adversarial effects and image enhancement in an end-to-end manner by optimizing an image-to-image translation model.
+* From: Pixel Privacy Task Organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper41.pdf
+
+To *Linkmedia*
+* For: Their novel attempt to specifically address the JPEG compression by quantization in the DCT domain.
+* From: Pixel Privacy Task Organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper45.pdf
+
+To *iCV-UT*
+* For: Their proposed cascade method based on stroke decomposition for their classification.
+* From: Sports Video Classification Task organizers
 * Paper:
 * Presentation:
 * Video:
 
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
-
-To **
-* For:
-* From:
-* Paper:
-* Presentation:
-* Video:
+To *Toyohashi University of Technology*
+* For: Their ablation study on stroke classification using different sources of information.
+* From: Sports Video Classification Task organizers
+* Paper: http://ceur-ws.org/Vol-2882/paper17.pdf
