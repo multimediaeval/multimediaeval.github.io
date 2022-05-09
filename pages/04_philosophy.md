@@ -80,16 +80,13 @@ To *Linkmedia*
 To *MG-UCB*
 * For: Their creative graph sampling approach exploring retweet cascade properties in small subgraphs.
 * From: FakeNews Task organizers
-* Paper:
-* Presentation:
-* Video:
+* Paper: [Detecting Conspiracy Theories from Tweets: Textual and Structural Approaches](http://ceur-ws.org/Vol-2882/paper68.pdf)
 
 To *DL-TXST*
-* For: heir implementation of auxiliary optical character recognition for text classification and creation of website with an overview of task-related information and resources.
+* For: Their implementation of auxiliary optical character recognition for text classification and creation of website with an overview of task-related information and resources.
 * From: FakeNews Task organizers
-* Paper:
-* Presentation:
-* Video:
+* Paper: [Enriching Content Analysis of Tweets Using Community Discovery Graph Analysis](http://ceur-ws.org/Vol-2882/paper66.pdf) 
+* Video: [YouTube link](https://youtu.be/8RTPZce4O50)
 
 To *FIG*
 * For: For using only textual information and for tackling class imbalance with random undersampling instead of oversampling.
@@ -133,9 +130,8 @@ To *DCU-Audio*
 To *MG-UCB*
 * For: Their good results and their use of multiple sources (audio, text, visual) in their approach.
 * From: Predicting Media Memorability Task organisers
-* Paper:
-* Presentation:
-* Video:
+* Paper: [http://ceur-ws.org/Vol-2882/paper53.pdf](http://ceur-ws.org/Vol-2882/paper53.pdf)
+* Video: [YouTube link](https://youtu.be/qJZkNFYgE-I)
 
 To *HCMUS_Team*
 * For: Their novel approach to achieving both the adversarial effects and image enhancement in an end-to-end manner by optimizing an image-to-image translation model.
@@ -150,9 +146,7 @@ To *Linkmedia*
 To *iCV-UT*
 * For: Their proposed cascade method based on stroke decomposition for their classification.
 * From: Sports Video Classification Task organizers
-* Paper:
-* Presentation:
-* Video:
+* Paper: [Spatio-Temporal Based Table Tennis Hit Assessment Using LSTM Algorithm](http://ceur-ws.org/Vol-2882/paper55.pdf)
 
 To *Toyohashi University of Technology*
 * For: Their ablation study on stroke classification using different sources of information.
