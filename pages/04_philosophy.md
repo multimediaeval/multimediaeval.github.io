@@ -4,11 +4,25 @@ title: MediaEval Philosophy
 subtitle: 
 permalink: /philosophy/
 ---
+### MediaEval Philosophy
+MediaEval is a benchmark and provides standardized task descriptions, data sets, and evaluation procedures. Benchmarks make possible systematic comparison of the performance of different approaches to problems of retrieving or analyzing multimedia content. MediaEval promotes the benefits that arise from methodical comparison: identification of state-of-the-art algorithms and promotion of research progress.  
 
+MediaEval pursues its objective of offering a benchmark to the multimedia research community within a broader philosophy that emphasizes understanding. Specifically, we seek to transcend conventional benchmarks by striving to gain qualitative insight about our data, our evaluation metrics, our ground truth or evaluation procedure, and the fundamental nature of the challenges that our tasks represent. 
+
+Targeting such insight helps us to avoid devoting a disproportionate amount of attention to tasks for which performance is easy or obvious to measure using conventional quantitative metrics. It also encourages the researchers who participate in the benchmark to take leaps of innovation that may not pay off in the short run, but are promising in the long run. We try to identify and appreciate the value of innovative ideas before they are well developed enough to improve metrics and to prevent promising, but still immature, approaches from being abandoned prematurely.
+
+MediaEval expresses the importantance that it places on understanding with MediaEval Distinctive Mentions (MDMs). Each year, the organizers of the tasks single out participating team that have gone beyond solving the task to making a further contribution. Recipients of MDMs are teams that stand out because their approach to the MediaEval task was highly innovative and/or delivered important insight with potential for the future. Teams that receive MDMs are not necessarily those teams that scored at the top of the task ranking/leaderboard. 
+
+From 2013-2019, MDMs were informal and announced at the workshop but not otherwise publicized. Starting 2020, we are publishing the MDMs online (see list below). (Note: The task rankings can be found in the workshop overview presentations of the individual tasks.) 
+
+In 2022, MediaEval introduced the Quest for Insight, which encourages explicit discussion of how participants can explore tasks in a way that goes beyond exclusive focus on the evaluation metric. We hope that the Quest for Insight will lead to many inspiring MDMs moving forward.
+
+
+### MediaEval Distinctive Mentions
 These are the distinctive mentions awarded at MediaEval.
 
-### 2021
-The papers, videos, and presentations are not yet published. We will update the details as they become available.
+#### 2021
+The papers, videos, and presentations have not yet been published. We will update the details as they become available.
 
 To *Omar Meriwani (Real Sciences)*
 * For: For his creativity on taking one step-forward using the task data and exploring other approaches.
@@ -62,7 +76,7 @@ To *Felicia Ly Jacobsen (University of Oslo)*
 * For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
 * From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
 
-### 2020
+#### 2020
 
 To *SAIL-MiM-USC*
 * For: Using different loss functions to overcome the dataset imbalance and showing importance of optimization.
