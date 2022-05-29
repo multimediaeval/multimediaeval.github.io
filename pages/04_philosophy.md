@@ -18,10 +18,10 @@ From 2013-2019, MDMs were informal and announced at the workshop but not otherwi
 In 2022, MediaEval introduced the Quest for Insight, which encourages explicit discussion of how participants can explore tasks in a way that goes beyond exclusive focus on the evaluation metric. We hope that the Quest for Insight will lead to many inspiring MDMs moving forward.
 
 
-### MediaEval Distinctive Mentions
+#### MediaEval Distinctive Mentions (MDMs)
 These are the distinctive mentions awarded at MediaEval.
 
-#### 2021
+##### 2021
 The papers, videos, and presentations have not yet been published. We will update the details as they become available.
 
 To *Omar Meriwani (Real Sciences)*
@@ -76,7 +76,7 @@ To *Felicia Ly Jacobsen (University of Oslo)*
 * For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
 * From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
 
-#### 2020
+##### 2020
 
 To *SAIL-MiM-USC*
 * For: Using different loss functions to overcome the dataset imbalance and showing importance of optimization.
