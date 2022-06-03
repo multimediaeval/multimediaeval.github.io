@@ -43,7 +43,7 @@ It should be also noted that only the IDs of the tweets will be distributed to t
 #### Evaluation methodology
 In RCTP, the evaluation metric for the binary classification of tweets as relevant (1) or not relevant (0) will be F1-score.
 
-In LETT, F1-score will be used too, not in sentence level, but in word level. To further explain, if a given label for a word matches the label of the annotator for this particular word, then it is considered as true (true positive if “B-LOC” or “I-LOC”, true negative if “O”).
+In LETT, F1-score will be used too, not in sentence level, but in word level. To further explain, if a given label for a word matches the label of the annotator for this particular word, then it is considered as true (true positive if “B-LOC”/“I-LOC”, true negative if “O”). Two scores will be measured per each run: the exact F1-score, where labels have to fully match, and the partial F1-score, where either “B-LOC” or “I-LOC” can be considered as true as long as the annotator’s label concerns location.
 
 #### Quest for insight
 * Does the involvement of visual features improve or deteriorate the classification prediction?
@@ -76,9 +76,10 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * Michele Ferri, Eastern Alps River Basin District, Italy
 
 #### Task Schedule
-* XX XXX: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July-->
-* XX November: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned deadline-->
-* XX November: Results returned  <!-- Replace XX with your date. Latest possible should be 10 November-->
-* 21 November: Working notes paper  <!-- Fixed. Please do not change.-->
-* Beginning December: MediaEval 2022 Workshop <!-- Fixed. Please do not change. Exact date to be decided-->
+* 22 July 2022: Development set release
+* 7 October 2022: Test set release
+* 11 November 2022: Runs due
+* 23 November 2022: Results returned
+* December 2022: Working notes paper
+* 12-13 January 2023: MediaEval 2022 Workshop
 
