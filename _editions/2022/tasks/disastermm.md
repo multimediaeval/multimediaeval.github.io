@@ -80,6 +80,6 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * 7 October 2022: Test set release
 * 11 November 2022: Runs due
 * 23 November 2022: Results returned
-* December 2022: Working notes paper
-* 12-13 January 2023: MediaEval 2022 Workshop
+* 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
+* 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
