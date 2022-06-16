@@ -91,7 +91,7 @@ You can email us directly at ![](https://user-images.githubusercontent.com/36887
 * Julien Morlier, IMS, University of Bordeaux, Talence, France
 * Laurent Mascarilla, MIA, University of La Rochelle, La Rochelle, France
 
-* #### Task Schedule
+#### Task Schedule
 * 15 June 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * 1 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 3 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
