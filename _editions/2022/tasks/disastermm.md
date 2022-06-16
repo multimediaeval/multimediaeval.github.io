@@ -31,14 +31,14 @@ Researchers in the areas of social media, multimedia and multilingual analysis, 
 #### Data
 The dataset for the RCTP subtask is a set of circa 8,000 social media posts collected from Twitter between May 25, 2020 and June 12, 2020, by searching for Italian keywords about floods (e.g. “alluvione”, “allagamento”, “esondazione” – all translated as flood). The ground truth of the dataset refers to the relevance of a tweet, i.e. 1 = relevant / 0 = not relevant.
 
-The dataset for the LETT subtask consists of circa 6,000 social media posts collected from Twitter between March 25, 2017 and August 1, 2018, again by searching for Italian, flood-related keywords. The ground truth of this dataset involves the following labels for each word of a tweet text: “B-LOC” for the first word of a sequence that refers to a location or a single-word location, “I-LOC” for the subsequent word of a sequence that refers to a location, and “O” for any non-location word. For instance, the ground truth for the sentence “Allagamento in via Prati della Farnesina” is “O O B-LOC I-LOC I-LOC I-LOC”.
-
-Both datasets have been manually annotated by native speakers that are employed by the Eastern Alps River Basin District, which is responsible for the hydrogeological defense and flood risk management in the Eastern Alps partition of North-East Italy.
+The dataset for the LETT subtask consists of circa 6,000 social media posts collected from Twitter between March 25, 2017 and August 1, 2018, again by searching for Italian, flood-related keywords. 
 
 It should be also noted that only the IDs of the tweets will be distributed to the participants, in order to be fully compliant with the Twitter Developer Agreement & Policy. However, a tool to download them will be provided, while for the LETT subtask the clean, processed sentences will be also shared, for a fairer evaluation.
 
-
 #### Ground truth
+The ground truth of this dataset involves the following labels for each word of a tweet text: “B-LOC” for the first word of a sequence that refers to a location or a single-word location, “I-LOC” for the subsequent word of a sequence that refers to a location, and “O” for any non-location word. For instance, the ground truth for the sentence “Allagamento in via Prati della Farnesina” is “O O B-LOC I-LOC I-LOC I-LOC”.
+
+Both datasets have been manually annotated by native speakers that are employed by the Eastern Alps River Basin District, which is responsible for the hydrogeological defense and flood risk management in the Eastern Alps partition of North-East Italy.
 
 #### Evaluation methodology
 In RCTP, the evaluation metric for the binary classification of tweets as relevant (1) or not relevant (0) will be F1-score.
