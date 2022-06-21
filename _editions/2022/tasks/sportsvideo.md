@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: The 2022 Sport Task: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos. <!-- # add your title here-->
@@ -44,7 +44,11 @@ The task is of interest to researchers in the areas of machine learning (classif
 
 #### Data
 Our focus is on recordings that have been made by widespread and cheap video cameras, e.g. GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.
+
+
 #### Ground truth
+The annotations consist in a description of the handedness of the player and information for each stroke performed (starting and ending frames, class of the stroke). The annotation process was designed as a crowdsourcing method. The annotation sessions are supervised by professional table tennis players and teachers, where the annotator spots and labels strokes in videos using a user-friendly web platform has been developed by our team for this purpose. We had a team of 15 annotators, professionals in the field of table tennis.
+Since a video can be annotated by several annotators, stroke detection according to the annotations was necessary. Our dataset is player-centered, with only one player in each video. An overlap between each annotation of 25% of the annotated stroke duration is allowed. Indeed, during matches with fast exchanges, the boundaries between strokes are hard to determine and annotators would sometimes overlap the annotations between two successive strokes.
 
 #### Evaluation methodology
 Twenty stroke classes and a non-stroke class are considered according to the rules of table tennis. This taxonomy was designed with professional table tennis teachers. We are working on videos recorded at the Faculty of Sports of the University of Bordeaux. Students are the sportsmen filmed and the teachers are supervising exercises conducted during the recording sessions. The recordings are markerless and allow the players to perform in natural conditions.
@@ -93,8 +97,8 @@ You can email us directly at ![](https://user-images.githubusercontent.com/36887
 
 #### Task Schedule
 * 15 June 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* 1 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* 3 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
-* 21 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
+* 8 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 10 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
