@@ -14,12 +14,11 @@ blurb: <!-- # add the task blurb here-->
 *See the [MediaEval 2022 webpage](https://multimediaeval.github.io/editions/2022/) for information on how to register and participate.*
 
 #### Task Description
-Smell is an underrepresented dimension of many multimedia analysis and representation tasks. The goal of MUSTI is to further the understanding of descriptions and depictions of smells in texts and images. In this shared task, participants are provided with multilingual texts (English, German, Italian, French) and images, from the 16th to the 20th century, that pertain to smell (i.e. selected because they evoke smells). This task’s goal is to recognise references to smells in texts and images and to connect these smell references across the different modalities.
+Smell is an underrepresented dimension of many multimedia analysis and representation tasks. The goal of Musti is to further the understanding of descriptions and depictions of smells in texts and images. In this shared task, participants are provided with multilingual texts (English, German, Italian, French) and images, from the 16th to the 20th century, that pertain to smell (i.e. selected because they evoke smells). This task’s goal is to recognise references to smells in texts and images and to connect these smell references across the different modalities.
 
 Task participants are invited to develop language and image recognition technologies to predict whether a text passage and an image evoke the same smell source or not. This main mandatory task can therefore be casted as a binary classification problem.
 
-In a subsequent optional sub-task, the participants are also asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g. plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This optional sub-task can therefore be casted as a multi-label classification problem.
-
+In a subsequent optional sub-task, the participants are also asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g. plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This optional sub-task can therefore be casted as a multi-label classification problem. Contact address: Ali Hürriyetoğlu (ali.hurriyetoglu@dh.huc.knaw.nl)
 
 
 
@@ -49,17 +48,19 @@ The images are annotated with 80+ categories of smell objects and gestures such 
 
 The Odeuropa text and image benchmark datasets are available as training data to the participants. The image dataset consists of ~3000 images with 20,000 associated object annotations and 600 gesture annotations. 
 
-The participants will be evaluated on a held-out dataset of roughly 1200 images with associated texts in the four languages.
+The participants will be evaluated on a held-out dataset of roughly 1,200 images with associated texts in the four languages.
   
 
 #### Ground truth
+
+The grpund truth consists of images and text snippets that contain appearences or mentions of smell related objects. If a text passage and an image evoke the same smell the relation between an image and a text passage is manually positive, otherwise negative. This dataset is distilled from the Odeuropa text and image benchmark datasets.
 
 #### Evaluation methodology
 Task runs will be evaluated against a gold standard consisting of image-text pairs. We will evaluate using multiple statistics as each provides a slightly different perspective on the results. Main Task: Predicting whether an image and a text passage evoke the same smell source or not
 
 This task will be evaluated using precision, recall and F1-measure. As multiple text passages in different languages can be linked to the same image, we will employ multiple linking scorers such as CEAF and BLANC to measure the performance across different smell reference chains. Subtask: Identifying the common smell source(s) between the text passages and the images
 
-For this task, precision, recall and F1-measure will be employed, as well as more fine-grained evaluation methods such as RUFES,  which can accommodate multi-level taxonomies.
+For this task, precision, recall and F1-measure will be employed, as well as more fine-grained evaluation methods such as RUFES, which can accommodate multi-level taxonomies.
 
 
 
@@ -69,15 +70,15 @@ For this task, precision, recall and F1-measure will be employed, as well as mor
 * Do different text and image genres reference smell differently?
 * Do different languages reference smell differently?
 * How do references to smell in texts and images change over time?
-* How do  relationships between smell references in texts and images change over time?
+* How do relationships between smell references in texts and images change over time?
 
 
 #### References and recommended reading
 B. Huber, T. Larsen, R. Spengler, and N. Boivin. “How to use modern science to reconstruct ancient scents,” Nat Hum Behav (2022). https://doi.org/10.1038/s41562-022-01325-7
 
-S. Ehrich, C., Verbeek, M. Zinnen, L.  Marx, C. Bembibre, and I. Leemans, “Nose-First. Towards an Olfactory Gaze for Digital Art History.” In 2021 Workshops and Tutorials-Language Data and Knowledge, LDK 2021 (pp. 1-17). September 2021, Zaragoza, Spain.
+S. Ehrich, C., Verbeek, M. Zinnen, L. Marx, C. Bembibre, and I. Leemans, “Nose-First. Towards an Olfactory Gaze for Digital Art History.” In 2021 Workshops and Tutorials-Language Data and Knowledge, LDK 2021 (pp. 1-17). September 2021, Zaragoza, Spain.
 
-P. Lisena, D. Schwabe, M. van Erp, R. Troncy, W. Tullett, I. Leemans, L. Marx, and S. Ehrich, “Capturing the semantics of smell: The Odeuropa data model for olfactory heritage information,”  in Proceedings of ESWC 2022, Extended Semantic Web Conference, May 29-June 2, 2022, Hersonissos, Greece.
+P. Lisena, D. Schwabe, M. van Erp, R. Troncy, W. Tullett, I. Leemans, L. Marx, and S. Ehrich, “Capturing the semantics of smell: The Odeuropa data model for olfactory heritage information,” in Proceedings of ESWC 2022, Extended Semantic Web Conference, May 29-June 2, 2022, Hersonissos, Greece.
 
 S. Menini, T. Paccosi, S. Tonelli, M. van Erp, I. Leemans, P. Lisena, R. Troncy, W. Tullett, A. Hürriyetoğlu, G.Dijkstra, F. Gordijn, E. Jürgens, J. Koopman, A. Ouwerkerk, S. Steen, I. Novalija, J. Brank, D. Mladenic, and A. Zidar “A Multilingual Benchmark to Capture Olfactory Situations over Time” In Proceedings of LChange 2022. May 2022. Dublin, Ireland.
 
@@ -89,7 +90,7 @@ M. Zinnen and V. Christlein “Annotated Image Data version 1 - Odeuropa Deliver
 
 
 #### Task organizers
-* Dr. Ali Hürriyetoğlu (ali.hurriyetoglu@gmail.com)
+* Ali Hürriyetoğlu (ali.hurriyetoglu@dh.huc.knaw.nl)
 * Stefano Menini (menini@fbk.eu)
 * Teresa Paccosi (tpaccosi@fbk.eu)
 * Mathias Zinnen (mathias.zinnen@fau.de)
@@ -97,8 +98,12 @@ M. Zinnen and V. Christlein “Annotated Image Data version 1 - Odeuropa Deliver
 * Raphael Troncy (raphael.troncy@eurecom.fr)
 
 #### Task Schedule
-* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* 11 July, 2022: Sample data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 31 July, 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 2 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
+
+#### Acknowledgements
+This task is an output of [Odeuropa project](https://odeuropa.eu) that has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 101004469.
