@@ -26,7 +26,7 @@ Subtask 1 is a classification task: participants are required to build a classif
 
 Subtask 2 is a more challenging subtask proposed since last year: the goal here is to detect if a stroke has been performed, whatever its classes, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.
 
-The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the provided baseline as a starting point in their investigation: TBA
+The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the [provided baseline](https://github.com/ccp-eva/SportTaskME22) as a starting point in their investigation.
 
 
 
@@ -35,7 +35,7 @@ The task aims at providing tools for athletes in order to analyze their performa
 
 The focus of the sport task is Table Tennis. This choice was made for practical and technical reasons, and for the short term use of the technology that may be built upon the developed methods. The STAPS of the University of Bordeaux has a very talented team in this particular sport and agreed to contribute in the data acquisition and their annotation. The proximity of the computer science laboratory LaBRI made such collaboration possible and now focuses on developing tools of interest for the same sport faculty and the sport community in general. 
 
-Our team has a limited time to maintain the TTStroke-21 dataset and errors may remain in the annotations and ground truth data. Furthermore, some specific strokes are not largely used by the players who took part in the creation of the dataset and will remain low in number, despite the different variations of the dataset that have been released.
+Our team has a limited time to maintain the TTStroke-21 dataset, and errors may remain in the annotations and ground truth data. Furthermore, some specific strokes are not largely used by the players who took part in the creation of the dataset and will remain low in number, despite the different variations of the dataset that have been released.
 
 
 #### Target group
@@ -47,7 +47,7 @@ Our focus is on recordings that have been made by widespread and cheap video cam
 
 
 #### Ground truth
-The annotations consist in a description of the handedness of the player and information for each stroke performed (starting and ending frames, class of the stroke). The annotation process was designed as a crowdsourcing method. The annotation sessions are supervised by professional table tennis players and teachers, where the annotator spots and labels strokes in videos using a user-friendly web platform has been developed by our team for this purpose. We had a team of 15 annotators, professionals in the field of table tennis.
+The annotations consist in a description of the handedness of the player and information for each stroke performed (starting and ending frames, class of the stroke). The annotation process was designed as a crowdsourcing method. The annotation sessions are supervised by professional table tennis players and teachers, where the annotator spots and labels strokes in videos using a user-friendly web platform developed. We had a team of 15 annotators, professionals in the field of table tennis.
 Since a video can be annotated by several annotators, stroke detection according to the annotations was necessary. Our dataset is player-centered, with only one player in each video. An overlap between each annotation of 25% of the annotated stroke duration is allowed. Indeed, during matches with fast exchanges, the boundaries between strokes are hard to determine and annotators would sometimes overlap the annotations between two successive strokes.
 
 #### Evaluation methodology
@@ -59,7 +59,7 @@ Twenty stroke classes and a non-stroke class are considered according to the rul
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-* Is RGB information alone is enoug to obtain correct classificaion and detection performance? If not, what else should be used?
+* Is RGB information alone is enough to obtain correct classification and detection performance? If not, what else should be used?
 * How to use the solution of subtask 1 to answer subtask 2?
 
 * Which strokes are the most similar?
