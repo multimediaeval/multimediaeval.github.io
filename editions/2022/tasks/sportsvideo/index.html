@@ -14,14 +14,14 @@ Since the third edition of the task, two subtasks have been proposed. The datase
 
 <p>Subtask 2 is a more challenging subtask proposed since last year: the goal here is to detect if a stroke has been performed, whatever its classes, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.</p>
 
-<p>The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the provided baseline as a starting point in their investigation: TBA</p>
+<p>The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the <a href="https://github.com/ccp-eva/SportTaskME22">provided baseline</a> as a starting point in their investigation.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
 <p>The task aims at providing tools for athletes in order to analyze their performance. The fine-grained character of the classification subtask and the precision of the segmentation subtask applied to the TTStroke-21 dataset make the Sport task more challenging than common action classification task applied to other widely used dataset.</p>
 
 <p>The focus of the sport task is Table Tennis. This choice was made for practical and technical reasons, and for the short term use of the technology that may be built upon the developed methods. The STAPS of the University of Bordeaux has a very talented team in this particular sport and agreed to contribute in the data acquisition and their annotation. The proximity of the computer science laboratory LaBRI made such collaboration possible and now focuses on developing tools of interest for the same sport faculty and the sport community in general.</p>
 
-<p>Our team has a limited time to maintain the TTStroke-21 dataset and errors may remain in the annotations and ground truth data. Furthermore, some specific strokes are not largely used by the players who took part in the creation of the dataset and will remain low in number, despite the different variations of the dataset that have been released.</p>
+<p>Our team has a limited time to maintain the TTStroke-21 dataset, and errors may remain in the annotations and ground truth data. Furthermore, some specific strokes are not largely used by the players who took part in the creation of the dataset and will remain low in number, despite the different variations of the dataset that have been released.</p>
 
 <h4 id="target-group">Target group</h4>
 <p>The task is of interest to researchers in the areas of machine learning (classification), visual content analysis, computer vision and sport performance. We explicitly encourage researchers focusing specifically in domains of computer-aided analysis of sport performance.</p>
@@ -30,7 +30,7 @@ Since the third edition of the task, two subtasks have been proposed. The datase
 <p>Our focus is on recordings that have been made by widespread and cheap video cameras, e.g. GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.</p>
 
 <h4 id="ground-truth">Ground truth</h4>
-<p>The annotations consist in a description of the handedness of the player and information for each stroke performed (starting and ending frames, class of the stroke). The annotation process was designed as a crowdsourcing method. The annotation sessions are supervised by professional table tennis players and teachers, where the annotator spots and labels strokes in videos using a user-friendly web platform has been developed by our team for this purpose. We had a team of 15 annotators, professionals in the field of table tennis.
+<p>The annotations consist in a description of the handedness of the player and information for each stroke performed (starting and ending frames, class of the stroke). The annotation process was designed as a crowdsourcing method. The annotation sessions are supervised by professional table tennis players and teachers, where the annotator spots and labels strokes in videos using a user-friendly web platform developed. We had a team of 15 annotators, professionals in the field of table tennis.
 Since a video can be annotated by several annotators, stroke detection according to the annotations was necessary. Our dataset is player-centered, with only one player in each video. An overlap between each annotation of 25% of the annotated stroke duration is allowed. Indeed, during matches with fast exchanges, the boundaries between strokes are hard to determine and annotators would sometimes overlap the annotations between two successive strokes.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
@@ -43,7 +43,7 @@ Since a video can be annotated by several annotators, stroke detection according
 <h4 id="quest-for-insight">Quest for insight</h4>
 <p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
 <ul>
-  <li>Is RGB information alone is enoug to obtain correct classificaion and detection performance? If not, what else should be used?</li>
+  <li>Is RGB information alone is enough to obtain correct classification and detection performance? If not, what else should be used?</li>
   <li>
     <p>How to use the solution of subtask 1 to answer subtask 2?</p>
   </li>
