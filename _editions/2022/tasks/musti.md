@@ -18,23 +18,25 @@ Smell is an underrepresented dimension of many multimedia analysis and represent
 
 Task participants are invited to develop language and image recognition technologies to predict whether a text passage and an image evoke the same smell source or not. This main mandatory task can therefore be casted as a binary classification problem.
 
-In a subsequent optional sub-task, the participants are also asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g. plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This optional sub-task can therefore be casted as a multi-label classification problem. Contact address: Ali Hürriyetoğlu (ali.hurriyetoglu@dh.huc.knaw.nl)
+In a subsequent optional sub-task, the participants are also asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g. plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This optional sub-task can therefore be casted as a multi-label classification problem.   
+
+**Contact address**: Ali Hürriyetoğlu (ali.hurriyetoglu@dh.huc.knaw.nl)
 
 
 
 #### Motivation and background
 To make sense of digital (heritage) collections, it is necessary to go beyond an oculo-centric approach and to engage with their olfactory dimension as it offers a powerful and direct entry to our emotions and memories. Via the MUSTI task, we aim to accelerate the understanding of olfactory references in English, French, Italian and German texts and images as well as the connection between these modalities. As recent and ongoing exhibitions at Mauritshuis  in The Hague, Netherlands, Museum Ulm  in Ulm, Germany, and the Prado Museum  in Madrid, Spain demonstrate, museums and galleries are keen to enrich museum visits with olfactory components - either for a more immersive experience or to create a more inclusive experience for differently abled museum visitors such as those with a visual impairment.
 
-Reinterpreting historical scents is attracting attention from various research disciplines (Huber et al., 2022) in some cases leading to interesting collaborations with perfume makers such as the Scent of the Golden Age candle developed after a recipe by Constantijn Huygens in a collaboration between historians and a perfume maker. 
+Reinterpreting historical scents is attracting attention from various research disciplines [(Huber et al., 2022)](https://doi.org/10.1038/s41562-022-01325-7) in some cases leading to interesting collaborations with perfume makers such as the Scent of the Golden Age candle developed after a recipe by Constantijn Huygens in a collaboration between historians and a perfume maker. 
 
 To ensure that such enrichments are grounded in historically correct contexts, language and computer vision technologies can aid in finding olfactory relevant examples in their collections and related sources.
 
 #### Target group
-Due to the growing interest in sensory mining (e.g. 1st International Workshop on Multisensory Data and Knowledge (MDK) @ LDK 2021) and multimodal information processing (e.g. 1st International Workshop on Multimodal Understanding for the Web and Social Media (MUWS), co-located with The WebConf (WWW) 2022) in different research disciplines, we foresee a broad target audience. The currently ongoing Computer Vision ODOR challenge we are organising, demonstrates the research community’s interest in taking on the previously un-addressed topic of smell.
+Due to the growing interest in sensory mining (e.g. [1st International Workshop on Multisensory Data and Knowledge (MDK)](https://odeuropa.github.io/mdk21/) @ [LDK 2021](http://2021.ldk-conf.org/)) and multimodal information processing (e.g. [1st International Workshop on Multimodal Understanding for the Web and Social Media (MUWS)](https://muws-workshop.github.io/), co-located with [The WebConf (WWW) 2022](https://www2022.thewebconf.org/)) in different research disciplines, we foresee a broad target audience. The currently ongoing [Computer Vision ODOR challenge](https://odor-challenge.github.io/2022/) we are organising, demonstrates the research community’s interest in taking on the previously un-addressed topic of smell.
 
-As the task proposers are members of the language technology, computer vision, cultural heritage, digital humanities and semantic web communities, they will broadcast the task to their communities via the appropriate mailing lists and other channels such as Twitter and via upcoming presentations at the Language Resources and Evaluation Conference, the Digital Humanities / Artificial Intelligence Seminar, the European Semantic Web Conference, DHBenelux and the Digital Humanities Conference. Furthermore, the Odeuropa Network (consisting of >150 members), the project mailing list and other communication channels have a wide reach.
+<!-- As the task proposers are members of the language technology, computer vision, cultural heritage, digital humanities and semantic web communities, they will broadcast the task to their communities via the appropriate mailing lists and other channels such as Twitter and via upcoming presentations at the Language Resources and Evaluation Conference, the Digital Humanities / Artificial Intelligence Seminar, the European Semantic Web Conference, DHBenelux and the Digital Humanities Conference. Furthermore, the Odeuropa Network (consisting of >150 members), the project mailing list and other communication channels have a wide reach. -->
 
-The MUSTI task also provides an excellent use case for students to hone their multimodal and creative problem solving skills. We will therefore also advertise the challenge at relevant outlets such as the International Semantic Web Summer School and the EURECOM Machine Learning and Intelligent System (MALIS) course.
+The MUSTI task also provides an excellent use case for students to hone their multimodal and creative problem solving skills. <!-- We will therefore also advertise the challenge at relevant outlets such as the International Semantic Web Summer School and the EURECOM Machine Learning and Intelligent System (MALIS) course. -->
 
 
 #### Data
@@ -46,14 +48,14 @@ The images are selected from different archives such as RKD, Bildindex der Kunst
 
 The images are annotated with 80+ categories of smell objects and gestures such as flowers, food, animals, sniffing and holding the nose. The object categories are organised in a two-level taxonomy.
 
-The Odeuropa text and image benchmark datasets are available as training data to the participants. The image dataset consists of ~3000 images with 20,000 associated object annotations and 600 gesture annotations. 
+The [Odeuropa text](https://github.com/Odeuropa/benchmarks_and_corpora) and [image benchmark](https://zenodo.org/record/6367776) datasets are available as training data to the participants. The image dataset consists of ~3000 images with 20,000 associated object annotations and 600 gesture annotations. 
 
 The participants will be evaluated on a held-out dataset of roughly 1,200 images with associated texts in the four languages.
   
 
 #### Ground truth
 
-The grpund truth consists of images and text snippets that contain appearences or mentions of smell related objects. If a text passage and an image evoke the same smell the relation between an image and a text passage is manually positive, otherwise negative. This dataset is distilled from the Odeuropa text and image benchmark datasets.
+The ground truth consists of images and text snippets that contain appearences or mentions of smell related objects. If a text passage and an image evoke the same smell the relation between an image and a text passage is manually positive, otherwise negative. This dataset is distilled from the Odeuropa text and image benchmark datasets.
 
 #### Evaluation methodology
 Task runs will be evaluated against a gold standard consisting of image-text pairs. We will evaluate using multiple statistics as each provides a slightly different perspective on the results. Main Task: Predicting whether an image and a text passage evoke the same smell source or not
