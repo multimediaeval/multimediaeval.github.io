@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: NewsImages
 subtitle: <!-- # leave this blanck-->
-blurb: <!-- # add the task blurb here-->
+blurb: Images play an important role in online news articles and news consumption patterns. This task aims to achieve additional insight about this role. Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images from international publishers. The task requires participants to predict which image was used to accompany each article.
 ---
 
 <!-- # please respect the structure below-->
@@ -29,11 +29,21 @@ The task takes a large set of news articles paired with images. The two entities
 This task targets researchers who are interested in the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.
 
 #### Data
+Publishers communicate news stories over various channels. We have collected a large collection of news articles with the associated images. The data reflect two modalities. First, participants get the textual content of the articles. These might be split into headline, kicker, and body as is customary on publishers websites. The individual features are not available for all articles. Second, participants get a link to the image displayed alongside the article. They can download the image and use their features.
+
+The selection of publishers covers a variety of nations and domains. More information about the data set can be found in the Readme for the task after the data have been released.
 
 #### Ground truth
 For each article, participants can provide a list of N items with decreasing likelihood of being the linked image. We will compute the Mean Reciprocal Rank (MRR) and a set of Precision@K scores with K in {1, 5, 10, 20, 50, 100}. The average MRR tells us at what position the linked image appears on average. The average precision scores reveal the performance on different ranks of the list.
 
 #### Evaluation methodology
+The evaluation will focus on the ability to re-establish the link between the news texts and the image. In other words, the training set will come as a list of pairs of news articles and images. Contrarily, the test set will come as two separate lists: one list will have the news articles while the other has the images. The lists in the test set will have identical length indicating that each image has been assigned to exactly one of the articles.
+
+We will measure the performance in terms of ranking. Participants can submit a list of candidate images to a given article sorted by the likelihood to be the correct match. We will cap the length of the list at 100 to limit the size of submission files. This follows the assumption that journalists looking for suited images will not look further than 100.
+
+We compute the precision at a set of cut-off points: 1, 5, 10, 20, 50, and 100. In addition, we compute the mean reciprocal rank (MRR).
+
+We strongly encourage participants to look further than the evaluation metric. Ultimately, we seek to learn more about the relationship between articles and images.
 
 #### Quest for insight
 Research questions related to this task include:
@@ -63,6 +73,8 @@ Research questions related to this task include:
 
 [10] Li, Y., & Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.
 
+[11] A. Lommatzsch, B. Kille, Ö. Özgöbek, M. Liang, Y. Zhou, J. Tesic, C. Bartolomeu, D. Semedo, L. Pivovarova, M. Larson (2022). NewsImages: Addressing the Depiction Gap with an Online News Dataset for Text-Image Rematching. In Proceedings of the 13th ACM Multimedia Systems Conference.
+
 #### Task organizers
 * Andreas Lommatzsch, TU Berlin, Germany
 * Benjamin Kille, NTNU, Trondheim, Norway
@@ -71,9 +83,9 @@ Research questions related to this task include:
 * Mehdi Elahi, University of Bergen, Norway
 
 #### Task Schedule
-* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* 31 July 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 11 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
