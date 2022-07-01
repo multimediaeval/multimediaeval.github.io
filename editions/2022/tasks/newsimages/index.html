@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-06-30T17:04:25+00:00" />
+<meta property="article:published_time" content="2022-07-01T18:54:59+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"https://multimediaeval.github.io/editions/2022/tasks/newsimages/","headline":"NewsImages","dateModified":"2022-06-30T17:04:25+00:00","datePublished":"2022-06-30T17:04:25+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/newsimages/"},"description":"See the MediaEval 2022 webpage for information on how to register and participate.","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"https://multimediaeval.github.io/editions/2022/tasks/newsimages/","headline":"NewsImages","dateModified":"2022-07-01T18:54:59+00:00","datePublished":"2022-07-01T18:54:59+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/newsimages/"},"description":"See the MediaEval 2022 webpage for information on how to register and participate.","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -202,11 +202,21 @@
 <p>This task targets researchers who are interested in the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.</p>
 
 <h4 id="data">Data</h4>
+<p>Publishers communicate news stories over various channels. We have collected a large collection of news articles with the associated images. The data reflect two modalities. First, participants get the textual content of the articles. These might be split into headline, kicker, and body as is customary on publishers websites. The individual features are not available for all articles. Second, participants get a link to the image displayed alongside the article. They can download the image and use their features.</p>
+
+<p>The selection of publishers covers a variety of nations and domains. More information about the data set can be found in the Readme for the task after the data have been released.</p>
 
 <h4 id="ground-truth">Ground truth</h4>
 <p>For each article, participants can provide a list of N items with decreasing likelihood of being the linked image. We will compute the Mean Reciprocal Rank (MRR) and a set of Precision@K scores with K in {1, 5, 10, 20, 50, 100}. The average MRR tells us at what position the linked image appears on average. The average precision scores reveal the performance on different ranks of the list.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
+<p>The evaluation will focus on the ability to re-establish the link between the news texts and the image. In other words, the training set will come as a list of pairs of news articles and images. Contrarily, the test set will come as two separate lists: one list will have the news articles while the other has the images. The lists in the test set will have identical length indicating that each image has been assigned to exactly one of the articles.</p>
+
+<p>We will measure the performance in terms of ranking. Participants can submit a list of candidate images to a given article sorted by the likelihood to be the correct match. We will cap the length of the list at 100 to limit the size of submission files. This follows the assumption that journalists looking for suited images will not look further than 100.</p>
+
+<p>We compute the precision at a set of cut-off points: 1, 5, 10, 20, 50, and 100. In addition, we compute the mean reciprocal rank (MRR).</p>
+
+<p>We strongly encourage participants to look further than the evaluation metric. Ultimately, we seek to learn more about the relationship between articles and images.</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
 <p>Research questions related to this task include:</p>
@@ -237,6 +247,8 @@
 
 <p>[10] Li, Y., &amp; Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.</p>
 
+<p>[11] A. Lommatzsch, B. Kille, Ö. Özgöbek, M. Liang, Y. Zhou, J. Tesic, C. Bartolomeu, D. Semedo, L. Pivovarova, M. Larson (2022). NewsImages: Addressing the Depiction Gap with an Online News Dataset for Text-Image Rematching. In Proceedings of the 13th ACM Multimedia Systems Conference.</p>
+
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
   <li>Andreas Lommatzsch, TU Berlin, Germany</li>
@@ -248,9 +260,9 @@
 
 <h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.--></li>
-  <li>XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.--></li>
-  <li>XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November--></li>
+  <li>31 July 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.--></li>
+  <li>11 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.--></li>
+  <li>23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November--></li>
   <li>28 November 2022: Working notes paper  <!-- Fixed. Please do not change.--></li>
   <li>12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with <a href="https://www.mmm2023.no/">MMM 2023</a> in Bergen, Norway and also online. <!-- Fixed. Please do not change.--></li>
 </ul>
