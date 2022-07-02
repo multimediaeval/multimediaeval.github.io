@@ -29,6 +29,7 @@ For both tasks 2) and 3), task-participants are asked to perform video analysis 
 
 
 #### Motivation and background
+Manual evaluation of a sperm sample using a microscope is time-consuming and requires costly experts who have extensive training. In addition, the validity of manual sperm analysis becomes unreliable due to limited reproducibility and high inter-personnel variations due to the complexity of tracking, identifying, and counting sperms in fresh samples. The existing computer-aided sperm analyzer systems are not working well enough for application in a real clinical setting due to unreliability caused by the consistency of the semen sample. Therefore, we need to research new methods for automated sperm analysis. 
 
 
 #### Target group
@@ -46,24 +47,35 @@ VISEM [2] contains data from 85 male participants aged 18 years or older. For th
 The dataset VISEM is publicly available for participants and other multimedia researchers without any restriction. All Study participants agreed to donate their data for the purpose of science and provided the necessary consent for us to be able to distribute the data (checked and approved by the Norwegian data authority and ethical committee).
 
 #### Ground truth
+The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts.
 
 #### Evaluation methodology
 For the evaluation, we will use mAP (mean average precision), mean squared error, mean absolute error, frames per seconds and the mean absolute percentage error for the first two subtasks. For the optional third and fourth task, we will use manual evaluation with the help of three different experts within human reproduction.  
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-* <!-- # First research question-->
-* <!-- # Second research question-->
-<!-- # and so on-->
+* How accurate are deep learning methods f* or identifying sperms in a fresh sample?
+* Will continued tracking of sperm help to analyze the motility level of sperm samples?
+* How do we calculate the average speed of moving sperms, and how to track the fastest one among many moving sperms?
+* How can we convince doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?
 
 #### References and recommended reading
 [1] Riegler, Michael, et al. "Multimedia and Medicine: Teammates for Better Disease Detection and Survival." Proceedings of the 2016 ACM on Multimedia Conference. ACM, 2016.
 
 [2] Trine B. Haugen, Steven A. Hicks, Jorunn M. Andersen, Oliwia Witczak, Hugo L. Hammer, Rune Borgli, Pål Halvorsen, and Michael Riegler. 2019. VISEM: a multimodal video dataset of human spermatozoa. In Proceedings of the 10th ACM Multimedia Systems Conference (MMSys '19). Association for Computing Machinery, New York, NY, USA, 261–266. DOI:https://doi.org/10.1145/3304109.3325814
 
+[3] Hicks, S.A., Andersen, J.M., Witczak, O. et al. Machine Learning-Based Analysis of Sperm Videos and Participant Data for Male Fertility Prediction. Sci Rep 9, 16770 (2019). https://doi.org/10.1038/s41598-019-53217-y
+
+[4] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., & Haugen, T. B. (2019). Stacked dense optical flows and dropout layers to predict sperm motility and morphology. arXiv preprint arXiv:1911.03086.
+
+[5] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., & Haugen, T. B. (2019). Extracting temporal features into a spatial domain using autoencoders for sperm video analysis. arXiv preprint arXiv:1911.03100.
+
+
 #### Task organizers
 * Vajira Thambawita, vajira@simula.no, SimuaMet
 * Steven Hicks, steven@simula.no, SimulaMet
+* Andrea Storås , andrea@simula.no, SimulaMet
+* Hugo Lewi Hammer, hugo@simula.no, SimulaMet
 * Michael Riegler, michael@simula.no, SimulaMet
 * Pål Halvorsen, paalh@simula.no, SimulaMet
 
