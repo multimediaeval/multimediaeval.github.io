@@ -18,6 +18,7 @@
 <p>For both tasks 2) and 3), task-participants are asked to perform video analysis over single frame analysis. This is important due to the fact that single frame-based analysis will not be able to catch the movement of the spermatozoa (motility) which contains important information to perform the predictions on task 2 and 3.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
+<p>Manual evaluation of a sperm sample using a microscope is time-consuming and requires costly experts who have extensive training. In addition, the validity of manual sperm analysis becomes unreliable due to limited reproducibility and high inter-personnel variations due to the complexity of tracking, identifying, and counting sperms in fresh samples. The existing computer-aided sperm analyzer systems are not working well enough for application in a real clinical setting due to unreliability caused by the consistency of the semen sample. Therefore, we need to research new methods for automated sperm analysis.</p>
 
 <h4 id="target-group">Target group</h4>
 <p>Through our broad team, we can actively invite people from multiple communities to submit solutions to the proposed task. We strongly believe that a significant fraction of multimedia researchers can contribute to the medical scenario. Therefore, we hope that many people are interested and involved on a personal level supporting a decision to work on the task and try out their ideas. To ensure that young researchers succeed, we will also provide mentoring for students that want to tackle the task (undergraduate and graduate levels are very welcome). We encourage to build groups to solve the task which could be an interesting project and experience by itself.</p>
@@ -36,6 +37,7 @@
 <p>The dataset VISEM is publicly available for participants and other multimedia researchers without any restriction. All Study participants agreed to donate their data for the purpose of science and provided the necessary consent for us to be able to distribute the data (checked and approved by the Norwegian data authority and ethical committee).</p>
 
 <h4 id="ground-truth">Ground truth</h4>
+<p>The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
 <p>For the evaluation, we will use mAP (mean average precision), mean squared error, mean absolute error, frames per seconds and the mean absolute percentage error for the first two subtasks. For the optional third and fourth task, we will use manual evaluation with the help of three different experts within human reproduction.</p>
@@ -43,13 +45,10 @@
 <h4 id="quest-for-insight">Quest for insight</h4>
 <p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
 <ul>
-  <li>
-    <!-- # First research question-->
-  </li>
-  <li>
-    <!-- # Second research question-->
-    <!-- # and so on-->
-  </li>
+  <li>How accurate are deep learning methods f* or identifying sperms in a fresh sample?</li>
+  <li>Will continued tracking of sperm help to analyze the motility level of sperm samples?</li>
+  <li>How do we calculate the average speed of moving sperms, and how to track the fastest one among many moving sperms?</li>
+  <li>How can we convince doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?</li>
 </ul>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
@@ -57,10 +56,18 @@
 
 <p>[2] Trine B. Haugen, Steven A. Hicks, Jorunn M. Andersen, Oliwia Witczak, Hugo L. Hammer, Rune Borgli, Pål Halvorsen, and Michael Riegler. 2019. VISEM: a multimodal video dataset of human spermatozoa. In Proceedings of the 10th ACM Multimedia Systems Conference (MMSys ‘19). Association for Computing Machinery, New York, NY, USA, 261–266. DOI:https://doi.org/10.1145/3304109.3325814</p>
 
+<p>[3] Hicks, S.A., Andersen, J.M., Witczak, O. et al. Machine Learning-Based Analysis of Sperm Videos and Participant Data for Male Fertility Prediction. Sci Rep 9, 16770 (2019). https://doi.org/10.1038/s41598-019-53217-y</p>
+
+<p>[4] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., &amp; Haugen, T. B. (2019). Stacked dense optical flows and dropout layers to predict sperm motility and morphology. arXiv preprint arXiv:1911.03086.</p>
+
+<p>[5] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., &amp; Haugen, T. B. (2019). Extracting temporal features into a spatial domain using autoencoders for sperm video analysis. arXiv preprint arXiv:1911.03100.</p>
+
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
   <li>Vajira Thambawita, vajira@simula.no, SimuaMet</li>
   <li>Steven Hicks, steven@simula.no, SimulaMet</li>
+  <li>Andrea Storås , andrea@simula.no, SimulaMet</li>
+  <li>Hugo Lewi Hammer, hugo@simula.no, SimulaMet</li>
   <li>Michael Riegler, michael@simula.no, SimulaMet</li>
   <li>Pål Halvorsen, paalh@simula.no, SimulaMet</li>
 </ul>
