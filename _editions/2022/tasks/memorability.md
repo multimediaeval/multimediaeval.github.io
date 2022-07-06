@@ -42,7 +42,11 @@ For subtask 3, apart from traditional video information like metadata and extrac
 
 #### Ground truth
 
+The ground truth for memorability will be collected through recognition tests, and thus results from objective measures of memory performance.
+
 #### Evaluation methodology
+
+The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).
 
 #### Quest for insight
 * Can we predict how memorable a video is?
@@ -71,9 +75,9 @@ For subtask 3, apart from traditional video information like metadata and extrac
 * Camilo Fosco, Massachusetts Institute of Technology Cambridge, Massachusetts, USA.
 
 #### Task Schedule
-* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* 31 July 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 15 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
