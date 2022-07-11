@@ -35,7 +35,7 @@ Here are several research questions related to this challenge that participants 
 
 #### Participant information
 * Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
-* Making your submission:
+* Making your submission: <!-- Please add instructions on how to create and submit runs to your task -->
 * Attending the workshop: 
 
 #### References and recommended reading
