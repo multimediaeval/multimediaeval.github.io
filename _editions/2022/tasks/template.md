@@ -33,6 +33,11 @@ Here are several research questions related to this challenge that participants 
 * <!-- # Second research question-->
 <!-- # and so on-->
 
+#### Participant information
+* Signing up: Fill in the registration form and fill out and return the usage agreement.
+* Making your submission:
+* Attending the workshop: 
+
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
@@ -55,5 +60,5 @@ Here are several research questions related to this challenge that participants 
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
-#### Acknolwedgments
+``````````````
 <!-- # optional, delete if not used-->
