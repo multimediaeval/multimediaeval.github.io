@@ -16,11 +16,11 @@ blurb: <!-- # add the task blurb here-->
 #### Task Description
 
 
-""Subtask 1: How memorable is this video? - Video-based prediction:"" This task requires participants to automatically predict memorability scores for videos that reflect the probability for a video to be remembered. Participants are required to generate automatic systems that predict memorability scores of new videos based on the given video dataset and their memorability scores.
+Subtask 1: How memorable is this video? - Video-based prediction: This task requires participants to automatically predict memorability scores for videos that reflect the probability for a video to be remembered. Participants are required to generate automatic systems that predict memorability scores of new videos based on the given video dataset and their memorability scores.
 
-""Subtask 2: How memorable is this video?- Generalization (optional):"" Participants will train their system on one of the two sources of data we provide and will test them on the other source of data. This is an optional subtask.
+Subtask 2: How memorable is this video?- Generalization (optional): Participants will train their system on one of the two sources of data we provide and will test them on the other source of data. This is an optional subtask.
 
-""Subtask 3: Will this person remember this video? - EEG-based prediction:"" This task requires participants to automatically predict if a person will remember a video. Participants are required to generate automatic systems that predict if a person will remember a new video based on the given video dataset and their EEG record.
+Subtask 3: Will this person remember this video? - EEG-based prediction: This task requires participants to automatically predict if a person will remember a video. Participants are required to generate automatic systems that predict if a person will remember a new video based on the given video dataset and their EEG record.
 
 #### Motivation and background
 Enhancing the relevance of multimedia occurrences in our everyday life requires new ways to organise – in particular, to retrieve – digital content. Like other aspects of video importance, such as aesthetics or interestingness, memorability can be regarded as useful to help make a choice between competing videos. This is even truer when one considers the specific use cases of creating commercials or creating educational content.
