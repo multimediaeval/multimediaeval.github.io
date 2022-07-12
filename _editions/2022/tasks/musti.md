@@ -75,6 +75,13 @@ For this task, precision, recall and F1-measure will be employed, as well as mor
 * How do relationships between smell references in texts and images change over time?
 
 
+#### Participant information
+Please contact your task organizers with any questions (listed below) with any questions on these points. 
+* Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
+* Making your submission: <To be announced> <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
+
+
 #### References and recommended reading
 B. Huber, T. Larsen, R. Spengler, and N. Boivin. “How to use modern science to reconstruct ancient scents,” Nat Hum Behav (2022). https://doi.org/10.1038/s41562-022-01325-7
 
