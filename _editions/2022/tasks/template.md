@@ -34,10 +34,11 @@ Here are several research questions related to this challenge that participants 
 <!-- # and so on-->
 
 #### Participant information
+Please contact your task organizers with any questions (listed below) with any questions on these points. 
 * Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
-* Making your submission: <!-- Please add instructions on how to create and submit runs to your task -->
-* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in the following document: https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw
-* Attending the workshop: 
+* Making your submission: <To be announced> <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
+
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -55,7 +56,7 @@ Here are several research questions related to this challenge that participants 
 <!-- # and so on-->
 
 #### Task Schedule
-* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-August. 31 August is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
