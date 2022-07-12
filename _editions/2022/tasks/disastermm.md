@@ -58,6 +58,12 @@ In LETT, F1-score will be used too, not in sentence level, but in word level. To
 * What types of words are misrecognized as locations?
 * What additional challenges are met when analyzing Italian text, compared to English?
 
+#### Participant information
+Please contact your task organizers with any questions (listed below) with any questions on these points. 
+* Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
+* Making your submission: <To be announced> <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
+
 #### References and recommended reading
 [1] Andreadis, S., Gialampoukidis, I., Bozas, A., Moumtzidou, A., Fiorin, R., Lombardo, F., Karakostas, A., Norbiato, D., Vrochidis, S., Ferri,M., and Kompatsiaris, I., 2021, December. [WaterMM: Water Quality in Social Multimedia Task at MediaEval 2021](https://2021.multimediaeval.com/paper4.pdf). In Proceedings of the MediaEval 2021 Workshop, Online.
 
