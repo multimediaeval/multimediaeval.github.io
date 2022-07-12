@@ -59,6 +59,12 @@ Here are several research questions related to this challenge that participants 
 * How do we calculate the average speed of moving sperms, and how to track the fastest one among many moving sperms?
 * How can we convince doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?
 
+#### Participant information
+Please contact your task organizers with any questions (listed below) with any questions on these points. 
+* Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
+* Making your submission: <To be announced> <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
+
 #### References and recommended reading
 [1] Riegler, Michael, et al. "Multimedia and Medicine: Teammates for Better Disease Detection and Survival." Proceedings of the 2016 ACM on Multimedia Conference. ACM, 2016.
 
@@ -80,8 +86,10 @@ Here are several research questions related to this challenge that participants 
 * Pål Halvorsen, paalh@simula.no, SimulaMet
 
 #### Task Schedule
-* XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* July-August 2022: Data release
+  <!-- * XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-August. 31 August is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* November 2022: Runs due and results returned. Exact dates to be announced.
+ <!--* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+  <!--* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
