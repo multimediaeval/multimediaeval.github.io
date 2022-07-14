@@ -31,6 +31,8 @@ The participants are encouraged to read the works presented in [1-6] to understa
 
 #### Motivation and background
 
+Improving the quality of human life in smart cities is an important objective linked directly to several United Nations Sustainable Developmental Goals, such as climate action and life on land. Urban transportation and air pollution are two key factors affecting the quality of life. To our knowledge, no literature exists that aims to understand the correlation between traffic factors (e.g., time, vehicles, trees, people), weather (e.g., rain, snow, flood), and air pollution in traffic imagery data (e.g., CCTV, lifelog camera, personal camera). This task aims to encourage participants to develop a novel and generic framework that can discover correlation (or association) between various traffic factors, weather, and air pollution in a locality. By utilizing these correlations, we aim to enhance the accuracy of AQI prediction and the ability to understand the mutual impact between urban life and Air pollution. 
+
 #### Introduction
 
 #### Target group
@@ -42,8 +44,14 @@ The task introduces a novel dataset that includes weather and air quality data f
 The weather and air quality are recorded every five minutes, including sensor's profiles (SensorID, SensorCode, SensorName, Latitude, Longtitude, Altitude),	recorded time (Date,Time), weatther (Temperature,	Humidity, WindSpeed, WindGust, Direction, Rainfall), and air quality (PM1.0, PM2.5,	PM10,	CO, NO2, SO2, O3, UV). The traffic data contains video streaming from CCTV system. Nevertheless, the archive traffic data contains only one frame per five seconds.
 
 #### Ground truth and Evaluation methodology
-The ground truth for the dataset is collected as follows:
-* Collect data for three months. Delete data randomly and save these deleted data as the ground truth.
+The data is now online, and the participants can access the server to crawl data. Hence, the participants can prepare the ground truth by themselves. 
+
+The evaluation of the results submitted by participants will carry on as follows:
+
+* First, the organizer will determine the date to predict AQI values (predict-day) and the date to submit the predicted AQI values (submit-day). Usually, the predict-day is after the submit-day. 
+* Then, participants must predict the AQI values on the predict-day and submit their results no later than the submit-day. 
+
+For example, July 6 is the date participants have to predict the AQI, and July 1 is the day to submit their predicted AQI values. 
 
 For each subtask, the evaluation method is applied as follows:
 * For the Multimodal/crossmodal air pollution prediction subtask: We use the SMAPE/RMSE/MAE for comparing AQI value with the ground truth.
@@ -52,7 +60,9 @@ For each subtask, the evaluation method is applied as follows:
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * <!-- # First research question-->
+* Which factors from weather, air pollution, and CCTV data contribute to the AQI prediction model? 
 * <!-- # Second research question-->
+* Which is the difference and similarity between people's experience and model's knowledge when building the hypothesis of the correlation between traffic, weather, and air pollution?
 <!-- # and so on-->
 
 #### Participant information
