@@ -68,13 +68,15 @@ Please contact your task organizers with any questions (listed below) with any q
 [3] Timothy Woinoski, Alon Harell, and I. Bajić. 2020. Towards Automated Swimming Analytics Using Deep Neural Networks. ArXiv (2020).
 
 #### Task organizers
-* Nicolas Jacquelin, École Centrale de Lyon
-* Théo Jaunet, LIRIS, INSA-Lyon
-* Romain Vuillemot, École Centrale de Lyon, romain.vuillemot (at) ec-lyon.fr
-* Stefan Duffner, Université de Lyon, INSA de Lyon
+* Nicolas Jacquelin, École Centrale de Lyon, LIRIS
+* Théo Jaunet, INSA-Lyon, LIRIS
+* Romain Vuillemot, École Centrale de Lyon, LIRIS 
+* Stefan Duffner, INSA-Lyon, LIRIS
+
+Contact: romain.vuillemot (at) ec-lyon.fr
 
 #### Task Schedule
-* July-August 2022: Data release
+* July 31st 2022: Data release
   <!-- * XX XXX 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-August. 31 August is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
 * November 2022: Runs due and results returned. Exact dates to be announced.
  <!--* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
