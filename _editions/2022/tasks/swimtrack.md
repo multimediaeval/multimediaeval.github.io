@@ -54,10 +54,10 @@ Here are several research questions related to this challenge that participants 
 * how does a swimmer’s stroke rate and length profile evolve through his/her career ?
 
 #### Participant information
-Please contact your task organizers with any questions (listed below) with any questions on these points. 
+Please contact your task organizers with any questions on these points. 
 * Signing up: Fill in the [registration form](https://forms.gle/JcKoa5ycxR2KEiTJ7) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2022/docs/MediaEval2022_UsageAgreement.pdf).
-* Making your submission: <To be announced> <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
-* Preparing your woring notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
+* Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2022 Working Notes Paper Instructions](https://docs.google.com/document/d/12uSn0rRYxa3buiFNEbpa46dKsHOyqV2PHU_joRGMHRw).
 
 #### References and recommended reading
 
