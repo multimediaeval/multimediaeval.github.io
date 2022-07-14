@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-07-14T13:43:02+00:00" />
+<meta property="article:published_time" content="2022-07-14T14:11:24+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","url":"https://multimediaeval.github.io/editions/2022/tasks/urbanair/","headline":"&lt;!–","dateModified":"2022-07-14T13:43:02+00:00","datePublished":"2022-07-14T13:43:02+00:00","description":"See the MediaEval 2022 webpage for information on how to register and participate.","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/urbanair/"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","url":"https://multimediaeval.github.io/editions/2022/tasks/urbanair/","headline":"&lt;!–","dateModified":"2022-07-14T14:11:24+00:00","datePublished":"2022-07-14T14:11:24+00:00","description":"See the MediaEval 2022 webpage for information on how to register and participate.","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/urbanair/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -207,6 +207,8 @@
 
 <h4 id="motivation-and-background">Motivation and background</h4>
 
+<p>Improving the quality of human life in smart cities is an important objective linked directly to several United Nations Sustainable Developmental Goals, such as climate action and life on land. Urban transportation and air pollution are two key factors affecting the quality of life. To our knowledge, no literature exists that aims to understand the correlation between traffic factors (e.g., time, vehicles, trees, people), weather (e.g., rain, snow, flood), and air pollution in traffic imagery data (e.g., CCTV, lifelog camera, personal camera). This task aims to encourage participants to develop a novel and generic framework that can discover correlation (or association) between various traffic factors, weather, and air pollution in a locality. By utilizing these correlations, we aim to enhance the accuracy of AQI prediction and the ability to understand the mutual impact between urban life and Air pollution.</p>
+
 <h4 id="introduction">Introduction</h4>
 
 <h4 id="target-group">Target group</h4>
@@ -218,10 +220,16 @@
 <p>The weather and air quality are recorded every five minutes, including sensor’s profiles (SensorID, SensorCode, SensorName, Latitude, Longtitude, Altitude),	recorded time (Date,Time), weatther (Temperature,	Humidity, WindSpeed, WindGust, Direction, Rainfall), and air quality (PM1.0, PM2.5,	PM10,	CO, NO2, SO2, O3, UV). The traffic data contains video streaming from CCTV system. Nevertheless, the archive traffic data contains only one frame per five seconds.</p>
 
 <h4 id="ground-truth-and-evaluation-methodology">Ground truth and Evaluation methodology</h4>
-<p>The ground truth for the dataset is collected as follows:</p>
+<p>The data is now online, and the participants can access the server to crawl data. Hence, the participants can prepare the ground truth by themselves.</p>
+
+<p>The evaluation of the results submitted by participants will carry on as follows:</p>
+
 <ul>
-  <li>Collect data for three months. Delete data randomly and save these deleted data as the ground truth.</li>
+  <li>First, the organizer will determine the date to predict AQI values (predict-day) and the date to submit the predicted AQI values (submit-day). Usually, the predict-day is after the submit-day.</li>
+  <li>Then, participants must predict the AQI values on the predict-day and submit their results no later than the submit-day.</li>
 </ul>
+
+<p>For example, July 6 is the date participants have to predict the AQI, and July 1 is the day to submit their predicted AQI values.</p>
 
 <p>For each subtask, the evaluation method is applied as follows:</p>
 <ul>
@@ -234,10 +242,12 @@
   <li>
     <!-- # First research question-->
   </li>
+  <li>Which factors from weather, air pollution, and CCTV data contribute to the AQI prediction model?</li>
   <li>
     <!-- # Second research question-->
-    <!-- # and so on-->
   </li>
+  <li>Which is the difference and similarity between people’s experience and model’s knowledge when building the hypothesis of the correlation between traffic, weather, and air pollution?
+<!-- # and so on--></li>
 </ul>
 
 <h4 id="participant-information">Participant information</h4>
