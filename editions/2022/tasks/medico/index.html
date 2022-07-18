@@ -2,29 +2,30 @@
 <p><em>See the <a href="https://multimediaeval.github.io/editions/2022/">MediaEval 2022 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task Description</h4>
-<p>The 2022 Medico task tackles the challenge of tracking spem cells of video recordings of spermatozoa.The provided development dataset contains 20 videos, each one is 30 seconds long, a set of sperm characteristics (hormones, fatty acids data, etc.), frame-by-frame bounding box annotations, some anonymized study participants-related data, and motility and morphology data following the WHO guidelines. The goal is to encourage task participants to track individual sperms real-time and  combine different data sources to predict common measurements used for sperm quality assessment, specifically the motility (movement) spermatozoa (living sperm).</p>
+<p>The 2022 Medico task tackles the challenge of tracking sperm cells of video recordings of spermatozoa. The development dataset contains 20 videos, each one is 30 seconds long, a set of sperm characteristics (hormones, fatty acids data, etc.), frame-by-frame bounding box annotations, some anonymized study participants-related data, and motility and morphology data following the WHO guidelines. The goal is to encourage task participants to track individual sperms in real-time and combine different data sources to predict common measurements used for sperm quality assessment, specifically the motility (movement) spermatozoa (living sperm).</p>
 
 <p>We hope that this task will encourage the multimedia community to aid in the development of computer-assisted reproductive health and discover new and clever ways of analyzing multimodal datasets. In addition to good analysis performance, an important aspect is also the efficiency of the algorithms due to the fact that the assessment of the sperm is performed in real-time and therefore requires real-time feedback.</p>
 
-<p>For the task, we will provide a dataset of videos and other data from 20 different patients. Based on this data, the participants will be asked to solve the following three subtasks:</p>
+<p>For the task, we will provide a dataset of videos and other data from 20 different patients. Based on this data, the participants will be asked to address the following four subtasks:</p>
 
-<ol>
-  <li>Sperm cell tracking: is real-time tracking of sperm cells in a given sperm videos. Tracking should be performed by predicting bounding box coordinates with the similar format to the bounding box coordinates provided with the development datasets. In this task, models should track sperm in each frame of a provided video in real-time. Therefore, frames per second is a important factor to measure.</li>
-  <li>Prediction of motility: in terms of the percentage of progressive and non-progressive spermatozoa is the second task. The prediction needs to be performed sample wise resulting in one value per sample per predicted attribute. Sperm tracking or bounding boxes predicted in the task 1 are required to use to solve the task. Motility is the ability of an organism to move independently, and where a progressive spermatozoon is able to “move forward”, a non-progressive would move in circles without any forward progression.</li>
-  <li>Catch and highlight: task focus on identifying fastest sperm cells with corresponding average speed and highest top speed. One specific challenge with this subtask is that the video also changes the view on the sample. This happens because the sample is moved below the microscope to observe the complete sample area. Therefore, the tracking has to be performed per viewpoint on the sample.</li>
-  <li>Explainability of predicitons: isperfomed in task 1 and/or 2  and/or 3 should be explained using machine learning explainable methods to convince domain experts about the final outputs. There is no any specific pre-requirements for this task. However, a report should be provided with explainable methods and corresponding results.</li>
-</ol>
+<p><strong>Subtask 1: Sperm cell tracking</strong> is real-time tracking of sperm cells in a given sperm videos. Tracking should be performed by predicting bounding box coordinates with the similar format to the bounding box coordinates provided with the development datasets. In this task, models should track sperm in each frame of a provided video in real-time. Therefore, frames per second is a important factor to measure.</p>
 
-<p>For both tasks 2) and 3), task-participants are asked to perform video analysis over single frame analysis. This is important due to the fact that single frame-based analysis will not be able to catch the movement of the spermatozoa (motility) which contains important information to perform the predictions on task 2 and 3.</p>
+<p><strong>Subtask 2: Prediction of motility</strong> in terms of the percentage of progressive and non-progressive spermatozoa is the second task. The prediction needs to be performed sample wise resulting in one value per sample per predicted attribute. Sperm tracking or bounding boxes predicted in the task 1 are required to use to solve the task. Motility is the ability of an organism to move independently, and where a progressive spermatozoon is able to “move forward”, a non-progressive would move in circles without any forward progression.</p>
+
+<p><strong>Subtask 3: Catch and highlight</strong> task focus on identifying fastest sperm cells with corresponding average speed and highest top speed. One specific challenge with this subtask is that the video also changes the view on the sample. This happens because the sample is moved below the microscope to observe the complete sample area. Therefore, the tracking has to be performed per viewpoint on the sample. (Optional Subtask.)</p>
+
+<p><strong>Subtask 4: Explainability of predicitons</strong> is perfomed in Subtasks 1 and/or 2 and/or 3 should be explained using machine learning explainable methods to convince domain experts about the final outputs. There is no any specific pre-requirements for this task. However, a report should be provided with explainable methods and corresponding results. (Optional Subtask.)</p>
+
+<p>For both Subtasks 2 and 3, task-participants are asked to perform video analysis over single frame analysis. This is important due to the fact that single frame-based analysis will not be able to catch the movement of the spermatozoa (motility) which contains important information to perform the predictions on Subtasks 2 and 3.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
 <p>Manual evaluation of a sperm sample using a microscope is time-consuming and requires costly experts who have extensive training. In addition, the validity of manual sperm analysis becomes unreliable due to limited reproducibility and high inter-personnel variations due to the complexity of tracking, identifying, and counting sperms in fresh samples. The existing computer-aided sperm analyzer systems are not working well enough for application in a real clinical setting due to unreliability caused by the consistency of the semen sample. Therefore, we need to research new methods for automated sperm analysis.</p>
 
 <h4 id="target-group">Target group</h4>
-<p>Through our broad team, we can actively invite people from multiple communities to submit solutions to the proposed task. We strongly believe that a significant fraction of multimedia researchers can contribute to the medical scenario. Therefore, we hope that many people are interested and involved on a personal level supporting a decision to work on the task and try out their ideas. To ensure that young researchers succeed, we will also provide mentoring for students that want to tackle the task (undergraduate and graduate levels are very welcome). We encourage to build groups to solve the task which could be an interesting project and experience by itself.</p>
+<p>The task is of interest to researchers in the areas of machine learning (classification), visual content analysis and multimodal fusion. Overall, this task is intended to encourage the multimedia community to help improve the health care system through application of their knowledge and methods to reach the next level of computer and multimedia assisted diagnosis, detection and interpretation.</p>
 
 <h4 id="data">Data</h4>
-<p>VISEM [2] contains data from 85 male participants aged 18 years or older. For this task, we have selected only 30 seconds video clips from selected 20 videos.  For each participant, we include a set of measurements from a standard semen analysis, a video of live spermatozoa, a sperm fatty acid profile, the fatty acid composition of serum phospholipids, study participants-related data, and WHO analysis data. The dataset contains 20 videos, with each video has 30 seconds duration with corresponding bounding box coordinates. Each video has a resolution of 640x480 and runs at 50 frames-per-second. The dataset contains in total six CSV files (five for data and one which maps video IDs to study participants’ IDs), a description file, and  folders containing the videos and bounding box data. The name of each video file contains the video’s ID, the date it was recorded, and a small optional description. Then, the end of the filename contains the code of the person who assessed the video. Furthermore, VISEM contains five CSV files for each of the other data provided, a CSV file with the IDs linked to each video, and a text file containing * descriptions of some of the columns of the CSV files. One row in each CSV file represents a participant. The provided CSV files are:</p>
+<p>The task uses the data set VISEM [2], which contains data from 85 male participants aged 18 years or older. For this task, we have selected only 30 seconds video clips from selected 20 videos. For each participant, we include a set of measurements from a standard semen analysis, a video of live spermatozoa, a sperm fatty acid profile, the fatty acid composition of serum phospholipids, study participants-related data, and WHO analysis data. The dataset contains 20 videos, with each video has 30 seconds duration with corresponding bounding box coordinates. Each video has a resolution of 640x480 and runs at 50 frames-per-second. The dataset contains in total six CSV files (five for data and one which maps video IDs to study participants’ IDs), a description file, and  folders containing the videos and bounding box data. The name of each video file contains the video’s ID, the date it was recorded, and a small optional description. Then, the end of the filename contains the code of the person who assessed the video. Furthermore, VISEM contains five CSV files for each of the other data provided, a CSV file with the IDs linked to each video, and a text file containing * descriptions of some of the columns of the CSV files. One row in each CSV file represents a participant. The provided CSV files are:</p>
 <ul>
   <li>semen_analysis_data: The results of standard semen analysis.</li>
   <li>fatty_acids_spermatozoa: The levels of several fatty acids in the spermatozoa of the participants.</li>
@@ -34,7 +35,7 @@
   <li>videos: Overview of which video file belongs to what participant.</li>
 </ul>
 
-<p>The dataset VISEM is publicly available for participants and other multimedia researchers without any restriction. All Study participants agreed to donate their data for the purpose of science and provided the necessary consent for us to be able to distribute the data (checked and approved by the Norwegian data authority and ethical committee).</p>
+<p>All Study participants agreed to donate their data for the purpose of science and provided the necessary consent for us to be able to distribute the data (checked and approved by the Norwegian data authority and ethical committee).</p>
 
 <h4 id="ground-truth">Ground truth</h4>
 <p>The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts.</p>
@@ -43,12 +44,13 @@
 <p>For the evaluation, we will use mAP (mean average precision), mean squared error, mean absolute error, frames per seconds and the mean absolute percentage error for the first two subtasks. For the optional third and fourth task, we will use manual evaluation with the help of three different experts within human reproduction.</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
-<p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
+<p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
+&lt;!– The other quesitons are much better than this first question in going beyond the task evaluation metrics</p>
 <ul>
-  <li>How accurate are deep learning methods for identifying sperms in a fresh sample?</li>
+  <li>How accurate are deep learning methods for identifying sperms in a fresh sample?–&gt;</li>
   <li>Will continued tracking of sperm help to analyze the motility level of sperm samples?</li>
   <li>How do we calculate the average speed of moving sperms, and how to track the fastest one among many moving sperms?</li>
-  <li>How can we convince doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?</li>
+  <li>How can we best communicate to doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?</li>
 </ul>
 
 <h4 id="participant-information">Participant information</h4>
@@ -84,7 +86,7 @@
 <ul>
   <li>1 August 2022: Data release.</li>
   <li>1 November 2022: Runs due and results returned.</li>
-  <li>20 November 2022: Results returned.  <!-- Replace XX with your date. Latest possible should be 23 November--></li>
+  <li>20 November 2022: Results returned.  <!--Latest possible should be 23 November--></li>
   <li>28 November 2022: Working notes paper.  <!-- Fixed. Please do not change.--></li>
   <li>12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with <a href="https://www.mmm2023.no/">MMM 2023</a> in Bergen, Norway and also online. <!-- Fixed. Please do not change.--></li>
 </ul>
