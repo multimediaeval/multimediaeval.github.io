@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: Medical Multimedia Task: Transparent Tracking of Spermatozoa
 subtitle: <!-- # leave this blanck-->
-blurb: 
+blurb: Detect and track spermatozoa in medical video, with the goal to create a real-time system. Calculate/predict attributes such as speed and travel distance.
 ---
 
 <!-- # please respect the structure below-->
