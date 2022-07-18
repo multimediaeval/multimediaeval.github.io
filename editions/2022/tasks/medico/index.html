@@ -8,13 +8,20 @@
 
 <p>For the task, we will provide a dataset of videos and other data from 20 different patients. Based on this data, the participants will be asked to address the following four subtasks:</p>
 
-<p><strong>Subtask 1: Sperm cell tracking</strong> is real-time tracking of sperm cells in a given sperm videos. Tracking should be performed by predicting bounding box coordinates with the similar format to the bounding box coordinates provided with the development datasets. In this task, models should track sperm in each frame of a provided video in real-time. Therefore, frames per second is a important factor to measure.</p>
-
-<p><strong>Subtask 2: Prediction of motility</strong> in terms of the percentage of progressive and non-progressive spermatozoa is the second task. The prediction needs to be performed sample wise resulting in one value per sample per predicted attribute. Sperm tracking or bounding boxes predicted in the task 1 are required to use to solve the task. Motility is the ability of an organism to move independently, and where a progressive spermatozoon is able to “move forward”, a non-progressive would move in circles without any forward progression.</p>
-
-<p><strong>Subtask 3: Catch and highlight</strong> task focus on identifying fastest sperm cells with corresponding average speed and highest top speed. One specific challenge with this subtask is that the video also changes the view on the sample. This happens because the sample is moved below the microscope to observe the complete sample area. Therefore, the tracking has to be performed per viewpoint on the sample. (Optional Subtask.)</p>
-
-<p><strong>Subtask 4: Explainability of predicitons</strong> is perfomed in Subtasks 1 and/or 2 and/or 3 should be explained using machine learning explainable methods to convince domain experts about the final outputs. There is no any specific pre-requirements for this task. However, a report should be provided with explainable methods and corresponding results. (Optional Subtask.)</p>
+<ul>
+  <li>
+    <p><em>Subtask 1: Sperm cell tracking</em> is real-time tracking of sperm cells in a given sperm videos. Tracking should be performed by predicting bounding box coordinates with the similar format to the bounding box coordinates provided with the development datasets. In this task, models should track sperm in each frame of a provided video in real-time. Therefore, frames per second is a important factor to measure.</p>
+  </li>
+  <li>
+    <p><em>Subtask 2: Prediction of motility</em> in terms of the percentage of progressive and non-progressive spermatozoa is the second task. The prediction needs to be performed sample wise resulting in one value per sample per predicted attribute. Sperm tracking or bounding boxes predicted in the task 1 are required to use to solve the task. Motility is the ability of an organism to move independently, and where a progressive spermatozoon is able to “move forward”, a non-progressive would move in circles without any forward progression.</p>
+  </li>
+  <li>
+    <p><em>Subtask 3: Catch and highlight</em> task focus on identifying fastest sperm cells with corresponding average speed and highest top speed. One specific challenge with this subtask is that the video also changes the view on the sample. This happens because the sample is moved below the microscope to observe the complete sample area. Therefore, the tracking has to be performed per viewpoint on the sample. (Optional Subtask.)</p>
+  </li>
+  <li>
+    <p><em>Subtask 4: Explainability of predicitons</em> is perfomed in Subtasks 1 and/or 2 and/or 3 should be explained using machine learning explainable methods to convince domain experts about the final outputs. There is no any specific pre-requirements for this task. However, a report should be provided with explainable methods and corresponding results. (Optional Subtask.)</p>
+  </li>
+</ul>
 
 <p>For both Subtasks 2 and 3, task-participants are asked to perform video analysis over single frame analysis. This is important due to the fact that single frame-based analysis will not be able to catch the movement of the spermatozoa (motility) which contains important information to perform the predictions on Subtasks 2 and 3.</p>
 
