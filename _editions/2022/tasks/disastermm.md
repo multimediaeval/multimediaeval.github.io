@@ -14,7 +14,7 @@ blurb: Contribute to disaster management by addressing two subtasks: Classify mu
 *See the [MediaEval 2022 webpage](https://multimediaeval.github.io/editions/2022/) for information on how to register and participate.*
 
 #### Task Description
-The DisasterMM task involves multimedia analysis of social media data, specifically posts from the popular platform of Twitter, that relate to natural or manmade disasters. This year we focus on floods. The participants of this task are provided with a set of Tweet IDs from which they download a data set. The data set contains extual as well as visual information and other metadata. The tweets have been selected using keyword-based search that involved words/phrases about flood. DisasterMM includes two subtasks. 
+The DisasterMM task involves multimedia analysis of social media data, specifically posts from the popular platform of Twitter, that relate to natural or manmade disasters. This year we focus on floods. The participants of this task are provided with a set of Tweet IDs from which they download a data set. The data set contains textual as well as visual information and other metadata. The tweets have been selected using keyword-based search that involved words/phrases about flood. DisasterMM includes two subtasks. 
 
 * *Relevance Classification of Twitter Posts* (RCTP): participants build a binary classification system that will be able to distinguish whether a tweet is relevant or not to flooding incidents. 
 * *Location Extraction from Twitter Texts* (LETT): participants develop a named-entity recognition model in order to identify which words (or sequence of words) inside a tweet’s text refer to locations. 
@@ -24,7 +24,7 @@ For both subtasks, the dataset is in Italian language, which supports the resear
 #### Motivation and background
 Flooding is considered the deadliest type of severe weather and it can have devastating effects on the society. Besides loss of lives and property damage, floods can also lead to secondary consequences, such as long-term displacement of residents and spread of waterborne diseases. In the last years, social media data and crowdsourcing in general have been explored by first responders and civil protection authorities as an alternative source of information, complementary to traditional means such as telephone, in order to raise the situational awareness and support their operations. In parallel, the scientific society has been proposing AI and machine learning solutions that improve the quality of the incoming social media data.
 
-Nevertheless, exploiting user-generated content from social media platforms comes with two significant limitations. First, the large and continuous streams of published posts can be very noisy, with messages that do not refer to actual cases of floods, but contain flood-related words in a different context (e.g. in a metaphorical way). Second, the majority of posts are not geotagged (i.e. associated with a geographic position) or their geoinformation is questionable.
+Nevertheless, exploiting user-generated content from social media platforms comes with two significant limitations. First, the large and continuous streams of published posts can be very noisy, with messages that do not refer to actual cases of floods, but contain flood-related words in a different context (e.g. in a metaphorical way). Second, the majority of posts are not geotagged (i.e. not associated with a geographic position) or their geoinformation is questionable.
 
 The automatic prediction of a post’s relevance could reduce the social media noise and thus assist the interested parties in receiving only useful information, without spending time on filtering out unrelated messages. In addition, recognizing the locations that are mentioned inside the post’s text could enhance the post with geographic information, which would allow the automatic positioning of a potential incident. By receiving solely high-quality and geotagged social data, disaster management practitioners will be able to manage their resources more efficiently, which could even lead to saving more human lives.
 
@@ -51,10 +51,11 @@ In RCTP, the evaluation metric for the binary classification of tweets as releva
 In LETT, F1-score will be used too, not in sentence level, but in word level. To further explain, if a given label for a word matches the label of the annotator for this particular word, then it is considered as true (true positive if “B-LOC”/“I-LOC”, true negative if “O”). Two scores will be measured per each run: the exact F1-score, where labels have to fully match, and the partial F1-score, where either “B-LOC” or “I-LOC” can be considered as true as long as the annotator’s label concerns location.
 
 #### Quest for insight
-* Does the involvement of visual features improve or deteriorate the classification prediction?
-* What metadata can be useful in relevance classification?
+Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
+* What do the visual features contribute to the classification? Which properties of the images are important?
+* What metadata can be useful in relevance classification? Why?
 * What types of posts are misclassified as relevant to flooding incidents?
-* Is it easier to detect single-word or multi-word locations?
+* Is it easier to detect single-word or multi-word locations? Why?
 * What types of words are misrecognized as locations?
 * What additional challenges are met when analyzing Italian text, compared to English?
 
