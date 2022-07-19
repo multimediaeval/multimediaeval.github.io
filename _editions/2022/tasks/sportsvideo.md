@@ -5,7 +5,7 @@ year: 2022
 hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
-title: The 2022 Sport Task: Fine Grained Action Detection and Classification of Table Tennis Strokes from videos. <!-- # add your title here-->
+title: Sport Task: Fine Grained Action Detection and Classification of Table Tennis Strokes from Videos. <!-- # add your title here-->
 subtitle: <!-- # leave this blanck-->
 blurb: This task offers two subtasks: classification of temporally segmented videos of single table tennis strokes and dection of strokes, regardlesss of its class, from untrimmed video. <!-- # add the task blurb here-->
 ---
