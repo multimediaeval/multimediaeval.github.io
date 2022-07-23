@@ -33,9 +33,9 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-07-19T15:05:04+00:00" />
+<meta property="article:published_time" content="2022-07-23T20:39:38+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","url":"https://multimediaeval.github.io/editions/2022/tasks/memorability/","headline":"Predicting Video Memorability","dateModified":"2022-07-19T15:05:04+00:00","datePublished":"2022-07-19T15:05:04+00:00","description":"See the MediaEval 2022 webpage for information on how to register and participate.","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/memorability/"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","url":"https://multimediaeval.github.io/editions/2022/tasks/memorability/","headline":"Predicting Video Memorability","dateModified":"2022-07-23T20:39:38+00:00","datePublished":"2022-07-23T20:39:38+00:00","description":"See the MediaEval 2022 webpage for information on how to register and participate.","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2022/tasks/memorability/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -187,6 +187,7 @@
 <p><em>See the <a href="https://multimediaeval.github.io/editions/2022/">MediaEval 2022 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task Description</h4>
+<p>Understanding what makes a video memorable has a very broad range of current applications, e.g., education and learning, content retrieval and search, content summarization, storytelling, targeted advertising, content recommendation and filtering. This task requires participants to automatically predict memorability scores for videos that reflect the probability for a video to be remembered over both a short and long term. Participants will be provided with an extensive data set of videos with memorability annotations, related information, pre-extracted state-of-the-art visual features, and Electroencephalography (EEG) recordings.</p>
 
 <p>Subtask 1: How memorable is this video? - Video-based prediction: This task requires participants to automatically predict memorability scores for videos that reflect the probability for a video to be remembered. Participants are required to generate automatic systems that predict memorability scores of new videos based on the given video dataset and their memorability scores.</p>
 
@@ -199,17 +200,15 @@
 
 <p>Efficient memorability prediction models will also push forward the semantic understanding of multimedia content, by putting human cognition and perception in the centre of the scene understanding. Because the impact of different multimedia content, images or videos, on human memory is unequal, the capability of predicting the memorability level of a given piece of content is obviously of high importance for professionals in the fields of advertising, filmmaking, education, content retrieval, etc., which may also be impacted by the proposed task.</p>
 
-<h4 id="introduction">Introduction</h4>
-
 <h4 id="target-group">Target group</h4>
-<p>Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (though not limited to).</p>
+<p>Researchers will find this task interesting if they work in the areas of human perception and scene understanding, such as image and video interestingness, memorability, attractiveness, aesthetics prediction, event detection, multimedia affect and perceptual analysis, multimedia content analysis, machine learning (although not limited to these areas).</p>
 
 <h4 id="data">Data</h4>
-<p>For subtask 1, as in 2021, the Memento10k [1] dataset will be provided to the participants. This dataset contains 10.000 three-second videos depicting in-the-wild scenes, with their associated short term memorability scores, memorability decay values, action labels, and 5 accompanying captions. 7000 videos will be released as a training set, and 1500 will be given for validation. The last 1500 videos will be used as the test set for scoring submissions. The scores are computed with 90 annotations per video on average, and the videos were deafened before being shown to participants.</p>
+<p>For Subtask 1, the Memento10k [1] dataset will be provided to the participants. This dataset contains 10.000 three-second videos depicting in-the-wild scenes, with their associated short term memorability scores, memorability decay values, action labels, and 5 accompanying captions. 7000 videos will be released as a training set, and 1500 will be given for validation. The last 1500 videos will be used as the test set for scoring submissions. The scores are computed with 90 annotations per video on average, and the videos were deafened before being shown to participants.</p>
 
-<p>For subtask 2, we will also provide the VideoMem dataset [6] which was already used in the 2018 and 2019 editions. This dataset contains 10.000 7s videos from professional content. They come together with their associated short-term and long-term memorability scores, and some accompanying textual metadata.</p>
+<p>For Subtask 2, we will also provide the VideoMem dataset [6] which was already used in the 2018 and 2019 editions. This dataset contains 10.000 7s videos from professional content. They come together with their associated short-term and long-term memorability scores, and some accompanying textual metadata.</p>
 
-<p>For subtask 3, apart from traditional video information like metadata and extracted visual features, part of the data will be accompanied by Electroencephalography (EEG) recordings that would allow to explore the physical reaction of the user. This data will be used for the subtask 3.</p>
+<p>For Subtask 3, apart from traditional video information like metadata and extracted visual features, part of the data will be accompanied by Electroencephalography (EEG) recordings that would allow to explore the physical reaction of the user. This data will be used for the subtask 3.</p>
 
 <h4 id="ground-truth">Ground truth</h4>
 
@@ -220,8 +219,9 @@
 <p>The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
+<!-- * Can we predict how memorable a video is?-->
 <ul>
-  <li>Can we predict how memorable a video is?</li>
+  <li>Which features contribute most to memorability prediction? Do these features correspond to semantics or style aspects that a human viewer could consciously identify in a video?</li>
   <li>Can we generalise the use of a system that predicts the memorability score and it is training with one dataset to other datasets?</li>
   <li>Can we predict if a particular person will remember a particular video?</li>
 </ul>
