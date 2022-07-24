@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: SwimTrack: Swimmers and Stroke Rate Detection in Elite Race Videos
