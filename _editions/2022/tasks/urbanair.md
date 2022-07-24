@@ -2,12 +2,13 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: <!-- # add your title here-->
 subtitle: <!-- # leave this blanck-->
-blurb: <!-- # add the task blurb here-->
+blurb: The task requires participants to tackle two subtasks: "multimodal/crossmodal air pollution prediction" and "periodic traffic-pollution patterns discovery". The first requires participants to predict Air Quality Index (AQI) in the short- and mid-term future using multimodal/cross-modal data. Remarkably, the participants must predict AQI using (1) only station data, and (2) station and CCTV data. The second requires participants to discover periodic traffic-pollution patterns that can bring citizens' awareness of traffic-pollution mutual impacts using the given datasets. 
+
 ---
 
 <!-- # please respect the structure below-->
@@ -18,22 +19,20 @@ Task participants create systems that derive insights from multimodal data to un
 
 The organizers provide two datasets. The first one, namely "environmental data," contains air quality data such as PM10, PM2.5, CO, NO2, SO2, O3 and weather factors such as temperature, humidity, wind, rainfall, and UV collected from 10 stations spread over Dalat City, Vietnam. The second one, namely "traffic data," contains videos/images captured from the CCTV system of Dalat city, Vietnam. 
 
-The task requires participants to tackle the "multimodal/crossmodal air pollution prediction" and "periodic traffic-pollution patterns discovery" subtasks. The former required participants to predict Air Quality Index (AQI) in the short- and mid-term future using multimodal/cross-modal data. Remarkably, the participants must predict AQI using (1) only station data, and (2) station and CCTV data. The latter asked participants to discover periodic traffic-pollution patterns that can bring citizens' awareness of traffic-pollution mutual impacts using the given datasets. 
+The task requires participants to tackle two subtasks:
 
-1. Multimodal/crossmodal air pollution prediction: The participants must predict AQI levels using 
+* *Subtask 1: Multimodal/crossmodal air pollution prediction:* Participants must predict Air Quality Index (AQI) levels in the short- and mid-term future using:
     1. only station data: Participants must predict AQI levels using only station data. 
     2. station and CCTV data: Participants must build the crossmodal models to predict AQI levels from Images extracted from CCTV data and vice versa. In other words, participants can use both station and CCTV to train their models but must use only CCTV data to predict/estimate AQI levels and vice versa.
 
-2. Periodic traffic-pollution patterns discovery: The participants must discover the correlation, co-occurrence, or causality between the weather, traffic, and air pollution. Among these discoveries, participants must point out a set of period-frequent patterns that can be expressed by natural language. 
+* *Subtask 2: Periodic traffic-pollution patterns discovery:* Participants are asked to discover periodic traffic-pollution patterns that can bring citizens' awareness of traffic-pollution mutual impacts using the given datasets. They must discover the correlation, co-occurrence, or causality between the weather, traffic, and air pollution. Among these discoveries, participants must point out a set of period-frequent patterns that can be expressed by natural language. 
 
-The participants are encouraged to read the works presented in [1-6] to understand the task requirements.
+Participants are encouraged to consult the reference list below.
 
 
 #### Motivation and background
 
 Improving the quality of human life in smart cities is an important objective linked directly to several United Nations Sustainable Developmental Goals, such as climate action and life on land. Urban transportation and air pollution are two key factors affecting the quality of life. To our knowledge, no literature exists that aims to understand the correlation between traffic factors (e.g., time, vehicles, trees, people), weather (e.g., rain, snow, flood), and air pollution in traffic imagery data (e.g., CCTV, lifelog camera, personal camera). This task aims to encourage participants to develop a novel and generic framework that can discover correlation (or association) between various traffic factors, weather, and air pollution in a locality. By utilizing these correlations, we aim to enhance the accuracy of AQI prediction and the ability to understand the mutual impact between urban life and Air pollution. 
-
-#### Introduction
 
 #### Target group
 This task targets (but is not limited to) researchers in the areas of multimedia information retrieval, machine learning, AI, data science, data mining, knowledge discover, event-based processing and analysis, multimodal multimedia content analysis, lifelog data analysis, urban computing, urban management, environmental science, and atmospheric science. 
@@ -41,7 +40,7 @@ This task targets (but is not limited to) researchers in the areas of multimedia
 #### Data
 The task introduces a novel dataset that includes weather and air quality data from ten stations and traffic data from the CCTV system. The datasets are published online at a specific website. 
 
-The weather and air quality are recorded every five minutes, including sensor's profiles (SensorID, SensorCode, SensorName, Latitude, Longtitude, Altitude),	recorded time (Date,Time), weatther (Temperature,	Humidity, WindSpeed, WindGust, Direction, Rainfall), and air quality (PM1.0, PM2.5,	PM10,	CO, NO2, SO2, O3, UV). The traffic data contains video streaming from CCTV system. Nevertheless, the archive traffic data contains only one frame per five seconds.
+The weather and air quality are recorded every five minutes, including sensor's profiles (SensorID, SensorCode, SensorName, Latitude, Longtitude, Altitude), recorded time (Date,Time), weatther (Temperature,	Humidity, WindSpeed, WindGust, Direction, Rainfall), and air quality (PM1.0, PM2.5,	PM10,	CO, NO2, SO2, O3, UV). The traffic data contains video streaming from CCTV system. Nevertheless, the archive traffic data contains only one frame per five seconds.
 
 #### Ground truth and Evaluation methodology
 The data is now online, and the participants can access the server to crawl data. Hence, the participants can prepare the ground truth by themselves. 
