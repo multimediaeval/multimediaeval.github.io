@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: DisasterMM: Multimedia Analysis of Disaster-Related Social Media Data
