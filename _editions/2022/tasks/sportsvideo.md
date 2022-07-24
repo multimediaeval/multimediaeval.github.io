@@ -15,25 +15,23 @@ blurb: This task offers two subtasks: classification of temporally segmented vid
 
 #### Task Description
 
-Action detection and classification are one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large amount of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a University Faculty or a local sport team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training.
+Action detection and classification are one of the main challenges in visual content analysis and mining. Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. Datasets focused on sports activities or datasets including a large number of sport activity classes are now available and many research contributions benchmark on those datasets. A large amount of work is also devoted to fine-grained classification through the analysis of sport gestures using motion capture systems. However, body-worn sensors and markers could disturb the natural behavior of sports players. Furthermore, motion capture devices are not always available for potential users, be it a university facility or a local sport team. Giving end-users the possibility to monitor their physical activities in ecological conditions through simple equipment is a challenging issue. The ultimate goal of this research is to produce automatic annotation tools for sport faculties, local clubs and associations to help coaches to better assess and advise athletes during training.
 
 This task offers researchers an opportunity to test their fine-grain action classification methods for detecting and recognizing strokes in table tennis videos. The low inter-class variability makes the task more difficult than with more general action recognition datasets like UCF-101 or Kinetics.
 
-Running since 2019, this task was focused during the first two years on classification of temporally segmented videos of single table tennis strokes.
-Since the third edition of the task, two subtasks have been proposed. The dataset also has been enriched this year with new and more diverse stroke samples.
+<!-- Running since 2019, this task was focused during the first two years on classification of temporally segmented videos of single table tennis strokes.
+Since the third edition of the task, two subtasks have been proposed. The dataset also has been enriched this year with new and more diverse stroke samples.-->
 
-Subtask 1 is a classification task: participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 20 possible stroke classes and an additional non-stroke class.
+* *Subtask 1: Classification task:* Participants are required to build a classification system that automatically labels video segments according to a performed stroke. There are 20 possible stroke classes and an additional non-stroke class.
 
-Subtask 2 is a more challenging subtask proposed since last year: the goal here is to detect if a stroke has been performed, whatever its classes, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.
+* *Subtask 2: Detection task:* Participants are required to detect if a stroke has been performed, whatever its class, and to extract its temporal boundaries. The aim is to be able to distinguish between moments of interest in a game (players performing strokes) from irrelevant moments (picking up the ball, having a break…). This subtask can be a preliminary step for later recognizing a stroke that has been performed.
 
-The organizers encourage the use of the method developed for subtask 1 to solve subtask 2. Participants are also invited to use the [provided baseline](https://github.com/ccp-eva/SportTaskME22) as a starting point in their investigation.
-
-
+The organizers encourage the use of the method developed for Subtask 1 to solve Subtask 2. Participants are also invited to use the [provided baseline](https://github.com/ccp-eva/SportTaskME22) as a starting point in their investigation.
 
 #### Motivation and background
 The task aims at providing tools for athletes in order to analyze their performance. The fine-grained character of the classification subtask and the precision of the segmentation subtask applied to the TTStroke-21 dataset make the Sport task more challenging than common action classification task applied to other widely used dataset.
 
-The focus of the sport task is Table Tennis. This choice was made for practical and technical reasons, and for the short term use of the technology that may be built upon the developed methods. The STAPS of the University of Bordeaux has a very talented team in this particular sport and agreed to contribute in the data acquisition and their annotation. The proximity of the computer science laboratory LaBRI made such collaboration possible and now focuses on developing tools of interest for the same sport faculty and the sport community in general. 
+The focus of the sport task is table tennis. This choice was made for practical and technical reasons, and for the short term use of the technology that may be built upon the developed methods. The STAPS of the University of Bordeaux has a very talented team in this particular sport and agreed to contribute in the data acquisition and their annotation. The proximity of the computer science laboratory LaBRI made such collaboration possible and now focuses on developing tools of interest for the same sport faculty and the sport community in general. 
 
 Our team has a limited time to maintain the TTStroke-21 dataset, and errors may remain in the annotations and ground truth data. Furthermore, some specific strokes are not largely used by the players who took part in the creation of the dataset and will remain low in number, despite the different variations of the dataset that have been released.
 
@@ -43,7 +41,8 @@ The task is of interest to researchers in the areas of machine learning (classif
 
 
 #### Data
-Our focus is on recordings that have been made by widespread and cheap video cameras, e.g. GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table tennis strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.
+Our focus is on recordings that have been made by widespread and cheap video cameras, e.g. GoPro. We use a dataset specifically recorded at a sport faculty facility and continuously completed by students and teachers. This dataset is constituted of player-centered videos recorded in natural conditions without markers or sensors. It comprises 20 table 
+strokes, and a rejection class. The problem is hence a typical research topic in the field of video indexing: for a given recording, we need to label the video by recognizing each stroke appearing in it.
 
 
 #### Ground truth
@@ -60,8 +59,7 @@ Twenty stroke classes and a non-stroke class are considered according to the rul
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * Is RGB information alone is enough to obtain correct classification and detection performance? If not, what else should be used?
-* How to use the solution of subtask 1 to answer subtask 2?
-
+* How to use the solution of Subtask 1 to answer Subtask 2?
 * Which strokes are the most similar?
 * How transferable are the computed features from one subtask to another?
 
@@ -102,7 +100,7 @@ You can email us directly at ![](https://user-images.githubusercontent.com/36887
 * Laurent Mascarilla, MIA, University of La Rochelle, La Rochelle, France
 
 #### Task Schedule
-* 15 June 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* June 2022: Data released <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * 8 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 10 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
