@@ -2,11 +2,11 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "Emotional Mario: A Game Analytics Challenge"
-subtitle: <!-- # leave this blank-->
+subtitle:
 blurb: "Identify events of high significance in the Super Mario Bros. gameplay by analyzing facial expressions and the biometric data of players and then (optionally) creating a video summary of the best moments of play."
 ---
 
