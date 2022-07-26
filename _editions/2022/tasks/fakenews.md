@@ -2,19 +2,19 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: FakeNews Detection
 subtitle: <!-- # leave this blanck-->
-blurb: <!-- # add the task blurb here-->
+blurb: Participants address three fake news detection subtasks related to COVID-19-related conspiracy theories on twitter: First, text-based topic and conspiracy detection, second, graph based detection of users who post conspiracy theory (posters) in a social network graph with node attributes, and, third, a combination the two to achieve topic and conspiracy detection based both textual data and graphs. 
 ---
 
 <!-- # please respect the structure below-->
 *See the [MediaEval 2022 webpage](https://multimediaeval.github.io/editions/2022/) for information on how to register and participate.*
 
 #### Task Description
-The FakeNews Detection Task offers three fake news detection subtasks on COVID-19-related conspiracy theories. The first subtask includes text-based topics and conspiracy detection. The second subtask asks for graph based detection of users who post conspiracy theory (posters) in a social network graph with node attributes. The third subtasks combine the two, aiming topic and conspiracy detection based on both graph and textual data. 
+The FakeNews Detection Task offers three fake news detection subtasks on COVID-19-related conspiracy theories. The first subtask includes text-based topics and conspiracy detection. The second subtask asks for graph based detection of users who post conspiracy theory (posters) in a social network graph with node attributes. The third subtasks combine the two, aiming at topic and conspiracy detection based on both textual data and graphs. 
 
 All subtasks are related to misinformation disseminated in the context of the COVID-19 pandemic. We focus on conspiracy theories that purport some kind of nefarious actions by governments or other actors related to CODID-19, such as intentionally spreading the pandemic, lying about the nature of the pandemic, or using vaccines that have some hidden functionality and purpose.
 

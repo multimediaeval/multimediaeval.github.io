@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: NewsImages
 subtitle: <!-- # leave this blanck-->
-blurb: Images play an important role in online news articles and news consumption patterns. This task aims to achieve additional insight about this role. Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images from international publishers. The task requires participants to predict which image was used to accompany each article.
+blurb: Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images from international publishers. The task requires participants to predict which image was used to accompany each article.
 ---
 
 <!-- # please respect the structure below-->
@@ -46,7 +46,8 @@ We compute the precision at a set of cut-off points: 1, 5, 10, 20, 50, and 100. 
 We strongly encourage participants to look further than the evaluation metric. Ultimately, we seek to learn more about the relationship between articles and images.
 
 #### Quest for insight
-Research questions related to this task include:
+Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
+* The news articles do not describe the literal content of the images. What kinds of relationships do you find between the content of the news articles and the captions?
 * How distant are embeddings of articles and images in the same space?
 * Can we automatically distinguish between authentic images and stock photos?
 * What categories of news are easiest/hardest to find the linked image?

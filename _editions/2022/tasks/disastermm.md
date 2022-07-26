@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: DisasterMM: Multimedia Analysis of Disaster-Related Social Media Data
-subtitle: <!-- # leave this blanck-->
-blurb: Contribute to disaster management by addressing two subtasks: Classify multimodal twitter data as relevant or non-relevant to flooding events and and develop a named-entity recognizer in order to identify which words (or sequence of words) in a tweet’s text refer to locations. 
+title: "DisasterMM: Multimedia Analysis of Disaster-Related Social Media Data"
+subtitle:
+blurb: "Contribute to disaster management by addressing two subtasks: Classify multimodal twitter data as relevant or non-relevant to flooding events and and develop a named-entity recognizer in order to identify which words (or sequence of words) in a tweet’s text refer to locations."
 ---
 
 <!-- # please respect the structure below-->

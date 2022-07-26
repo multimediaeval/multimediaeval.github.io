@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
 title: Njord: Fishing Trawler Video Analytics Task
 subtitle: <!-- # leave this blanck-->
-blurb: The goal of the task is to gain insight into what occurs on fishing vessels, and to find methods of preserving the privacy of fishing crews. Task participants are provided with a surveillance video dataset from a fishing trawler. The overall objective of the task is to get more insight into the happenings on fishing trawlers but at the same time keep the privacy of fishing workers as high as possible. Thus we would like the participants to address two specific tasks. First, create a method that is able to detect unforeseen events on the boat (anomalies) which can range from sighting of a dolphin to an accident. The seconds subtask asks participants to come up with solutions to protect fish workers' privacy but at the same time do not influence the automatic analysis of the video streams.
+blurb: Task participants are provided with a surveillance video dataset from a fishing trawler. The overall objective of the task is to get more insight into the happenings on fishing trawlers but at the same time keep the privacy of fishing workers as high as possible. The first subtask is to create a method that is able to detect unforeseen events on the boat (anomalies). The seconds subtask is to come up with solutions to protect fishing workers' privacy but at the same time do not influence the automatic analysis of the video streams.
 ---
 
 <!-- # please respect the structure below-->
@@ -15,10 +15,11 @@ blurb: The goal of the task is to gain insight into what occurs on fishing vesse
 
 #### Task Description
 
-The Njord task consists of two different subtasks which can be tackled independently depending on your research area of interest. The provided dataset consists of 198 surveillance videos from a fishing trawler, of which 71 are annotated with bounding boxes and temporal annotations. The goal of the task is to both gain insight into what is happening on fishing vessels and also investigate methods for preserving the privacy of the fishing crew.
+The Njord task consists of two different subtasks which can be tackled independently depending on your research area of interest. The dataset consists of 198 surveillance videos from a fishing trawler, of which 71 are annotated with bounding boxes and temporal annotations. The goal of the task is to both gain insight into what is happening on fishing vessels and also investigate methods for preserving the privacy of the fishing crew.
 
-1. Detection of events on the boat. The participants are asked to detect events on the boat like people moving, fish catched, etc. In addition to simple detection of the events we also ask the participants to provide an interestingness score which relates to how uncommon the event is. For example, moving people might trigger a lower score compared to an accident happening. 
-2. Privacy of onboard personnel. For this task the participants are asked to develop methods to preserve the privacy of the people working on the boat. Meaning anything that can identify the person (face, nametags, etc). At the same time the privacy preserving measurements should have as little impact on the analysis as possible. 
+* *Subtask 1: Detection of events on the boat:* The participants are asked to detect events on the boat like people moving, fish caught, etc. In addition to simple detection of the events we also ask the participants to provide an interestingness score which relates to how uncommon the event is. 
+
+* *Subtask 2: Privacy of onboard personnel.* For this task the participants are asked to develop methods to preserve the privacy of the people working on the boat. Meaning anything that can identify the person (face, nametags, etc). At the same time the privacy preserving measurements should have as little impact on the analysis as possible. 
 
 #### Motivation and background
 Surveillance on board fishing vessels is a solution that has been proposed as a necessary means to maintain sustainable fishing practices, and prevent fish fraud from occurring [1,2]. A fishing vessel is a secluded environment where people often work and live for several weeks at a time. Introducing video surveillance and video surveillance combined with machine learning in such an environment has privacy and data protection aspects that need to be considered. This task provides a unique opportunity into how to tackle privacy concerns of fishing crew, as well as insight into what goes on fishing vessels while at sea.
@@ -65,7 +66,7 @@ Please contact your task organizers with any questions on these points.
 * Dag Johansen, dag.johansen@uit.no, UiT: The Arctic University of Norway
 
 #### Task Schedule
-* Already released: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* July 2022: Data released <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * 16 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 22 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
