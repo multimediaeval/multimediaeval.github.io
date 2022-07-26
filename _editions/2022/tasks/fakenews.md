@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: FakeNews Detection
-subtitle: <!-- # leave this blanck-->
-blurb: Participants address three fake news detection subtasks related to COVID-19-related conspiracy theories on twitter: First, text-based topic and conspiracy detection, second, graph based detection of users who post conspiracy theory (posters) in a social network graph with node attributes, and, third, a combination the two to achieve topic and conspiracy detection based both textual data and graphs. 
+title: "FakeNews Detection"
+subtitle:
+blurb: "Participants address three fake news detection subtasks related to COVID-19-related conspiracy theories on twitter: First, text-based topic and conspiracy detection, second, graph based detection of users who post conspiracy theory (posters) in a social network graph with node attributes, and, third, a combination the two to achieve topic and conspiracy detection based both textual data and graphs."
 ---
 
 <!-- # please respect the structure below-->
