@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: MUSTI - Multimodal Understanding of Smells in Texts and Images
-subtitle: <!-- # leave this blanck-->
-blurb: Task participants develop classifiers to predict whether a text passage and an image evoke the same smell source or not and (optionally) dectors dentify common smell sources text passages and images.
+title: "MUSTI - Multimodal Understanding of Smells in Texts and Images"
+subtitle:
+blurb: "Task participants develop classifiers to predict whether a text passage and an image evoke the same smell source or not and (optionally) dectors dentify common smell sources text passages and images."
 ---
 
 <!-- # please respect the structure below-->
