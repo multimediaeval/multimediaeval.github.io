@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: Njord: Fishing Trawler Video Analytics Task
-subtitle: <!-- # leave this blanck-->
-blurb: Task participants are provided with a surveillance video dataset from a fishing trawler. The overall objective of the task is to get more insight into the happenings on fishing trawlers but at the same time keep the privacy of fishing workers as high as possible. The first subtask is to create a method that is able to detect unforeseen events on the boat (anomalies). The seconds subtask is to come up with solutions to protect fishing workers' privacy but at the same time do not influence the automatic analysis of the video streams.
+title: "Njord: Fishing Trawler Video Analytics Task"
+subtitle:
+blurb: "Task participants are provided with a surveillance video dataset from a fishing trawler. The overall objective of the task is to get more insight into the happenings on fishing trawlers but at the same time keep the privacy of fishing workers as high as possible. The first subtask is to create a method that is able to detect unforeseen events on the boat (anomalies). The seconds subtask is to come up with solutions to protect fishing workers' privacy but at the same time do not influence the automatic analysis of the video streams."
 ---
 
 <!-- # please respect the structure below-->
