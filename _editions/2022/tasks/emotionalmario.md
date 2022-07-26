@@ -5,9 +5,9 @@ year: 2022
 hide: false  <!-- # change this to false once you finish editing-->
 
 # required info
-title: Emotional Mario: A Game Analytics Challenge
+title: "Emotional Mario: A Game Analytics Challenge"
 subtitle: <!-- # leave this blank-->
-blurb: Identify events of high significance in the Super Mario Bros. gameplay by analyzing facial expressions and the biometric data of players and then (optionally) creating a video summary of the best moments of play.
+blurb: "Identify events of high significance in the Super Mario Bros. gameplay by analyzing facial expressions and the biometric data of players and then (optionally) creating a video summary of the best moments of play."
 ---
 
 <!-- # please respect the structure below-->
