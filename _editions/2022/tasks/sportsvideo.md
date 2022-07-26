@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: Sport Task: Fine Grained Action Detection and Classification of Table Tennis Strokes from Videos. <!-- # add your title here-->
-subtitle: <!-- # leave this blanck-->
-blurb: This task offers two subtasks: classification of temporally segmented videos of single table tennis strokes and dection of strokes, regardlesss of its class, from untrimmed video. <!-- # add the task blurb here-->
+title: "Sport Task: Fine Grained Action Detection and Classification of Table Tennis Strokes from Videos."
+subtitle:
+blurb: "This task offers two subtasks: classification of temporally segmented videos of single table tennis strokes and dection of strokes, regardlesss of its class, from untrimmed video."
 ---
 
 <!-- # please respect the structure below-->
