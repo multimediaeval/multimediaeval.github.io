@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2022
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
-title: SwimTrack: Swimmers and Stroke Rate Detection in Elite Race Videos
-subtitle: <!-- # leave this blanck-->
-blurb: The SwimTrack is a series of 5 multimedia tasks related to swimming video analysis from elite competition recordings. These tasks are related to video, image, and audio analysis which may be achieved independently. But when solved together, they form a grand challenge to provide sport federations and coaches with novel methods to assess and enhance swimmers’ performance.
+title: "SwimTrack: Swimmers and Stroke Rate Detection in Elite Race Videos"
+subtitle:
+blurb: "The SwimTrack is a series of 5 multimedia tasks related to swimming video analysis from elite competition recordings. These tasks are related to video, image, and audio analysis which may be achieved independently. But when solved together, they form a grand challenge to provide sport federations and coaches with novel methods to assess and enhance swimmers’ performance."
 ---
 
 <!-- # please respect the structure below-->
