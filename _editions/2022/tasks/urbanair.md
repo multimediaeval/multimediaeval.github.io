@@ -8,7 +8,6 @@ hide: false
 title: "Urban Air: Urban Life and Air Pollution"
 subtitle:
 blurb: "The task requires participants to tackle two subtasks: "multimodal/crossmodal air pollution prediction" and "periodic traffic-pollution patterns discovery". The first requires participants to predict Air Quality Index (AQI) in the short- and mid-term future using multimodal/cross-modal data. Remarkably, the participants must predict AQI using (1) only station data, and (2) station and CCTV data. The second requires participants to discover periodic traffic-pollution patterns that can bring citizens' awareness of traffic-pollution mutual impacts using the given datasets."
-
 ---
 
 <!-- # please respect the structure below-->
