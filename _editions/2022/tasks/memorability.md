@@ -73,7 +73,7 @@ Please contact your task organizers with any questions on these points.
 [6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. "VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability." Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
 #### Task organizers
-* Alba García Seco de Herrera, Sebastian Halder, Ana Matran-Fernandez, University of Essex, UK;
+* Alba García Seco de Herrera, Sebastian Halder, Ana Matran-Fernandez, Mushfika Sultana, University of Essex, UK;
 * Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;
 * Lorin Sweeney, Graham Healy, Alan Smeaton, Dublin City University, Ireland;
 * Claire-Hélène Demarty, InterDigital, R&I, France;
