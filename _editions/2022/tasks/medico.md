@@ -49,6 +49,11 @@ The task uses the data set VISEM [2], which contains data from 85 male participa
 
 All Study participants agreed to donate their data for the purpose of science and provided the necessary consent for us to be able to distribute the data (checked and approved by the Norwegian data authority and ethical committee).
 
+##### Development data is available now:
+* [Data download link 1 - Kaggle](https://www.kaggle.com/datasets/vlbthambawita/visemtracking)
+* [Data download link 2 - Simula-dataset](https://datasets.simula.no/visem-tracking/)
+
+
 #### Ground truth
 The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts.
 
