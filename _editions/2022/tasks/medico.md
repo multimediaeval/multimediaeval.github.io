@@ -57,8 +57,6 @@ For the evaluation, we will use mAP (mean average precision), mean squared error
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-<!-- The other quesitons are much better than this first question in going beyond the task evaluation metrics 
-* How accurate are deep learning methods for identifying sperms in a fresh sample?-->
 * Will continued tracking of sperm help to analyze the motility level of sperm samples?
 * How do we calculate the average speed of moving sperms, and how to track the fastest one among many moving sperms?
 * How can we best communicate to doctors about the accuracy, reliability, and trustworthiness of the output of Deep Learning methods?
