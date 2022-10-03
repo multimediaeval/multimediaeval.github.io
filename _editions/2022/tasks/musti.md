@@ -49,7 +49,7 @@ Task runs will be evaluated against a gold standard consisting of image-text pai
 
 This task will be evaluated using precision, recall and F1-measure. As multiple text passages in different languages can be linked to the same image, we will employ multiple linking scorers such as CEAF and BLANC to measure the performance across different smell reference chains. Subtask: Identifying the common smell source(s) between the text passages and the images
 
-For this task, precision, recall and F1-measure will be employed, as well as more fine-grained evaluation methods such as RUFES, which can accommodate multi-level taxonomies.
+ The evaluation will be performed using precision, recall, and F1-macro for both the main task and the subtask.
 
 #### Quest for insight
 * What does it mean for a text passage and an image to be related in terms of smell?
