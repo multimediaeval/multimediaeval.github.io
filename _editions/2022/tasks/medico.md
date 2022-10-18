@@ -66,11 +66,11 @@ The prediction of this test dataset should be uploaded using the following submi
 
 ### Submission instructions
 
-[Submmision form](https://forms.gle/Bgwt5pEwwKm6HPH26)
+[Submission form](https://forms.gle/Bgwt5pEwwKm6HPH26)
 
 Sub-task 1:
 
-If you are interested in submitting only for detecting sperm in individual frames, then your submission file should be matched to the provided ground truth format (YOLO format). You have to follow the similar file structure of the dataset. Check the folder structure in https://www.kaggle.com/datasets/vlbthambawita/visemtracking. A sample .txt file is below.
+If you are interested in submitting only for detecting sperm in individual frames, then your submission file should be matched to the provided ground truth format (YOLO format). You have to follow the similar file structure of the dataset. Check the folder structure in [https://www.kaggle.com/datasets/vlbthambawita/visemtracking](https://www.kaggle.com/datasets/vlbthambawita/visemtracking). A sample .txt file is below.
 
 ```
 source_code
@@ -79,7 +79,7 @@ source_code
 	  |- run.sh (shell script file to run your models for new video inputs (.mp4))
 predictions
    |- <test_video_ id>
-	       |- labels
+	|- labels
              |- <video id>_frame_0.txt
              |- <video id>_frame_1.txt
              |- <video id>_frame_2.txt
