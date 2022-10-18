@@ -60,6 +60,97 @@ The ground truth data provided in this task were prepared by expert computer sci
 #### Evaluation methodology
 For the evaluation, we will use mAP (mean average precision), mean squared error, mean absolute error, frames per seconds and the mean absolute percentage error for the first two subtasks. For the optional third and fourth task, we will use manual evaluation with the help of three different experts within human reproduction.  
 
+### Test data downlod link
+The prediction of this test dataset should be uploaded using the following submission form.
+[Test data download link](https://www.dropbox.com/sh/2ohitza5ouzh2d3/AAD_8VnvdhPqOVlCcAn21Uc8a?dl=0)
+
+### Submission instructions
+
+[Submmision form](https://forms.gle/Bgwt5pEwwKm6HPH26)
+
+Sub-task 1:
+
+If you are interested in submitting only for detecting sperm in individual frames, then your submission file should be matched to the provided ground truth format (YOLO format). You have to follow the similar file structure of the dataset. Check the folder structure in https://www.kaggle.com/datasets/vlbthambawita/visemtracking. A sample .txt file is below.
+
+```
+source_code
+   |- code_and_checkpoints
+	  |- README.txt (must explain how to run your model to detect sperms on a new video)
+	  |- run.sh (shell script file to run your models for new video inputs (.mp4))
+predictions
+   |- <test_video_ id>
+	       |- labels
+             |- <video id>_frame_0.txt
+             |- <video id>_frame_1.txt
+             |- <video id>_frame_2.txt
+              ...
+ 
+        |-labels_ftid (optional) # labels with unique feature IDs to track them via multiple frames
+             |- <video id>_frame_0.txt with tracking IDs.
+             |- <video id>_frame_1.txt with tracking IDs.
+             |- <video id>_frame_2.txt with tracking IDs.
+             ...
+        |- <video id>.mp4 (showing sperm detection information)
+        |- <video id>_tracking.mp4 (showing sperm tracking information) - optional
+	  |- ...
+	
+ ```
+ 
+### Sub-task 2:
+
+For subtask 2, we will compare your results with a ground truth file similar to semen_analysis_data_Train.csv. So, you have to predict progressive motility (%), Non progressive sperm motility (%) and Immotile sperm (%). Check the CSV file for these columns. The sum of these three values is 100%.
+
+```
+– source_code
+	|– code_and_checkpoints
+	|– README.txt (must explain how to run your model to predict motility level of a new video)
+	|– run.sh (shell script file to run your models for new video inputs (.mp4)) # must work with test video files
+
+– motility_predictions.csv
+
+--------------
+Sample format
+--------------
+ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm (%)
+1, 25, 75, 25
+2, 45, 35, 20
+…
+```
+
+### Sub-task 3 (Optional):
+In this task, you have to highlight the fastest sperms and detect and track them within a view point of a given video.
+
+```
+– source_code
+	|– code_and_checkpoints
+	|– README.txt (must explain how to run your model to predict fastest sperms in a given video)
+	|– run.sh (shell script file to run your models for new video inputs (.mp4))
+
+– predictions
+	|– <test_video_ id_1>
+	  |– labels # containing bounding box detail of fastest sperms and sperm tracking IDs
+		   |– <video id>_frame_0.txt
+     |– <video id>_frame_1.txt
+     |– <video id>_frame_2.txt
+      ...
+ 
+	|– <test_video_id_2>
+		 ...
+ |-fastest_sperms.csv
+ 
+  # columns of the fastest_sperms.csv
+		Video_ID, view_point_start_frame_id, view_point_stop_frame, fastest_sperm_tracking_ID, speed
+
+	|-<video_id>.mp4 # with the highlighted fastest sperm(s) and corresponding details
+ ...
+```
+
+Sub-task 4 (Optional):
+
+You can upload PDF files, Jupiter notebooks, or/and video files explaining your approaches and results of Sub-task 4. The submission of Sub-task 4 will be evaluated manually.
+
+
+
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * Will continued tracking of sperm help to analyze the motility level of sperm samples?
