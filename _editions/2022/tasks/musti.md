@@ -92,7 +92,8 @@ M. Zinnen and V. Christlein “Annotated Image Data version 1 - Odeuropa Deliver
 
 #### Task Schedule
 * 11 July, 2022: Sample data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
-* 31 July, 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 31 July, 2022: Training data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
+* 8 November, 2022: Test data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * 2 November 2022 (Extended to 23 November): Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
