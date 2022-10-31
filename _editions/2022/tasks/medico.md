@@ -68,7 +68,7 @@ The prediction of this test dataset should be uploaded using the following submi
 
 [Submission form](https://forms.gle/Bgwt5pEwwKm6HPH26)
 
-Sub-task 1:
+#### Sub-task 1:
 
 If you are interested in submitting only for detecting sperm in individual frames, then your submission file should be matched to the provided ground truth format (YOLO format). You have to follow the similar file structure of the dataset. Check the folder structure in [https://www.kaggle.com/datasets/vlbthambawita/visemtracking](https://www.kaggle.com/datasets/vlbthambawita/visemtracking). A sample .txt file is below.
 
@@ -96,7 +96,7 @@ predictions
 	
  ```
  
-### Sub-task 2:
+#### Sub-task 2:
 
 For subtask 2, we will compare your results with a ground truth file similar to semen_analysis_data_Train.csv. So, you have to predict progressive motility (%), Non progressive sperm motility (%) and Immotile sperm (%). Check the CSV file for these columns. The sum of these three values is 100%.
 
@@ -117,7 +117,7 @@ ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm
 …
 ```
 
-### Sub-task 3 (Optional):
+#### Sub-task 3 (Optional):
 In this task, you have to highlight the fastest sperms and detect and track them within a view point of a given video.
 
 ```
@@ -145,7 +145,7 @@ In this task, you have to highlight the fastest sperms and detect and track them
  ...
 ```
 
-Sub-task 4 (Optional):
+#### Sub-task 4 (Optional):
 
 You can upload PDF files, Jupiter notebooks, or/and video files explaining your approaches and results of Sub-task 4. The submission of Sub-task 4 will be evaluated manually.
 
