@@ -83,7 +83,7 @@ Please contact your task organizers with any questions on these points.
 * 31 July 2022: Data release <!-- # Replace XX with your date. We suggest setting the date in June-July. 31 July is the last possible date by which you should release data. You can release earlier, or plan a two-stage release.-->
 * 21 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
-* 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
+* 5 December 2022: Working notes paper  <!-- Fixed. Please do not change.-->
 * 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
 #### Acknolwedgments
