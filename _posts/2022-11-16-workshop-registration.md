@@ -2,9 +2,9 @@
 layout: post
 title: "MediaEval 2022 Workshop Registration"
 ---
-MediaEval 2022 workshop Bergen, Norway, 12-13 January 2023, is co-located with the 29th International Conference on Multimedia Modeling (MMM). You can register for the 
-workshop [here](https://form.app.uib.no/MediaEval2022). Note that the registration is separate from the registration to participate in the tasks (which 
-you previously did).
+MediaEval 2022 workshop Bergen, Norway, 12-13 January 2023, is co-located with the 29th International Conference on Multimedia Modeling (MMM). Note that the registration is separate from the registration to participate in the tasks (which you previously did).
+
+**Register for the workshop here: [MediaEval Workshop Registrations Website](https://form.app.uib.no/MediaEval2022).**
 
 Prices on the registration website are shown in Norwegian Kroner, NOK. Please read this announcement carefully, because it provides information about the program 
 and also about the different categories of registration that support people with limited budget (or no budget!) to make it possible for them to present at the workshop.
