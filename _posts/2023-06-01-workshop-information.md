@@ -9,6 +9,8 @@ The in-person venue of the workshop is Media City Bergen (Lars Hilles gate 30, 5
 
 Here is the high-level schedule of the workshop:
 
+![schedule](https://raw.githubusercontent.com/multimediaeval/multimediaeval.github.io/gh-page/assets/img/editions/2022/schedule.png)
+
 Registered workshop participants have received an email with a detailed workshop program, which includes detailed room numbers for all session and also the links that are needed to participate online. 
 
 The preliminary workshop proceedings is available at: [https://2022.multimediaeval.com/](https://2022.multimediaeval.com/)
