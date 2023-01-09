@@ -10,9 +10,8 @@ install-deb:
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
 	ruby -v
 	gem -v
-	sudo gem update --system
-	gem -v
-	sudo gem install jekyll bundler redcarpet
+	sudo gem install jekyll 
+	sudo gem install bundler redcarpet
 	bundle install 
 
 build:
