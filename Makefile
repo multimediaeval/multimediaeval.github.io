@@ -8,6 +8,7 @@ install-deb:
 	echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
 	echo 'export GEM_HOME="$$HOME/gems"' >> ~/.bashrc && \
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
+	echo ruby -v
 	sudo gem install jekyll bundler redcarpet
 	bundle install 
 
