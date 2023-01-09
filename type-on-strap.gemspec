@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.required_ruby_version = '~> 2.3'
+  spec.required_rubygems_version = '3.3.22'
 
   spec.add_runtime_dependency "jekyll", "~> 3.8", ">= 3.8.5"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
