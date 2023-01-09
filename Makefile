@@ -9,8 +9,8 @@ install-deb:
 	echo 'export GEM_HOME="$$HOME/gems"' >> ~/.bashrc && \
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
 	sudo gem install sass-embedded -v 1.57.1
-	sudo gem update --system
 	sudo gem install jekyll bundler redcarpet
+	sudo gem update --system
 	bundle install 
 
 build:
