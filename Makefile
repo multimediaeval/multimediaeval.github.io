@@ -12,7 +12,7 @@ install-deb:
 	gem -v
 	sudo gem install jekyll -v 4.2.2 
 	sudo gem install bundler redcarpet
-	bundle install 
+	sudo bundle install 
 
 build:
 	bundle exec jekyll build
