@@ -10,6 +10,7 @@ install-deb:
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
 	ruby -v
 	gem -v
+	sudo gem install sass-embedded -v 1.54.9
 	sudo gem install jekyll 
 	sudo gem install bundler redcarpet
 	bundle install 
