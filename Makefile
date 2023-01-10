@@ -8,8 +8,11 @@ install-deb:
 	echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
 	echo 'export GEM_HOME="$$HOME/gems"' >> ~/.bashrc && \
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
-	sudo gem install jekyll bundler redcarpet
-	bundle install 
+	ruby -v
+	gem -v
+	sudo gem install jekyll -v 4.2.2 
+	sudo gem install bundler redcarpet
+	sudo bundle install 
 
 build:
 	bundle exec jekyll build
