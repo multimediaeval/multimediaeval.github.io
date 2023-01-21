@@ -57,9 +57,9 @@ For each subtask, the evaluation method is applied as follows:
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-* <!-- # First research question-->
+<!-- # First research question-->
 * Which factors from weather, air pollution, and CCTV data contribute to the AQI prediction model? 
-* <!-- # Second research question-->
+<!-- # Second research question-->
 * Which is the difference and similarity between people's experience and model's knowledge when building the hypothesis of the correlation between traffic, weather, and air pollution?
 <!-- # and so on-->
 
