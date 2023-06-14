@@ -13,7 +13,7 @@ blurb: <!-- # add the task blurb here-->
 <!-- # please respect the structure below-->
 *See the [MediaEval 2023 webpage](https://multimediaeval.github.io/editions/2023/) for information on how to register and participate.*
 
-#### Task Description
+#### Task description
 
 #### Motivation and background
 
@@ -52,7 +52,7 @@ Here are several research questions related to this challenge that participants 
 * <!-- # Second auxiliary-->
 <!-- # and so on-->
 
-#### Task Schedule
+#### Task schedule
 * July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
 * End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
