@@ -14,8 +14,19 @@ blurb: <!-- # add the task blurb here-->
 *See the [MediaEval 2023 webpage](https://multimediaeval.github.io/editions/2023/) for information on how to register and participate.*
 
 #### Task description
+News articles use both text and images to communicate their message. The overall goal of this task is to better understand the relationship between the textual and visual (images) content of news articles. We expect participants to discover and develop patterns/models to describe the relation between images and texts of news articles (including text body and headlines).
+
+We provide the participants with access to a sizeable dataset of news items, each featuring texts (headline, snippet) and images. Participants will extract features from texts and images and explore the relation among them. The connection between the images and the text in news is more complex than often realized. Aspects such as readers’ attention, difference between authentic imagery and stock photos, and placement on the website play important roles. We encourage participants to consider the explainability of their models.
+
+We split the data set into training and test partitions. The training partition shows the link between images and news articles, whereas the test partition has the link removed. Participants should predict which image was published with a given news article in the test set. We also ask participants to report their insights into characteristics that connect the text of news articles and the images. We expect that these insights contribute to the understanding of the image-text relationship in news articles.
+
+We strongly encourage participants to publish their code along with their submission.
 
 #### Motivation and background
+Online news articles are multimodal: the textual content of an article is often accompanied by a multimedia item such as an image. The image is important for illustrating the content of the text, but also attracting readers’ attention. Research in multimedia and recommender systems generally assumes a simple relationship between images and text occurring together. For example, in image captioning [5] the caption is often assumed to describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship becomes less clear [7]. Since there are often no images available for the most recent news messages, stock images, archived photos, or even generated photos are used. An additional challenge is the wide spectrum of news domains, reaching from politics to economics to sports and to health and entertainment. The goal of this task is to investigate these intricacies in more depth, in order to understand the implications that it may have for the areas of journalism and news personalization.
+
+The task takes a large set of news articles paired with their corresponding images. The two entities have been paired but we do not know how. For instance, journalists could have selected an appropriate picture manually, generated an illustration using generative AI, or a machine could have selected an image from a stock photo database. The image can have a semantic relation to the story but has not necessarily been taken directly at the reported event, nor event exist (in case of synthetic images). Automatic image captioning is insufficient to map the images to articles. The participants will investigate how the images are related to the articles as they attempt to reconstruct the link in the test set.
+
 
 #### Target group
 This task targets researchers who are interested in investigating the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.
@@ -51,6 +62,16 @@ Here are several research questions related to this challenge that participants 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
+<!-- # Need to add links to the papers and the overview papers for the last couple of years-->
+[1] Das, A. S., Datar, M., Garg, A., & Rajaram, S. (2007, May). Google news personalization: scalable online collaborative filtering. In Proceedings of the 16th international conference on World Wide Web (pp. 271-280).
+[2] Garcin, F., Faltings, B., Donatsch, O., Alazzawi, A., Bruttin, C., & Huber, A. (2014, October). Offline and online evaluation of news recommender systems at swissinfo.ch. In Proceedings of the 8th ACM Conference on Recommender systems (pp. 169-176).
+[3] Ge, M., & Persia, F. (2017). A survey of multimedia recommender systems: Challenges and opportunities. International Journal of Semantic Computing, 11(03), 411-428.
+[4] Hopfgartner, F., Balog, K., Lommatzsch, A., Kelly, L., Kille, B., Schuth, A., & Larson, M. (2019). Continuous evaluation of large-scale information access systems: a case for living labs. In Information Retrieval Evaluation in a Changing World (pp. 511-543). Springer, Cham.
+[5] Hossain, M. Z., Sohel, F., Shiratuddin, M. F., & Laga, H. (2019). A comprehensive survey of deep learning for image captioning. ACM Computing Surveys (CSUR), 51(6), 1-36.
+[6] Lommatzsch, A., Kille, B., Hopfgartner, F., Larson, M., Brodt, T., Seiler, J., & Özgöbek, Ö. (2017, September). CLEF 2017 NewsREEL overview: A stream-based recommender task for evaluation and education. In International Conference of the Cross-Language Evaluation Forum for European Languages (pp. 239-254). Springer, Cham.
+[7] Oostdijk, N., van Halteren, H., Bașar, E., & Larson, M. (2020, May). The Connection between the Text and Images of News Articles: New Insights for Multimedia Analysis. In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 4343-4351).
+[8] Lops, P., De Gemmis, M., & Semeraro, G. (2011). Content-based recommender systems: State of the art and trends. In Recommender Systems Handbook (pp. 73-105). Springer, Boston, MA.
+[9] Li, Y., & Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.
 
 #### Task organizers
 * Andreas Lommatzsch, TU Berlin, Germany
