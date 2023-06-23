@@ -5,9 +5,9 @@ year: 2023
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: <!-- # add your title here-->
+title: "NewsImages"
 subtitle: <!-- # leave this blank-->
-blurb: <!-- # add the task blurb here-->
+blurb: "Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images from international publishers. The task requires participants to predict which image was used to accompany each article."
 ---
 
 <!-- # please respect the structure below-->
