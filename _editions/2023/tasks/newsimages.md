@@ -64,13 +64,21 @@ Here are several research questions related to this challenge that participants 
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 <!-- # Need to add links to the papers and the overview papers for the last couple of years-->
 [1] Das, A. S., Datar, M., Garg, A., & Rajaram, S. (2007, May). Google news personalization: scalable online collaborative filtering. In Proceedings of the 16th international conference on World Wide Web (pp. 271-280).
+
 [2] Garcin, F., Faltings, B., Donatsch, O., Alazzawi, A., Bruttin, C., & Huber, A. (2014, October). Offline and online evaluation of news recommender systems at swissinfo.ch. In Proceedings of the 8th ACM Conference on Recommender systems (pp. 169-176).
+
 [3] Ge, M., & Persia, F. (2017). A survey of multimedia recommender systems: Challenges and opportunities. International Journal of Semantic Computing, 11(03), 411-428.
+
 [4] Hopfgartner, F., Balog, K., Lommatzsch, A., Kelly, L., Kille, B., Schuth, A., & Larson, M. (2019). Continuous evaluation of large-scale information access systems: a case for living labs. In Information Retrieval Evaluation in a Changing World (pp. 511-543). Springer, Cham.
+
 [5] Hossain, M. Z., Sohel, F., Shiratuddin, M. F., & Laga, H. (2019). A comprehensive survey of deep learning for image captioning. ACM Computing Surveys (CSUR), 51(6), 1-36.
+
 [6] Lommatzsch, A., Kille, B., Hopfgartner, F., Larson, M., Brodt, T., Seiler, J., & Özgöbek, Ö. (2017, September). CLEF 2017 NewsREEL overview: A stream-based recommender task for evaluation and education. In International Conference of the Cross-Language Evaluation Forum for European Languages (pp. 239-254). Springer, Cham.
+
 [7] Oostdijk, N., van Halteren, H., Bașar, E., & Larson, M. (2020, May). The Connection between the Text and Images of News Articles: New Insights for Multimedia Analysis. In Proceedings of The 12th Language Resources and Evaluation Conference (pp. 4343-4351).
+
 [8] Lops, P., De Gemmis, M., & Semeraro, G. (2011). Content-based recommender systems: State of the art and trends. In Recommender Systems Handbook (pp. 73-105). Springer, Boston, MA.
+
 [9] Li, Y., & Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.
 
 #### Task organizers
