@@ -40,7 +40,7 @@ For each text in the test set, the ground truth image is the image with which th
 #### Evaluation methodology
 For each text, participants provide a list of N items ranked with decreasing likelihood of being the image originally associated with that text. 
 
-We will compute the Mean Reciprocal Rank (MRR) and a set of Precision@K scores with K in {1, 5, 10, 20, 50, 100}. The average MRR is the official metric of the task. It tells us at what position the linked image appears on average. The average precision scores reveal the performance on different ranks of the list.
+We will compute the Mean Reciprocal Rank (MRR) (official metric) and a set of Precision@K scores with K in {1, 5, 10, 20, 50, 100}. The average MRR is the official metric of the task. It tells us at what position the linked image appears on average. The average precision scores reveal the performance on different ranks of the list.
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
