@@ -59,7 +59,7 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 * Comprehensive description of pre- and post-processing methods.
 * Explain why specific processing strategies were chosen and what insights were used to consider them.
 
-#### Participant information
+<!-- #### Participant information -->
 <!-- Please contact your task organizers with any questions on these points. -->
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
