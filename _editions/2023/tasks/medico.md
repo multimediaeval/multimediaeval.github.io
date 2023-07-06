@@ -64,19 +64,30 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
 
 #### References and recommended reading
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+[1] Thambawita, V., Hicks, S.A., Storås, A.M. et al. VISEM-Tracking, a human spermatozoa tracking dataset. Sci Data 10, 260 (2023). https://doi.org/10.1038/s41597-023-02173-4
+
+[2] Trine B. Haugen, Steven A. Hicks, Jorunn M. Andersen, Oliwia Witczak, Hugo L. Hammer, Rune Borgli, Pål Halvorsen, and Michael Riegler. 2019. VISEM: a multimodal video dataset of human spermatozoa. The Proceedings of the 10th ACM Multimedia Systems Conference (MMSys '19). Association for Computing Machinery, New York, NY, USA, 261–266. DOI:https://doi.org/10.1145/3304109.3325814
+
+[3] Hicks, S.A., Andersen, J.M., Witczak, O. et al. Machine Learning-Based Analysis of Sperm Videos and Participant Data for Male Fertility Prediction. Sci Rep 9, 16770 (2019). https://doi.org/10.1038/s41598-019-53217-y
+
+[4] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., & Haugen, T. B. (2019). Stacked dense optical flows and dropout layers to predict sperm motility and morphology. arXiv preprint arXiv:1911.03086.
+
+[5] Thambawita, V., Halvorsen, P., Hammer, H., Riegler, M., & Haugen, T. B. (2019). Extracting temporal features into a spatial domain using autoencoders for sperm video analysis. arXiv preprint arXiv:1911.03100.
+
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
+**Organizers**
+* Vajira Thambawita, vajira@simula.no, SimuaMet
+* Steven Hicks, steven@simula.no, SimulaMet
+* Andrea Storås andrea@simula.no, SimulaMet
+* Michael Riegler, michael@simula.no, SimulaMet
+* Pål Halvorsen, paalh@simula.no, SimulaMet
 
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
+**Co-organizers**
+* Tuan-Luc Huynh, htluc@selab.hcmus.edu.vn, University of Science - VNUHCM
+* Hai-Dang Nguyen, nhdang@selab.hcmus.edu.vn, University of Science - VNUHCM
+* Minh-Triet Tran, tmtriet@selab.hcmus.edu.vn, University of Science - VNUHCM
+* Trung-Nghia Le, ltnghia@selab.hcmus.edu.vn, University of Science - VNUHCM
 
 #### Task schedule
 * July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
@@ -84,6 +95,3 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 * 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
 * 1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with [MMM 2024](https://mmm2024.org/) in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.-->
-
-#### Acknowledgements
-<!-- # optional, delete if not used-->
