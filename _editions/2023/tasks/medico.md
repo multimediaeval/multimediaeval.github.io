@@ -6,7 +6,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
 title: Medical Multimedia Task - Transparent Tracking of Spermatozoa
-subtitle: Medical Multimedia Task
+subtitle: Medico
 blurb: The goal of the task is to accurately detect spermatozoa in videos collected using microscopic examinations of sperm samples for quality control. Participants are provided with a video dataset containing manually annotated bounding boxes for each spermatozoon for the dataset. The task will be to track the spermatozoa throughout the provided videos by training models using the provided bounding box annotations. The subtasks will focus on advanced analysis of the individual spermatozoon by calculating/predicting attributes such as speed and travel distance. Bounding boxes labels were annotated by experienced data annotators and verified by expert andrologists. Motility and morphology estimations were provided by expert andrologists and performed following the World Health Organization’s standard for spermatozoa quality assessment. The task lays the basis for automatic, real-time support systems for artificial reproduction.
 ---
 
@@ -33,12 +33,14 @@ Through our broad team, we can actively invite people from multiple communities 
 
 #### Data
 VISEM [2] contains data from 85 male participants aged 18 years or older. For this task, we have selected only 30 seconds video clips from selected 20 videos.  For each participant, we include a set of measurements from a standard semen analysis, a video of live spermatozoa, a sperm fatty acid profile, the fatty acid composition of serum phospholipids, study participants-related data, and WHO analysis data. The dataset contains 20 videos, with each video having a 30 seconds duration with corresponding bounding box coordinates. Each video has a resolution of 640x480 and runs at 50 frames-per-second. The dataset contains in total six CSV files (five for data and one which maps video IDs to study participants' IDs), a description file, and  folders containing the videos and bounding box data. The name of each video file contains the video's ID, the date it was recorded, and a small optional description. Then, the end of the filename contains the code of the person who assessed the video. Furthermore, VISEM contains five CSV files for each of the other data provided, a CSV file with the IDs linked to each video, and a text file containing descriptions of some of the columns of the CSV files. One row in each CSV file represents a participant. The provided CSV files are:
+
 * semen_analysis_data: The results of standard semen analysis.
 * fatty_acids_spermatozoa: The levels of several fatty acids in the spermatozoa of the participants.
 * fatty_acids_serum: The serum levels of the fatty acids of the phospholipids (measured from the blood of the participant).
 * sex_hormones: The serum levels of sex hormones measured in the blood of the participants.
 * study_participant_related_data: General information about the participants such as age, abstinence time, and Body Mass Index (BMI).
 * videos: Overview of which video file belongs to what participant.
+
 In addition to the main dataset, VISEM-Tracking [1], we provide an additional graph dataset which was extracted from the VISEM-Tracking. More details about this graph dataset can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs. 
 
 #### Ground truth
@@ -47,7 +49,7 @@ The ground truth data provided in this task were prepared by expert computer sci
 #### Evaluation methodology
 For Task 1 and Task 2 will be evaluated using standard detection and tracking metrics. For detection, this includes precision, recall, mAP@50, and mAP@50-95. For tracking we use Jonathan Luiten's TrackEval library, which includes HOTA and other MOT evaluation metrics. Efficiency will be evaluated based on the number of samples that can be processed per second. Task 1 will only focus on the prediction metrics, while Task 2 will be weighted by the speed of the system.
 
-For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Percentage Error (MAPE)  to evaluate the predictions.
+For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Percentage Error (MAPE) to evaluate the predictions.
 
 #### Quest for insight
 * How accurate are deep learning methods for identifying sperms in a fresh sample?
@@ -77,17 +79,17 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 
 #### Task organizers
 **Organizers**
-* Vajira Thambawita, vajira@simula.no, SimuaMet
-* Steven Hicks, steven@simula.no, SimulaMet
-* Andrea Storås andrea@simula.no, SimulaMet
-* Michael Riegler, michael@simula.no, SimulaMet
-* Pål Halvorsen, paalh@simula.no, SimulaMet
+* Vajira Thambawita, vajira (at) simula.no, SimuaMet
+* Steven Hicks, steven (at) simula.no, SimulaMet
+* Andrea Storås andrea (at) simula.no, SimulaMet
+* Michael Riegler, michael (at) simula.no, SimulaMet
+* Pål Halvorsen, paalh (at) simula.no, SimulaMet
 
 **Co-organizers**
-* Tuan-Luc Huynh, htluc@selab.hcmus.edu.vn, University of Science - VNUHCM
-* Hai-Dang Nguyen, nhdang@selab.hcmus.edu.vn, University of Science - VNUHCM
-* Minh-Triet Tran, tmtriet@selab.hcmus.edu.vn, University of Science - VNUHCM
-* Trung-Nghia Le, ltnghia@selab.hcmus.edu.vn, University of Science - VNUHCM
+* Tuan-Luc Huynh, htluc (at) selab.hcmus.edu.vn, University of Science - VNUHCM
+* Hai-Dang Nguyen, nhdang (at) selab.hcmus.edu.vn, University of Science - VNUHCM
+* Minh-Triet Tran, tmtriet (at) selab.hcmus.edu.vn, University of Science - VNUHCM
+* Trung-Nghia Le, ltnghia (at) selab.hcmus.edu.vn, University of Science - VNUHCM
 
 #### Task schedule
 * July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
