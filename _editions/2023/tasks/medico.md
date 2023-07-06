@@ -7,7 +7,7 @@ hide: true <!-- # change this to false once you finish editing-->
 # required info
 title: Medical Multimedia Task - Transparent Tracking of Spermatozoa
 subtitle: Medico
-blurb: The task is to detect and track sperm in microscope videos, using provided annotation data. Participants will analyze global and individual sperm attributes like motility, speed and distance traveled. The annotations are verified by experts, adhering to WHO sperm quality standards. This work aims to develop automatic support systems for artificial reproduction.
+blurb: The task is to detect and track sperm in microscope videos, using provided annotation data. Participants will analyze global and individual sperm attributes like motility, speed and distance traveled. The annotations are verified by experts and done according to WHO sperm quality standards. This work aims to develop automatic support systems for assissted reproduction.
 ---
 
 <!-- # please respect the structure below-->
