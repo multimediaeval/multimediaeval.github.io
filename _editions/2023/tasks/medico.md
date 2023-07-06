@@ -2,12 +2,12 @@
 # static info
 layout: task
 year: 2023
-hide: true  <!-- # change this to false once you finish editing-->
+hide: true <!-- # change this to false once you finish editing-->
 
 # required info
 title: Medical Multimedia Task - Transparent Tracking of Spermatozoa
 subtitle: Medico
-blurb: The goal of the task is to accurately detect spermatozoa in videos collected using microscopic examinations of sperm samples for quality control. Participants are provided with a video dataset containing manually annotated bounding boxes for each spermatozoon for the dataset. The task will be to track the spermatozoa throughout the provided videos by training models using the provided bounding box annotations. The subtasks will focus on advanced analysis of the individual spermatozoon by calculating/predicting attributes such as speed and travel distance. Bounding boxes labels were annotated by experienced data annotators and verified by expert andrologists. Motility and morphology estimations were provided by expert andrologists and performed following the World Health Organization’s standard for spermatozoa quality assessment. The task lays the basis for automatic, real-time support systems for artificial reproduction.
+blurb: The task is to detect and track sperm in microscope videos, using provided annotation data. Participants will analyze global and individual sperm attributes like motility, speed and distance traveled. The annotations are verified by experts, adhering to WHO sperm quality standards. This work aims to develop automatic support systems for artificial reproduction.
 ---
 
 <!-- # please respect the structure below-->
