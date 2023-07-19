@@ -60,7 +60,7 @@ This subtask will be evaluated using precision, recall and F1-measure. As multip
 For this subtask, precision, recall and F1-measure will be employed, as well as more fine-grained evaluation methods such as RUFES, which can accommodate multi-level taxonomies. 
 
 *Subtask 3: Musti zero-shot*
-The evaluation for this subtask will be the same as subtasks 1 and 2. The only difference is that there will not be training data for this subtask. The 
+The evaluation for this subtask will be the same as subtasks 1 and 2. The only difference is that there will not be training data for this subtask.  
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
