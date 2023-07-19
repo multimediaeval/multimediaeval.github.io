@@ -71,10 +71,13 @@ Here are several research questions related to this challenge that participants 
 * How do  relationships between smell references in texts and images change over time? 
 
 #### Participant information
-<!-- Please contact your task organizers with any questions on these points. -->
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
+* Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Making your submission: To be announced (check the task read me).
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
+* Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
+Please contact your task organizers (see below) with any questions on these points. 
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
