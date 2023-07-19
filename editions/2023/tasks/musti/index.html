@@ -33,12 +33,12 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-07-19T15:56:55+00:00" />
+<meta property="article:published_time" content="2023-07-19T16:00:58+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="Musti: Multimodal Understanding of Smells in Texts and Images" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-19T15:56:55+00:00","datePublished":"2023-07-19T15:56:55+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"Musti: Multimodal Understanding of Smells in Texts and Images","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/musti/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/musti/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-19T16:00:58+00:00","datePublished":"2023-07-19T16:00:58+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"Musti: Multimodal Understanding of Smells in Texts and Images","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/musti/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/musti/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -198,40 +198,61 @@
 <p><em>See the <a href="https://multimediaeval.github.io/editions/2023/">MediaEval 2023 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task description</h4>
-<p>Smell is an underrepresented dimension of many multimedia analysis and representation tasks. The goal of Musti is to further the understanding of descriptions and depictions of smells in texts and images. In this shared task, participants are provided with multilingual texts (English, German, Italian, French) and images, from the 16th to the 20th century, that pertain to smell (i.e. selected because they evoke smells). This task’s goal is to recognise references to smells in texts and images and to connect these smell references across the different modalities.</p>
+<p>Smell is an underrepresented in research on multimedia analysis and multimedia representation. The goal of the Musti is to address this gap and to further the understanding of descriptions and depictions of smells in texts and images. Participants are provided with multilingual texts (English, German, Italian, French) and images, from the 16th to the 20th century, that pertain to smell (i.e., selected because they evoke smells). Participants must create automatic solutions that recognise references to smells in texts and images and connect these smell references across the different modalities.</p>
 
-<p><em>Subtask 1: Musti Classification:</em> Task participants develop language and image recognition technologies to predict whether a text passage and an image evoke the same smell source or not. This main mandatory task can therefore be cast as a binary classification problem.</p>
+<p><em>Subtask 1: Musti classification (mandatory):</em> Task participants develop language and image recognition technologies to predict whether a text passage and an image evoke the same smell source or not. This subtask can be cast as a binary classification problem.</p>
 
-<p><em>Subtask 2: Musti detection:</em> Task participants are asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g. plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This optional sub-task can be cast as a multi-label classification problem.</p>
+<p><em>Subtask 2: Musti detection (optional):</em> Task participants are asked to identify what is (are) the common smell source(s) between the text passages and the images. The detection of the smell source includes detecting the person, object or place that has a specific smell, or that produces odorous (e.g., plant, animal, perfume, human). In other words, the smell source is the entity or phenomenon that a perceiver experiences with his or her senses. This subtask can be cast as a multi-label classification problem.</p>
 
 <!-- # Discuss and make this description clearer-->
-<p><em>Subtask 3: Musti zero-shot:</em> As a new optional subtask we will include a new evaluation setting. We will release test data that consists of image and text pairs in languages that are not provided in the training setting. The training data will be in English, French, German, and Italian and the test data will be in all these four languages and two additional languages, which are Dutch and Slovene. We refer to this subtask as a zero-shot evaluation setting.</p>
+<p><em>Subtask 3: Musti zero-shot (optional):</em> Test contain contains languages that are not in the training data. Participants predict whether an image and a text passage evoke the same smell source or not (Subtask 1) and identify the common smell source(s) between the text passages and the images (Subtask 2). The training data is English, French, German, and Italian and the test data will be in all these four languages and two additional languages, which are Dutch and Slovene.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
-<p>To make sense of digital (heritage) collections, it is necessary to go beyond an oculo-centric approach and to engage with their olfactory dimension as it offers a powerful and direct entry to our emotions and memories. Via the Musti task, we aim to accelerate the understanding of olfactory references in English, French, Italian and German texts and images as well as the connection between these modalities. As recent and ongoing exhibitions at Mauritshuis  in The Hague, Netherlands, Museum Ulm  in Ulm, Germany, and the Prado Museum  in Madrid, Spain demonstrate, museums and galleries are keen to enrich museum visits with olfactory components - either for a more immersive experience or to create a more inclusive experience for differently abled museum visitors such as those with a visual impairment.</p>
+<p>Smell offers a powerful and direct entry to our emotions and memories. To make sense of digital (heritage) collections, it is necessary to go beyond visual, oculo-centric perspectives and to engage with their olfactory dimension. Via the Musti task, we aim to accelerate the understanding of olfactory references in multilingual text and images as well as the connection between these modalities. As exhibitions at Mauritshuis in The Hague, Netherlands, Museum Ulm in Ulm, Germany, and the Prado Museum in Madrid, Spain demonstrate, museums and galleries are keen to enrich museum visits with olfactory components—either for a more immersive experience or to create a more inclusive experience for differently abled museum visitors such as those with a visual impairment.</p>
 
-<p>Reinterpreting historical scents is attracting attention from various research disciplines <a href="https://doi.org/10.1038/s41562-022-01325-7">(Huber et al., 2022)</a> in some cases leading to interesting collaborations with perfume makers such as the Scent of the Golden Age candle developed after a recipe by Constantijn Huygens in a collaboration between historians and a perfume maker.</p>
+<p>Reinterpreting historical scents is attracting attention from various research disciplines <a href="https://doi.org/10.1038/s41562-022-01325-7">(Huber et al., 2022)</a>, in some cases leading to interesting collaborations with perfume makers such as the Scent of the Golden Age candle developed after a recipe by Constantijn Huygens in a collaboration between historians and a perfume maker.</p>
 
 <p>To ensure that such enrichments are grounded in historically correct contexts, language and computer vision technologies can aid in finding olfactory relevant examples in their collections and related sources.</p>
 
 <h4 id="target-group">Target group</h4>
+<p>The task is of interested to researchers interested in natural language processing, computer vision, multimedia analysis, and cultural heritage.</p>
 
 <h4 id="data">Data</h4>
+<p>The MUSTI 2023 dataset consists of copyright-free texts and partly copyrighted images that could be downloaded and submitted by the participants using the URLs we provide. We offer texts in English, Dutch, French, German, Italian, and Slovene that participants are to match to the images. We will improve this dataset by double-checking it for any inconsistencies or errors.</p>
 
+<p>The texts are selected from open repositories such as Project Gutenberg, Europeana, Royal Society Corpus, Deutsches Text Arxiv, Gallica, Wikisource and Liber Liber 
+The images are selected from different archives such as RKD, Bildindex der Kunst und Architektur, Museum Boijmans, Ashmolean Museum Oxford, Plateforme ouverte du patrimoine.</p>
+
+<p>The images are annotated with 169 categories of smell objects and gestures such as flowers, food, animals, sniffing and holding the nose. The object categories are organised in a two-level taxonomy.</p>
+
+<p>The <a href="https://github.com/Odeuropa/benchmarks_and_corpora">Odeuropa text</a> and <a href="https://zenodo.org/record/6367776">image benchmark</a> datasets are available as training data to the participants. The image dataset consists of 4,696 images with 36,663 associated object annotations,~600 gesture annotations, and image level meta-data. We will also provide output of a text processing system we have developed to identify text snippets that contain smell references.</p>
+
+<p>The participants will be evaluated on a held-out dataset of roughly 1,200 images with associated texts in the four languages.</p>
+
+<!-- # Please confirm this is correct-->
 <h4 id="ground-truth">Ground truth</h4>
+<p>The ground truth consists of images and text snippets that contain appearences or mentions of smell related objects. If a text passage and an image evoke the same smell the relation between an image and a text passage is manually positive, otherwise negative. This dataset is distilled from the Odeuropa text and image benchmark datasets.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
+<p>Task runs will be evaluated against a gold standard consisting of image-text pairs. We will evaluate using multiple statistics as each provides a slightly different perspective on the results. We will provide the code and models of the baselines we developed for MUSTI 2022. Specifically, each subtask will be evaluated using the following metrics:</p>
+
+<p><em>Subtask 1: Musti classification:</em> Predicting whether an image and a text passage evoke the same smell source or not
+This subtask will be evaluated using precision, recall and F1-measure. As multiple text passages in different languages can be linked to the same image, we will employ multiple linking scorers such as CEAF and BLANC to measure the performance across different smell reference chains.</p>
+
+<p><em>Subtask 2: Musti detection:</em> Identifying the common smell source(s) between the text passages and the images
+For this subtask, precision, recall and F1-measure will be employed, as well as more fine-grained evaluation methods such as RUFES, which can accommodate multi-level taxonomies.</p>
+
+<p><em>Subtask 3: Musti zero-shot</em>
+The evaluation for this subtask will be the same as subtasks 1 and 2. The only difference is that there will not be training data for this subtask. The</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
 <p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
 <ul>
-  <li>
-    <!-- # First research question-->
-  </li>
-  <li>
-    <!-- # Second research question-->
-    <!-- # and so on-->
-  </li>
+  <li>What does it mean for a text passage and an image to be related in terms of smell?</li>
+  <li>Do different text and image genres reference smell differently?</li>
+  <li>Do different languages reference smell differently?</li>
+  <li>How do references to smell in texts and images change over time?</li>
+  <li>How do  relationships between smell references in texts and images change over time?</li>
 </ul>
 
 <h4 id="participant-information">Participant information</h4>
@@ -254,7 +275,7 @@
 
 <p>Y. Shao, Y. Zhang, W. Wan, J. Li, &amp; J. Sun, “Multilingual Text-Image Olfactory Object Matching Based on Object Detection”, In Proceedings of MediaEval 2023 CEUR Workshop. 2022. URL: https://2022.multimediaeval.com/paper2087.pdf</p>
 
-<p>B. Huber, T. Larsen, R. Spengler, and N. Boivin. “How to use modern science to reconstruct ancient scents,” Nat Hum Behav (2022). https://doi.org/10.1038/s41562-022-01325-7</p>
+<p>B. Huber, T. Larsen, R. Spengler, and N. Boivin. <a href="https://doi.org/10.1038/s41562-022-01325-7">“How to use modern science to reconstruct ancient scents”</a> Nat Hum Behav (2022).</p>
 
 <p>S. Ehrich, C., Verbeek, M. Zinnen, L.  Marx, C. Bembibre, and I. Leemans, “Nose-First. Towards an Olfactory Gaze for Digital Art History.” In 2021 Workshops and Tutorials-Language Data and Knowledge, LDK 2021 (pp. 1-17). September 2021, Zaragoza, Spain.</p>
 
@@ -267,29 +288,21 @@
 <p>S. Tonelli and S. Menini, “FrameNet-like annotation of olfactory information in texts,” in Proceedings of the 5th joint SIGHUM workshop on computational linguistics for cultural heritage, social sciences, humanities and literature, Punta Cana, Dominican Republic (online), 2021, p. 11–20.</p>
 
 <p>M. Zinnen and V. Christlein “Annotated Image Data version 1 - Odeuropa Deliverable D2.2” <br />
-Zinnen, Mathias, et al. “Odor: The icpr2022 odeuropa challenge on olfactory object recognition.” 2022 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022.</p>
+Zinnen, Mathias, et al. “Odor: The ICPR2022 Odeuropa challenge on olfactory object recognition.” 26th International Conference on Pattern Recognition (ICPR). IEEE, 2022.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
 <ul>
-  <li>
-    <!-- # First organizer-->
-  </li>
-  <li>
-    <!-- # Second organizer-->
-    <!-- # and so on-->
-  </li>
+  <li>Ali Hürriyetoğlu, KNAW, Netherlands (ali.hurriyetoglu@dh.huc.knaw.nl)</li>
+  <li>Stefano Menini, Fondazione Bruno Kessler, Italy (menini@fbk.eu)</li>
+  <li>Teresa Paccosi, University of Trento, Italy (tpaccosi@fbk.eu)</li>
+  <li>Mathias Zinnen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany (mathias.zinnen@fau.de)</li>
+  <li>Inna Novalija, Jožef Stefan Institute, Slovenia (inna.koval@ijs.si)</li>
 </ul>
 
-<h4 id="task-auxiliaries">Task auxiliaries</h4>
-<!-- # optional, delete if not used-->
+<h4 id="task-facilitators">Task facilitators</h4>
 <ul>
-  <li>
-    <!-- # First auxiliary-->
-  </li>
-  <li>
-    <!-- # Second auxiliary-->
-    <!-- # and so on-->
-  </li>
+  <li>Marieke van Erp, KNAW, Netherlands</li>
+  <li>Raphael Troncy, EURECOM, France</li>
 </ul>
 
 <h4 id="task-schedule">Task schedule</h4>
@@ -302,7 +315,7 @@ Zinnen, Mathias, et al. “Odor: The icpr2022 odeuropa challenge on olfactory ob
 </ul>
 
 <h4 id="acknowledgements">Acknowledgements</h4>
-<!-- # optional, delete if not used-->
+<p>This task is an output of <a href="https://odeuropa.eu">Odeuropa project</a> that has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 101004469.</p>
 
 
       </div>
