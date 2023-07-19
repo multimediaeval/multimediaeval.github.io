@@ -42,9 +42,6 @@ The ground truth for memorability will be collected through recognition tests, a
 The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).
 
 #### Quest for insight
-* <!-- # First research question-->
-* <!-- # Second research question-->
-<!-- # and so on-->
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * Which features contribute most to memorability prediction? Do these features correspond to semantics or style aspects that a human viewer could consciously identify in a video?
 * Can we generalise the use of a system that predicts the memorability score and it is training with one dataset to other datasets?
