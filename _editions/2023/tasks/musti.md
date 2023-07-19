@@ -5,9 +5,10 @@ year: 2023
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: <!-- # add your title here-->
+title: Musti: Multimodal Understanding of Smells in Texts and Images
 subtitle: <!-- # leave this blank-->
-blurb: <!-- # add the task blurb here-->
+blurb: Participants develop classifiers to predict whether a text passage and an image evoke the same smell source or not and identify common smell sources text passages and images. Optionally, the challenge can be addressed in a cross-language setting.
+
 ---
 
 <!-- # please respect the structure below-->
