@@ -6,7 +6,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
 title: "SportsVideo: Fine Grained Action Classification and Position Detection in Table Tennis and Swimming Videos"
-subtitle: <!-- # leave this blank-->
+subtitle:
 blurb: "Participants address video analysis challenges in two sports: table tennis and swimming videos. Subtasks include position detection and action classification and involve leveraging different modalities in the video data: visual, sound, and text."
 ---
 
