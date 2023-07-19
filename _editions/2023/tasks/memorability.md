@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "Predicting Video Memorability"
 subtitle:
-blurb: "The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, pre-extracted state-of-the-art visual features, and Electroencephalography (EEG) recordings."
+blurb: "Participants automatically predict memorability scores for videos that reflect the probability that a video will be remembered. They will be provided with an extensive data set of videos with memorability annotations, related information, pre-extracted state-of-the-art visual features, and Electroencephalography (EEG) recordings."
 ---
 
 <!-- # please respect the structure below-->
