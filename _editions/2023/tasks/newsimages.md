@@ -85,8 +85,8 @@ Please contact your task organizers (see below) with any questions on these poin
 [9] Li, Y., & Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.
 
 #### Task organizers
-* Andreas Lommatzsch, TU Berlin, Germany
-* Benjamin Kille, NTNU, Trondheim, Norway
+* Andreas Lommatzsch, TU Berlin, Germany (andreas at dai-lab.de)
+* Benjamin Kille, NTNU, Trondheim, Norway (benjamin.u.kille at ntnu.no)
 * Özlem Özgöbek, NTNU, Trondheim, Norway
 * Duc Tien Dang Nguyen, University of Bergen, Norway
 * Mehdi Elahi, University of Bergen, Norway
