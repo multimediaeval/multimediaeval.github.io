@@ -32,7 +32,7 @@ The task takes a large set of news articles paired with their corresponding imag
 This task targets researchers who are interested in investigating the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.
 
 #### Data
-Details to be added soon.
+The provided dataset is built based on web news articles. For each article we provide the URL, the Title and the first part of the news text. In addition, for each news article an image is provided. The articles are in English or German. A machine translated version English version of German news articles is provided in an additional field. Between the news articles and the images a 1:1 relation is ensured. The dataset is organized in batches crawled from different news sources. Each batch is split into a training and a test part. For the training part, the connection between news article and image is provided. The task is to prediction the connection between news articles and images for the test part. Each test part will consist of ~4,000 items; the training part ~10,000 items. The structure of the dataset is similar to the datastructures use in NewsImages 2022.
 
 #### Ground truth
 For each text in the test set, the ground truth image is the image with which that text originally appeared online. This information is removed in the test set provided to the participants. 
@@ -89,11 +89,12 @@ Here are several research questions related to this challenge that participants 
 * Mehdi Elahi, University of Bergen, Norway
 
 #### Task schedule
-* July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
-* End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
+* July-October 2023: Data release (planned release date: 31-August-2023 ) <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* 30 November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 08 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
 * 1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with [MMM 2024](https://mmm2024.org/) in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.-->
 
 #### Acknowledgements
 <!-- # optional, delete if not used-->
+We would like to thank Marc Gallofre from Bergen (Norway) supporting the dataset cretion process.
