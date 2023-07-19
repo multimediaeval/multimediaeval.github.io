@@ -62,7 +62,7 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 #### Participant information
 Please contact your task organizers with any questions on these points.
 * Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
-* Making your submission: The the submission requirements in Medicos official GitHub repository.
+* Making your submission: See the submission requirements in Medicos official GitHub repository.
 * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
 
 #### References and recommended reading
