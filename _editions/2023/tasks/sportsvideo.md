@@ -5,7 +5,7 @@ year: 2023
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: SportsVideo: Fine Grained Action Classification and Position Detection in Table Tennis and Swimming Videos
+title: SportsVideo Fine Grained Action Classification and Position Detection in Table Tennis and Swimming Videos
 subtitle: <!-- # leave this blank-->
 blurb: <!-- # get your blurb here-->
 ---
