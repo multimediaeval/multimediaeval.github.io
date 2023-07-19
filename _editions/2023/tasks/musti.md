@@ -79,7 +79,7 @@ Here are several research questions related to this challenge that participants 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
-* <!-- # Alphabetize and link to the papers-->
+<!-- # Alphabetize and link to the papers-->
 A. Hürriyetoğlu., T. Paccosi, S. Menini, M. Zinnen, P. Lisena, K. Akdemir, ... & M. van Erp, “MUSTI-Multimodal Understanding of Smells in Texts and Images at MediaEval 2022” In Proceedings of MediaEval 2022 CEUR Workshop, 2022, URL: https://2022.multimediaeval.com/paper9634.pdf 
 
 K. Akdemir, A. Hürriyetoğlu, R. Troncy., T. Paccosi, S. Menini, M. Zinnen, & V. Christlein, “Multimodal and Multilingual Understanding of Smells using VilBERT and mUNITER” (2022) In Proceedings of MediaEval 2022 CEUR Workshop. 2022. URL: https://2022.multimediaeval.com/paper6505.pdf 
