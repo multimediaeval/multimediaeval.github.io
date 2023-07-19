@@ -59,11 +59,11 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 * Comprehensive description of pre- and post-processing methods.
 * Explain why specific processing strategies were chosen and what insights were used to consider them.
 
-<!-- #### Participant information -->
-<!-- Please contact your task organizers with any questions on these points. -->
-<!-- # * Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](). -->
-<!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
-<!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
+#### Participant information
+Please contact your task organizers with any questions on these points.
+* Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
+* Making your submission: The the submission requirements in Medicos official GitHub repository.
+* Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
 
 #### References and recommended reading
 [1] Thambawita, V., Hicks, S.A., Storås, A.M. et al. VISEM-Tracking, a human spermatozoa tracking dataset. Sci Data 10, 260 (2023). https://doi.org/10.1038/s41597-023-02173-4
@@ -92,7 +92,7 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 * Trung-Nghia Le, ltnghia (at) selab.hcmus.edu.vn, University of Science - VNUHCM
 
 #### Task schedule
-* July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* August-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
 * End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
