@@ -61,7 +61,7 @@ For Task 3 and Task 3, we can use Mean Squared Error (MSE) and Mean Absolute Per
 
 <!-- #### Participant information -->
 <!-- Please contact your task organizers with any questions on these points. -->
-<!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
+<!-- # * Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](). -->
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
 
