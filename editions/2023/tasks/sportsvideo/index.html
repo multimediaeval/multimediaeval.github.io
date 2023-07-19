@@ -33,12 +33,12 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-07-10T14:06:38+00:00" />
+<meta property="article:published_time" content="2023-07-19T15:09:58+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="&lt;!–" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-10T14:06:38+00:00","datePublished":"2023-07-10T14:06:38+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"&lt;!–","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/sportsvideo/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/sportsvideo/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-19T15:09:58+00:00","datePublished":"2023-07-19T15:09:58+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"&lt;!–","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/sportsvideo/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/sportsvideo/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -199,72 +199,160 @@
 
 <h4 id="task-description">Task description</h4>
 
-<h4 id="motivation-and-background">Motivation and background</h4>
+<p>Positions and actions detection/classification are one of the main challenges in visual content analysis and mining.  Sport video analysis has been a very popular research topic, due to the variety of application areas, ranging from analysis of athletes’ performances and rehabilitation to multimedia intelligent devices with user-tailored digests. We propose this year a series of 6 tasks, divided each into 2 sub-tasks for two sports, table tennis and swimming. Those tasks are a follow-up from the 2022 <a href="https://multimediaeval.github.io/editions/2022/tasks/sportsvideo/">Sport Task</a> and <a href="https://multimediaeval.github.io/editions/2022/tasks/swimtrack/">SwimTrack</a>.</p>
 
-<h4 id="target-group">Target group</h4>
+<p><strong>Task 1 -</strong> athletes positions detections</p>
 
-<h4 id="data">Data</h4>
-
-<h4 id="ground-truth">Ground truth</h4>
-
-<h4 id="evaluation-methodology">Evaluation methodology</h4>
-
-<h4 id="quest-for-insight">Quest for insight</h4>
-<p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
 <ul>
   <li>
-    <!-- # First research question-->
+    <p><em>Subtask 1.1 (table tennis)</em> - to detect 2 or 4 players (depending if single or double) and track them during the video especially during double games where players have a lot of overlaps, from videos recorded from various angles (e.g., side, corder).</p>
   </li>
   <li>
-    <!-- # Second research question-->
-    <!-- # and so on-->
+    <p><em>Subtask 1.2 (swimming)</em> -  to detect up to 8 swimmers in the pool from static videos (recorded from the side of the pool).</p>
   </li>
 </ul>
 
+<p><strong>Task 2 -</strong> strokes detection</p>
+
+<ul>
+  <li>
+    <p><em>Subtask 2.1 (table tennis)</em> - to detect when a player is performing a stroke (i.e. a ball hit with the racket) using close-up videos</p>
+  </li>
+  <li>
+    <p><em>Subtask 2.2 (swimming)</em> - to detect each time a swimmer is achieving a repeated motion for each swimming style (for freestyle, backstroke, and butterfly stroke once the swimmer’s right hand enters the water; for breaststroke once the head is at its highest point).</p>
+  </li>
+</ul>
+
+<p><strong>Task 3 -</strong>  motion classification</p>
+
+<ul>
+  <li>
+    <p><em>Subtask 3.1 (table tennis)</em> - to classify different strokes in table tennis from trimmed videos in which only one stroke is present. There are 3 different categories of strokes, services, forehand and backhand. For services we have 6 different classes. For forehand and backhand we have 5 classes. For a total of 16 classes and one non-stroke class.</p>
+  </li>
+  <li>
+    <p><em>Subtask 3.2 (swimming)</em> - to classify different swimming styles (Freestyle,  Backstroke, Breaststroke, Butterfly)</p>
+  </li>
+</ul>
+
+<p><strong>Task 4 -</strong> field/table registration</p>
+
+<ul>
+  <li>
+    <p><em>Subtask 4.1 (table tennis)</em> - to detect the table position for a given video frame.</p>
+  </li>
+  <li>
+    <p><em>Subtask 4.2 (swimming)</em> - to detect pool position for a given video frame.</p>
+  </li>
+</ul>
+
+<p><strong>Task 5 -</strong> sound detection</p>
+
+<ul>
+  <li>
+    <p><em>Subtask 5.1 (table tennis)</em> - to detect when the ball hits the table or the racket.</p>
+  </li>
+  <li>
+    <p><em>Subtask 5.2 (swimming)</em> - to detect buzzer sound. In swimming races, the beginning of a race is given by a buzzer sound to inform swimmers that they can start.</p>
+  </li>
+</ul>
+
+<p><strong>Task 6 -</strong> score and results extraction</p>
+
+<ul>
+  <li>
+    <p><em>Subtask 6.1 (table tennis)</em> - to recognise the score of the match. In table tennis, the score of a match can be embedded in the broadcast video or it can be shown by referees with scoreboards. When score is embedded in stream video, names of players are also displayed.</p>
+  </li>
+  <li>
+    <p><em>Subtask 6.2 (swimming)</em> - to recognise results of races. During swimmer competitions, after each race, results are displayed on digital boards. The goal is to recognise characters of these boards to obtain the results of races.</p>
+  </li>
+</ul>
+
+<!-- #### Motivation and background -->
+
+<h4 id="target-group">Target group</h4>
+
+<p>The task is of interest to researchers in the areas of machine learning (classification), visual content analysis, computer vision and sport performance. We explicitly encourage researchers focusing specifically in domains of computer-aided analysis of sport performance.</p>
+
+<h4 id="data">Data</h4>
+
+<p>Our focus is on recordings that have been made by both widespread and cheap video cameras, e.g. GoPro, but also high-quality videos, e.g. Blackmagick 4K.</p>
+
+<h4 id="ground-truth">Ground truth</h4>
+
+<p>Each video has been manually annotated by experts. For event-based annotations, we have annotated moments in the video that are relevant for the event. For positions we have annotated key and intermediate positions of the athlete and relied upon interpolation for the remaining positions.</p>
+
+<h4 id="evaluation-methodology">Evaluation methodology</h4>
+
+<p>Each task will have its own evaluation methodology and will be provided once the dataset is released.</p>
+
+<h4 id="quest-for-insight">Quest for insight</h4>
+
+<ul>
+  <li>Is RGB information alone is enough to obtain correct classification and detection performance? If not, what else should be used?</li>
+  <li>Which strokes or stroke rates are the most similar?</li>
+  <li>Is stroke rate constant within or between laps? or athletes?</li>
+  <li>How transferable are the computed features from one subtask to another?</li>
+  <li>How solving multiple tasks at the same time can improve the performance of each task?</li>
+</ul>
+
 <h4 id="participant-information">Participant information</h4>
+
+<p>Please contact the task organizers by email if you have questions (see below).</p>
+
 <!-- Please contact your task organizers with any questions on these points. -->
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+<p><a href="https://github.com/P-eMartin/crisp">The CRISP Project page</a></p>
+
+<p>Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. <a href="https://arxiv.org/abs/2109.14306">Three-Stream 3D/1D CNN for Fine-Grained Action Classification and Segmentation in Table Tennis</a>.
+4th International ACM Workshop on Multimedia Content Analysis in Sports, ACM Multimedia, Oct 2021, Chengdu, China.</p>
+
+<p>Kaustubh Milind Kulkarni, Sucheth Shenoy: <a href="https://openaccess.thecvf.com/content/CVPR2021W/CVSports/papers/Kulkarni_Table_Tennis_Stroke_Recognition_Using_Two-Dimensional_Human_Pose_Estimation_CVPRW_2021_paper.pdf">Table Tennis Stroke Recognition Using Two-Dimensional Human Pose Estimation</a>. CVPR Workshops 2021: 4576-4584.</p>
+
+<p>Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. <a href="https://link.springer.com/epdf/10.1007/s11042-020-08917-3">Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks.</a> Multimedia Tools and Applications, vol. 79, 20429–20447, Springer (2020).</p>
+
+<p>Extended work in: Pierre-Etienne Martin. <a href="https://hal.archives-ouvertes.fr/tel-03099907">Fine-Grained Action Detection and Classification from Videos with Spatio-Temporal Convolutional Neural Networks. Application to Table Tennis.</a> Neural and Evolutionary Computing [cs.NE]. Université de Bordeaux; Université de la Rochelle, 2020.</p>
+
+<p>Gül Varol, Ivan Laptev, and Cordelia Schmid. <a href="https://arxiv.org/pdf/1604.04494.pdf">Long-Term Temporal Convolutions for Action Recognition.</a> IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.</p>
+
+<p>Joao Carreira and Andrew Zisserman. <a href="https://arxiv.org/pdf/1705.07750.pdf">Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.</a> CoRR abs/1705.07750 (2017).</p>
+
+<p>Chunhui Gu, Chen Sun, Sudheendra Vijayanarasimhan, Caroline Pantofaru, David A. Ross, George Toderici, Yeqing Li, Susanna Ricco, Rahul Sukthankar, Cordelia Schmid, and Jitendra Malik. <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Gu_AVA_A_Video_CVPR_2018_paper.pdf">AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions.</a> CoRR abs/1705.08421 (2017).</p>
+
+<p>Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. <a href="https://arxiv.org/pdf/1212.0402.pdf">UCF101: A dataset of 101 hu- man actions classes from videos in the wild.</a> CoRR 1212.0402 (2012).</p>
+
+<p>Nicolas Jacquelin, Romain Vuillemot, and Stefan Duffner. 2021. Detecting Swimmers in Unconstrained Videos with Few Training Data. 8th Workshop on Machine Learning and Data Mining for Sports Analytics (Sept. 2021).</p>
+
+<p>T. F. H. Runia, C. G. M. Snoek, and A. W. M. Smeulders. 2018. Real-World Repetition Estimation by Div, Grad and Curl. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. 9009–9017.</p>
+
+<p>Timothy Woinoski, Alon Harell, and I. Bajić. 2020. Towards Automated Swimming Analytics Using Deep Neural Networks. ArXiv (2020).</p>
 
 <h4 id="task-organizers">Task organizers</h4>
+
+<p>Contact: <a href="mailto:romain.vuillemot@ec-lyon.fr">romain.vuillemot@ec-lyon.fr</a></p>
+
 <ul>
-  <li>
-    <!-- # First organizer-->
-  </li>
-  <li>
-    <!-- # Second organizer-->
-    <!-- # and so on-->
-  </li>
+  <li>Aymeric Erades, Ecole Centrale de Lyon, LIRIS, France</li>
+  <li>Pierre-Etienne Martin, Max Planck Institute for Evolutionary Anthropology, CCP Department, Leipzig, Germany</li>
+  <li>Romain Vuillemot, Ecole Centrale de Lyon, LIRIS, France</li>
+  <li>Boris Mansencal, Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI</li>
+  <li>Renaud Péteri, MIA, University of La Rochelle, La Rochelle, France</li>
+  <li>Julien Morlier, IMS, University of Bordeaux, Talence, France</li>
+  <li>Stefan Duffner, INSA Lyon, LIRIS, France</li>
+  <li>Jenny Benois-Pineau, Univ. Bordeaux, CNRS, Bordeaux INP, LaBRI</li>
 </ul>
 
-<h4 id="task-auxiliaries">Task auxiliaries</h4>
-<!-- # optional, delete if not used-->
+<h4 id="task-schedule">Task Schedule</h4>
 <ul>
-  <li>
-    <!-- # First auxiliary-->
-  </li>
-  <li>
-    <!-- # Second auxiliary-->
-    <!-- # and so on-->
-  </li>
-</ul>
-
-<h4 id="task-schedule">Task schedule</h4>
-<ul>
-  <li>July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--></li>
-  <li>End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.--></li>
-  <li>8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023--></li>
+  <li>August 2023: Data released</li>
+  <li>Mid-November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.--></li>
+  <li>End-November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November--></li>
   <li>15 December 2023: Working notes paper  <!-- Fixed. Please do not change.--></li>
   <li>1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with <a href="https://mmm2024.org/">MMM 2024</a> in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.--></li>
 </ul>
-
-<h4 id="acknowledgements">Acknowledgements</h4>
-<!-- # optional, delete if not used-->
 
 
       </div>
