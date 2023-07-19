@@ -53,11 +53,14 @@ Here are several research questions related to this challenge that participants 
 
 #### Participant information
 * You are encouraged to release your code for this task. Minimally, you must be able to show you did not match the images by looking up the original source.
-* Task registration information will be added here soon.
-<!-- Please contact your task organizers with any questions on these points. -->
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
+* Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Making your submission: To be announced (check the task read me).
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
+* Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
+Please contact your task organizers (see below) with any questions on these points. 
+<!-- Please contact your task organizers with any questions on these points. -->
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -89,7 +92,7 @@ Here are several research questions related to this challenge that participants 
 * Mehdi Elahi, University of Bergen, Norway
 
 #### Task schedule
-* July-October 2023: Data release (planned release date: 31-August-2023 ) <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* 31 August 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
 * 30 November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 08 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
