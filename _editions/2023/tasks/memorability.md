@@ -77,7 +77,7 @@ Here are several research questions related to this challenge that participants 
 * Rukiye Savran Kiziltepe, Karadeniz Technical University, Turkey.
 
 #### Task schedule
-* 22 August 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* 25 August 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
 * 30 November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
