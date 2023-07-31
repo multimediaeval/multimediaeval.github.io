@@ -32,7 +32,7 @@ The task takes a large set of news articles paired with their corresponding imag
 This task targets researchers who are interested in investigating the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.
 
 #### Data
-Details to be added soon.
+The provided dataset is built based on web news articles. For each article we provide the URL, the Title and the first part of the news text. In addition, for each news article an image is provided. The articles are in English or German. A machine translated version English version of German news articles is provided in an additional field. Between the news articles and the images a 1:1 relation is ensured. The dataset is organized in batches crawled from different news sources. Each batch is split into a training and a test part. For the training part, the connection between news article and image is provided. The task is to prediction the connection between news articles and images for the test part. Each test part will consist of ~4,000 items; the training part ~10,000 items. The structure of the dataset is similar to the datastructures use in NewsImages 2022.
 
 #### Ground truth
 For each text in the test set, the ground truth image is the image with which that text originally appeared online. This information is removed in the test set provided to the participants. 
@@ -53,11 +53,14 @@ Here are several research questions related to this challenge that participants 
 
 #### Participant information
 * You are encouraged to release your code for this task. Minimally, you must be able to show you did not match the images by looking up the original source.
-* Task registration information will be added here soon.
-<!-- Please contact your task organizers with any questions on these points. -->
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
+* Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
+* Making your submission: To be announced (check the task read me).
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
+* Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
+Please contact your task organizers (see below) with any questions on these points. 
+<!-- Please contact your task organizers with any questions on these points. -->
 
 #### References and recommended reading
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
@@ -82,18 +85,19 @@ Here are several research questions related to this challenge that participants 
 [9] Li, Y., & Xie, Y. (2020). Is a picture worth a thousand words? An empirical study of image content and social media engagement. Journal of Marketing Research, 57(1), 1-19.
 
 #### Task organizers
-* Andreas Lommatzsch, TU Berlin, Germany
-* Benjamin Kille, NTNU, Trondheim, Norway
+* Andreas Lommatzsch, TU Berlin, Germany (andreas at dai-lab.de)
+* Benjamin Kille, NTNU, Trondheim, Norway (benjamin.u.kille at ntnu.no)
 * Özlem Özgöbek, NTNU, Trondheim, Norway
 * Duc Tien Dang Nguyen, University of Bergen, Norway
 * Mehdi Elahi, University of Bergen, Norway
 
 #### Task schedule
-* July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
-* End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
+* 31 August 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* 30 November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 08 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
 * 1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with [MMM 2024](https://mmm2024.org/) in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.-->
 
 #### Acknowledgements
 <!-- # optional, delete if not used-->
+We would like to thank Marc Gallofre from Bergen (Norway) supporting the dataset cretion process.

@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "Predicting Video Memorability"
 subtitle:
-blurb: "The task requires participants to automatically predict memorability scores for videos, that reflect the probability for a video to be remembered. Participants will be provided with an extensive data set of videos with memorability annotations, related information, pre-extracted state-of-the-art visual features, and Electroencephalography (EEG) recordings."
+blurb: "Participants automatically predict memorability scores for videos that reflect the probability that a video will be remembered. They will be provided with an extensive data set of videos with memorability annotations, related information, pre-extracted state-of-the-art visual features, and Electroencephalography (EEG) recordings."
 ---
 
 <!-- # please respect the structure below-->
@@ -42,9 +42,6 @@ The ground truth for memorability will be collected through recognition tests, a
 The outputs of the prediction models – i.e., the predicted memorability scores for the videos – will be compared with ground truth memorability scores using classic evaluation metrics (e.g., Spearman’s rank correlation).
 
 #### Quest for insight
-* <!-- # First research question-->
-* <!-- # Second research question-->
-<!-- # and so on-->
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * Which features contribute most to memorability prediction? Do these features correspond to semantics or style aspects that a human viewer could consciously identify in a video?
 * Can we generalise the use of a system that predicts the memorability score and it is training with one dataset to other datasets?
@@ -60,10 +57,15 @@ Here are several research questions related to this challenge that participants 
 <!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
 <!-- # The paper title should be a hyperlink leading to the paper online-->
 [1] Anelise Newman, Camilo Fosco, Vincent Casser, Allen Lee, Barry McNamara, and Aude Oliva. 2020. Modeling Effects of Semantics and Decay on Video Memorability. European Conference on Computer Vision (ECCV), 2020.
+
 [2] Aditya Khosla, Akhil S Raju, Antonio Torralba, and Aude Oliva. 2015. Understanding and predicting image memorability at a large scale. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 2390–2398.
+
 [3] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. Deep learning for predicting image memorability. In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).
+
 [4] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. What makes a photograph memorable? IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.
+
 [5] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. Show and Recall: Learning What Makes Videos Memorable. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.
+
 [6] Romain Cohendet, Claire-Hélène Demarty, Ngoc Duong, and Martin Engilberge. "VideoMem: Constructing, Analyzing, Predicting Short-term and Long-term Video Memorability." Proceedings of the IEEE International Conference on Computer Vision. 2019.
 
 #### Task organizers
@@ -75,8 +77,8 @@ Here are several research questions related to this challenge that participants 
 * Rukiye Savran Kiziltepe, Karadeniz Technical University, Turkey.
 
 #### Task schedule
-* July-October 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
-* End November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 25 August 2023: Data release <!-- * XX XXX 2023: Data release <!-- # Replace XX with your date. We suggest setting the date in July-October. 13 October is absolute very last possible date by which you should release data. You can release earlier, or plan a two-stage release.--> 
+* 30 November 2023: Runs due and results returned. Exact dates to be announced. <!--* XX November 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 8 December 2023: Results returned  <!-- Replace XX with your date. Latest possible date is 8 December 2023-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
 * 1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with [MMM 2024](https://mmm2024.org/) in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.-->
