@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2023
-hide: true <!-- # change this to false once you finish editing-->
+hide: false <!-- # change this to false once you finish editing-->
 
 # required info
 title: Medical Multimedia Task - Transparent Tracking of Spermatozoa
