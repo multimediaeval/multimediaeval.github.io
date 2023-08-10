@@ -2,11 +2,11 @@
 # static info
 layout: task
 year: 2023
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "NewsImages: Connecting Text and Images"
-subtitle: <!-- # leave this blank-->
+subtitle:
 blurb: "Participants are supplied with a large set of articles (including text body, and headlines) and the accompanying images from international publishers. The task requires participants to predict which image was used to accompany each article."
 ---
 
