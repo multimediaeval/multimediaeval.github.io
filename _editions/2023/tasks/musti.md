@@ -2,11 +2,11 @@
 # static info
 layout: task
 year: 2023
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "Musti: Multimodal Understanding of Smells in Texts and Images"
-subtitle: <!-- # leave this blank-->
+subtitle:
 blurb: Participants develop classifiers to predict whether a text passage and an image evoke the same smell source or not and identify common smell sources text passages and images. Optionally, the challenge can be addressed in a cross-language setting.
 
 ---
