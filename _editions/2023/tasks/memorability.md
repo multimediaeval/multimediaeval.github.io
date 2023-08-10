@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2023
-hide: false  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "Predicting Video Memorability"
