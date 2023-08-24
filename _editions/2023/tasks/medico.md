@@ -43,6 +43,9 @@ VISEM [2] contains data from 85 male participants aged 18 years or older. For th
 
 In addition to the main dataset, VISEM-Tracking [1], we provide an additional graph dataset which was extracted from the VISEM-Tracking. More details about this graph dataset can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs. 
 
+* [Development Dataset](https://zenodo.org/record/7293726)
+* [Development Dataset - Graph Data](https://zenodo.org/record/7293726)
+
 #### Ground truth
 The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts. Tracking ground truth uses the YOLO format while the motility ground truth is a CSV file containing the motility values.
 
