@@ -133,8 +133,8 @@ Contact: [romain.vuillemot@ec-lyon.fr](mailto:romain.vuillemot@ec-lyon.fr)
 
 
 #### Task Schedule
-* End-August 2023: Data released
-* Mid-November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* End-November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
+* August, 31st 2023: Data released
+* November, 15th 2023: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* November, 22nd 2023: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 15 December 2023: Working notes paper  <!-- Fixed. Please do not change.-->
 * 1-2 February 2024: 14th Annual MediaEval Workshop, Collocated with [MMM 2024](https://mmm2024.org/) in Amsterdam, Netherlands and also online. <!-- Fixed. Please do not change.-->
