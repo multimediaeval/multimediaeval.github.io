@@ -44,7 +44,7 @@ VISEM [2] contains data from 85 male participants aged 18 years or older. For th
 In addition to the main dataset, VISEM-Tracking [1], we provide an additional graph dataset which was extracted from the VISEM-Tracking. More details about this graph dataset can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs. 
 
 * [Development Dataset](https://zenodo.org/record/7293726)
-* [Development Dataset - Graph Data](https://zenodo.org/record/7293726)
+* [Development Dataset - Graph Data](https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs)
 
 #### Ground truth
 The ground truth data provided in this task were prepared by expert computer scientists and verified by domain experts. Tracking ground truth uses the YOLO format while the motility ground truth is a CSV file containing the motility values.
@@ -53,6 +53,8 @@ The ground truth data provided in this task were prepared by expert computer sci
 For Task 1 and Task 2 will be evaluated using standard detection and tracking metrics. For detection, this includes precision, recall, mAP@50, and mAP@50-95. For tracking we use Jonathan Luiten's TrackEval library, which includes HOTA and other MOT evaluation metrics. Efficiency will be evaluated based on the number of samples that can be processed per second. Task 1 will only focus on the prediction metrics, while Task 2 will be weighted by the speed of the system.
 
 For Task 3 and Task 4, we can use Mean Squared Error (MSE) and Mean Absolute Percentage Error (MAPE) to evaluate the predictions.
+
+The evaluation scripts are available here: https://github.com/LouisDo2108/MediaEval2023-Medico-EvalScript
 
 #### Quest for insight
 * How accurate are deep learning methods for identifying sperms in a fresh sample?
