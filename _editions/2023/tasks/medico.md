@@ -57,6 +57,129 @@ For Task 3 and Task 4, we can use Mean Squared Error (MSE) and Mean Absolute Per
 
 The evaluation scripts are available here: https://github.com/LouisDo2108/MediaEval2023-Medico-EvalScript
 
+
+#### Submission Instructions
+
+
+##### Task 1:
+All files of Task 1, as detailed below, should be compressed into a single .zip file and uploaded to the designated section for Task 1 on the submission form.
+```
+source_code
+   	|- code_and_checkpoints
+|- README.txt (must explain how to run your model to detect sperms on a new video)
+	|- run.sh (shell script file to run your models for new video inputs (.mp4))
+
+predictions
+|- <test_video_ id>
+	|- labels
+             |- <video id>_frame_0.txt
+             |- <video id>_frame_1.txt
+             |- <video id>_frame_2.txt
+              ...
+ 
+    |-labels_ftid (optional) # labels with unique feature IDs to track them via multiple frames
+             |- <video id>_frame_0.txt with tracking IDs.
+             |- <video id>_frame_1.txt with tracking IDs.
+             |- <video id>_frame_2.txt with tracking IDs.
+             ...
+     	|- <video id>.mp4 (showing sperm detection information)
+  	|- <video id>_tracking.mp4 (showing sperm tracking information) - optional
+	|- <video id>_detection.json
+	|- tracking (same structure as this folder “VISEM_Tracking_Train_v4\trackeval_MOT\trackers\mot_challenge\MOT17-test\<any_name_you_want>\data” in the provided example  file (https://drive.google.com/file/d/1nSsQbAMxCmZoLeEAQwVLYVbQA7zq2WQG/view?usp=sharing))
+
+|- …
+```
+
+The ‘predictions’ folder should also contain the result JSON from the detection subtask and the optional tracking subtask as described in https://github.com/LouisDo2108/MediaEval2023-Medico-EvalScript#subtask-1-sperm-detection-and-tracking. The .txt files are also required in the case the JSONs are ill-formatted. This is an example format for the <video id>_detection.json: 
+```
+[
+    {
+        "bbox": [
+            404.25,
+            260.75,
+            19.0,
+            18.5
+        ],
+        "category_id": 0,
+        "image_id": 1,
+        "score": 0.84277
+    },
+    ...
+]
+```
+Make sure the "image_id" matches the annotations/Train.json or annotations/Val.json in the provided files. We provide an example detection_example_prediction.json in the example data.
+
+
+##### Task 2
+All files for Task 2, as described below, should be compressed into a single .zip file and uploaded to the designated section for Task 2 on the submission form. We will execute your final model using our hardware resources; therefore, please ensure that your run.sh script functions correctly.
+
+```
+source_code
+   	|- code_and_checkpoints
+|- README.txt (must explain how to run your model to detect sperms on a new video)
+	|- run.sh (shell script file to run your models for new video inputs (.mp4))
+
+predictions
+|- <test_video_ id>
+	|- labels
+             |- <video id>_frame_0.txt
+             |- <video id>_frame_1.txt
+             |- <video id>_frame_2.txt
+              ...
+ 
+    |-labels_ftid (optional) # labels with unique feature IDs to track them via multiple frames
+             |- <video id>_frame_0.txt with tracking IDs.
+             |- <video id>_frame_1.txt with tracking IDs.
+             |- <video id>_frame_2.txt with tracking IDs.
+             ...
+     	|- <video id>.mp4 (showing sperm detection information)
+  	|- <video id>_tracking.mp4 (showing sperm tracking information) - optional
+|- ...
+```
+
+##### Task 3 
+We will compare your results with a ground truth file similar to 'semen_analysis_data_Train.csv.' Therefore, you are required to predict the following: Progressive Motility (%), Non-Progressive Sperm Motility (%), and Immotile Sperm (%). Please refer to the CSV file to locate these specific columns. Note that the sum of these three values should equal 100%. All files for Task 3, as described below, should be compressed into a single .zip file and uploaded to the designated section for Task 3 on the submission form.
+
+```
+– source_code
+	|– code_and_checkpoints
+	|– README.txt (must explain how to run your model to predict motility level of a new video)
+	|– run.sh (shell script file to run your models for new video inputs (.mp4)) # must work with test video files
+
+– motility_predictions.csv
+
+--------------
+Sample format
+--------------
+ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm (%)
+1, 25, 75, 25
+2, 45, 35, 20
+…
+```
+The motility_predictions.csv should have the exact columns as the ground-truth and contains only the ID of the test set.
+
+##### Task 4
+This task is experimental in nature. You are required to utilize your prediction models from either Task 1, Task 2, or both. Graph structures can be prepared using the predicted bounding boxes. Sample source code for generating these graphs can be accessed here: https://github.com/vlbthambawita/visem-tracking-graphs . An example video graph structure is available here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs/tree/main/spatial_threshold_0.1/11 . Additional details about the graphs using development data can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs . All files related to Task 4, as detailed below, should be compressed into a single .zip file and uploaded to the designated section for Task 4 on the submission form. 
+
+```
+– source_code
+	|– code_and_checkpoints
+	|- graph_data_stuctures
+	|– README.txt (must explain how to run your model to predict motility level of a new video using graph stuctures)
+	|– run.sh (shell script file to run your models for new video graph structures) 
+– motility_predictions.csv
+
+--------------
+Sample format
+--------------
+ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm (%)
+1, 25, 75, 25
+2, 45, 35, 20
+…
+```
+
+Google form for submission: [https://forms.gle/5EYy2zVrjhbh9ZzU8](https://forms.gle/5EYy2zVrjhbh9ZzU8)
+
 #### Quest for insight
 * How accurate are deep learning methods for identifying sperms in a fresh sample?
 * Will continued tracking of sperm help to analyze the motility level of sperm samples?
