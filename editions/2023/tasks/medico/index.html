@@ -33,12 +33,12 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-10-16T08:11:31+00:00" />
+<meta property="article:published_time" content="2023-10-30T10:42:05+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="Medical Multimedia Task - Transparent Tracking of Spermatozoa" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-16T08:11:31+00:00","datePublished":"2023-10-16T08:11:31+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"Medical Multimedia Task - Transparent Tracking of Spermatozoa","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/medico/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/medico/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-30T10:42:05+00:00","datePublished":"2023-10-30T10:42:05+00:00","description":"See the MediaEval 2023 webpage for information on how to register and participate.","headline":"Medical Multimedia Task - Transparent Tracking of Spermatozoa","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2023/tasks/medico/"},"url":"https://multimediaeval.github.io/editions/2023/tasks/medico/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -246,6 +246,121 @@
 <p>For Task 3 and Task 4, we can use Mean Squared Error (MSE) and Mean Absolute Percentage Error (MAPE) to evaluate the predictions.</p>
 
 <p>The evaluation scripts are available here: https://github.com/LouisDo2108/MediaEval2023-Medico-EvalScript</p>
+
+<h4 id="submission-instructions">Submission Instructions</h4>
+
+<h5 id="task-1">Task 1:</h5>
+<p>All files of Task 1, as detailed below, should be compressed into a single .zip file and uploaded to the designated section for Task 1 on the submission form.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source_code
+   	|- code_and_checkpoints
+|- README.txt (must explain how to run your model to detect sperms on a new video)
+	|- run.sh (shell script file to run your models for new video inputs (.mp4))
+
+predictions
+|- &lt;test_video_ id&gt;
+	|- labels
+             |- &lt;video id&gt;_frame_0.txt
+             |- &lt;video id&gt;_frame_1.txt
+             |- &lt;video id&gt;_frame_2.txt
+              ...
+ 
+    |-labels_ftid (optional) # labels with unique feature IDs to track them via multiple frames
+             |- &lt;video id&gt;_frame_0.txt with tracking IDs.
+             |- &lt;video id&gt;_frame_1.txt with tracking IDs.
+             |- &lt;video id&gt;_frame_2.txt with tracking IDs.
+             ...
+     	|- &lt;video id&gt;.mp4 (showing sperm detection information)
+  	|- &lt;video id&gt;_tracking.mp4 (showing sperm tracking information) - optional
+	|- &lt;video id&gt;_detection.json
+	|- tracking (same structure as this folder “VISEM_Tracking_Train_v4\trackeval_MOT\trackers\mot_challenge\MOT17-test\&lt;any_name_you_want&gt;\data” in the provided example  file (https://drive.google.com/file/d/1nSsQbAMxCmZoLeEAQwVLYVbQA7zq2WQG/view?usp=sharing))
+
+|- …
+</code></pre></div></div>
+
+<p>The ‘predictions’ folder should also contain the result JSON from the detection subtask and the optional tracking subtask as described in https://github.com/LouisDo2108/MediaEval2023-Medico-EvalScript#subtask-1-sperm-detection-and-tracking. The .txt files are also required in the case the JSONs are ill-formatted. This is an example format for the <video>_detection.json:</video></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[
+    {
+        "bbox": [
+            404.25,
+            260.75,
+            19.0,
+            18.5
+        ],
+        "category_id": 0,
+        "image_id": 1,
+        "score": 0.84277
+    },
+    ...
+]
+</code></pre></div></div>
+<p>Make sure the “image_id” matches the annotations/Train.json or annotations/Val.json in the provided files. We provide an example detection_example_prediction.json in the example data.</p>
+
+<h5 id="task-2">Task 2</h5>
+<p>All files for Task 2, as described below, should be compressed into a single .zip file and uploaded to the designated section for Task 2 on the submission form. We will execute your final model using our hardware resources; therefore, please ensure that your run.sh script functions correctly.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source_code
+   	|- code_and_checkpoints
+|- README.txt (must explain how to run your model to detect sperms on a new video)
+	|- run.sh (shell script file to run your models for new video inputs (.mp4))
+
+predictions
+|- &lt;test_video_ id&gt;
+	|- labels
+             |- &lt;video id&gt;_frame_0.txt
+             |- &lt;video id&gt;_frame_1.txt
+             |- &lt;video id&gt;_frame_2.txt
+              ...
+ 
+    |-labels_ftid (optional) # labels with unique feature IDs to track them via multiple frames
+             |- &lt;video id&gt;_frame_0.txt with tracking IDs.
+             |- &lt;video id&gt;_frame_1.txt with tracking IDs.
+             |- &lt;video id&gt;_frame_2.txt with tracking IDs.
+             ...
+     	|- &lt;video id&gt;.mp4 (showing sperm detection information)
+  	|- &lt;video id&gt;_tracking.mp4 (showing sperm tracking information) - optional
+|- ...
+</code></pre></div></div>
+
+<h5 id="task-3">Task 3</h5>
+<p>We will compare your results with a ground truth file similar to ‘semen_analysis_data_Train.csv.’ Therefore, you are required to predict the following: Progressive Motility (%), Non-Progressive Sperm Motility (%), and Immotile Sperm (%). Please refer to the CSV file to locate these specific columns. Note that the sum of these three values should equal 100%. All files for Task 3, as described below, should be compressed into a single .zip file and uploaded to the designated section for Task 3 on the submission form.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>– source_code
+	|– code_and_checkpoints
+	|– README.txt (must explain how to run your model to predict motility level of a new video)
+	|– run.sh (shell script file to run your models for new video inputs (.mp4)) # must work with test video files
+
+– motility_predictions.csv
+
+--------------
+Sample format
+--------------
+ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm (%)
+1, 25, 75, 25
+2, 45, 35, 20
+…
+</code></pre></div></div>
+<p>The motility_predictions.csv should have the exact columns as the ground-truth and contains only the ID of the test set.</p>
+
+<h5 id="task-4">Task 4</h5>
+<p>This task is experimental in nature. You are required to utilize your prediction models from either Task 1, Task 2, or both. Graph structures can be prepared using the predicted bounding boxes. Sample source code for generating these graphs can be accessed here: https://github.com/vlbthambawita/visem-tracking-graphs . An example video graph structure is available here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs/tree/main/spatial_threshold_0.1/11 . Additional details about the graphs using development data can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs . All files related to Task 4, as detailed below, should be compressed into a single .zip file and uploaded to the designated section for Task 4 on the submission form.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>– source_code
+	|– code_and_checkpoints
+	|- graph_data_stuctures
+	|– README.txt (must explain how to run your model to predict motility level of a new video using graph stuctures)
+	|– run.sh (shell script file to run your models for new video graph structures) 
+– motility_predictions.csv
+
+--------------
+Sample format
+--------------
+ID, Progressive motility (%), Non progressive sperm motility (%), Immotile sperm (%)
+1, 25, 75, 25
+2, 45, 35, 20
+…
+</code></pre></div></div>
+
+<p>Google form for submission: <a href="https://forms.gle/5EYy2zVrjhbh9ZzU8">https://forms.gle/5EYy2zVrjhbh9ZzU8</a></p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
 <ul>
