@@ -285,7 +285,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.0, >= 2.0.1)
+  bundler (== 2.4.22)
   github-pages
   jekyll-scholar
   rake (>= 12.3.3)
