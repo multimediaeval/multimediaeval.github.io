@@ -11,7 +11,8 @@ install-deb:
 	ruby -v
 	gem -v
 	sudo gem install jekyll -v 4.2.2 
-	sudo gem install bundler redcarpet
+	sudo gem install bundler -v 2.4.22
+	sudo gem install redcarpet
 	sudo bundle install 
 
 build:
