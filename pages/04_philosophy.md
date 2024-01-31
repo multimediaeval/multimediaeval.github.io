@@ -21,11 +21,79 @@ In 2022, MediaEval introduced the Quest for Insight, which encourages explicit d
 #### MediaEval Distinctive Mentions (MDMs)
 These are the distinctive mentions awarded at MediaEval.
 
+##### 2022
+
+To *Jane Arleth Dela Cruz and the InDeep-RU team (Radboud University)*
+* For: The InDepth investigation of the human annotation that was used as ground truth for the evaluation
+* From: The organizers of the Multimedia Analysis of Disaster-Related Social Media Data (DisasterMM) task
+* Paper: [Understanding Fine-tuned BERT Models for Flood Location Extraction on Twitter Data](https://ceur-ws.org/Vol-3583/paper29.pdf)
+
+To *Damir Korenčić, Ivan Grubišić, Gretel Liz De La Peña Sarracén, Alejandro Hector Toselli, Berta Chulvi and Paolo Rosso (Universitat Politècnica de València and Ruđer Bošković Institute, Zagreb)*
+* For: Investigating the use of large language models in addition to providing a strong solution in the challenge
+* From: The organizers of the Fake News Detection task
+* Paper: [Tackling Covid-19 Conspiracies on Twitter using BERT Ensembles, GPT-3 Augmentation, and Graph NNs](https://ceur-ws.org/Vol-3583/paper48.pdf)
+
+To *Yi Shao, Yang Zhang, Wenbo Wan, Jing Li and Jiande Sun, Shandong Normal University (SDNU), China*
+* For: Being able to see and read smells, coping with a novel task and coming up with an innovative solution
+* From: The organizers of the  Multimodal Understanding of Smells in Texts and Images (MUSTI) Task
+* Paper: [CLIP Pre-trained Models for Cross-modal Retrieval in NewsImages 2022](https://ceur-ws.org/Vol-3583/paper24.pdf)
+
+To *Team HCMUS, University of Science, VNU-HCM, Viet Nam National University Ho Chi Minh City, John von Neumann Institute, VNU-HCM, Vietnam*
+* For: A novel tail-aware sperm detection method and deep evaluations using five different deep learning models
+* From: The organizers of the Medico Medical Multimedia task
+* Paper: [Tail-Aware Sperm Analysis for Transparent Tracking of Spermatozoa](https://ceur-ws.org/Vol-3583/paper33.pdf)
+
+To *Team Erectus, Intellectus Inc., Poznan University of Technology, University of Warsaw*
+* For: A novel method introduced for predicting motility level of sperm samples (subtask 2) and participating in the subtask 3
+* From: The organizers of the Medico Medical Multimedia task
+* Paper: []()
+
+To *Damianos Galanopoulos and Vasileios Mezaris from ITI-CERTH, Greece*
+* For: The deep investigation of the algorithms parameters and the influence of the provided dataset fields
+* From:The organizers of the NewsImages task
+* Paper: [Cross-modal Networks and Dual Softmax Operation for MediaEval NewsImages 2022](https://ceur-ws.org/Vol-3583/paper11.pdf)
+
+To *Mirko Agarla, Luigi Celona and Raimondo Schettini from University of Milano-Bicocca*
+* For: Great coverage of the first two tasks and great results overall
+* From: The organizers of the task Predicting Multimedia Memorability
+* Paper: [Predicting Video Memorability Using a Model Pretrained with Natural Language Supervision](https://ceur-ws.org/Vol-3583/paper18.pdf)
+
+To *Finn Bartels and Leonard Hacker from the University of Leipzig, Germany*
+* For: Their risk-taking and ablation study via the different combinations and fusion of modalities.
+* From: The organizers of the Sports Video task
+* Paper: [Fine-Grained Action Detection with RGB and Pose Information using Two Stream Convolutional Networks](https://ceur-ws.org/Vol-3583/paper21.pdf)
+
+To *Khanh-Linh Vo, Gia-Nghi Phuc-Nguyen, Tuong-Nghiem Diep, and Nhat-Hao Pham from VNU-HCMUS*
+* For: Address the correlation of data modalities in forecasting long-term AQI and get insights into people’s experience and the model’s knowledge
+* From: The organizers of Urban Air the Urban Life and Air Pollution task
+* Paper: [Forecasting Long-Term Urban Air Quality Index using Multi-Model](https://ceur-ws.org/Vol-3583/paper13.pdf)
+
+To *Team DCU-Insight-AQ from Dublin City University and University College Dublin, Ireland*
+* For: Address the problems of significant data gaps, spatial information, and optimal data modality combination
+* From: The organizers of Urban Air the Urban Life and Air Pollution task
+* Paper: [Managing Large Dataset Gaps in Urban Air Quality Prediction: DCU-Insight-AQ at MediaEval 2022](https://ceur-ws.org/Vol-3583/paper49.pdf)
+
+To *Birk Torpmann-Hagen from SimulaMet, Norway*
+* For: Providing insight into the Njord dataset that can also be generalized to machine learning datasets as a whole
+* From: The organizers of NjordVid: A Fishing Trawler Video Analytics Task
+* Paper: [Addressing Generalization Failure in Deep Detection Models for Fishing Trawler Video Analytics](https://ceur-ws.org/Vol-3583/paper47.pdf)
+
+To *Tor-Arne Schmidt Nordmo, UiT, Norway and the NjordVid team*
+* For: For daring and dedication in organizing a new video analysis and privacy task to continue an important tradition at MediaEval
+* From: The MediaEval 2022 Benchmark Coordinating Committee
+
+To *The MUSTI organization team*
+* For: For opening the eyes (and noses) of MediaEval participants to the modality of smell with the MUSTI task on Multimodal Understanding of Smells in Texts and Images
+* From: The MediaEval 2022 Benchmark Coordinating Committee
+
+To *The Memorability Task*
+* For: For their impressive contribution to promoting insight into data and approaches at MediaEval in the first year of Quest for Insight papers
+* From: The MediaEval 2022 Benchmark Coordinating Committee
+
 ##### 2021
-The papers, videos, and presentations have not yet been published. We will update the details as they become available.
 
 To *Omar Meriwani (Real Sciences)*
-* For: For his creativity on taking one step-forward using the task data and exploring other approaches.
+* For: For his creativity on taking one step-forward using the task data and exploring other approaches
 * From: The organizers of Emerging News task
 * Paper: [Mediaeval 2021 Emerging News: Detection of Emerging News from Live News Stream Based on Categorization of News Annotations](https://ceur-ws.org/Vol-3181/paper66.pdf)
 
