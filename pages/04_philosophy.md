@@ -27,54 +27,67 @@ The papers, videos, and presentations have not yet been published. We will updat
 To *Omar Meriwani (Real Sciences)*
 * For: For his creativity on taking one step-forward using the task data and exploring other approaches.
 * From: The organizers of Emerging News task
+* Paper: [Mediaeval 2021 Emerging News: Detection of Emerging News from Live News Stream Based on Categorization of News Annotations](https://ceur-ws.org/Vol-3181/paper66.pdf)
 
 To *Hao Hao Tan (team Mirable)*
 * For: Showing the value of additional input representations describing tonality
 * From: The Organizers of Emotions and Themes in Music Task
+* Paper: [Semi-Supervised Music Emotion Recognition using Noisy Student Training and Harmonic Pitch Class Profiles](https://ceur-ws.org/Vol-3181/paper17.pdf)
 
 To *Cláudio, Rui, and David (Team NewsSeek-NOVA)*
 * For: Teaching a Transformer to Recognize Faces
 * From: The Organizers of the News Images Task
+* Paper: [NewsSeek-NOVA at MediaEval 2021: Context-enriched Multimodal Transformers For News Images Re-matching](https://ceur-ws.org/Vol-3181/paper43.pdf)
 
 To *SELAB-HCMUS*
 * For: Amount of effort and diverse out-of box approaches is testament to the fact that they achieved best results
 * From: Organizers of the task: Visual Sentiment Analysis: A Natural Disaster Use-case
+* Paper: [HCMUS at MediaEval 2021: Efficient methods of Metadata Embedding and Augmentation for Visual Sentiment Analysis](https://ceur-ws.org/Vol-3181/paper33.pdf)
 
 To *Youri Peskine, Giulio Alfarano, Ismail Harrando, Paolo Papotti and Raphaël Troncy (team D2KLab)*
 * For: For the best task results achieved via effective ensembling a swarm of transformer-based models
 * From: Organizers of the task: FakeNews: Corona Virus and Conspiracies Multimedia Analysis Task
+* Paper: [Detecting COVID-19-Related Conspiracy Theories in Tweets](https://ceur-ws.org/Vol-3181/paper65.pdf)
 
 To *Thomas Girault, Cheikh Brahim El Vaigh, Cyrielle Mallart and Duc Hau Nguyen (team Deltamap)*
 * For: For the successful use of the prompt-based learning NLP paradigm on top of toxicity trained-model
 * From: Organizers of the task: FakeNews: Corona Virus and Conspiracies Multimedia Analysis Task
+* Paper: [Detecting Fake News Conspiracies with Multitask and Prompt-Based Learning](https://ceur-ws.org/Vol-3181/paper68.pdf)
 
 To *Zeynep Pehlivan (team FakeINA)*
 * For: For the fresh look at the task and successful solving pure NLP task in GNN domain
 * From: Organizers of the task: FakeNews: Corona Virus and Conspiracies Multimedia Analysis Task
+* Paper: [On The Pursuit of Fake News : Graph Neural Network meets NLP](https://ceur-ws.org/Vol-3181/paper61.pdf)
 
 To *Muhammad Asif Ayub, Khubaib Ahmad, Kashif Ahmad, Nasir Ahmad, and Ala Al-Fuqaha (CSEI team)*
 * For: Their idea to translate Italian tweets with positive label to English and then back to Italian to increase and balance the dataset
 * From: Organizers of the task WaterMM: Water Quality in Social Multimedia
+* Paper: [Deep Models for Visual Sentiment Analysis of Disaster-related Multimedia Content](https://ceur-ws.org/Vol-3181/paper22.pdf)
 
 To *Yijun Qian, Lijun Yu, Wenhe Liu and Alexander Hauptmann*
 * For: Their ablation method, quality paper and top rank in the task
 * From: Organizers of the Sports Video task
+* Paper: [Learning Unbiased Transformer for Long-Tail Sports Action Classification](https://ceur-ws.org/Vol-3181/paper52.pdf)
 
 To *Alison Reboud, Ismail Harrando, Jorma Laaksonen and Raphaël Troncy*
 * For: For exploring interesting concepts such as perplexity and achieving top scores in a number of subtasks.
 * From: Organizers of the task: Predicting Media Memorability
+* Paper: [Exploring Multimodality, Perplexity and Explainability for Memorability Prediction](https://ceur-ws.org/Vol-3181/paper53.pdf)
 
 To *Ali Akbar, Muhammad Atif Tahir, Muhammad Rafi*
 * For: Their detailed preprocessing and validation steps, taking risk to attempt all three subtasks, and top ranking in the task.
 * From: Organizers of the task: Insight for Wellbeing: Cross-Data Analytics for (transboundary) Haze Prediction
+* Paper: [Towards Time Series Forecasting of Cross-Data Analytics for Haze Prediction](https://ceur-ws.org/Vol-3181/paper39.pdf)
 
 To *Andrea Storås (SimulaMet)*
 * For: For her unique submission on generating segmentation masks unsupervised.
 * From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
+* Paper: [Unsupervised Image Segmentation via Self-Supervised Learning Image Classification](https://ceur-ws.org/Vol-3181/paper12.pdf)
 
 To *Felicia Ly Jacobsen (University of Oslo)*
 * For: For making her submission more transparent by measuring uncertainty in the predicted segmentation masks.
 * From: Organizers of the task: Medico: Transparency in Medical Image Segmentation
+* Paper: [Predictive Uncertainty Masks from Deep Ensembles in Automated Polyp Segmentation](https://ceur-ws.org/Vol-3181/paper25.pdf)
 
 ##### 2020
 
