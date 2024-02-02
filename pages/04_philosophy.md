@@ -21,6 +21,29 @@ In 2022, MediaEval introduced the Quest for Insight, which encourages explicit d
 #### MediaEval Distinctive Mentions (MDMs)
 These are the distinctive mentions awarded at MediaEval.
 
+##### 2023
+The papers for 2023 are not yet officially published. We will update the links to the papers once they are updated.
+
+To *Team SELAB-HCMUS*
+* For: Properly evaluating and addressing the data imbalance problem
+* From: The organizers of Medical Multimedia Task - Transparent Tracking of Spermatozoa
+
+To *Sci-LAB, Sensory-Cognitive Interaction Lab, Stockholm University*
+* For: Participating in all four subtasks, obtaining the best results in all, and reporting their work in detail
+* From: The organizers of MUSTI - Multimodal Understanding of Smells in Texts and Images with Zero-shot Evaluation
+
+To *Lucien Heitz, Abraham Bernstein, and Luca Rossetto*
+* For: Giving new insights into user preferences based on empirical studies analyzing diverse matching strategies.
+* From: The organizers of NewsImages
+
+To *Bhuvana Jayaraman, Mirnalinee Tt, Harshida Sujatha Palaniraj, Mohith Adluru and Sanjjit Sounderrajan Nadar College of Engineering, India*
+* For: Providing an efficient solution to text extraction in swimming scoreboards images
+* From: The organizers of SportsVideo
+
+To *Team FAST-NUCES-KHI: Muhammad Mustafa Ali Usmani, Humna Faisal and Muhammad Atif Tahir*
+* For: Their interesting analysis of the differences between our datasets and the problems these differences pose
+* From: The organizers of Memorability
+
 ##### 2022
 
 To *Jane Arleth Dela Cruz and the InDeep-RU team (Radboud University)*
