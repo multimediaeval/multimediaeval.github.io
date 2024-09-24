@@ -10,6 +10,7 @@ install-deb:
 	echo 'export PATH="$$HOME/gems/bin:$$PATH"' >> ~/.bashrc && \
 	ruby -v
 	gem -v
+	sudo gem install ffi -v 1.16.0
 	sudo gem install jekyll -v 4.2.2 
 	sudo gem install bundler -v 2.4.22
 	sudo gem install redcarpet
