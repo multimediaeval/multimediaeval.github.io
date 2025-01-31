@@ -1,6 +1,16 @@
 [
    
       {
+        "title"    : "Announcing the MediaEval 2025 tasks",
+        "category" : "",
+        "tags"     : " ",
+        "url"      : "/2025/01/31/task-list.html",
+        "date"     : "January 31, 2025",
+        "excerpt"  : "We are happy to announce that the following tasks will be offered at this year at the Multimedia Evaluation Benchmark (MediaEval 2025):\n\n\n  Synthetic Images: Advancing detection of generative AI used in real-world online images...",
+        "content"  : "We are happy to announce that the following tasks will be offered at this year at the Multimedia Evaluation Benchmark (MediaEval 2025):\n\n\n  Synthetic Images: Advancing detection of generative AI used in real-world online images\n  MultiSumm: Multimodal summarization of multiple topically related websites\n  NewsImages: Retrieval and generative AI for news thumbnails\n  Memorability: Predicting the memorability of movie clips and commercial videos\n  Medico:  Visual Question Answering (VQA) for gastrointestinal imaging\n\n\nShort descriptions of the tasks and information about the schedule is available on the MediaEval 2025 webpage.\n\nMediaEval offers challenges in AI that involve data of different modalities. Our larger aim is to promote reproducible research that makes multimedia a positive force for society. Results will be presented at the \nMediaEval 2025 Workshop, Sat.-Sun. 25-26 October 2025, Dublin, Ireland and Online. Between CMBI 2025 and ACM Multimedia 2025.\n\nMediaEval is open to anyone who wishes to participate. Please watch here for an announcement to be posted when registration has opened.\n"
+      } ,
+   
+      {
         "title"    : "MediaEval 2025 Call for Task Proposals",
         "category" : "",
         "tags"     : " ",
