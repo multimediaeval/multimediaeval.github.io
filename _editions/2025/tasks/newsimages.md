@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "NewsImages: Retrieval and generative AI for news thumbnails"
 subtitle: NewsImages
-blurb: <!-- # add the task blurb here-->
+blurb: "Participants receive a large set of articles (including the headline and article lead) in the English-language from international publishers. We offer two subtasks: retrieving an image for each article from a collection of images that can serve as a thumbnail, or generating an article thumbnail."
 ---
 
 <!-- # please respect the structure below-->
