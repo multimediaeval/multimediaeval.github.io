@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "Synthetic Images: Advancing detection of generative AI used in real-world online images"
 subtitle: SyntheticImages
-blurb: <!-- # add the task blurb here-->
+blurb: "The goal of this challenge is to develop AI models capable of detecting synthetic images and identifying the specific regions in the images that have been manipulated or synthesized. Approaches will be tested on images synthesized with state-of-the-art approaches and collected from real-world settings online."
 ---
 
 <!-- # please respect the structure below-->
