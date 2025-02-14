@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "MultiSumm: Multimodal summarization of multiple topically related websites"
 subtitle: MultiSumm
-blurb: <!-- # add the task blurb here-->
+blurb: "Participants are provided with multimodal web content from several cities listing food sharing initiatives (FSIs) in each city. For each city, participants are tasked with creating a multimodal summary of the FSI activities in the city which satisfy specified criteria. Evaluation will explore the use of emerging LLMs-based methods in automated assessment of multimodal multi-document summarization."
 ---
 
 <!-- # please respect the structure below-->
