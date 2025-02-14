@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "Medico: VQA for gastrointestinal imaging"
 subtitle: Medico
-blurb: <!-- # add the task blurb here-->
+blurb: "The goal is to use Visual Question Answering (VQA) to interpret and answer questions based on gastrointestinal images, aiming to enhance decision support and improve AI-driven medical decision-making. We provide a gastrointestinal dataset containing images and videos with VQA labels and additional metadata."
 ---
 
 <!-- # please respect the structure below-->
