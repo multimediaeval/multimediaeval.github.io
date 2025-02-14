@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "Memorability: Predicting the memorability of movie clips and commercial videos"
 subtitle: Memorability
-blurb: <!-- # add the task blurb here-->
+blurb: "The goal of this task is to predict the memorability of media items. For the memorability task, we provide movie excerpts, tasking teams with inferring how memorable videos are based on visual or EEG features, and commercial videos with the purpose of inferring the memorability of videos and the brands present in the videos."
 ---
 
 <!-- # please respect the structure below-->
