@@ -5,7 +5,7 @@ year: 2025
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: MultiSumm: Multimodal summarization of multiple topically related websites
+title: MultiSumm - Multimodal summarization of multiple topically related websites
 subtitle: MultiSumm
 blurb: <!-- # add the task blurb here-->
 ---
