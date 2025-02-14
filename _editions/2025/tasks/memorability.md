@@ -6,7 +6,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
 title: "Memorability: Predicting the memorability of movie clips and commercial videos"
-subtitle: Meemorability
+subtitle: Memorability
 blurb: <!-- # add the task blurb here-->
 ---
 
