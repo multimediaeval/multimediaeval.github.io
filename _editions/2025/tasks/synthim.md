@@ -15,15 +15,49 @@ blurb: "The goal of this challenge is to develop AI models capable of detecting 
 
 #### Task description
 
+The goal of this challenge is to develop AI models capable of detecting synthetic images and identifying the specific regions in the images that have been manipulated or synthesized. Participants are expected to engage in two subtasks:
+* **Synthetic Image Detection:** Build models that classify images as either real or synthetic (binary).
+* **Manipulated Region Localization:** Extend their models to localize the specific regions within synthetic images that have been generated or modified.
+  
+In addition to classifying images and localizing manipulations, the robustness of the models will be also evaluated by assessing their ability to identify synthetic images and manipulated regions that have undergone real-world transformations, such as compression, resizing, and cropping, commonly found on social media. Robust and accurate detection and localization under these conditions are critical for success.
+
+Participants will use the provided training and testing datasets and submit their trained models and results for evaluation on a hidden test set. There will also be an open phase where participants are allowed to use their own resources or any publicly available dataset for training [7], in addition to the training data provided by the organizers. However, in such cases, participants must provide detailed information about the resources they use to ensure transparency and address any potential data leakage issues.
+
 #### Motivation and background
+
+With the proliferation of generative AI technologies, synthetic media is increasingly used in creative industries, social media, and, alarmingly, in misinformation campaigns. Synthetic image detection is vital for combating the misuse of AI-generated content, ensuring trust in visual media, and upholding ethical standards in digital communication. While recent advancements in synthetic image classification have shown promise, challenges persist due to evolving generative models and post-processing techniques such as image recompression, that can obfuscate synthetic traces.
+
+This challenge aims to bring together researchers and practitioners to push the boundaries of synthetic image detection. By focusing on both fully synthetic and partially modified images, this challenge highlights the nuanced nature of synthetic content in real-world scenarios and seeks solutions that are robust, generalizable, and explainable.
 
 #### Target group
 
+The challenge is aimed at researchers and practitioners in computer vision, machine learning, media forensics, and AI ethics who are interested in synthetic image detection, image manipulation detection and generative model attribution. It appeals to individuals working on robust and generalizable solutions for real-world scenarios, including academic teams, industry R&D groups, and independent AI enthusiasts.
+
 #### Data
 
-#### Ground truth
+The challenge dataset will consist of three sets: a training set, a validation set to be used during development, and a test set without labels, which will be used by the organizers to assess the performance of submitted approaches. These datasets will contain real, synthetic, and partially modified images to comprehensively address the challenge tasks.
+
+The training and validation datasets will include a combination of well-known synthetic image detection (SID) datasets, along with newly generated synthetic content tailored for the task. Additionally, real-world examples collected from social media platforms will be included into the validation dataset to ensure "in-the-wild" evaluation, reflecting diverse real-world transformations and scenarios.
+* **Real Images:** Sourced from established datasets and open-license repositories, such as LAION dataset and RAISE dataset, to ensure high quality, diversity and authenticity.
+* **Synthetic Images:** Generated using a wide range of generative models, from earlier GAN-based approaches (e.g., StyleGAN2, ProGAN, GigaGAN) to more advanced diffusion models (Stable Diffusion). Synthetic images from commercial platforms like MidJourney, DALL·E 3 and Adobe Firefly will also be included. This set also includes images that have undergone substantial transformations.
+* **Partially Modified Images [3]:** Approximately 75,000 manipulated images and localization masks, generated using text-guided inpainting methods, including Stable Diffusion v2, Stable Diffusion XL, and Adobe Firefly. The dataset includes two types of manipulated images: images, where an inpainted region is seamlessly integrated into the original image, and fully regenerated images, where the entire image is synthetically regenerated despite only a specific region being manipulated.
+* **Real-world variations:** A small set of synthetic images has been collected from social media and the Internet, representing variations that have undergone heavy post-processing multiple times, such as compression, resizing, cropping, and other transformations. All images in this set are synthetic, but they reflect real-world alterations commonly found on digital platforms, ensuring a robust evaluation of model performance under realistic conditions [2].
+
+All data will be curated under open-source or permissive licenses to ensure ethical use and compliance with data-sharing guidelines.
 
 #### Evaluation methodology
+
+For the evaluation of synthetic image detection, the metrics used by the SIDBench framework [1] will be employed to assess performance in depth.
+
+Accuracy: Percentage of correctly classified images.
+Precision, Recall, and F1-Score: Evaluate trade-offs between false positives and false negatives, with the F1-Score as a primary indicator of balanced performance.
+ROC AUC (Area Under the ROC Curve): Summarizes the trade-off between true positive rate (sensitivity) and the false-positive rate across thresholds.
+Average Precision (AP): Evaluates the precision-recall trade-off across thresholds.
+Equal Error Rate (EER): The rate at which false acceptance and false rejection are equal, indicating threshold-independent performance.
+
+Τhe F1-Score will be used as the primary metric for ranking participants. This ensures a balanced evaluation of precision and recall, which is critical for synthetic image detection tasks.
+
+To evaluate model robustness in detecting synthetic images under uncontrolled conditions, such as transformations applied by online platforms, we will test the submitted models on the dataset of images collected from social media previously used in disinformation campaigns. The variations, collected directly from the internet, reflect real-world, black-box transformations where the exact processes are unknown. The evaluation will focus on calculating the True Positive Rate (TPR) to measure detection effectiveness across all variations.
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
