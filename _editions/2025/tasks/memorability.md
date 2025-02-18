@@ -82,9 +82,13 @@ More details will follow.
 #### References and recommended reading
 
 [1] 2018 R.Cohendet, K. Yadati, N. Q. Duong and C.-H. Demarty. [Annotating, understanding, and predicting long-term video memorability](https://dl.acm.org/doi/abs/10.1145/3206025.3206056). In Proceedings of the ICMR 2018 Conference, Yokohama, Japan, June 11-14, 2018.
+
 [2] 2014. Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. [What makes a photograph memorable?](https://ieeexplore.ieee.org/document/6629991/) IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.
+
 [3] 2023. Dumont, T., Hevia, J. S., & Fosco, C. L. [Modular memorability. Tiered representations for video memorability prediction.](https://openaccess.thecvf.com/content/CVPR2023/papers/Dumont_Modular_Memorability_Tiered_Representations_for_Video_Memorability_Prediction_CVPR_2023_paper.pdf) In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 10751-10760).
+
 [4] 2025. Kumar, P. et al. [Eye vs. AI: Human Gaze and Model Attention in Video Memorability.](https://arxiv.org/pdf/2311.16484) In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, AR, USA, 2025 (In press).
+
 [5] 2025. SI, H.et al. [Long-Term Memorability On Advertisements.](https://arxiv.org/pdf/2309.00378) In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, AR, USA, 2025 (In press).
 
 
