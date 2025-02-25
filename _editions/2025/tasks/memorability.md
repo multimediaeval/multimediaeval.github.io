@@ -50,10 +50,6 @@ For subtask 1, a subset of the [Movie Memorability dataset](https://www.interdig
 
 For subtask 2, the Commercial Video dataset will be used. It focuses on video and brand memorability in commercial advertisements, including some educational or explanatory videos. Developed through a university-business collaboration between the University of Essex and Hub, with support from Innovate UK’s Knowledge Transfer Partnership (grant agreement No. 11071), This is  a collection of commercial advertisements and corresponding ground-truth files based on the measurement of long-term memory performance when recognizing them from 24 to 72 hours after having viewed them.  Each video is accompanied with metadata such as titles, descriptions, number of views, and duration and audio and video features extracted from the commercial advertisements. The dataset consists of 429 commercial videos sampled from a larger collection of 4,791 videos published on YouTube between June 2018 and June 2021. Video lengths range from 7 seconds to 94 minutes. For longer videos, users are allowed to watch only 1 minute. 
 
-#### Ground truth
-
-More details will follow.
-
 #### Evaluation methodology
 
 Submissions for the video-based prediction challenges will be evaluated using Spearman’s rank correlation coefficient. Additional metrics, such as Mean Squared Error (MSE), may also be used to assess prediction accuracy.
