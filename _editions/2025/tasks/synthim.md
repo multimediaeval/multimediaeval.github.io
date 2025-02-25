@@ -45,7 +45,7 @@ The training and validation datasets will include a combination of well-known sy
 
 All data will be curated under open-source or permissive licenses to ensure ethical use and compliance with data-sharing guidelines.
 
-#### Evaluation methodology
+#### Evaluation methodology - Real vs. Synthetic Task (Binary Classification)
 
 For the evaluation of synthetic image detection, the metrics used by the SIDBench framework [1] will be employed to assess performance in depth.
 
@@ -59,6 +59,10 @@ Equal Error Rate (EER): The rate at which false acceptance and false rejection a
 
 To evaluate model robustness in detecting synthetic images under uncontrolled conditions, such as transformations applied by online platforms, we will test the submitted models on the dataset of images collected from social media previously used in disinformation campaigns. The variations, collected directly from the internet, reflect real-world, black-box transformations where the exact processes are unknown. The evaluation will focus on calculating the True Positive Rate (TPR) to measure detection effectiveness across all variations.
 
+#### Evaluation methodology - Manipulated Region Localization Task
+
+For this subtask, we first evaluate whether the model correctly identifies an image as manipulated or not. The same metrics as the binary classification will be used, with F1 being the metrics used for ranking. To evaluate how well the model identifies the specific regions in an image that have been manipulated the Intersection over Union (IoU) will be used. This metrics measures the overlap between the predicted manipulated region and the ground truth region: _IoU = Area of Overlap / Area of Union_
+
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * <!-- # First research question-->
@@ -70,28 +74,45 @@ Here are several research questions related to this challenge that participants 
 <!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
 <!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
 <!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
+More details will follow.
 
 #### References and recommended reading
-<!-- # Please use the ACM format for references https://www.acm.org/publications/authors/reference-formatting (but no DOI needed)-->
-<!-- # The paper title should be a hyperlink leading to the paper online-->
+[1] Schinas, M., & Papadopoulos, S. (2024, June). SIDBench: A Python framework for reliably assessing synthetic image detection methods. In Proceedings of the 3rd ACM International Workshop on Multimedia AI against Disinformation (pp. 55-64).
+
+[2] Karageorgiou, D., Bammey, Q., Porcellini, V., Goupil, B., Teyssou, D., & Papadopoulos, S. (2024, September). Evolution of Detection Performance throughout the Online Lifespan of Synthetic Images. In Trust What You learN (TWYN) Workshop ECCV 2024.
+
+[3] Mareen, H., Karageorgiou, D., Van Wallendael, G., Lambert, P., & Papadopoulos, S. (2024, December). TGIF: Text-Guided Inpainting Forgery Dataset. In 2024 IEEE International Workshop on Information Forensics and Security (WIFS) (pp. 1-6).
+
+[4] Koutlis, C., & Papadopoulos, S. (2025). Leveraging representations from intermediate encoder-blocks for synthetic image detection. In European Conference on Computer Vision (pp. 394-411). Springer, Cham.
+
+[5] Konstantinidou, D., Koutlis, C., & Papadopoulos, S. (2024). TextureCrop: Enhancing cbSynthetic Image Detection through Texture-based Cropping. arXiv preprint arXiv:2407.15500.
+
+[6] Karageorgiou, D., Papadopoulos, S., Kompatsiaris, I., & Gavves, E. (2024). Any-Resolution AI-Generated Image Detection by Spectral Learning. arXiv preprint arXiv:2411.19417.
+
+[7] Bammey, Q. (2024). Synthbuster: Towards Detection of Diffusion Model Generated Images. IEEE Open Journal of Signal Processing, 5, 1-9.
+
 
 #### Task organizers
-* <!-- # First organizer-->
-* <!-- # Second organizer-->
-<!-- # and so on-->
-
-#### Task auxiliaries
-<!-- # optional, delete if not used-->
-* <!-- # First auxiliary-->
-* <!-- # Second auxiliary-->
-<!-- # and so on-->
+* Manos Schinas, MeVer group, CERTH-ITI, Greece
+* Dimitrios Karageogiou, MeVer group, CERTH-ITI, Greece 
+* Despina Konstantinidou, MeVer group, CERTH-ITI, Greece
+* Olga Papadopoulou, MeVer group, CERTH-ITI, Greece
+* Symeon Papadopoulos, MeVer group, CERTH-ITI, Greece
+* Christos Koutlis, MeVer group, CERTH-ITI, Greece
+* Hannes Mareen, IDLab-MEDIA, Univ. Ghent, Belgium
+* Efstratios Gavves, VIS Lab, UvA, Netherlands
+* Luisa Verdoliva, GRIP, Univ. Naples Federico II, Italy
+* Davide Cozzolino, GRIP, Univ. Naples Federico II, Italy
+* Fabrizio Guillaro, GRIP, Univ. Naples Federico II, Italy
 
 #### Task schedule
-* XX May 2025: Development Data release <!-- * XX May 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in May - of course if you want to realease sooner it's OK. -->
-* XX June 2025: Development Data release <!-- * XX June 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in June - of course if you want to realease sooner it's OK. -->
-* XX September 2025: Runs due and results returned. Exact dates to be announced. <!--* XX September 2025: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
-* 08 October 2025: Working notes paper  <!-- Fixed. Please do not change.-->
-* 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online. <!-- Fixed. Please do not change.-->
+The program will be updated with the exact dates.
+
+* May 2025: Development Data release
+* June 2025: Development Data release
+* September 2025: Runs due and results returned. Exact dates to be announced.
+* 08 October 2025: Working notes paper
+* 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online..
 
 #### Acknowledgements
-<!-- # optional, delete if not used-->
+The task organization is supported by the Horizon Europe AI-CODE and vera.ai projects that focus on the development of AI tools for supporting media professionals in their verification and fact-checking activities.
