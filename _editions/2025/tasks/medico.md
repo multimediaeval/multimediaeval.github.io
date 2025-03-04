@@ -87,7 +87,7 @@ More details will follow.
 * Vajira Thambawita, SimulaMet, Norway
 * Pål Halvorsen, SimulaMet, Norway
 * Michael A. Riegler, SimulaMet, Norway
-* Steven A. Hicks, SimulaMet, Norway
+* Steven A. Hicks, SimulaMet, Norway (steven@simula.no)
 
 #### Task schedule
 The program will be updated with the exact dates.
