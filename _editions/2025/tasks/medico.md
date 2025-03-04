@@ -37,7 +37,7 @@ We can actively invite people from multiple communities to submit solutions to t
 
 #### Data
 
-The dataset for Medico 2025, Kvasir-VQA, is a text-image pair gastrointestinal (GI) tract dataset built upon the HyperKvasir and Kvasir-Instrument datasets, now enhanced with question-and-answer annotations. It is specifically designed to support Visual Question Answering (VQA) tasks and other multimodal AI applications in GI diagnostics. The dataset includes 6,500 annotated GI images, spanning a range of conditions and medical instruments used in procedures.
+The dataset for Medico 2025, Kvasir-VQA [1], is a text-image pair gastrointestinal (GI) tract dataset built upon the HyperKvasir and Kvasir-Instrument datasets, now enhanced with question-and-answer annotations. It is specifically designed to support Visual Question Answering (VQA) tasks and other multimodal AI applications in GI diagnostics. The dataset includes 6,500 annotated GI images, spanning a range of conditions and medical instruments used in procedures.
 
 Annotations in Kvasir-VQA were developed with input from medical professionals and include six key types of questions:
 * Yes/No Questions
@@ -80,7 +80,12 @@ The task has been held at MediaEval for several years, and has previously been v
 More details will follow.
 
 #### References and recommended reading
-More details will follow.
+
+*References*
+* \[1\] https://arxiv.org/abs/2409.01437
+
+*Recommended*
+* https://visualqa.org/
 
 #### Task organizers
 * Sushant Gautam, SimulaMet, Norway
