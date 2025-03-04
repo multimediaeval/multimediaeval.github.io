@@ -49,7 +49,7 @@ Annotations in Kvasir-VQA were developed with input from medical professionals a
   
 Each question is designed to test AI models on different aspects of clinical decision-making, such as recognizing abnormalities, identifying anatomical landmarks, or interpreting findings based on image features.
 
-#### Ground truth
+#### Evaluation methodology
 
 Subtask 1: Accuracy and Explainability in Answering GI Questions
 
@@ -68,8 +68,8 @@ Subtask 2: The evaluation for this subtask will consider both answer correctness
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * Which types of explanations align with clinical reasoning and enhance trust among medical professionals?
 * How can visual attention mechanisms, uncertainty estimation, or multimodal reasoning be leveraged to provide meaningful justifications?
-* What are the most effective strategies for evaluating the quality and reliability of AI-generated explanations in GI diagnostics?
 * How can preprocessing and post-processing techniques be optimized to improve explainability while maintaining accuracy?
+* What are the most effective strategies for evaluating the quality and reliability of AI-generated explanations in GI diagnostics?
 
 #### Risk Management
 
