@@ -71,10 +71,6 @@ Here are several research questions related to this challenge that participants 
 * How can preprocessing and post-processing techniques be optimized to improve explainability while maintaining accuracy?
 * What are the most effective strategies for evaluating the quality and reliability of AI-generated explanations in GI diagnostics?
 
-#### Risk Management
-
-The task has been held at MediaEval for several years, and has previously been very successful. We will prepare several documents and materials that will help participants get started, such as beginner code and example submissions. Also, we will be contacting participants from previous years.
-
 #### Participant information
 More details will follow.
 
