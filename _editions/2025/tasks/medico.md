@@ -67,7 +67,6 @@ Subtask 2: The evaluation for this subtask will consider both answer correctness
 
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
 * How can AI models generate explanations that align with clinical reasoning and enhance trust among medical professionals?
-* What techniques improve the transparency of deep learning models when answering medical VQA tasks?
 * How can visual attention mechanisms, uncertainty estimation, or multimodal reasoning be leveraged to provide meaningful justifications?
 * What are the most effective strategies for evaluating the quality and reliability of AI-generated explanations in GI diagnostics?
 * How can preprocessing and post-processing techniques be optimized to improve explainability while maintaining accuracy?
