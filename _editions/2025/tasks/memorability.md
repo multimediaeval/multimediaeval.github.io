@@ -61,8 +61,8 @@ Here are several research questions related to this challenge that participants 
 * How do factors like the emotional content, subject matter, or cultural context of media influence its memorability?
 * How well do machine-predicted memorability scores align with human cognitive processes involved in memory formation?
 * Is there a relationship between the aesthetic quality of media and its memorability, or do these factors function independently?
+* Is there a difference between what causes memory recall in movie clips versus what causes memory recall in commercial videos?
 * What transformations or enhancements can be applied to media content to increase its memorability without altering its core message?
-* How does combining EEG data with visual or audio features improve the accuracy of memorability prediction?
 * Which EEG signals (e.g., specific frequency bands or event-related potentials) are most predictive of media memorability?
 * To what extent do EEG patterns associated with memorable media generalize across different individuals?
 
