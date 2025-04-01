@@ -5,7 +5,7 @@ year: 2025
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: "Memorability: Predicting Movie and Commercial Memorability"
+title: "Memorability: Predicting movie and commercial memorability"
 subtitle: Memorability
 blurb: "The goal of this task is to predict the memorability of media items. For the memorability task, we provide movie excerpts, tasking teams with inferring how memorable videos are based on visual or EEG features, and commercial videos with the purpose of inferring the memorability of videos and the brands present in the videos."
 ---
@@ -89,7 +89,7 @@ More details will follow.
 
 
 #### Task organizers
-* Alba García Seco de Herrera,  National University of Distance Education (UNED), Spain (main organizer)
+* Alba García Seco de Herrera,  National University of Distance Education (UNED), Spain (main organizer) - alba.garcia@lsi.uned.es
 * Sebastian Halder, Ana Matran-Fernandez, University of Essex, UK;
 * Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;
 * Claire-Hélène Demarty, InterDigital, R&I, France;
