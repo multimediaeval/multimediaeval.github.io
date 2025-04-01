@@ -5,7 +5,7 @@ year: 2025
 hide: true  <!-- # change this to false once you finish editing-->
 
 # required info
-title: "Memorability: Predicting the memorability of movie clips and commercial videos"
+title: "Predicting the memorability of movie clips and commercial videos"
 subtitle: Memorability
 blurb: "The goal of this task is to predict the memorability of media items. For the memorability task, we provide movie excerpts, tasking teams with inferring how memorable videos are based on visual or EEG features, and commercial videos with the purpose of inferring the memorability of videos and the brands present in the videos."
 ---
@@ -15,13 +15,13 @@ blurb: "The goal of this task is to predict the memorability of media items. For
 
 #### Task description
 
-The aim of this task is to predict how memorable a piece of media (e.g., movie excerpts or advertisements) will be for viewers. Memorability refers to how likely people are to remember the media content after seeing it.
+The aim of this task is to predict how memorable a piece of media (e.g., movie excerpts, commercial presentations, brand names) will be for viewers. Memorability refers to how likely people are to remember the media content after seeing it.
 
 **Subtask 1: Movie Memorability**. This task studies the long-term memory performance when recognizing small movie excerpts from weeks to years after having viewed them.
 * _Challenge 1.1: How memorable is this video (movie excerpts)?_ - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores.  Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.
 * _Challenge 1.2: Is this person familiar with this video?_ - EEG-based detection of recall: This task requires participants to automatically detect whether a person is remembering a video from a movie they previously watched. To do this, participants may use only features extracted from the EEG data, without using any features from the videos themselves.
 
-**Subtask 2: Commercial/Ad Memorability.** This task evaluates long-term memory performance in recognizing commercial videos. Participants will use the Commercial Video dataset, which contains commercial videos along with their memorability and brand memorability scores, to train their systems. The trained models will then predict the scores for new, unseen commercial videos. This challenge does not include EEG data.
+**Subtask 2: Commercial/Ad Memorability.** This task evaluates long-term memory performance in recognizing commercial videos. Participants will use the Commercial Video dataset, which contains commercial videos along with their memorability and brand memorability scores, to train their systems. The trained models will then predict the scores for new, unseen commercial videos (product, brand, and concept presentations and discussions). This challenge does not include EEG data.
 * _Challenge 2.1: How memorable is this commercial video?_ - Video-based prediction: Like in challenge 1.1, the goal of this task is to predict how memorable a commercial video is. Therefore, participants are expected to develop automatic systems that predict the memorability scores of commercial videos. The memorability score indicates the probability of a commercial video being remembered by viewers.
 * _Challenge 2.2: Can you predict the brand memorability?_ - Video-based prediction: The goal of this task is to predict the brand memorability associated with a commercial video. Participants are expected to develop automatic systems that can predict the brand memorability score based on the content of the commercial video. This score indicates the probability of a commercial video brand being remembered by viewers. 
 
