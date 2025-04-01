@@ -64,7 +64,7 @@ This task invites participants to further reflect on the role and potential of n
 
 #### Participant information
 * You are requested to release your code and/or workflow to reproduce your submission.
-* Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
+* Signing up: Fill in the registration form and fill out and return the usage agreement. The links to these forms will be available at a later date.
 * Making your submission: Details to be announced together with the dataset release.
 * Evaluate event: Details to be announced once all teams handed in their runs.
 * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
