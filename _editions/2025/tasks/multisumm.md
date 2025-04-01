@@ -7,7 +7,7 @@ hide: true  <!-- # change this to false once you finish editing-->
 # required info
 title: "MultiSumm: Multimodal summarization of multiple topically related websites"
 subtitle: MultiSumm
-blurb: "Participants are provided with multimodal web content from several cities listing food sharing initiatives (FSIs) in each city. For each city, participants are tasked with creating a multimodal summary of the FSI activities in the city which satisfy specified criteria. Evaluation will explore the use of emerging LLMs-based methods in automated assessment of multimodal multi-document summarization."
+blurb: "Participants are provided with multimodal web content from several cities listing food sharing initiatives (FSIs) in each city. For each city, participants are tasked with creating a multimodal summary of the FSI activities in the city that satisfy specified criteria. Evaluation will explore the use of emerging LLMs-based methods in automated assessment of multimodal multi-document summarization."
 ---
 
 <!-- # please respect the structure below-->
@@ -15,18 +15,18 @@ blurb: "Participants are provided with multimodal web content from several citie
 
 #### Task description
 
-The goal of the task is to explore the creation of multimodal summaries from mulitple multimodal content items, specifically at MedaEval 2025, MultiSumm will explore the multimodal summarization of multiple websites. The
-websites for summarization will be provided by the [H2020 Cultivate project](https://cultivate-project.eu/). CUltivate is exploring and creating resources for the promotion of Food Sharing Initiatives (FSIs) in urban and peri-urban environments for cities around world. A key element of the Cultuvate project is the creation of the ShareCity200 database. ShareCity200 will consist of an automatically crawled and curated database of the FSIs presents in 200 cities, primarily European, but also including cities from international territories beyond Europe. ShareCIty200 is an extension and exploration of the [ShrareCity100](https://sharecity.ie/research/sharecity100-database/) database created as part of an earlier project.
+The goal of the task is to explore the creation of multimodal summaries from multiple multimodal content items. Specifically, at MedaEval 2025, MultiSumm will explore the multimodal summarization of multiple websites. The
+websites for summarization will be provided by the [H2020 Cultivate project](https://cultivate-project.eu/). Cultivate is exploring and creating resources for the promotion of Food Sharing Initiatives (FSIs) in urban and peri-urban environments for cities around the world. A key element of the Cultuvate project is the creation of the ShareCity200 database. ShareCity200 will consist of an automatically crawled and curated database of the FSIs presents in 200 cities, primarily European, but also including cities from international territories beyond Europe. ShareCIty200 is an extension and exploration of the [ShrareCity100](https://sharecity.ie/research/sharecity100-database/) database created as part of an earlier project.
 
-Participants in MultiSumm will be provided with the crawled FSI web content for a small number of selected cities, and asked to create a multimodal summary of the FSIs present in each city. Particpants will be provided with details of the requirements for the summaries and details of the summary evaluation methods to be used.
+Participants in MultiSumm will be provided with the crawled FSI web content for a small number of selected cities and asked to create a multimodal summary of the FSIs present in each city. Participants will be provided with details of the requirements for the summaries and details of the summary evaluation methods to be used.
 
-Since the ShareCity200 database will include details of FSIs in cities in many countries, and we are seeking to automate the evaluation process as much as possible, we will be open to including a specific cities at the request of individual participants to expand the linguistic scope of the task.
+Since the ShareCity200 database will include details of FSIs in cities in many countries, and we are seeking to automate the evaluation process as much as possible, we will be open to including specific cities at the request of individual participants to expand the linguistic scope of the task.
 
 #### Motivation and background
 
-Multidocument summarization for text documents has been a longstanding area of investigation. For example, for providing single summaries of multiple news articles on the same story. Traditionally this process has been complex and inflexible in terms of content style and test, requiring use of a wide variety of natural language processing (NLP) tools and detailed specification of the summarization process, The emergence of large language models (LLM) technologies has many revolutionised NLP tasks including summarization. The more recent arrival of multimodal LLMs is similarly impacting on topics relating to multimedia content.
+Multidocument summarization for text documents has been a longstanding area of investigation. For example, for providing single summaries of multiple news articles on the same story. Traditionally, this process has been complex and inflexible in terms of content style and test, requiring the use of a wide variety of natural language processing (NLP) tools and detailed specification of the summarization process. The emergence of large language models (LLM) technologies has revolutionized many NLP tasks, including summarization. The more recent arrival of multimodal LLMs is similarly impacting on topics relating to multimedia content.
 
-While the MultiSumm tasks could be tackled using traditional NLP and multimedia processing tools, the expectation is that participants will tackle it using multimodal LLM methods. To the best of our knowledge, this will be the first benchmark task focusing on this topic and providing a potentialy valuable venue for exploration of the potential and challenges of use of multimodal LLMs in tasks of this sort.
+While the MultiSumm tasks could be tackled using traditional NLP and multimedia processing tools, the expectation is that participants will tackle it using multimodal LLM methods. To the best of our knowledge, this will be the first benchmark task focusing on this topic and providing a potentially valuable venue for exploration of the potential and challenges of use of multimodal LLMs in tasks of this sort.
 
 #### Target group
 
@@ -35,14 +35,17 @@ Researchers exploring use of multimodal LLMs, potentially drawn from both the NL
 #### Data
 
 Data will be provided from that gathered in the Cultivate project. This will be the contents of crawled content from the open web.
-Evaluation will make use of methods used for multidocument summarizatiomn, and evaluation methods current being develped for use in generative information retrieval (GenIR) application and methos being explored for the
-use of LLM methods in automated evaluation of NLP tasks, the _LLM-as-Judge_ approach.
+
+#### Evaluation methodology
+
+Evaluation will make use of methods used for multidocument summarizatiom, and evaluation methods current being developed for use in generative information retrieval (GenIR) application and methods being explored for the
+use of LLM methods in the automated evaluation of NLP tasks, the _LLM-as-Judge_ approach.
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-* What are the challenges of creating multi sources summaries of web content source?
+* What are the challenges of creating multi source summaries of web content source?
 * What are the most effective approaches to applying LLM methods in multimodal summarization?
-* Identiying open research questions and challenges in applying LLM methods in multidocument summarization.
+* Identifying open research questions and challenges in applying LLM methods in multidocument summarization.
 * What is the effectiveness of using LLM-based evaluation methods in multidocument summarization? answer in order to go beyond just looking at evaluation metrics.
 
 #### Participant information
