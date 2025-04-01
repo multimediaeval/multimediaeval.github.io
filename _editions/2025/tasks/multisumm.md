@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2025
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "MultiSumm: Multimodal summarization of multiple topically related websites"
