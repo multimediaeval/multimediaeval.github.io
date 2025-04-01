@@ -2,7 +2,7 @@
 # static info
 layout: task
 year: 2025
-hide: true  <!-- # change this to false once you finish editing-->
+hide: false
 
 # required info
 title: "Synthetic Images: Advancing detection of generative AI used in real-world online images"
