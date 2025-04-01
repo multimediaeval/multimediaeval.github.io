@@ -65,9 +65,8 @@ For this subtask, we first evaluate whether the model correctly identifies an im
 
 #### Quest for insight
 Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics: 
-* <!-- # First research question-->
-* <!-- # Second research question-->
-<!-- # and so on-->
+* What are the characteristics of the false positives, i.e., of non-synthetic images or image regions that are misclassified as synthetic? Are there any generalizations in terms of perceived quality or image semantics?
+* 
 
 #### Participant information
 <!-- Please contact your task organizers with any questions on these points. -->
