@@ -30,7 +30,7 @@ While the MultiSumm tasks could be tackled using traditional NLP and multimedia 
 
 #### Target group
 
-Researchers exploring use of multimodal LLMs, potentially drawn from both the NLP and multimedia research communities. One of the nice features of LLM methods is that they enable researchers to engage with tasks for which they are not expert with the methods and tools traditionally used to address them.
+Researchers exploring the use of multimodal LLMs, potentially drawn from both the NLP and multimedia research communities. One of the nice features of LLM methods is that they enable researchers to engage with tasks for which they are not experts with the methods and tools traditionally used to address them.
 
 #### Data
 
