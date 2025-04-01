@@ -77,10 +77,10 @@ More details will follow.
 #### References and recommended reading
 
 *References*
-* \[1\] https://arxiv.org/abs/2409.01437
+* \[1\] Sushant Gautam, Andrea Storås, Cise Midoglu, Steven A. Hicks, Vajira Thambawita, Pål Halvorsen, Michael A. Riegler, [Kvasir-VQA: A Text-Image Pair GI Tract Dataset](https://arxiv.org/abs/2409.01437)
 
 *Recommended*
-* https://visualqa.org/
+* [visualqa](https://visualqa.org/)
 
 #### Task organizers
 * Sushant Gautam, SimulaMet, Norway
