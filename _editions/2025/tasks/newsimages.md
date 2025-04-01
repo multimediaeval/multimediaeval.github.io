@@ -17,8 +17,8 @@ blurb: "Participants receive a large set of articles (including the headline and
 
 This year’s NewsImages challenge explores matching news articles with retrieved or generated images. Participants receive a large set of English-language articles from international publishers. Given the text of a news article, the goal of this task is to retrieve and/or generate a fitting image recommendation. In the **Image Retrieval** subtask, teams retrieve images from a larger collection. In the **Image generation** subtask, the teams use generative AI to produce an image that can be used as a thumbnail. (Teams can take part in one or both of two subtasks; separate submissions are required.) The tasks are as follows:
 
-1. Image retrieval, where participants design and implement approaches to retrieve relevant images in an existing image pool that fits a given news headline and lead.
-2. Image generation, where participants need to use and develop techniques for creating appropriate visuals for news articles.
+1. **Image retrieval**, where participants design and implement approaches to retrieve relevant images in an existing image pool that fits a given news headline and lead.
+2. **Image generation**, where participants need to use and develop techniques for creating appropriate visuals for news articles.
 
 The main criterion for evaluation (i.e., ranking of teams) is the image fit and relevance, i.e., whether the images capture key attributes of the text article, but do not depict any important elements not present in the article. The image retrieval/generation pipeline must not rely on any third-party closed-sourced APIs or resources. We provide a comprehensive dataset of news articles with article title, article lead, URL (to retrieve the full text), and an editorially assigned image.
 
@@ -65,8 +65,8 @@ This task invites participants to further reflect on the role and potential of n
 #### Participant information
 * You are requested to release your code and/or workflow to reproduce your submission.
 * Signing up: Fill in the [registration form](https://forms.gle/FFS8V3zbijXoqEWJ6) and fill out and return the [usage agreement](https://multimediaeval.github.io/editions/2023/docs/MediaEval2023_UsageAgreement.pdf).
-* Making your submission: To be announced!
-* Evaluate event: To be announced!
+* Making your submission: Details to be announced together with the dataset release.
+* Evaluate event: Details to be announced once all teams handed in their runs.
 * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions](https://docs.google.com/document/d/1HcAx14RVuxqDEi-1SJJRwhHhzC_V-Ktpw-9jn5dg0-0).
 * Please contact your task organizers with any questions on these points.
 
@@ -89,6 +89,8 @@ This task invites participants to further reflect on the role and potential of n
 
 #### Task schedule
 * 30 April 2025: News dataset released.
-* 10 September 2025: Runs due and results returned.
-* 08 October 2025: Working notes paper.
+* 10 September 2025: Deadline for team submissions.
+* 17-24 September 2025: Online evaluation event.
+* 30 September 2025: Return of the evaluation results.
+* 08 October 2025: Deadline for submitting working notes paper (incl. code/pipeline).
 * 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online.
