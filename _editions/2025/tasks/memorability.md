@@ -94,7 +94,7 @@ More details will follow.
 * Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;
 * Claire-Hélène Demarty, InterDigital, R&I, France;
 * Rukiye Savran Kiziltepe, Ankara University, Türkiye;
-* Iván Martín-Fernández, Manuel Gil Martín, Technical University of Madrid (UPM), Spain
+* Iván Martín-Fernández, Manuel Gil-Martín, Technical University of Madrid (UPM), Spain
 
 #### Task schedule
 
