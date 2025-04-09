@@ -83,6 +83,7 @@ More details will follow.
 
 *Recommended*
 * [visualqa](https://visualqa.org/)
+* [ImageCLEFmed MEDVQA-GI](https://www.imageclef.org/2023/medical/vqa)
 
 #### Task organizers
 * Sushant Gautam, SimulaMet, Norway
