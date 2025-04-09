@@ -22,7 +22,7 @@ Medical Visual Question Answering (VQA) is a rapidly growing research area that 
 This challenge will offer a benchmark dataset containing GI images, videos, and associated VQA annotations, allowing for rigorous evaluation of AI models. By integrating multimodal data and explainability metrics, we aim to advance research in interpretable AI and improve the potential for clinical adoption.
 
 We define two main subtasks for this year's challenge. Subtask 2 builds on Subtask 1, meaning Subtask 1 must be completed in order to participate in Subtask 2.
-* **Subtask 1: AI Performance on Medical Image Question Answering** - This subtask challenges participants to develop AI models that can accurately interpret and respond to clinical questions based on GI images from the Kvasir-VQA dataset, which includes 6,500 annotated images spanning various conditions and medical instruments. Questions fall into six categories: Yes/No, Single-Choice, Multiple-Choice, Color-Related, Location-Related, and Numerical Count, requiring models to process both visual and textual information. Performance will be assessed based on several quantitative metrics.
+* **Subtask 1: AI Performance on Medical Image Question Answering** - This subtask challenges participants to develop AI models that can accurately interpret and respond to clinical questions based on GI images from the Kvasir-VQA dataset, which includes 6,500 annotated images spanning various conditions and medical instruments. Questions fall into six categories: Yes/No, Single-Choice, Multiple-Choice, Color-Related, Location-Related, and Numerical Count, requiring models to process both visual and textual information. Performance will be assessed based on several quantitative metrics \[3\].
 * **Subtask 2: Clinician-Oriented Multimodal Explanations in GI** – This subtask extends Subtask 1 by focusing on the interpretability of model outputs for clinical decision-making. Models must not only generate accurate answers but also provide clear, multimodal explanations that enhance clinician trust and usability. Multimodality is required, meaning that explanations must integrate multiple forms of reasoning that work together to justify predictions. For example, models could highlight relevant image regions while providing textual reasoning grounded in medical knowledge and confidence scores. The goal is to align AI-driven insights with clinical reasoning, ensuring that justifications are interpretable, complementary, and useful in practice. Performance will be assessed based on explanation clarity and medical relevance, with expert reviewers evaluating how well the combined modalities support clinical decision-making.
 
 #### Motivation and background
@@ -37,7 +37,7 @@ We can actively invite people from multiple communities to submit solutions to t
 
 #### Data
 
-The dataset for Medico 2025, Kvasir-VQA [1], is a text-image pair gastrointestinal (GI) tract dataset built upon the HyperKvasir and Kvasir-Instrument datasets, now enhanced with question-and-answer annotations. It is specifically designed to support Visual Question Answering (VQA) tasks and other multimodal AI applications in GI diagnostics. The dataset includes 6,500 annotated GI images, spanning a range of conditions and medical instruments used in procedures.
+The dataset for Medico 2025, Kvasir-VQA \[1, 2\], is a text-image pair gastrointestinal (GI) tract dataset built upon the HyperKvasir and Kvasir-Instrument datasets, now enhanced with question-and-answer annotations. It is specifically designed to support Visual Question Answering (VQA) tasks and other multimodal AI applications in GI diagnostics. The dataset includes 6,500 annotated GI images, spanning a range of conditions and medical instruments used in procedures.
 
 Annotations in Kvasir-VQA were developed with input from medical professionals and include six key types of questions:
 * Yes/No Questions
@@ -78,6 +78,8 @@ More details will follow.
 
 *References*
 * \[1\] Sushant Gautam, Andrea Storås, Cise Midoglu, Steven A. Hicks, Vajira Thambawita, Pål Halvorsen, Michael A. Riegler, [Kvasir-VQA: A Text-Image Pair GI Tract Dataset](https://arxiv.org/abs/2409.01437)
+* \[2\] Borgli, H., Thambawita, V., Smedsrud, P.H. et al. [HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy](https://www.nature.com/articles/s41597-020-00622-y)
+* \[3\] Hicks, S.A., Strümke, I., Thambawita, V. et al. [On evaluation metrics for medical applications of artificial intelligence]([https://www.nature.com/articles/s41597-020-00622-y](https://www.nature.com/articles/s41598-022-09954-8))
 
 *Recommended*
 * [visualqa](https://visualqa.org/)
