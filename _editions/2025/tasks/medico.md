@@ -79,7 +79,7 @@ More details will follow.
 *References*
 * \[1\] Sushant Gautam, Andrea Storås, Cise Midoglu, Steven A. Hicks, Vajira Thambawita, Pål Halvorsen, Michael A. Riegler, [Kvasir-VQA: A Text-Image Pair GI Tract Dataset](https://arxiv.org/abs/2409.01437)
 * \[2\] Borgli, H., Thambawita, V., Smedsrud, P.H. et al. [HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy](https://www.nature.com/articles/s41597-020-00622-y)
-* \[3\] Hicks, S.A., Strümke, I., Thambawita, V. et al. [On evaluation metrics for medical applications of artificial intelligence]([https://www.nature.com/articles/s41597-020-00622-y](https://www.nature.com/articles/s41598-022-09954-8))
+* \[3\] Hicks, S.A., Strümke, I., Thambawita, V. et al. [On evaluation metrics for medical applications of artificial intelligence](https://www.nature.com/articles/s41598-022-09954-8)
 
 *Recommended*
 * [visualqa](https://visualqa.org/)
