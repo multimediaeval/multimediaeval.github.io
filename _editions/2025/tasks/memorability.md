@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "Memorability: Predicting movie and commercial memorability"
 subtitle: Memorability
-blurb: "The goal of this task is to predict the memorability of media items. For the memorability task, we provide movie excerpts, tasking teams with inferring how memorable videos are based on visual or EEG features, and commercial videos with the purpose of inferring the memorability of videos and the brands present in the videos."
+blurb: "The goal of this task is to study the long-term memory performance when recognizing small movie excerpts or commercial videos. We provide the videos, precomputed features or EEG features for the challenges proposed in the task such as How memorable a video, if a person familiar with a video or if you can predict the brand memorability?"
 ---
 
 <!-- # please respect the structure below-->
