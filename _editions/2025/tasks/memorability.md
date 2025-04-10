@@ -15,7 +15,7 @@ blurb: "The goal of this task is to study the long-term memory performance when 
 
 #### Task description
 
-The aim of this task is to predict how memorable a piece of media (e.g., movie excerpts, commercial presentations, brand names) will be for viewers. Memorability refers to how likely people are to remember the media content after seeing it.
+The goal of this task is to study the long-term memory performance when recognizing small movie excerpts or commercial videos. We provide the videos, precomputed features or EEG features for the challenges proposed in the task such as How memorable a video, if a person familiar with a video or if you can predict the brand memorability? 
 
 **Subtask 1: Movie Memorability**. This task studies the long-term memory performance when recognizing small movie excerpts from weeks to years after having viewed them.
 * _Challenge 1.1: How memorable is this video (movie excerpts)?_ - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores.  Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.
