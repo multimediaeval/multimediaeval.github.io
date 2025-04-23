@@ -13,7 +13,11 @@ install-deb:
 	sudo gem install ffi -v 1.16.0
 	sudo gem install jekyll -v 4.2.2 
 	sudo gem install bundler -v 2.4.22
+	ruby -v
+	gem -v
 	sudo gem install redcarpet
+	ruby -v
+	gem -v
 	sudo bundle install
 	ruby -v
 	gem -v
