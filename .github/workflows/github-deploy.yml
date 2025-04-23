@@ -12,6 +12,11 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Set up Ruby 2.7.8 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.8
+
       - name: Install and Build 🔧
         run: |
           make install-deb
