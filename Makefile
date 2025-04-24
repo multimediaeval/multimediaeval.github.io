@@ -18,7 +18,7 @@ install-deb:
 	sudo gem install redcarpet
 	ruby -v
 	gem -v
-	sudo bundle install
+	bundle install
 	ruby -v
 	gem -v
 
