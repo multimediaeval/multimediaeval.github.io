@@ -91,7 +91,7 @@ More details will follow.
 #### Task organizers
 * Alba García Seco de Herrera,  National University of Distance Education (UNED), Spain (main organizer) - alba.garcia@lsi.uned.es
 * Sebastian Halder, Ana Matran-Fernandez, University of Essex, UK;
-* Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;
+* Mihai Gabriel Constantin, Bogdan Ionescu, National University of Science and Technology Politehnica Bucharest, Romania;
 * Claire-Hélène Demarty, InterDigital, R&I, France;
 * Rukiye Savran Kiziltepe, Ankara University, Türkiye;
 * Iván Martín-Fernández, Manuel Gil-Martín, Technical University of Madrid (UPM), Spain
