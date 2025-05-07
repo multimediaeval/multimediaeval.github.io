@@ -1,6 +1,16 @@
 [
    
       {
+        "title"    : "MediaEval 2025 Registration",
+        "category" : "",
+        "tags"     : " ",
+        "url"      : "/2025/05/07/workshop-registration.html",
+        "date"     : "May 7, 2025",
+        "excerpt"  : "The Benchmarking Initiative for Multimedia Evaluation (MediaEval) offers challenges related to multimedia analysis, retrieval and exploration. MediaEval tasks involve multiple modalities, (e.g., audio, visual, textual, and/or\ncontextual) and fo...",
+        "content"  : "The Benchmarking Initiative for Multimedia Evaluation (MediaEval) offers challenges related to multimedia analysis, retrieval and exploration. MediaEval tasks involve multiple modalities, (e.g., audio, visual, textual, and/or\ncontextual) and focus on the human and social aspects of multimedia. Our larger aim is to promote reproducible research that makes multimedia a positive force for society.\n\nSignup for MediaEval 2025 is now open via the MediaEval 2025 registration form\n\nData release will start soon and continue over the next months. Runs will be due at the end of September 2025 and the annual MediaEval Workshop will be held on Sat.-Sun. 25-26 October 2025, in Dublin, Ireland and Online, \nbetween CMBI 2025 and ACM Multimedia 2025. Remote participation will be possible for those who cannot travel to take part in the workshop in person.\n\nMediaEval 2025 is offering the following tasks:\n\n\n  Medico: VQA (with multimodal explanations) for gastrointestinal imaging\n  Memorability: Predicting movie and commercial memorability\n  MultiSumm: Multimodal summarization of multiple topically related websites\n  NewsImages: Retrieval and generative AI for news thumbnails\n  Synthetic Images: Advancing detection of generative AI used in real-world online images\n\n\nMore detailed task descriptions are available on the MediaEval 2025 Website.\n"
+      } ,
+   
+      {
         "title"    : "MediaEval 2025 task descriptions are online",
         "category" : "",
         "tags"     : " ",
