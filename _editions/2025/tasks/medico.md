@@ -95,8 +95,9 @@ More details will follow.
 #### Task schedule
 The program will be updated with the exact dates.
 
-* May 2025: Development Data release
-* June 2025: Development Data release
-* September 2025: Runs due and results returned. Exact dates to be announced.
+* 14 May 2025: Development Data release
+* 30 June 2025: Development Data release
+* 12 September 2025: Runs due and results returned.
+* 26 September 2025: Results returned.
 * 08 October 2025: Working notes paper
 * 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online..
