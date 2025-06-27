@@ -12,6 +12,7 @@ blurb: "The goal is to use Visual Question Answering (VQA) to interpret and answ
 
 <!-- # please respect the structure below-->
 *See the [MediaEval 2025 webpage](https://multimediaeval.github.io/editions/2025/) for information on how to register and participate.*
+*See our [GitHub Repository](https://github.com/simula/MediaEval-Medico-2025) for the latest information about the task.*
 
 #### Task description
 
