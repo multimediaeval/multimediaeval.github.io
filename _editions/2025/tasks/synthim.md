@@ -45,6 +45,9 @@ The training and validation datasets will include a combination of well-known sy
 
 All data will be curated under open-source or permissive licenses to ensure ethical use and compliance with data-sharing guidelines.
 
+For more details about the data, please check the [mediaeval2025-sid](https://github.com/mever-team/mediaeval2025-sid) repository.
+
+
 #### Evaluation methodology - Real vs. Synthetic Task (Binary Classification)
 
 For the evaluation of synthetic image detection, the metrics used by the SIDBench framework [1] will be employed to assess performance in depth.
@@ -108,8 +111,7 @@ More details will follow.
 #### Task schedule
 The program will be updated with the exact dates.
 
-* May 2025: Development Data release
-* June 2025: Development Data release
+* June 2025: Development and Evaluation Data release
 * September 2025: Runs due and results returned. Exact dates to be announced.
 * 08 October 2025: Working notes paper
 * 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online..
