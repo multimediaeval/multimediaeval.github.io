@@ -90,6 +90,7 @@ More details will follow.
 The program will be updated with the exact dates.
 
 * 14 May 2025: Development Data release
+* 30 June 2025: Validation Data release
 * 1 September 2025: Testing Data release
 * 12 September 2025: Runs due and results returned.
 * 26 September 2025: Results returned.
