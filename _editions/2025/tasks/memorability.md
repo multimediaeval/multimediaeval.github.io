@@ -104,7 +104,7 @@ The program will be updated with the exact dates.
 
 * May 2025: Development Data release <!-- * XX May 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in May - of course if you want to realease sooner it's OK. -->
 * June 2025: Testing Data release <!-- * XX June 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in June - of course if you want to realease sooner it's OK. -->
-* September 2025: Runs due and results returned. Exact dates to be announced. <!--* XX September 2025: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
+* 24 September 2025: Runs due and results returned. Exact dates to be announced. <!--* XX September 2025: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * 08 October 2025: Working notes paper  <!-- Fixed. Please do not change.-->
 * 25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online.. <!-- Fixed. Please do not change.-->
 
