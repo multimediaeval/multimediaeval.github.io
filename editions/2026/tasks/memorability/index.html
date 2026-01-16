@@ -26,10 +26,10 @@
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Memorability: Predicting movie and commercial memorability" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="See the MediaEval 2025 webpage for information on how to register and participate." />
-<meta property="og:description" content="See the MediaEval 2025 webpage for information on how to register and participate." />
-<link rel="canonical" href="https://multimediaeval.github.io/editions/2025/tasks/memorability/" />
-<meta property="og:url" content="https://multimediaeval.github.io/editions/2025/tasks/memorability/" />
+<meta name="description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<meta property="og:description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<link rel="canonical" href="https://multimediaeval.github.io/editions/2026/tasks/memorability/" />
+<meta property="og:url" content="https://multimediaeval.github.io/editions/2026/tasks/memorability/" />
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="Memorability: Predicting movie and commercial memorability" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-16T14:44:24+00:00","datePublished":"2026-01-16T14:44:24+00:00","description":"See the MediaEval 2025 webpage for information on how to register and participate.","headline":"Memorability: Predicting movie and commercial memorability","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2025/tasks/memorability/"},"url":"https://multimediaeval.github.io/editions/2025/tasks/memorability/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-16T14:44:24+00:00","datePublished":"2026-01-16T14:44:24+00:00","description":"See the MediaEval 2026 webpage for information on how to register and participate.","headline":"Memorability: Predicting movie and commercial memorability","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2026/tasks/memorability/"},"url":"https://multimediaeval.github.io/editions/2026/tasks/memorability/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -207,57 +207,85 @@
   </header>
 
   <!-- # please respect the structure below-->
-<p><em>See the <a href="https://multimediaeval.github.io/editions/2025/">MediaEval 2025 webpage</a> for information on how to register and participate.</em></p>
+<p><em>See the <a href="https://multimediaeval.github.io/editions/2026/">MediaEval 2026 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task description</h4>
 
-<p>The goal of this task is to study the long-term memory performance when recognizing small movie excerpts or commercial videos. We provide the videos, precomputed features or EEG features for the challenges proposed in the task such as How memorable a video, if a person familiar with a video or if you can predict the brand memorability?</p>
+<p>The goal of this task is to study the long-term memory performance when recognising small movie excerpts or commercial videos. We provide the videos, precomputed features or EEG features for the challenges 
+proposed in the task such as how memorable a video, if a person is familiar with a video or if you can predict the brand memorability?</p>
 
-<p><strong>Subtask 1: Movie Memorability</strong>. This task studies the long-term memory performance when recognizing small movie excerpts from weeks to years after having viewed them.</p>
+<p><strong>Subtask 1: Movie Memorability</strong>. This task studies the long-term memory performance when recognizing small movie excerpts.</p>
 <ul>
-  <li><em>Challenge 1.1: How memorable is this video (movie excerpts)?</em> - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores.  Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.</li>
+  <li><em>Challenge 1.1: How memorable is this video (movie excerpts)?</em> - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores. Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.</li>
   <li><em>Challenge 1.2: Is this person familiar with this video?</em> - EEG-based detection of recall: This task requires participants to automatically detect whether a person is remembering a video from a movie they previously watched. To do this, participants may use only features extracted from the EEG data, without using any features from the videos themselves.</li>
 </ul>
 
-<p><strong>Subtask 2: Commercial/Ad Memorability.</strong> This task evaluates long-term memory performance in recognizing commercial videos. Participants will use the VIDEM dataset, which contains commercial videos along with their memorability and brand memorability scores, to train their systems. The trained models will then predict the scores for new, unseen commercial videos (product, brand, and concept presentations and discussions). This challenge does not include EEG data.</p>
+<p><strong>Subtask 2: Commercial/Ad Memorability.</strong> This task evaluates long-term memory performance in recognising commercial videos. Participants will use the VIDEM dataset, which contains commercial videos along with their memorability and brand memorability scores, to train their systems. The trained models will then predict the scores for new, unseen commercial videos (product, brand, and concept presentations and discussions). This challenge does not include EEG data.</p>
 <ul>
   <li><em>Challenge 2.1: How memorable is this commercial video?</em> - Video-based prediction: Like in challenge 1.1, the goal of this task is to predict how memorable a commercial video is. Therefore, participants are expected to develop automatic systems that predict the memorability scores of commercial videos. The memorability score indicates the probability of a commercial video being remembered by viewers.</li>
   <li><em>Challenge 2.2: Can you predict the brand memorability?</em> - Video-based prediction: The goal of this task is to predict the brand memorability associated with a commercial video. Participants are expected to develop automatic systems that can predict the brand memorability score based on the content of the commercial video. This score indicates the probability of a commercial video brand being remembered by viewers.</li>
 </ul>
 
-<h4 id="motivation-and-background">Motivation and background</h4>
+<p>Participating teams will write short working-notes papers that are published in the MediaEval Workshop Working Notes Proceedings. We welcome two types of papers: first, conventional benchmarking papers, 
+which describe the methods that the teams use to address the task and analyze the results and, second, “Quest for Insight” papers, which address a question aimed at gaining more insight into the task, but 
+do not necessarily present task results. Example questions for “Question for Insight” papers are below.</p>
 
-<p>In an era where visual content, such as movies and commercials, permeates our daily lives, understanding and predicting the memorability of multimedia content is becoming increasingly important. For marketers, filmmakers, and content creators, selecting and designing media that effectively captures attention and leaves a lasting impression is crucial for success. Commercials, in particular, need to engage viewers immediately and remain memorable to drive brand recognition and influence consumer behavior. However, the potential applications of memorability prediction extend beyond commercial and advertising sectors.</p>
+<ul>
+  <li>
+    <h4 id="motivation-and-background">Motivation and background</h4>
+  </li>
+</ul>
 
-<p>This task aims to develop models that predict the memorability of multimedia content by leveraging various content features. While the results can directly benefit professionals in advertising and film, the insights gained can also be applied to other fields, such as education, content retrieval, and beyond. For instance, educators can use memorability predictions to create more engaging learning materials, while content retrieval systems can enhance search and recommendation accuracy by prioritizing content with higher memorability potential.</p>
+<p>In an era where visual content, such as movies and commercials, permeates our daily lives, understanding and predicting the memorability of multimedia content is becoming increasingly important. For marketers, filmmakers, 
+and content creators, selecting and designing media that effectively captures attention and leaves a lasting impression is crucial for success. Commercials, in particular, need to engage viewers immediately and remain 
+memorable to drive brand recognition and influence consumer behaviour. However, the potential applications of memorability prediction extend beyond commercial and advertising sectors.</p>
 
-<p>This year’s task extends the state of the art by focusing on the memorability of multimedia content within the specific domains of movies and commercials. While previous research has explored the general memorability of videos and images, there has been limited focus on how this concept applies to the nuanced structure of films and advertisements. By addressing this gap, we aim to deepen our understanding of how human cognition interacts with multimedia, providing valuable insights into what makes content memorable and how it can be optimized for various applications across different industries, including both commercial and non-commercial use cases.</p>
+<p>This task aims to develop models that predict the memorability of multimedia content by leveraging various content features. While the results can directly benefit professionals in advertising and film, the insights 
+gained can also be applied to other fields, such as education, content retrieval, and beyond. For instance, educators can use memorability predictions to create more engaging learning materials, while content retrieval 
+systems can enhance search and recommendation accuracy by prioritising content with higher memorability potential.</p>
 
-<p><em>New for 2025.</em> 
-In 2025, the MediaEval Media Memorability Task introduces two new datasets: the Movie Memorability dataset and the VIDEM dataset. These additions offer exciting opportunities for participants to explore the memorability of movie excerpts and commercial videos across various real-world contexts. This year, the task continues to build on past efforts by integrating multimodal data, including video content, memorability scores, and EEG data collected during memorability experiments, while encouraging innovative approaches to improve prediction accuracy. Additionally, a new challenge is introduced, focusing on brand memorability prediction. In this challenge, participants are not tasked with predicting the memorability of videos but with predicting a brand memorability score for commercial videos. This new challenge seeks to deepen our understanding of how brands are remembered within multimedia content, adding an intriguing layer of complexity to the task.</p>
+<p>This year’s task extends the state of the art by focusing on the memorability of multimedia content within the specific domains of movies and commercials. While previous research has explored the general memorability 
+of videos and images, there has been limited focus on how this concept applies to the nuanced structure of films and advertisements. By addressing this gap, we aim to deepen our understanding of how human 
+cognition interacts with multimedia, providing valuable insights into what makes content memorable and how it can be optimized for various applications across different industries, including both commercial and 
+non-commercial use cases.</p>
+
+<p><em>New for 2026.</em></p>
+
+<p>For the 2026 edition, we are enhancing the provided datasets by releasing a set of <strong>semantic annotations, contextual information, and informative attributes</strong> for the existing video samples. By keeping the video 
+set consistent but enriching the available data, we aim to encourage a more granular analysis of how specific video elements influence memorability.</p>
 
 <h4 id="target-group">Target group</h4>
 
-<p>Researchers interested in this task include those working in areas such as human perception, multimedia content analysis, cognitive science, and machine learning, particularly in the fields of image and video analysis, memorability, emotional response to media, aesthetics, and multimedia affective computing (though not limited to).</p>
+<p>Researchers interested in this task include those working in areas such as human perception, multimedia content analysis, cognitive science, and machine learning, particularly in the fields of image and video analysis, 
+memorability, emotional response to media, aesthetics, and multimedia affective computing (though not limited to).</p>
 
-<p>This includes scholars focused on predictive modeling, user experience, and the cognitive impact of media, with a specific interest in movies, commercials, and educational content. Signal processing researchers can also bring valuable insights to this task by leveraging EEG signals to enhance the memorability predictive models. Additionally, researchers exploring content retrieval, recommendation systems, and multimedia interaction, as well as those studying the influence of media on memory and learning, will find the task valuable. It will also appeal to those working on improving machine learning algorithms for content classification and understanding, especially in video and image domains, and those interested in applying these models across both commercial and non-commercial media, including educational and informational content.</p>
+<p>This includes scholars focused on predictive modeling, user experience, and the cognitive impact of media, with a specific interest in movies, commercials, and educational content. Signal processing researchers can 
+also bring valuable insights to this task by leveraging EEG signals to enhance the memorability of predictive models. Additionally, researchers exploring content retrieval, recommendation systems, and multimedia 
+interaction, as well as those studying the influence of media on memory and learning, will find the task valuable. It will also appeal to those working on improving machine learning algorithms for content classification 
+and understanding, especially in video and image domains, and those interested in applying these models across both commercial and non-commercial media, including educational and informational content.</p>
 
 <h4 id="data">Data</h4>
 
 <p>One dataset will be provided for each subtask.</p>
 
-<p>For subtask 1, a subset of the <a href="https://www.interdigital.com/data_sets/movie-memorability-dataset">Movie Memorability dataset</a> will be used. This is a collection of movie excerpts and corresponding ground-truth files based on the measurement of long-term memory performance when recognizing small movie excerpts from weeks to years after having viewed them. It is accompanied with audio and video features extracted from the movie excerpts. EEG data recorded while viewing this subset will be also provided. EEG data were recorded while 27 participants viewed a subset of clips from the dataset. The clips were selected to include both previously seen and unseen movies. After viewing each clip, participants were asked if they remembered seeing it before. In total 3484 epochs of 64 channel EEG data are available, of which 2122 were not recognised and 1362 were remembered.</p>
+<p>For subtask 1, a subset of the Movie Memorability dataset will be used. This is a collection of movie excerpts and corresponding ground-truth files based on the measurement of long-term memory performance when 
+recognizing small movie excerpts from weeks to years after having viewed them. It is accompanied with audio and video features extracted from the movie excerpts. EEG data recorded while viewing this subset will 
+be also provided. EEG data were recorded while 27 participants viewed a subset of clips from the dataset. The clips were selected to include both previously seen and unseen movies. After viewing each clip, participants 
+were asked if they remembered seeing it before. In total 3484 epochs of 64 channel EEG data are available, of which 2122 were not recognised and 1362 were remembered.</p>
 
-<p>For subtask 2, the VIDEM (VIDeo Effectiveness and Memorability) dataset will be used. It focuses on video and brand memorability in commercial advertisements, including some educational or explanatory videos. Developed through a university-business collaboration between the University of Essex and Hub, with support from Innovate UK’s Knowledge Transfer Partnership (grant agreement No. 11071), This is  a collection of commercial advertisements and corresponding ground-truth files based on the measurement of long-term memory performance when recognizing them from 24 to 72 hours after having viewed them.  Each video is accompanied with metadata such as titles, descriptions, number of views, and duration and audio and video features extracted from the commercial advertisements. The dataset consists of 424 commercial videos sampled from a larger collection of 4791 videos published on YouTube between June 2018 and June 2021. Video lengths range from 7 seconds to 94 minutes. For longer videos, users are allowed to watch only 1 minute.</p>
+<p>For subtask 2, the VIDEM (VIDeo Effectiveness and Memorability) dataset will be used. It focuses on video and brand memorability in commercial advertisements, including some educational or explanatory videos. 
+Developed through a university-business collaboration between the University of Essex and Hub, with support from Innovate UK’s Knowledge Transfer Partnership (grant agreement No. 11071. This is a collection of 
+commercial advertisements and corresponding ground-truth files based on the measurement of long-term memory performance when recognizing them from 24 to 72 hours after having viewed them. Each video is accompanied 
+with metadata such as titles, descriptions, number of views, and duration and audio and video features extracted from the commercial advertisements. The dataset consists of 424 commercial videos sampled from a larger 
+collection of 4791 videos published on YouTube between June 2018 and June 2021. Video lengths range from 7 seconds to 94 minutes. For longer videos, users are allowed to watch only 1 minute.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
 
-<p>Submissions for the video-based prediction challenges will be evaluated using Spearman’s rank correlation coefficient. Additional metrics, such as Mean Squared Error (MSE), may also be used to assess prediction accuracy.
-For Challenge 1.2 (EEG-based detection of recall), submissions will be evaluated based on accuracy.</p>
+<p>Submissions for the video-based prediction challenges will be evaluated using Spearman’s rank correlation coefficient. Additional metrics, such as Mean Squared Error (MSE), may also be used to assess prediction 
+accuracy. For Challenge 1.2 (EEG-based detection of recall), submissions will be evaluated based on accuracy.</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
 
-<p>Here are several research questions related to this challenge that participants can strive to answer in order to go beyond just looking at the evaluation metrics:</p>
 <ul>
   <li>How do factors like the emotional content, subject matter, or cultural context of media influence its memorability?</li>
   <li>How well do machine-predicted memorability scores align with human cognitive processes involved in memory formation?</li>
@@ -266,16 +294,8 @@ For Challenge 1.2 (EEG-based detection of recall), submissions will be evaluated
   <li>What transformations or enhancements can be applied to media content to increase its memorability without altering its core message?</li>
   <li>Which EEG signals (e.g., specific frequency bands or event-related potentials) are most predictive of media memorability?</li>
   <li>To what extent do EEG patterns associated with memorable media generalize across different individuals?</li>
+  <li>What are the differences between subject-specific and subject-agnostic models in the EEG classification task?</li>
 </ul>
-
-<h4 id="participant-information">Participant information</h4>
-
-<p>More details will follow.</p>
-
-<!-- Please contact your task organizers with any questions on these points. -->
-<!-- # * Signing up: Fill in the [registration form]() and fill out and return the [usage agreement](). -->
-<!-- # * Making your submission: To be announced (check the task read me) <!-- Please add instructions on how to create and submit runs to your task replacing "To be announced." -->
-<!-- # * Preparing your working notes paper: Instructions on preparing you working notes paper can be found in [MediaEval 2023 Working Notes Paper Instructions]().-->
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
 
@@ -292,32 +312,24 @@ For Challenge 1.2 (EEG-based detection of recall), submissions will be evaluated
 <p>[6] 2025. SI, H.et al. <a href="https://arxiv.org/pdf/2309.00378">Long-Term Memorability On Advertisements.</a> In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Tucson, AR, USA, 2025.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
+
 <ul>
-  <li>Alba García Seco de Herrera,  National University of Distance Education (UNED), Spain (main organizer) - alba.garcia@lsi.uned.es</li>
+  <li>Alba García Seco de Herrera,  UNED, Spain (lead task organiser);</li>
   <li>Sebastian Halder, Ana Matran-Fernandez, University of Essex, UK;</li>
-  <li>Mihai Gabriel Constantin, Bogdan Ionescu, National University of Science and Technology Politehnica Bucharest, Romania;</li>
+  <li>Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;</li>
   <li>Claire-Hélène Demarty, InterDigital, R&amp;I, France;</li>
   <li>Rukiye Savran Kiziltepe, Ankara University, Türkiye;</li>
-  <li>Iván Martín-Fernández, Manuel Gil-Martín, Technical University of Madrid (UPM), Spain</li>
+  <li>Iván Martín-Fernández, Manuel Gil Martín, Technical University of Madrid (UPM), Spain;</li>
+  <li>Aashutosh Ganesh, Maastricht University, The Netherlands.</li>
 </ul>
 
 <h4 id="task-schedule">Task schedule</h4>
 
 <p>The program will be updated with the exact dates.</p>
 
-<ul>
-  <li>May 2025: Development Data release <!-- * XX May 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in May - of course if you want to realease sooner it's OK. --></li>
-  <li>June 2025: Testing Data release <!-- * XX June 2025: Data release <!-- # Replace XX with your date. We suggest setting the date in June - of course if you want to realease sooner it's OK. --></li>
-  <li>01 October 2025: Runs due and results returned. (we extended the deadline) <!--* XX September 2025: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.--></li>
-  <li>08 October 2025: Working notes paper  <!-- Fixed. Please do not change.--></li>
-  <li>25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online.. <!-- Fixed. Please do not change.--></li>
-</ul>
-
 <h4 id="acknowledgements">Acknowledgements</h4>
 
 <p>More details will follow.</p>
-
-<!-- # optional, delete if not used-->
 
 
       </div>
