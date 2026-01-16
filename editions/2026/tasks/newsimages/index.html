@@ -26,10 +26,10 @@
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="NewsImages: Retrieval and generative AI for news thumbnails" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="See the MediaEval 2025 webpage for information on how to register and participate." />
-<meta property="og:description" content="See the MediaEval 2025 webpage for information on how to register and participate." />
-<link rel="canonical" href="https://multimediaeval.github.io/editions/2025/tasks/newsimages/" />
-<meta property="og:url" content="https://multimediaeval.github.io/editions/2025/tasks/newsimages/" />
+<meta name="description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<meta property="og:description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<link rel="canonical" href="https://multimediaeval.github.io/editions/2026/tasks/newsimages/" />
+<meta property="og:url" content="https://multimediaeval.github.io/editions/2026/tasks/newsimages/" />
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
@@ -38,7 +38,7 @@
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="NewsImages: Retrieval and generative AI for news thumbnails" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-16T15:36:06+00:00","datePublished":"2026-01-16T15:36:06+00:00","description":"See the MediaEval 2025 webpage for information on how to register and participate.","headline":"NewsImages: Retrieval and generative AI for news thumbnails","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2025/tasks/newsimages/"},"url":"https://multimediaeval.github.io/editions/2025/tasks/newsimages/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-16T15:36:06+00:00","datePublished":"2026-01-16T15:36:06+00:00","description":"See the MediaEval 2026 webpage for information on how to register and participate.","headline":"NewsImages: Retrieval and generative AI for news thumbnails","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2026/tasks/newsimages/"},"url":"https://multimediaeval.github.io/editions/2026/tasks/newsimages/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -207,45 +207,67 @@
   </header>
 
   <!-- # please respect the structure below-->
-<p><em>See the <a href="https://multimediaeval.github.io/editions/2025/">MediaEval 2025 webpage</a> for information on how to register and participate.</em></p>
+<p><em>See the <a href="https://multimediaeval.github.io/editions/2026/">MediaEval 2026 webpage</a> for information on how to register and participate.</em></p>
 
 <h4 id="task-description">Task description</h4>
 
-<p>This year’s NewsImages challenge explores matching news articles with retrieved or generated images. Participants receive a large set of English-language articles from international publishers. Given the text of a news article, the goal of this task is to retrieve and/or generate a fitting image recommendation. In the <strong>Image Retrieval</strong> subtask, teams retrieve images from a larger collection. In the <strong>Image generation</strong> subtask, the teams use generative AI to produce an image that can be used as a thumbnail. (Teams can take part in one or both of two subtasks; separate submissions are required.) The tasks are as follows:</p>
+<p>The NewsImages challenge requires participants to match news articles with images that have been retrieved or generated. 
+Participants receive a large set of English-language articles from international publishers. We provide a comprehensive dataset of news articles, including article title, article lead, URL 
+(for retrieving the full text), and an editorially assigned image. Given the text of a news article, the task is to provide a fitting image. Teams are encouraged to explore different image retrieval and image generation 
+techniques to provide article-specific visuals. Pure retrieval workflows, generation workflows, or hybrid approaches are all possible. The workflows must not rely on any third-party closed-sourced APIs or resources.</p>
 
-<ol>
-  <li><strong>Image retrieval</strong>, where participants design and implement approaches to retrieve relevant images in an existing image pool that fits a given news headline and lead.</li>
-  <li><strong>Image generation</strong>, where participants need to use and develop techniques for creating appropriate visuals for news articles.</li>
-</ol>
+<p>We are particularly interested in non-photorealistic images that do not suggest they accurately represent real events, in order to avoid misleading and/or deceiving readers.</p>
 
-<p>The main criterion for evaluation (i.e., ranking of teams) is the image fit and relevance, i.e., whether the images capture key attributes of the text article, but do not depict any important elements not present in the article. The image retrieval/generation pipeline must not rely on any third-party closed-sourced APIs or resources. We provide a comprehensive dataset of news articles with article title, article lead, URL (to retrieve the full text), and an editorially assigned image.</p>
+<p>The primary criterion for evaluation is image fit, i.e., whether the images accurately capture the key attributes of the text article without depicting any important elements not present in the article. 
+This is done in the final phase of the challenge, where participants will take part in a crowdsourced evaluation event to rate the submissions. We provide an online interface where teams will be shown images 
+produced by their peers.</p>
 
-<p>In the final phase of this challenge, participants will take part in a crowdsourced evaluation event to rate the quality and relevance of the submissions. We provide an online interface where teams will be shown images produced by their peers. Each team will need to rate a subset of submitted images.</p>
-
-<p>Furthermore, the images will be evaluated for their media policy compliance. We are particularly interested in non-photorealistic images that do not suggest that they accurately represent real events so as to not mislead and/or deceive readers.</p>
+<p>Participating teams will write short working-notes papers that are published in the MediaEval Workshop Working Notes Proceedings. We welcome two types of papers: first, conventional benchmarking papers, 
+which describe the methods that the teams use to address the task and analyze the results and, second, “Quest for Insight” papers, which address a question aimed at gaining more insight into the task, but do not 
+necessarily present task results. Example questions for “Question for Insight” papers are below.</p>
 
 <h4 id="motivation-and-background">Motivation and background</h4>
-<p>News publishers and recommender systems depend on images and thumbnails to engage readers with news articles. Technology has advanced to the point that it is possible to automatically find a matching image (image retrieval) or generate an appropriate image (generative AI) for a news article. Although these techniques present an opportunity for the news media, they also present a great number of technical and ethical challenges. It is of critical importance that the match between the news and the image is accurate. And images should not mislead and/or deceive readers into assuming it represents a real-life situation when it does not.</p>
 
-<p>Online news articles are inherently multimodal. The text of an article is often accompanied by an image and/or other multimedia items. This image, however, is not only important for illustrating and complementing the text of news articles. It plays a critical role in capturing the readers’ attention; it is often the first thing readers see when browsing a news platform.</p>
+<p>News publishers and recommender systems depend on images and thumbnails to engage readers with news articles. Technology has advanced to the point that it is possible to automatically find a matching image 
+(image retrieval) or generate an appropriate image (generative AI) for a news article. Although these techniques present an opportunity for the news media, they also present a great number of technical and ethical 
+challenges. It is of critical importance that the match between the news and the image is accurate. Images should not mislead or deceive readers into assuming they represent a real-life situation.</p>
 
-<p>Research in multimedia and recommender systems generally assumes a simple relationship between images and text occurring together. For example, in image captioning [1], the caption is often assumed to describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship becomes less clear [2]. Since there are often no images available for the most recent news messages, stock images, archived photos, or even generated images are used. Here, preliminary studies showed that users prefer AI-generated content over stock images [3, 4]. The goal of this task is to investigate these intricacies in more depth, in order to understand the implications that it may have for the areas of journalism and news personalization.</p>
+<p>Research in multimedia and recommender systems typically assumes a straightforward relationship between images and text that co-occur. For example, in image captioning [1], the caption is often assumed to 
+describe the literally depicted content of the image. In contrast, when images accompany news articles, the relationship becomes less clear [2]. Since images are often unavailable for the most recent news messages, 
+stock images, archived photos, or even generated images are used as alternatives. Here, preliminary studies showed that users prefer AI-generated content over stock images [3, 4]. The goal of this task is to investigate 
+these intricacies in more depth, in order to understand the implications that it may have for the areas of journalism and news personalization.</p>
 
 <h4 id="target-group">Target group</h4>
-<p>This task targets researchers who are interested in investigating the retrieval and generation of images for news and the connection between images and text. This includes people working in the areas of computer vision, recommender systems, cross-modal information retrieval, as well as in the area of news analysis.</p>
+
+<p>This task targets researchers interested in investigating the retrieval and generation of images for news, as well as the connection between images and text. This includes teams working in areas such as computer vision, 
+recommender systems, cross-modal information retrieval, and news analysis, from both academic and industrial settings.</p>
+
+<p>We especially welcome interdisciplinary teams, including researchers from communication science, media studies, and computational social science (to name a few), as these perspectives are essential for understanding 
+how images influence news perception, audience engagement and the processing by which the public makes meaning of what the information provided by the news media.</p>
 
 <h4 id="data">Data</h4>
-<p>This challenge uses the open-source <a href="https://www.gdeltproject.org/">GDELT</a> news dataset. We create and share a subset of 8,500 news articles collected during 2022 and 2023. The news articles are all in English. Each item includes the article title, article lead, and the original image. The article text itself is not shared, but participants are free to retrieve it from the original source. We ask participants to use the <a href="https://www.multimediacommons.org/">Yahoo-Flickr Creative Commons 100 Million (YFCC100M)</a> dataset to source the images for the retrieval task.</p>
+
+<p>The challenge uses the open-source <a href="https://www.gdeltproject.org/">GDELT</a> news dataset. We create and share a subset of 8,500 news articles collected during 2022 and 2023. The news articles are all in English. Each item includes the article title, 
+article lead, and the original image. The article text itself is not shared, but participants are free to retrieve it from the original source. We ask participants to use the 
+<a href="https://www.multimediacommons.org/">Yahoo-Flickr Creative Commons 100 Million (YFCC100M)</a> dataset as the source for images in any retrieval-based steps of their workflows. This dataset is primarily intended for testing and development. The final 
+evaluation set may include articles from other sources (will be shared with participants shortly before the final evaluation event). Furthermore, we will provide example images that teams can use as baselines. 
+We encourage everyone to use them for internal user testing to assess the quality of the runs.</p>
 
 <h4 id="evaluation-methodology">Evaluation methodology</h4>
-<p>The generated and retrieved image submissions of the participants will be evaluated during a crowd-sourced event. To that end, the organizers provide an online tool and distribute accounts to participants. The participants are requested to rate the  fit and the relevance of the images that were submitted by their peers. The winning team is determined by the overall average rating for submitted images. In addition to the qualitative questions outlined above, the rating procedure for generated images will include a check for policy compliance. The policy applied within the scope of this challenge is based on existing AI guidelines in news media: Generated image submissions should adhere to current editorial standards and not suggest that they accurately represent real events, deceive, or mislead readers in any other way.</p>
 
-<p>Two subsets of image submissions will be rated during the evaluation event. We have a small subset of predetermined articles (will be communicated in advance by the organizers) and a larger subset of randomly picked articles. This allows the participants to focus on creating hand-crafted solutions for the predetermined article-image pairs as well as fully automated and scalable solutions for the random sample.</p>
+<p>The generated and retrieved image submissions of the participants will be evaluated during a crowd-sourced event. To that end, the organizers provide an online tool and distribute accounts to participants. 
+The participants are requested to rate the fit of the images submitted by their peers. The winning team is determined by the overall average rating for submitted images. In addition to the qualitative 
+questions outlined above, the rating procedure for generated images will include a check for policy compliance. The policy applied within the scope of this challenge is based on existing AI guidelines in news media: 
+All image submissions should adhere to current editorial standards and not suggest that they accurately represent real events, deceive, or mislead readers in any other way.</p>
 
-<p>Staying true to the principles of MediaEval of promoting reproducible research, the submissions of both retrieved and generated images must include the entire workflow. For image generation, we encourage participants to use tools that can automatically embed the workflow used for their generation in the image file, e.g., <a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a> or <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">WebUI</a>). Furthermore, we ask participants to use open-source solutions that can be set up and run locally.</p>
+<p>Staying true to the principles of MediaEval, which promote reproducible research, the submissions of both retrieved and generated images must include the entire workflow. For image generation, we encourage 
+participants to use tools that can automatically embed the workflow used for their generation in the image file, e.g., <a href="https://github.com/Comfy-Org/ComfyUI">ComfyUI</a> or 
+<a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">WebUI</a>. Furthermore, we ask participants to use open-source solutions that can be set up and run locally.</p>
 
 <h4 id="quest-for-insight">Quest for insight</h4>
-<p>This task invites participants to further reflect on the role and potential of news images in terms of generation and retrieval. The organizers encourage participants to explore further topics related to the task. Possible research questions are:</p>
+
+<p>This task invites participants to further reflect on the role and potential of news images in terms of generation and retrieval. The organizers encourage participants to explore further topics related to 
+the task. You are welcome to investigate your own research in the domain of news and images. (You can do so without having prepared a challenge submission.) Possible research questions are:</p>
 
 <ul>
   <li>Are generated images better suited than real archival images?</li>
@@ -254,28 +276,31 @@
   <li>What do users expect from images embedded in news articles?</li>
   <li>Do news readers care more about generated or non-generated images?</li>
   <li>Are photographs or illustrations more effective in capturing the readers’ attention?</li>
-  <li>What are existing policies and guidelines for retrieving/generating images and are they in line with readers’ expectations?</li>
+  <li>What are the existing policies and guidelines for retrieving/generating images, and are they in line with readers’ expectations?</li>
   <li>What is the impact of item properties (e.g., image style or selection of subject) across the dimension of:
     <ul>
       <li>Trustworthiness: Does the image look like it originates from a trustworthy source?</li>
       <li>Promoting stereotypes or Biases: Does the image promote any stereotypes or biases?</li>
       <li>Attractiveness/clickbaitness: Does the image capture the reader’s attention?</li>
-      <li>Visual quality: Does the image look professional and does not include any flaws?</li>
+      <li>Visual quality: Does the image look professional and not include any flaws?</li>
     </ul>
   </li>
 </ul>
 
 <h4 id="participant-information">Participant information</h4>
+
 <ul>
-  <li>You are requested to release your code and/or workflow to reproduce your submission.</li>
-  <li>Signing up: Fill in the registration form and fill out and return the usage agreement. The links to these forms will be available at a later date.</li>
-  <li>Making your submission: Details to be announced together with the dataset release.</li>
-  <li>Evaluate event: Details to be announced once all teams handed in their runs.</li>
-  <li>Preparing your working notes paper: Instructions on preparing you working notes paper will be available at a later date.</li>
+  <li>Register as a team consisting of one, but ideally multiple people. You are free to submit to either the challenge or insight track.</li>
+  <li>The following deliverables are expected: Paper (incl. revision), presentation (incl. video), codebase (shared publicly), and written reviews of the paper submissions of your peers.</li>
+  <li>You are requested to release your code and/or workflow so that we can reproduce your submission.</li>
+  <li>Submitting your work: Details will be announced together with the dataset release.</li>
+  <li>Evaluate the event: Details will be announced once all teams have submitted their runs.</li>
+  <li>Preparing Your Working Notes Paper: Instructions on preparing your working notes paper will be available at a later date.</li>
   <li>Please contact your task organizers with any questions on these points.</li>
 </ul>
 
 <h4 id="references-and-recommended-reading">References and recommended reading</h4>
+
 <p>[1] Hossain, M. Z., Sohel, F., Shiratuddin, M. F., &amp; Laga, H. (2019). <a href="https://dl.acm.org/doi/abs/10.1145/3295748">A comprehensive survey of deep learning for image captioning</a>. ACM Computing Surveys (CSUR), 51(6), p. 1-36.</p>
 
 <p>[2] Oostdijk, N., van Halteren, H., Bașar, E., &amp; Larson, M. (2020). <a href="https://www.aclweb.org/anthology/2020.lrec-1.535/">The Connection between the Text and Images of News Articles: New Insights for Multimedia Analysis</a>. In Proceedings of The 12th Language Resources and Evaluation Conference, p. 4343-4351.</p>
@@ -285,24 +310,39 @@
 <p>[4] Heitz, L., Chan, Y. K., Li, H., Zeng, K., Bernstein, A. &amp; Rossetto, L. (2024). <a href="https://ceur-ws.org/Vol-3658/paper7.pdf">Prompt-based Alignment of Headlines and Images Using OpenCLIP</a>. MediaEval 2023 Working Notes Proceedings.</p>
 
 <h4 id="task-organizers">Task organizers</h4>
+
 <ul>
-  <li>Lucien Heitz, University of Zurich, Switzerland, heitz@ifi.uzh.ch</li>
+  <li>Lucien Heitz, Informfully, Switzerland, lucien.heitz@informfully.ch</li>
+  <li>Bruno N. Sotic, University of Amsterdam, the Netherlands, nadalic.sotic@uva.nl</li>
+  <li>Ali Ahmadi Katamjani, Utrecht University, the Netherlands, a.ahmadikatamjani@uu.nl</li>
+  <li>Bram Bakker, Radboud University Nijmegen, the Netherlands, bram.bakker2@ru.nl</li>
+  <li>Qi Bi, Utrecht University, the Netherlands, q.bi@uu.nl</li>
   <li>Luca Rossetto, Dublin City University, Ireland</li>
+</ul>
+
+<h4 id="task-advisors">Task Advisors</h4>
+
+<ul>
   <li>Benjamin Kille, NTNU, Trondheim, Norway</li>
   <li>Andreas Lommatzsch, TU Berlin, Germany</li>
   <li>Duc-Tien Dang-Nguyen, University of Bergen, Norway</li>
   <li>Mehdi Elahi, University of Bergen, Norway</li>
+  <li>Jaap Kamps, University of Amsterdam, The Netherlands, kamps@uva.nl</li>
+  <li>Daan Stokvis, University of Groningen, the Netherlands</li>
 </ul>
 
 <h4 id="task-schedule">Task schedule</h4>
+
 <ul>
-  <li>30 April 2025: News dataset released.</li>
-  <li>10 September 2025: Deadline for team submissions.</li>
-  <li>17-24 September 2025: Online evaluation event.</li>
-  <li>30 September 2025: Return of the evaluation results.</li>
-  <li>08 October 2025: Deadline for submitting working notes paper (incl. code/pipeline).</li>
-  <li>25-26 October 2025: MediaEval Workshop, Dublin, Ireland and Online.</li>
+  <li>January: Releasing the test and development dataset.</li>
+  <li>February-April: Teams work on their submissions.</li>
+  <li>April: Sharing the evaluation dataset.</li>
+  <li>May: Online evaluation event.</li>
+  <li>May: Return of evaluation results.</li>
+  <li>June: Deadline for submitting working notes paper (incl. code/pipeline).</li>
+  <li>June: MediaEval Workshop in Amsterdam.</li>
 </ul>
+
 
 
       </div>
