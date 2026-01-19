@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/assets/img/mediaeval-favicon.png" type="image/png">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/assets/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="/assets/css/main.css"  media="screen,projection"/>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="twitter:card" content="summary" /> <!--<meta name="twitter:card" content="summary_large_image" />-->
+  <meta name="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card-summary.png"/>
+  <meta name="twitter:image:alt" content="Picture of group of people participants of the 2019 MediaEval workshop"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+
+  <!-- seo tags -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Synthetic Images: Advancing detection and localization of generative AI used in real-world online images | MediaEval Benchmark</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Synthetic Images: Advancing detection and localization of generative AI used in real-world online images" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<meta property="og:description" content="See the MediaEval 2026 webpage for information on how to register and participate." />
+<link rel="canonical" href="https://multimediaeval.github.io/editions/2026/tasks/synthim/" />
+<meta property="og:url" content="https://multimediaeval.github.io/editions/2026/tasks/synthim/" />
+<meta property="og:site_name" content="MediaEval Benchmark" />
+<meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-19T15:57:56+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
+<meta property="twitter:title" content="Synthetic Images: Advancing detection and localization of generative AI used in real-world online images" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-19T15:57:56+00:00","datePublished":"2026-01-19T15:57:56+00:00","description":"See the MediaEval 2026 webpage for information on how to register and participate.","headline":"Synthetic Images: Advancing detection and localization of generative AI used in real-world online images","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2026/tasks/synthim/"},"url":"https://multimediaeval.github.io/editions/2026/tasks/synthim/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <!-- Manual seo tags -->
+
+</head>
+
+  <body>
+
+    <div>
+    
+
+
+
+
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper green darken-4">
+      <a href="/" class="brand-logo" style="padding-left: 20px">
+        <h3 class="northumbria" style="margin-top: 20px;color:white;">Mediaeval</h3>
+      </a>
+      <!-- Small screen definition -->
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons" style="color:white;">menu</i>
+      </a>
+      <!-- Big screen Structure -->
+      <ul class="materialize right hide-on-med-and-down">
+        <li><a href="/"><i class="material-icons" style="color:white;">home</i></a></li>
+        
+          <li><a href="/editions/2026/" style="color:white;">MediaEval 2026</a></li>
+        
+        
+          
+            
+              <li><a class="dropdown-trigger" data-target="editions" style="color:white;">
+                MediaEval History<i class="material-icons right">arrow_drop_down</i>
+              </a></li>
+            
+          
+        
+          
+            
+                <li><a href="/philosophy/" style="color:white;">MediaEval Philosophy</a></li>
+            
+          
+        
+          
+            
+                <li><a href="/about/" style="color:white;">About MediaEval</a></li>
+            
+          
+        
+          
+            
+                <li><a href="/bib/" style="color:white;">Bibliography</a></li>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Big screen dropdown Structure -->
+<ul class="dropdown-content materialize" id="editions">
+  
+  <li><a href="/editions/2025/">MediaEval 2025</a></li>
+  
+  <li><a href="/editions/2023/">MediaEval 2023</a></li>
+  
+  <li><a href="/editions/2022/">MediaEval 2022</a></li>
+  
+  <li><a href="/editions/2021/">MediaEval 2021</a></li>
+  
+  <li><a href="/editions/2020/">MediaEval 2020</a></li>
+  
+  <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
+</ul>
+
+<!-- Mobile Structure -->
+<ul class="materialize sidenav green darken-4" id="mobile-nav">
+  <li><a href="/" style="color:white;">Home</a></li>
+  
+  <li><a href="/editions/2026/" style="color:white;">MediaEval 2026</a></li>
+  
+  
+    
+      
+  <li><a class="dropdown-trigger" data-target="mobile-editions" style="color:white;">
+    MediaEval History<i class="material-icons right" style="color:white;">arrow_drop_down</i>
+  </a></li>
+      
+    
+  
+    
+      
+  <li><a href="/philosophy/" style="color:white;">MediaEval Philosophy</a></li>
+      
+    
+  
+    
+      
+  <li><a href="/about/" style="color:white;">About MediaEval</a></li>
+      
+    
+  
+    
+      
+  <li><a href="/bib/" style="color:white;">Bibliography</a></li>
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</ul>
+
+<!-- Mobile dropdown Structure -->
+<ul class="dropdown-content materialize" id="mobile-editions">
+  
+  <li><a href="/editions/2025/">MediaEval 2025</a></li>
+  
+  <li><a href="/editions/2023/">MediaEval 2023</a></li>
+  
+  <li><a href="/editions/2022/">MediaEval 2022</a></li>
+  
+  <li><a href="/editions/2021/">MediaEval 2021</a></li>
+  
+  <li><a href="/editions/2020/">MediaEval 2020</a></li>
+  
+  <li><a href="http://www.multimediaeval.org/" target="_blank">pre-2020</a></li>
+</ul>
+
+</div>
+
+    
+
+    <div class="container">
+      <div class="row">
+          <header id="main" style="background-image: url('')">
+    <h2>Synthetic Images: Advancing detection and localization of generative AI used in real-world online images</h2>
+  </header>
+
+  <!-- # please respect the structure below-->
+<p><em>See the <a href="https://multimediaeval.github.io/editions/2026/">MediaEval 2026 webpage</a> for information on how to register and participate.</em></p>
+
+<h4 id="task-description">Task description</h4>
+
+<p>The goal of this challenge is to develop AI models capable of detecting synthetic images and identifying the specific regions in the images that have been manipulated or synthesized. Participants are expected to engage in two subtasks:</p>
+
+<p><strong>Subtask A: Synthetic Image Detection:</strong> Build models that classify images as either real or synthetic (binary).</p>
+<ul>
+  <li>Constrained run: Use only the provided training dataset.</li>
+  <li>Open run: Use any data, including external or self-generated synthetic images.</li>
+</ul>
+
+<p><strong>Subtask B: Manipulated Region Localization:</strong> Build models  that localize the specific regions within images that have been semantically modified by AI, with the additional challenge that the full image has been regenerated by AI. In other words, the full image contains forensic traces of AI, yet only a specific region was semantically modified.</p>
+
+<p>Specifically for Subtask A, participants are required to submit at least one constrained run and one open run, and to provide a comprehensive analysis comparing the two. This comparison should highlight how different training data, model configurations, or data curation strategies influence system behaviour and results.</p>
+
+<p>Participants may use the provided training and validation datasets and submit their trained models and results for evaluation on a hidden test set. In addition to the training data provided by the organizers, participants are also encouraged to use their own resources or any publicly available dataset for training [7]. However, in such cases, participants must provide detailed information about the resources they use to ensure transparency and address any potential data leakage issues.</p>
+
+<p>An additional challenge is that the images in the test sets have undergone a variety of real-world transformations, such as compression, resizing, and cropping, commonly found on social media. Participants are encouraged to augment the employed datasets with such transformations, since robust and accurate detection and localization under these conditions are critical for success.</p>
+
+<p>Beyond ranking and performance metrics, the task encourages contributions that offer insights into the evolving landscape of generative AI and its implications for media forensics. Understanding how new models, workflows, and real-world transformations shape synthetic traces is of high value. Participants are therefore encouraged to share analyses, ablation studies, and observations that deepen our collective understanding of this rapidly changing domain.</p>
+
+<p>Participating teams will write short working-notes papers that are published in the MediaEval Workshop Working Notes Proceedings. We welcome two types of papers: first, conventional benchmarking papers, which describe the methods that the teams use to address the task and analyze the results and, second, “Quest for Insight” papers, which address a question aimed at gaining more insight into the task, but do not necessarily present task results. Example questions for “Question for Insight” papers are below.</p>
+
+<h4 id="motivation-and-background">Motivation and background</h4>
+
+<p>With the proliferation of generative AI technologies, synthetic media is increasingly used in creative industries, social media, and, alarmingly, in misinformation campaigns, fake evidence, and scams. Synthetic image detection is vital for combating the misuse of AI-generated content, ensuring trust in visual media, and upholding ethical standards in digital communication. While recent advancements in synthetic image classification have shown promise, challenges persist due to continuously evolving generative models and post-processing techniques such as image recompression, that can obfuscate synthetic traces.</p>
+
+<p>This challenge aims to bring together researchers and practitioners to push the boundaries of synthetic image detection and localization. By focusing on both fully synthetic images and images that are partially modified by AI, this challenge highlights the nuanced nature of synthetic content in real-world scenarios and seeks solutions that are robust, generalizable, and explainable.</p>
+
+<p>The Synthetic Images Task for MediaEval 2026 is a continuation of the Synthetic Images Task for MediaEval 2025, using the same dataset and task structure as in the previous edition with slight modifications. Maintaining the data and splits ensures strong comparability across years and supports longitudinal analysis of progress in synthetic image detection.</p>
+
+<p>The focus will shift more strongly toward extracting insights and understanding model behavior, rather than emphasising final rankings. Participants will be encouraged to analyze their systems in depth, explore error patterns, and highlight the strengths and weaknesses of their approaches.</p>
+
+<p>Training data are also a critical challenge when building detection models and represent an interesting topic for further investigation. Therefore, insights related to training strategies, data choices, and their impact on performance are highly encouraged.</p>
+
+<h4 id="target-group">Target group</h4>
+
+<p>The challenge is aimed at researchers and practitioners in computer vision, machine learning, media forensics, and AI ethics who are interested in synthetic image detection and image manipulation detection. It appeals to individuals working on robust and generalizable solutions for real-world scenarios, including academic teams, industry R&amp;D groups, and independent AI enthusiasts.</p>
+
+<h4 id="data">Data</h4>
+
+<p>The challenge dataset will consist of three sets: a training set, a validation set to be used during development, and a test set without labels, which will be used by the organizers to assess the performance of submitted approaches.</p>
+
+<p><strong>Subtask A</strong></p>
+
+<ul>
+  <li>Training Data: Constrained Run: Wang et al. (2020) &amp; Corvi et al. (2022), containing synthetic images from StyleGAN2, BigGAN, ProGAN, and Latent Diffusion generation models.</li>
+  <li>Training Data: Open Run: participants can use their own resources or any publicly available dataset for training.</li>
+  <li>Validation Data: we provide a curated set (10k) of real (5k) and synthetic (5k) images collected in the wild for offline validation and evaluation.</li>
+  <li>Test Data: 10k images collected from social media platforms, similar in nature to the images in the validation set, and equal to the Synthetic Images task of MediaEval 2025.</li>
+</ul>
+
+<p><strong>Subtask B</strong></p>
+
+<ul>
+  <li>Training Data: Participants can use their own resources or any publicly available dataset for training. As first reference, we suggest that the participants use the fully regenerated training subsets of the TGIF [3] and SAGI [8] datasets.</li>
+  <li>Validation Data: participants can use the fully regenerated validation subsets from TGIF [3] and SAGI [8].</li>
+  <li>Test Data: participants will be provided with a curated test set with hidden labels, created by the organisers, similar to the validation set.</li>
+</ul>
+
+<p>All data will be curated under open-source or permissive licenses to ensure ethical use and compliance with data-sharing guidelines.</p>
+
+<h4 id="evaluation-methodology">Evaluation methodology</h4>
+
+<p><strong>Subtask A: Real vs. Synthetic Images (Binary Classification)</strong></p>
+
+<p>For the evaluation of synthetic image detection, the metrics used by the SIDBench framework [1] will be employed to assess performance in depth.</p>
+
+<ul>
+  <li>Accuracy: Percentage of correctly classified images.</li>
+  <li>Precision, Recall, and F1-Score: Evaluate trade-offs between false positives and false negatives, with the F1-Score as a primary indicator of balanced performance.</li>
+  <li>ROC AUC (Area Under the ROC Curve): Summarizes the trade-off between true positive rate (sensitivity) and the false-positive rate across thresholds.</li>
+  <li>Average Precision (AP): Evaluates the precision-recall trade-off across thresholds.</li>
+  <li>Equal Error Rate (EER): The rate at which false acceptance and false rejection are equal, indicating threshold-independent performance.</li>
+</ul>
+
+<p>Τhe F1-Score will be used as the primary metric for ranking participants. This ensures a balanced evaluation of precision and recall, which is critical for synthetic image detection tasks.</p>
+
+<p>To evaluate model robustness in detecting synthetic images under uncontrolled conditions, such as transformations applied by online platforms, we will test the submitted models on a dataset of images collected from social media previously used in disinformation campaigns. The variations, collected directly from the Internet, reflect real-world, black-box transformations where the exact processes are unknown. The evaluation will focus on calculating the True Positive Rate (TPR) to measure detection effectiveness across all variations.</p>
+
+<p><strong>Subtask B: Manipulated Region Localization</strong></p>
+
+<p>For the evaluation of the manipulated region localization, to evaluate how well the model identifies the specific regions in an image that have been manipulated, Intersection over Union (IoU) will be used.</p>
+
+<h4 id="quest-for-insight">Quest for insight</h4>
+
+<p>We encourage the participants to go beyond just looking at the evaluation metrics. As a starting point, here are several research questions:</p>
+
+<ul>
+  <li>Are the synthetic images and image regions that are challenging to detect automatically also challenging for people looking at the images to see?</li>
+  <li>What are the characteristics of the false positives, i.e., of non-synthetic images or image regions that are misclassified as synthetic? Are there any general insights that can be drawn in terms of perceived quality or image semantics?</li>
+  <li>Are there characteristics (semantic content, framing) that are specific to the in-the-wild examples?</li>
+  <li>How does the choice of training data influence model performance and behavior?</li>
+  <li>What benefits arise from creating or sourcing new datasets? For example, from fact-checking platforms or social media? Which types of content remain underrepresented?</li>
+  <li>How close can collected data come to the distribution of real online synthetic media, and what strategies help reduce the mismatch between curated training sets and real-world content?</li>
+</ul>
+
+<h4 id="references-and-recommended-reading">References and recommended reading</h4>
+
+<p>[1]Schinas, M., &amp; Papadopoulos, S. (2024, June). SIDBench: A Python framework for reliably assessing synthetic image detection methods. In Proceedings of the 3rd ACM International Workshop on Multimedia AI against Disinformation (pp. 55-64).</p>
+
+<p>[2] Karageorgiou, D., Bammey, Q., Porcellini, V., Goupil, B., Teyssou, D., &amp; Papadopoulos, S. (2024, September). Evolution of Detection Performance throughout the Online Lifespan of Synthetic Images. In Trust What You learN (TWYN) Workshop ECCV 2024.</p>
+
+<p>[3] Mareen, H., Karageorgiou, D., Van Wallendael, G., Lambert, P., &amp; Papadopoulos, S. (2024, December). TGIF: Text-Guided Inpainting Forgery Dataset. In 2024 IEEE International Workshop on Information Forensics and Security (WIFS) (pp. 1-6).</p>
+
+<p>[4] Koutlis, C., &amp; Papadopoulos, S. (2025). Leveraging representations from intermediate encoder-blocks for synthetic image detection. In European Conference on Computer Vision (pp. 394-411). Springer, Cham.</p>
+
+<p>[5] Konstantinidou, D., Koutlis, C., &amp; Papadopoulos, S. (2024). TextureCrop: Enhancing Synthetic Image Detection through Texture-based Cropping.In Proceedings of the Winter Conference on Applications of Computer Vision Workshops (pp. 1459-1468).</p>
+
+<p>[6] Karageorgiou, D., Papadopoulos, S., Kompatsiaris, I., &amp; Gavves, E. (2024). Any-Resolution AI-Generated Image Detection by Spectral Learning. In Proceedings of the Computer Vision and Pattern Recognition Conference (pp. 18706-18717).</p>
+
+<p>[7] Bammey, Q. (2024). Synthbuster: Towards Detection of Diffusion Model Generated Images. IEEE Open Journal of Signal Processing, 5, 1-9.</p>
+
+<p>[8] Giakoumoglou, P., Karageorgiou, D., Papadopoulos, S., &amp; Petrantonakis, P. C. (2025). SAGI: Semantically Aligned and Uncertainty Guided AI Image Inpainting. ICCV 2025.</p>
+
+<p>[9] Corvi, R., Cozzolino, D., Zingarini, G., Poggi, G., Nagano, K., &amp; Verdoliva, L. (2023, June). On the detection of synthetic images generated by diffusion models. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 1-5). IEEE.</p>
+
+<p>[10] Wang, S. Y., Wang, O., Zhang, R., Owens, A., &amp; Efros, A. A. (2020). CNN-generated images are surprisingly easy to spot… for now. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 8695-8704)</p>
+
+<h4 id="task-organizers">Task organizers</h4>
+
+<ul>
+  <li>Dimitrios Karageogiou, MeVer group, CERTH-ITI, Greece</li>
+  <li>Olga Papadopoulou, MeVer group, CERTH-ITI, Greece</li>
+  <li>Symeon Papadopoulos, MeVer group, CERTH-ITI, Greece</li>
+  <li>Christos Koutlis, MeVer group, CERTH-ITI, Greece</li>
+  <li>Hannes Mareen, IDLab-MEDIA, Univ. Ghent, Belgium</li>
+  <li>Efstratios Gavves, VIS Lab, UvA, Netherlands</li>
+</ul>
+
+<h4 id="task-organization-team">Task Organization Team</h4>
+
+<p>The Media Analysis, Verification, and Retrieval group (MeVer) focuses on social media mining, retrieval, and multimodal AI. Primary interest lies in tackling AI-generated multimedia (synthetic media or deepfakes), a growing challenge due to advancements in deep learning and evolving strategies of online misinformation.
+IDLab-MEDIA, part of Ghent University and imec, focuses on the representation, processing, compression, interactive delivery and forensics of visual media.
+The Video &amp; Image Sense (VIS) Lab combines artificial and human intelligence to understand video and images. Based at the University of Amsterdam’s Informatics Institute, the lab specializes in computer vision, deep learning, and cognitive science research.</p>
+
+<h4 id="acknowledgements">Acknowledgements</h4>
+
+<p>The task organization is supported by the Horizon Europe AI-CODE project that focuses on the development of AI tools for supporting media professionals in their verification and fact-checking activities.</p>
+
+
+      </div>
+    </div>
+
+    
+<footer class='page-footer green darken-4'>
+  <div class='container'>
+
+    <div class='row'>
+      <div class="col l6 s12">
+        <h5 class="white-text">What is MediaEval?</h5>
+        <p>MediaEval is a benchmarking initiative dedicated to evaluating new algorithms for multimedia access and retrieval. 
+          It emphasizes the ‘multi’ in multimedia and focuses on human and social aspects of multimedia tasks.</p>
+
+        <p>For more information contact Martha Larson m.larson (at) cs.ru.nl</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <a href='https://twitter.com/multimediaeval' target="_blank">
+          <i class="fa fa-twitter fa-3x" aria-hidden="true" style="color:white;"></i>
+        </a>
+        <a href='https://github.com/multimediaeval' target="_blank">
+          <i class="fa fa-github fa-3x" aria-hidden="true" style="color:white;"></i>
+        </a>
+        <a href='https://www.flickr.com/photos/69524595@N06/' target="_blank">
+          <i class="fa fa-flickr fa-3x" aria-hidden="true" style="color:white;"></i>
+        </a>
+        <a href='https://www.youtube.com/channel/UCc-1NW1Uo2o_zI4F81iyTcw' target="_blank">
+          <i class="fa fa-youtube fa-3x" aria-hidden="true" style="color:white;"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+    <div class="footer-copyright">
+      <div class="container grey-text text-lighten-4">
+      &copy; 2020 MediaEval Multimedia Benchmark
+    </div>
+  </div>
+</footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+  </body>
+
+</html>
