@@ -30,7 +30,7 @@ Participating teams will write short working-notes papers that are published in 
 which describe the methods that the teams use to address the task and analyze the results and, second, "Quest for Insight" papers, which address a question aimed at gaining more insight into the task, but 
 do not necessarily present task results. Example questions for "Question for Insight" papers are below.
 
-* #### Motivation and background
+#### Motivation and background
 
 In an era where visual content, such as movies and commercials, permeates our daily lives, understanding and predicting the memorability of multimedia content is becoming increasingly important. For marketers, filmmakers, 
 and content creators, selecting and designing media that effectively captures attention and leaves a lasting impression is crucial for success. Commercials, in particular, need to engage viewers immediately and remain 
