@@ -33,12 +33,12 @@
 <meta property="og:site_name" content="MediaEval Benchmark" />
 <meta property="og:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-01-26T13:41:36+00:00" />
+<meta property="article:published_time" content="2026-01-26T13:43:02+00:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://multimediaeval.github.io/assets/img/twitter-card.png" />
 <meta property="twitter:title" content="Medico 2026: Visual Question Answering (VQA) for Gastrointestinal Imaging" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-26T13:41:36+00:00","datePublished":"2026-01-26T13:41:36+00:00","description":"See the MediaEval 2026 webpage for information on how to register and participate.","headline":"Medico 2026: Visual Question Answering (VQA) for Gastrointestinal Imaging","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2026/tasks/medico/"},"url":"https://multimediaeval.github.io/editions/2026/tasks/medico/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-26T13:43:02+00:00","datePublished":"2026-01-26T13:43:02+00:00","description":"See the MediaEval 2026 webpage for information on how to register and participate.","headline":"Medico 2026: Visual Question Answering (VQA) for Gastrointestinal Imaging","image":"https://multimediaeval.github.io/assets/img/twitter-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://multimediaeval.github.io/editions/2026/tasks/medico/"},"url":"https://multimediaeval.github.io/editions/2026/tasks/medico/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Manual seo tags -->
@@ -225,17 +225,6 @@ evaluation criteria targeting behavioral safety, discouraging undesirable model 
 the methods that the teams use to address the task and analyze the results and, second, “Quest for Insight” papers, which address a question aimed at gaining more insight into the task, but do not necessarily present 
 task results. Example questions for “Question for Insight” papers are below.</p>
 
-<h4 id="motivation-and-background">Motivation and background</h4>
-
-<p>For AI systems to be integrated into clinical workflows, they must be transparent, interpretable, and safe. In GI imaging, deep learning models have achieved promising results for classification and detection tasks, 
-yet their black-box nature limits trust among clinicians. Medical professionals require explanations that clearly connect visual evidence to clinical conclusions.</p>
-
-<p>Medical VQA offers a natural interface for explainable decision support, enabling clinicians to ask structured questions and receive interpretable responses. Nevertheless, many existing VQA models provide answers without 
-sufficient justification or safeguards against unsafe reasoning. Medico 2026 addresses these limitations by explicitly integrating explainability and safety into both task design and evaluation. By encouraging multimodal 
-explanations and clinically consistent behavior, the challenge aims to advance AI systems that support, rather than replace, clinical expertise.</p>
-
-<h4 id="task-description-1">Task Description</h4>
-
 <p><strong>Subtask 1: Medical Image Question Answering in GI Endoscopy</strong></p>
 
 <p>This subtask focuses on developing models that accurately answer clinically relevant questions based on GI endoscopy images using the Kvasir-VQA-x1 dataset, which contains more than 150,000 question–answer pairs. 
@@ -252,6 +241,15 @@ image regions, in a manner aligned with clinical reasoning.</p>
 <p>In addition to interpretability, this subtask introduces a dedicated safety layer that evaluates model behavior across clinical contexts. Models are assessed for undesirable behaviors, including overconfidence, 
 misleading explanations, or non-compliance with established medical best practices. To support retrieval-augmented reasoning, participants may leverage a curated database of verified endoscopy resources provided as 
 part of the challenge.</p>
+
+<h4 id="motivation-and-background">Motivation and background</h4>
+
+<p>For AI systems to be integrated into clinical workflows, they must be transparent, interpretable, and safe. In GI imaging, deep learning models have achieved promising results for classification and detection tasks, 
+yet their black-box nature limits trust among clinicians. Medical professionals require explanations that clearly connect visual evidence to clinical conclusions.</p>
+
+<p>Medical VQA offers a natural interface for explainable decision support, enabling clinicians to ask structured questions and receive interpretable responses. Nevertheless, many existing VQA models provide answers without 
+sufficient justification or safeguards against unsafe reasoning. Medico 2026 addresses these limitations by explicitly integrating explainability and safety into both task design and evaluation. By encouraging multimodal 
+explanations and clinically consistent behavior, the challenge aims to advance AI systems that support, rather than replace, clinical expertise.</p>
 
 <h4 id="target-group">Target group</h4>
 
