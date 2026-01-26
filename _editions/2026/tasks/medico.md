@@ -29,18 +29,6 @@ Participating teams will write short working-notes papers that are published in 
 the methods that the teams use to address the task and analyze the results and, second, "Quest for Insight" papers, which address a question aimed at gaining more insight into the task, but do not necessarily present 
 task results. Example questions for "Question for Insight" papers are below.
 
-#### Motivation and background
-
-For AI systems to be integrated into clinical workflows, they must be transparent, interpretable, and safe. In GI imaging, deep learning models have achieved promising results for classification and detection tasks, 
-yet their black-box nature limits trust among clinicians. Medical professionals require explanations that clearly connect visual evidence to clinical conclusions.
-
-Medical VQA offers a natural interface for explainable decision support, enabling clinicians to ask structured questions and receive interpretable responses. Nevertheless, many existing VQA models provide answers without 
-sufficient justification or safeguards against unsafe reasoning. Medico 2026 addresses these limitations by explicitly integrating explainability and safety into both task design and evaluation. By encouraging multimodal 
-explanations and clinically consistent behavior, the challenge aims to advance AI systems that support, rather than replace, clinical expertise.
-
-
-#### Task Description
-
 **Subtask 1: Medical Image Question Answering in GI Endoscopy**
 
 This subtask focuses on developing models that accurately answer clinically relevant questions based on GI endoscopy images using the Kvasir-VQA-x1 dataset, which contains more than 150,000 question–answer pairs. 
@@ -57,6 +45,15 @@ image regions, in a manner aligned with clinical reasoning.
 In addition to interpretability, this subtask introduces a dedicated safety layer that evaluates model behavior across clinical contexts. Models are assessed for undesirable behaviors, including overconfidence, 
 misleading explanations, or non-compliance with established medical best practices. To support retrieval-augmented reasoning, participants may leverage a curated database of verified endoscopy resources provided as 
 part of the challenge.
+
+#### Motivation and background
+
+For AI systems to be integrated into clinical workflows, they must be transparent, interpretable, and safe. In GI imaging, deep learning models have achieved promising results for classification and detection tasks, 
+yet their black-box nature limits trust among clinicians. Medical professionals require explanations that clearly connect visual evidence to clinical conclusions.
+
+Medical VQA offers a natural interface for explainable decision support, enabling clinicians to ask structured questions and receive interpretable responses. Nevertheless, many existing VQA models provide answers without 
+sufficient justification or safeguards against unsafe reasoning. Medico 2026 addresses these limitations by explicitly integrating explainability and safety into both task design and evaluation. By encouraging multimodal 
+explanations and clinically consistent behavior, the challenge aims to advance AI systems that support, rather than replace, clinical expertise.
 
 
 #### Target group
