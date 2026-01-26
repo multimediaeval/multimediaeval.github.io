@@ -5,9 +5,9 @@ year: 2026
 hide: false
 
 # required info
-title: "Medico 2026: Visual Question Answering (VQA) for Gastrointestinal Imaging"
+title: "Medico: Visual Question Answering (VQA) for Gastrointestinal Imaging"
 subtitle: Medico
-blurb: "Medico 2026 focuses on Visual Question Answering (VQA) for gastrointestinal (GI) imaging, with an emphasis on explainability, clinical safety, and multimodal reasoning. The task leverages the expanded Kvasir-VQA-x1 dataset, containing more than 150,000 clinically relevant question–answer pairs, to support the development of AI models that can accurately answer questions based on GI endoscopy images while providing coherent and clinically grounded explanations. The goal is to advance trustworthy and interpretable AI decision support for GI diagnostics."
+blurb: "Medico focuses on Visual Question Answering (VQA) for gastrointestinal (GI) imaging, with an emphasis on explainability, clinical safety, and multimodal reasoning. The task leverages the expanded Kvasir-VQA-x1 dataset, containing more than 150,000 clinically relevant question–answer pairs, to support the development of AI models that can accurately answer questions based on GI endoscopy images while providing coherent and clinically grounded explanations. The goal is to advance trustworthy and interpretable AI decision support for GI diagnostics."
 ---
 
 <!-- # please respect the structure below-->
