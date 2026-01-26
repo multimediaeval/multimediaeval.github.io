@@ -11,6 +11,9 @@ blurb: "Participants are provided with links to multimodal web content from seve
 FSI activities in the city that satisfy specified criteria. Evaluation will explore the use of emerging LLMs-based methods in automated assessment of multimodal multi-document summarization."
 ---
 
+<!-- # please respect the structure below-->
+*See the [MediaEval 2026 webpage](https://multimediaeval.github.io/editions/2026/) for information on how to register and participate.*
+
 #### Task description
 
 The goal of the task is to explore the creation of multimodal summaries from multiple multimodal content items.
