@@ -16,10 +16,10 @@ blurb: "The goal of this task is to study the long-term memory performance when 
 #### Task description
 
 The goal of this task is to study the long-term memory performance when recognising small movie excerpts or commercial videos. We provide the videos, precomputed features or EEG features for the challenges 
-proposed in the task such as how memorable a video, if a person is familiar with a video or if you can predict the brand memorability?
+proposed in the task such as how memorable a video, if a person is familiar with a video or if you can predict the brand memorability? Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.
 
 **Subtask 1: Movie Memorability**. This task studies the long-term memory performance when recognizing small movie excerpts.
-* _Challenge 1.1: How memorable is this video (movie excerpts)?_ - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores. Participants are free to use only the modalities relevant to their approach, enabling a broad range of methodologies.
+* _Challenge 1.1: How memorable is this video (movie excerpts)?_ - Video-based prediction: The goal of this task is to predict how memorable a video is based on movie excerpts. Participants are expected to develop automatic systems that predict the memorability scores of new videos. The memorability score indicates the probability of a video being remembered by viewers. To achieve this, participants will use a subset of the Movie Memorability dataset, which includes videos, their corresponding memorability scores.
 * _Challenge 1.2: Is this person familiar with this video?_ - EEG-based detection of recall: This task requires participants to automatically detect whether a person is remembering a video from a movie they previously watched. To do this, participants may use only features extracted from the EEG data, without using any features from the videos themselves.
 
 **Subtask 2: Commercial/Ad Memorability.** This task evaluates long-term memory performance in recognising commercial videos. Participants will use the VIDEM dataset, which contains commercial videos along with their memorability and brand memorability scores, to train their systems. The trained models will then predict the scores for new, unseen commercial videos (product, brand, and concept presentations and discussions). This challenge does not include EEG data.
@@ -67,7 +67,7 @@ One dataset will be provided for each subtask.
 For subtask 1, a subset of the Movie Memorability dataset will be used. This is a collection of movie excerpts and corresponding ground-truth files based on the measurement of long-term memory performance when 
 recognizing small movie excerpts from weeks to years after having viewed them. It is accompanied with audio and video features extracted from the movie excerpts. EEG data recorded while viewing this subset will 
 be also provided. EEG data were recorded while 27 participants viewed a subset of clips from the dataset. The clips were selected to include both previously seen and unseen movies. After viewing each clip, participants 
-were asked if they remembered seeing it before. In total 3484 epochs of 64 channel EEG data are available, of which 2122 were not recognised and 1362 were remembered.
+were asked if they remembered seeing it before. In total 3484 epochs of 64 channel EEG data are available, of which 2122 were not recognized and 1362 were remembered.
 
 For subtask 2, the VIDEM (VIDeo Effectiveness and Memorability) dataset will be used. It focuses on video and brand memorability in commercial advertisements, including some educational or explanatory videos. 
 Developed through a university-business collaboration between the University of Essex and Hub, with support from Innovate UK’s Knowledge Transfer Partnership (grant agreement No. 11071. This is a collection of 
@@ -107,7 +107,7 @@ accuracy. For Challenge 1.2 (EEG-based detection of recall), submissions will be
 
 #### Task organizers
 
-* Alba García Seco de Herrera,  UNED, Spain (lead task organiser);
+* Alba García Seco de Herrera,  UNED, Spain (lead task organizer);
 * Sebastian Halder, Ana Matran-Fernandez, University of Essex, UK;
 * Mihai Gabriel Constantin, Bogdan Ionescu, University Politehnica of Bucharest, Romania;
 * Claire-Hélène Demarty, InterDigital, R&I, France;
