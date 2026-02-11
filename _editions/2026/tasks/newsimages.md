@@ -110,24 +110,25 @@ the task. You are welcome to investigate your own research in the domain of news
 
 * Lucien Heitz, Informfully, Switzerland, lucien.heitz@informfully.ch 
 * Bruno N. Sotic, University of Amsterdam, the Netherlands, nadalic.sotic@uva.nl
-* Ali Ahmadi Katamjani, Utrecht University, the Netherlands, a.ahmadikatamjani@uu.nl
+* Ali A. Katamjani, Utrecht University, the Netherlands, a.ahmadikatamjani@uu.nl
 * Bram Bakker, Radboud University Nijmegen, the Netherlands, bram.bakker2@ru.nl
 * Qi Bi, Utrecht University, the Netherlands, q.bi@uu.nl 
 * Luca Rossetto, Dublin City University, Ireland
 
-#### Task Advisors
+#### Task advisors
 
 * Benjamin Kille, NTNU, Trondheim, Norway
 * Andreas Lommatzsch, TU Berlin, Germany
 * Duc-Tien Dang-Nguyen, University of Bergen, Norway
 * Mehdi Elahi, University of Bergen, Norway
-* Jaap Kamps, University of Amsterdam, The Netherlands, kamps@uva.nl 
+* Jaap Kamps, University of Amsterdam, the Netherlands
 * Daan Stokvis, University of Groningen, the Netherlands
+* Martha Larson, Radboud University, the Netherlands
 
 #### Task schedule
 
-* January: Releasing the test and development dataset.
-* February-April: Teams work on their submissions.
+* See the official [NewsImages GitHub repository](https://github.com/Informfully/Challenges) for updates and the precise timeline.
+* February-April: Release test dataset and teams work on their submissions
 * April: Sharing the evaluation dataset.
 * May: Online evaluation event.
 * May: Return of evaluation results.
