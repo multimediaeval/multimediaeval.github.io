@@ -13,7 +13,7 @@ blurb: "Missing Pieces and Misinformation: Identifying social media posts with i
 <!-- # please respect the structure below-->
 *See the [MediaEval 2026 webpage](https://multimediaeval.github.io/editions/2026/) for information on how to register and participate.*
 
-## Task Description
+#### Task Description
 
 The goal of this task is to develop AI models that are capable of detecting implicit arguments
 (enthymemes) in tweets. The dataset contains tweets and their annotations, and also includes
@@ -55,9 +55,8 @@ understanding of implicit argumentation, but do not necessarily present complete
 Example questions for "Quest for Insight" papers include: How do different annotators interpret
 implicit premises? What linguistic features best signal the presence of enthymemes?
 
----
 
-## Motivation and Background
+#### Motivation and Background
 
 Enthymemes—arguments with missing components (premises or conclusions)—represent a fundamental
 challenge in understanding persuasive discourse and argumentation. These implicit arguments are
@@ -94,9 +93,8 @@ variation as signal rather than noise. This resource adds on an existing dataset
 investigating enthymemes in controversial political discourse, enabling research into how discourse
 characteristics of enthymemes can improve their detection with NLP methods.
 
----
 
-## Target Group
+#### Target Group
 
 This task is interesting to anyone who is interested in text analysis. We expect it to attract
 people working in areas such as natural language processing, argument mining, computational
@@ -110,9 +108,8 @@ persuasion, shapes political discourse, and affects the processes by which audie
 reason about controversial topics. The use of explicit structural modeling, linguistic
 feature-based approaches, and even rule-based systems of all sorts are encouraged.
 
----
 
-## Data
+#### Data
 
 The dataset consists of tweets that have been annotated by multiple annotators who judged whether
 or not the tweet contains an enthymeme. For each enthymeme, the annotators also propose a
@@ -136,9 +133,8 @@ The data will be released in three parts:
 > ⚠️ Participants should be aware that the data contains language hurtful towards immigrants and
 > should be ready for this when reading the data.
 
----
 
-## Evaluation Methodology
+#### Evaluation Methodology
 
 **Task 1:** Since this is a label prediction task, we will evaluate using F1 concerning the
 presence or absence of enthymemes. Three labels are considered in the basic setting:
@@ -149,9 +145,8 @@ used to compare the reconstructions provided by the annotators with the proposit
 the participants. Second, a subset of the test set will be sampled and evaluated by hand by
 experienced human annotators.
 
----
 
-## Quest for Insight
+#### Quest for Insight
 
 - What systematic patterns emerge in label variation across easy-medium-hard cases, and do they
   reveal distinct interpretative frameworks?
@@ -167,18 +162,16 @@ experienced human annotators.
 - What is the most effective way to leverage annotator reconstructions to evaluate implicit
   proposition generation performance?
 
----
 
-## Task Organizers
+#### Task Organizers
 
 - **Martial Pastor**, Radboud University — martial.pastor@ru.nl
 - **Nelleke Oostdijk**, Radboud University — nelleke.oostdijk@ru.nl
 
 *Data will be made available as of the 1st of March.*
 
----
 
-## References
+#### References
 
 [1] Aroyo, L., & Welty, C. (2015). Truth is a lie: Crowd truth and the seven myths of human annotation. *AI Magazine, 36*(1), 15–24.
 
