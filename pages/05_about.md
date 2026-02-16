@@ -10,6 +10,10 @@ MediaEval is a benchmarking initiative dedicated to evaluating new algorithms fo
 
 For more information about past years see:
 
+[SIGMM Records Volume 18, Issue 1, Jan 2026](https://records.sigmm.org/2026/02/11/the-mediaeval-benchmark-looks-back-at-a-successful-fifteenth-edition-and-forward-to-its-sweet-sixteen/)\\
+[Records Volume 17, Issue 1, Jan 2025](https://records.sigmm.org/2025/03/20/overview-of-open-dataset-sessions-and-benchmarking-competitions-in-2023-2024-part-3-mediaeval-2023-imageclef-2024/)
+[SIGMM Records Volume 16, Issue 4, Oct 2024](https://records.sigmm.org/2024/11/15/one-benchmarking-cycle-wraps-up-and-the-next-ramps-up-news-from-the-mediaeval-multimedia-benchmark/)\\
+[SIGMM Records Volume 15, Issue 1, January 2023](https://records.sigmm.org/2023/01/19/overview-of-open-dataset-sessions-and-benchmarking-competitions-in-2022-part-3/)\\
 [SIGMM Records Volume 12, Issue 2, June 2020](https://records.sigmm.org/2020/07/08/mediaeval-multimedia-evaluation-benchmark-tenth-anniversary-and-counting/)\\
 [MediaEval 2017 Overview of the Year](https://youtu.be/3eE8A2mC2aw) \\
 [IEEE Multimedia Vol. 24, No. 1, 93-96, 2016 The Benchmarking Initiative for Multimedia Evaluation: MediaEval 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7849098) \\
