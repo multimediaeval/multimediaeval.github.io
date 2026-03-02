@@ -88,6 +88,15 @@ Here are several research questions related to this challenge that participants 
 - Identifying open research questions and challenges in applying LLM methods in multidocument summarization.
 - What is the effectiveness of using LLM-based evaluation methods in multidocument summarization? answer in order to go beyond just looking at evaluation metrics.
 
+#### Participant information
+
+* Register as a team consisting of one, but ideally multiple people. You are free to submit to any of the challenges we propose, or to the “Quest for Insight” track”, or both.
+* You will be expected to submit a working notes paper that describes your approach and present your approach at the workshop (in-person or online).
+* Submitting your work: the task organizers will provide information on how to submit your runs. 
+* Preparing Your Working Notes Paper: Instructions on preparing your working notes paper will be available closer to the deadline.
+* Preparing Your Presentation: Instructions on preparing your presentation for the workshop closer to the workshop.
+* Please contact your task organizers with any questions on these points.
+
 #### References and recommended reading
 - Zhu et al., “Multimodal Summarization: A Survey” (2020)
 https://arxiv.org/abs/2006.08835

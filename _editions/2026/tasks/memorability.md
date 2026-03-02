@@ -91,6 +91,15 @@ accuracy. For Challenge 1.2 (EEG-based detection of recall), submissions will be
 * To what extent do EEG patterns associated with memorable media generalize across different individuals?
 * What are the differences between subject-specific and subject-agnostic models in the EEG classification task?
 
+#### Participant information
+
+* Register as a team consisting of one, but ideally multiple people. You are free to submit to any of the challenges we propose, or to the “Quest for Insight” track”, or both.
+* You will be expected to submit a working notes paper that describes your approach and present your approach at the workshop (in-person or online).
+* Submitting your work: the task organizers will provide information on how to submit your runs. 
+* Preparing Your Working Notes Paper: Instructions on preparing your working notes paper will be available closer to the deadline.
+* Preparing Your Presentation: Instructions on preparing your presentation for the workshop closer to the workshop.
+* Please contact your task organizers with any questions on these points.
+
 #### References and recommended reading
 
 [1] 2018 R.Cohendet, K. Yadati, N. Q. Duong and C.-H. Demarty. [Annotating, understanding, and predicting long-term video memorability](https://dl.acm.org/doi/abs/10.1145/3206025.3206056). In Proceedings of the ICMR 2018 Conference, Yokohama, Japan, June 11-14, 2018.
