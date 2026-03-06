@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task)"
 subtitle: Enthymeme
-blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task). Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as ;enthymemes" and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
+blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task). Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as 'enthymemes' and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
 ---
 
 *See the [MediaEval 2026 webpage](https://multimediaeval.github.io/editions/2026/) for information on how to register and participate.*
@@ -105,7 +105,7 @@ The data will be released in three parts:
 
 #### Participant information
 
-* Register as a team consisting of one, but ideally multiple people. You are free to submit to any of the challenges we propose, or to the “Quest for Insight” track”, or both.
+* Register as a team consisting of one, but ideally multiple people. You are free to submit to any of the challenges we propose, or to the “Quest for Insight” track, or both.
 * You will be expected to submit a working notes paper that describes your approach and present your approach at the workshop (in-person or online).
 * Submitting your work: the task organizers will provide information on how to submit your runs. 
 * Preparing Your Working Notes Paper: Instructions on preparing your working notes paper will be available closer to the deadline.
