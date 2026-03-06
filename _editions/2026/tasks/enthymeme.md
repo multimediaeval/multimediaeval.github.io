@@ -7,7 +7,7 @@ hide: false
 # required info
 title: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task)"
 subtitle: Enthymeme
-blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task). Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as "enthymemes" and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
+blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task). Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as ;enthymemes" and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
 ---
 
 *See the [MediaEval 2026 webpage](https://multimediaeval.github.io/editions/2026/) for information on how to register and participate.*
