@@ -107,7 +107,7 @@ actively invited, and continuous support will be offered throughout the challeng
 * Michael A. Riegler, SimulaMet, Norway
 * Steven A. Hicks, SimulaMet, Norway
 
-##### MediaEval 2026 Schedule:
+##### Task Schedule:
 
 * Registration for task participation opens: January 2026
 * Test data release: 1 March 2026
