@@ -21,7 +21,7 @@ Given a tweet, determine whether it contains an implicit premise, an implicit co
 
 An **implicit premise** is a supporting assumption left unstated that the argument relies on. An **implicit conclusion** is a claim that follows from the stated premises but is never explicitly made. When neither component is missing, the label is `none`.
 
-Tweets in the train and dev sets are each annotated by five independent annotators; those in the test set by three. Individual annotator labels — prior to any majority vote — are provided alongside the data, making it possible to treat disagreement as signal rather than noise.
+Tweets in the train and dev sets are each annotated by three independent annotators; those in the test set by three. Individual annotator labels — prior to any majority vote — are provided alongside the data, making it possible to treat disagreement as signal rather than noise.
 
 Participants are invited to complete two tasks. While they may choose to complete only task 1, completion of task 2 is conditional upon prior completion of task 1.
 
@@ -80,8 +80,8 @@ Participants are encouraged to visit the [Enthymemes Dataset Portal](https://tur
 The data will be released in three parts:
 
 - **Data sample (1 March):** A small collection of tweets that have been annotated by two annotators, so that participants can read the data and understand the challenge of the task.
-- **First data release (Mid-March):** A larger collection of data that has been annotated by five annotators. It is split into train and dev.
-- **Final dataset (Beginning April):** The full dataset, which is split into train, dev, and test set. The train set is a superset of the training set released with the first data release. Likewise, the dev set is a superset of the development set released with the first data release. Train and dev data has been annotated by five annotators. The test set is the test set for the task: the participants are required to submit their predictions on the test set.
+- **First data release (Mid-March):** A larger collection of data that has been annotated by three annotators. It is split into train and dev.
+- **Final dataset (Mid-May):** The full dataset, which is split into train, dev, and test set. The train set is a superset of the training set released with the first data release. Likewise, the dev set is a superset of the development set released with the first data release. Train and dev data has been annotated by five annotators. The test set is the test set for the task: the participants are required to submit their predictions on the test set.
 
 > ⚠️ Participants should be aware that the data contains language hurtful towards immigrants and should be ready for this when reading the data.
 
