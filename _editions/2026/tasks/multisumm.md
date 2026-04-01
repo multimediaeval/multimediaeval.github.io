@@ -116,13 +116,15 @@ https://aclanthology.org/2020.acl-main.703/
 * Gareth J. F. Jones, Maynooth University, Ireland
 * Anastasia Potyagalova, DCU, Ireland
 
-##### Task 2026 Schedule:
+##### Task Schedule:
+
 * Registration for task participation opens: January 2026
 * Test data release: 1 March 2026
 * Runs due: 1 June 2026
 * Working notes papers due: 10 June 2026
 * MediaEval 2026 Workshop, Mon.-Tue. 15-16 June 2026, Amsterdam, Netherlands and Online, co-located with ACM ICMR 2026
 * Camera ready deadline: 30 June 2026
+
 
 
 
