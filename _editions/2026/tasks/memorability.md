@@ -141,4 +141,5 @@ The work in this project is supported by projects:
 
 <img src="https://www.aei.gob.es/sites/default/files/inline-images/MICIU%2BCofinanciado%2BAEI.jpg" 
      alt="MICIU Logo" 
+     width="640" 
      style="max-width: 100%; height: auto;">
