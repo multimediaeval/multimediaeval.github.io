@@ -135,4 +135,10 @@ accuracy. For Challenge 1.2 (EEG-based detection of recall), submissions will be
 
 #### Acknowledgements
 
-More details will follow.
+The work in this project is supported by projects:
+* PID2023-150584OB-C21 funded by MICIU/AEI/10.13039/501100011033 and FEDER, EU.
+* PN-IV-P7-7.1-PTE-2024-0382, agreement 12PTE/2025, PsiRoText funded by UEFISCDI Romania
+
+<img src="https://www.aei.gob.es/sites/default/files/inline-images/MICIU%2BCofinanciado%2BAEI.jpg" 
+     alt="MICIU Logo" 
+     style="max-width: 100%; height: auto;">
