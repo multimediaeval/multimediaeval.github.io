@@ -164,3 +164,7 @@ The Video & Image Sense (VIS) Lab combines artificial and human intelligence to 
 #### Acknowledgements
 
 The task organization is supported by the Horizon Europe AI-CODE project that focuses on the development of AI tools for supporting media professionals in their verification and fact-checking activities.
+
+<a href="https://aicode-project.eu/">
+   <img src="https://multimediaeval.github.io/editions/2025/docs/ai-code-1.png" width=150/>
+</a>
