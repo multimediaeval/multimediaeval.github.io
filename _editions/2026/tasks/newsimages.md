@@ -135,4 +135,13 @@ the task. You are welcome to investigate your own research in the domain of news
 * June: Deadline for submitting working notes paper (incl. code/pipeline).
 * June: MediaEval Workshop in Amsterdam.
 
+#### Acknowledgements
 
+This work is supported by:
+
+<a href="https://haicu.science/">
+<img src="https://haicu.science/images/haicu-logo.png" 
+     alt="HAICu" 
+     width="640" 
+     style="max-width: 100%; height: auto;">
+</a>
