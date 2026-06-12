@@ -5,9 +5,9 @@ year: 2026
 hide: false
 
 # required info
-title: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task)"
+title: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages"
 subtitle: Enthymeme
-blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages (pilot task). Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as 'enthymemes' and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
+blurb: "Missing Pieces and Misinformation: Identifying social media posts with implicit messages. Participants receive a collection of controversial social media posts (tweets) and must detect arguments with implicit premises or conclusions. Such arguments are known as 'enthymemes' and can be a strategy for disseminating misinformation. Participants also explore the implications of variations in the human generated ground truth."
 ---
 
 *See the [MediaEval 2026 webpage](https://multimediaeval.github.io/editions/2026/) for information on how to register and participate.*
@@ -141,3 +141,17 @@ The data will be released in three parts:
 [5] Uma, A., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021). Learning from disagreement: A survey. *Journal of Artificial Intelligence Research, 72,* 1385–1470.
 
 [6] Vallauri, E. L., Baranzini, L., Cimmino, D., Cominetti, F., Coppola, C., & Mannaioli, G. (2020). Implicit argumentation and persuasion: A measuring model. *Journal of Argumentation in Context, 9,* 95–123.
+
+#### Acknowledgements
+
+This work is supported by projects:
+
+<a href="https://hybridsproject.eu/">
+  <img src="https://hybridsproject.eu/wp-content/uploads/2023/03/Hybrids01_ppal_cmyk_negativo-157x133.png" 
+       alt="Hybrids" 
+       width="640" 
+       style="max-width: 100%; height: auto;"></a><br>
+<a href="https://aicode-project.eu/">
+   <img src="https://multimediaeval.github.io/editions/2025/docs/ai-code-1.png" width=150/>
+</a>
+
