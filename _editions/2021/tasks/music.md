@@ -51,7 +51,7 @@ For reference, here are the [2019](https://multimediaeval.github.io/2019-Emotion
 
 [2] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2019. [MediaEval 2019: Emotion and Theme Recognition in Music Using Jamendo](http://ceur-ws.org/Vol-2670/MediaEval_19_paper_31.pdf). MediaEval 2019 Workshop.
 
-[3] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2020. [MediaEval 2020: Emotion and Theme Recognition in Music Using Jamendo](https://eigen.no/MediaEval_20_paper_7.pdf). MediaEval 2020 Workshop.
+[3] Dmitry Bogdanov, Alastair Porter, Philip Tovstogan and Minz Won. 2020. [MediaEval 2020: Emotion and Theme Recognition in Music Using Jamendo](https://ceur-ws.org/Vol-2882/paper7.pdf). MediaEval 2020 Workshop.
 
 [4] Mohammad Soleymani, Micheal N. Caro, Erik M. Schmidt, Cheng-Ya Sha and Yi-Hsuan Yang. 2013. [1000 songs for emotional analysis of music](https://ibug.doc.ic.ac.uk/media/uploads/documents/cmm13-soleymani.pdf). In Proceedings of the 2nd ACM international workshop on Crowdsourcing for multimedia (CrowdMM 2013), 1-6.
 
