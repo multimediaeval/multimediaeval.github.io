@@ -52,7 +52,25 @@ MediaEval tasks are oriented towards user needs in specific application settings
 
 The culmination of the yearly MediaEval benchmarking cycle is the MediaEval Workshop. The workshop brings together task participants to present their findings, discuss their approaches, learn from each other, and make plans for future work. 
 
-The MediaEval Workshop co-located itself with ACM Multimedia conferences in 2010, 2013, 2016, 2019. In 2025, it was held between ACM Multimedia 2025 and CBMI 2025. Other co-locations include the European Conference on Computer Vision 2012, MMM in 2024 and with ACM International Conference on Multimedia Retrieval in 2026. It was an official satellite event of Interspeech conferences in 2011 and 2015. In 2017, CLEF and MediaEval were held back to back with an overlapping joint session. Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop took place fully online.
+Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop took place fully online:
+
+* MediaEval 2010 Workshop: Santa Croce in Fossabanda, Pisa, Italy, 24 October 2010, ACM Multimedia 2010.
+* MediaEval 2011 Workshop: Santa Croce in Fossabanda, Pisa, Italy, 1-2 September 2011, Interspeech 2011.
+* MediaEval 2012 Workshop: Santa Croce in Fossabanda, Pisa, Italy, 4-5 October 2012, ECCV 2012.
+* MediaEval 2013 Workshop: Reial Acadèmia de Bones Lletres de Barcelona, 18-19 October 2013, ACM Multimedia 2013.
+* MediaEval 2014 Workshop: Reial Acadèmia de Bones Lletres de Barcelona, 16-17 October 2014.
+* MediaEval 2015 Workshop: Schloss Wurzen, Germany, 14-15 September 2015, Interspeech 2015.
+* MediaEval 2016 Workshop: Netherlands Institute for Sound and Vision, Netherlands, 20-21 October 2016, ACM Multimedia 2016.
+* MediaEval 2017 Workshop: Trinity College Dublin, Ireland, 13-15 September 2017, CLEF 2017.
+* MediaEval 2018 Workshop: EURECOM Sophia Antipolis, France, 29-31 October 2018.
+* MediaEval 2019 Workshop: EURECOM Sophia Antipolis, France, 27-29 October 2019, ACM Multimedia 2019.
+* MediaEval 2020 Workshop: Online, 11,14-15 December 2020.
+* MediaEval 2021 Workshop: Online, 13-15 December 2021.
+* MediaEval 2022 Workshop: Media City Bergen, Norway and Online, 12-13 January 2023.
+* MediaEval 2023 Workshop: University of Amsterdam, Netherlands and Online Amsterdam, 1-2 Feb 2024, MMM 2024.
+* MediaEval 2025: Dublin, Ireland, 25-26 Oct 2025, Between CMBI 2025 and ACM MM 2025.
+* MediaEval 2026: KIT (formerly Royal Tropical Institute), Amsterdam, Netherlands, 15-16 June 2026, ACM ICMR 2026.
+
 
 Each year, the workshop publishes a working notes proceedings containing papers written by the task organizers and task participants. The aims of the MediaEval Working Notes Proceedings are described in more detail [in this paper](http://ceur-ws.org/Vol-1436/Paper90.pdf).
 
