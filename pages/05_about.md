@@ -19,7 +19,7 @@ For more information about past years see:
 [IEEE Multimedia Vol. 24, No. 1, 93-96, 2016 The Benchmarking Initiative for Multimedia Evaluation: MediaEval 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7849098) \\
 [ERCIM News 97, April 2014](http://ercim-news.ercim.eu/en97/events/mediaeval-2013-evaluation-campaign) \\
 IEEE Speech & Language Processing Technical Committee Newsletter Feb. 2014 \\
-[SIGMM Records Volume 5, Issue 2, June 2013](http://records.sigmm.ndlab.net/2013/07/mediaeval-multimedia-benchmark-highlights-from-the-ongoing-2013-season/) \\
+[SIGMM Records Volume 5, Issue 2, June 2013](https://records.sigmm.org/records-issues/acm-sigmm-records-june-2013/) \\
 [ERCIM News 94, July 2013](http://ercim-news.ercim.eu/en94/events/mediaeval-2012-evaluation-campaign) \\
 [ERCIM News 88, January 2012](http://ercim-news.ercim.eu/en88/events/mediaeval-2011-evaluation-campaign) \\
 [SIGMM Records Volume 3, Issue 2, June 2011](http://sigmm.org/records/records1102/featured01.html) \\
