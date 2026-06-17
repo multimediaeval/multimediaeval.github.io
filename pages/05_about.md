@@ -52,7 +52,7 @@ MediaEval tasks are oriented towards user needs in specific application settings
 
 The culmination of the yearly MediaEval benchmarking cycle is the MediaEval Workshop. The workshop brings together task participants to present their findings, discuss their approaches, learn from each other, and make plans for future work. 
 
-The MediaEval Workshop co-located itself with ACM Multimedia conferences in 2010, 2013, 2016, 2019 and with the European Conference on Computer Vision in 2012. It was an official satellite event of Interspeech conferences in 2011 and 2015. In 2017, CLEF and MediaEval were held back to back with a overlapping joint session. Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop took place fully online.
+The MediaEval Workshop co-located itself with ACM Multimedia conferences in 2010, 2013, 2016, 2019. In 2025, it was held between ACM Multimedia 2025 and CBMI 2025. Other co-locations include the European Conference on Computer Vision 2012, MMM in 2024 and with ACM International Conference on Multimedia Retrieval in 2026. It was an official satellite event of Interspeech conferences in 2011 and 2015. In 2017, CLEF and MediaEval were held back to back with an overlapping joint session. Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop took place fully online.
 
 Each year, the workshop publishes a working notes proceedings containing papers written by the task organizers and task participants. The aims of the MediaEval Working Notes Proceedings are described in more detail [in this paper](http://ceur-ws.org/Vol-1436/Paper90.pdf).
 
