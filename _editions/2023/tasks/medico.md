@@ -41,7 +41,7 @@ VISEM [2] contains data from 85 male participants aged 18 years or older. For th
 * study_participant_related_data: General information about the participants such as age, abstinence time, and Body Mass Index (BMI).
 * videos: Overview of which video file belongs to what participant.
 
-In addition to the main dataset, VISEM-Tracking [1], we provide an additional graph dataset which was extracted from the VISEM-Tracking. More details about this graph dataset can be found here: https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs. 
+In addition to the main dataset, VISEM-Tracking [1], we provide an additional graph dataset which was extracted from the VISEM-Tracking. More details about this graph dataset [can be found here](https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs).
 
 * [Development Dataset](https://zenodo.org/record/7293726)
 * [Development Dataset - Graph Data](https://huggingface.co/datasets/SimulaMet-HOST/visem-tracking-graphs)
