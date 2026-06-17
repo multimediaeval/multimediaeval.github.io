@@ -52,7 +52,7 @@ MediaEval tasks are oriented towards user needs in specific application settings
 
 The culmination of the yearly MediaEval benchmarking cycle is the MediaEval Workshop. The workshop brings together task participants to present their findings, discuss their approaches, learn from each other, and make plans for future work. 
 
-Since 2017, MediaEval has been offering opportunities for remote participation and in 2020 the workshop took place fully online:
+Since 2017, MediaEval has been offering opportunities for remote participation and in 2020-2021 the workshop took place fully online. Since 2022, the workshop has been hybrid, welcoming both in person and online participants.
 
 * MediaEval 2010 Workshop: Santa Croce in Fossabanda, Pisa, Italy, 24 October 2010, ACM Multimedia 2010.
 * MediaEval 2011 Workshop: Santa Croce in Fossabanda, Pisa, Italy, 1-2 September 2011, Interspeech 2011.
