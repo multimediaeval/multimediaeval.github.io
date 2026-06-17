@@ -37,7 +37,7 @@ Twenty stroke classes are considered according to the rules of table tennis. Thi
 
 Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, Julien Morlier. 2020. [Fine grained sport action recognition with siamese spatio-temporal convolutional neural networks.](https://link.springer.com/epdf/10.1007/s11042-020-08917-3) Multimedia Tools and Applications (19 Apr 2020).
 
-Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, and Julien Morlier. 2019. [Optimal choice of motion estimation methods for fine-grained action  classification with 3D convolutional networks.](https://hal.archives-ouvertes.fr/hal-02326240) In ICIP 2019. IEEE,554–558.
+Pierre-Etienne Martin, Jenny Benois-Pineau, Renaud Péteri, and Julien Morlier. 2019. [Optimal choice of motion estimation methods for fine-grained action  classification with 3D convolutional networks.](https://ieeexplore.ieee.org/document/8803780) In ICIP 2019. IEEE,554–558.
 
 Gül Varol, Ivan Laptev, and Cordelia Schmid. 2018. [Long-Term Temporal Convolutions for Action Recognition.](https://arxiv.org/pdf/1604.04494.pdf) IEEE Trans. Pattern Anal. Mach. Intell. 40, 6 (2018), 1510–1517.
 
