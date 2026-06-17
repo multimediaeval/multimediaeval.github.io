@@ -57,13 +57,13 @@ The outputs of the prediction models – i.e., the predicted memorability scores
 
 [4] Phillip Isola, Jianxiong Xiao, Devi Parikh, Antonio Torralba, and Aude Oliva. 2014. [What makes a photograph memorable?](http://web.mit.edu/phillipi/www/publications/memory_pami.pdf) IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 7 (2014), 1469–1482.
 
-[5] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. [Deep learning for predicting image memorability](https://hal.archives-ouvertes.fr/hal-01629297/file/main.pdf). In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).
+[5] Hammad Squalli-Houssaini, Ngoc Duong, Gwenaëlle Marquant, and Claire-Hélène Demarty. 2018. [Deep learning for predicting image memorability](https://ieeexplore.ieee.org/document/8462292/). In Proc. IEEE Int. Conf. on Audio, Speech and Language Processing (ICASSP).
 
 [6] Junwei Han, Changyuan Chen, Ling Shao, Xintao Hu, Jungong Han, and Tianming Liu. 2015. [Learning computational models of video memorability from fMRI brain imaging](https://ieeexplore.ieee.org/abstract/document/6919270). IEEE transactions on cybernetics 45, 8 (2015), 1692–1703.
 
 [7] Sumit Shekhar, Dhruv Singal, Harvineet Singh, Manav Kedia, and Akhil Shetty. 2017. [Show and Recall: Learning What Makes Videos Memorable](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w40/Shekhar_Show_and_Recall_ICCV_2017_paper.pdf). In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2730–2739.
 
-[8] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates](http://campus.pub.ro/lab7/bionescu/index_files/pub/2018_ACM_CSUR-draft.pdf), ACM Computing Surveys, 52(2), 2019.
+[8] M.G. Constantin, M. Redi, G. Zen, B. Ionescu, [Computational Understanding of Visual Interestingness Beyond Semantics: Literature Survey and Analysis of Covariates](https://dl.acm.org/doi/10.1145/3301299), ACM Computing Surveys, 52(2), 2019.
 
 #### Task organizers
 * Alba García Seco de Herrera, alba.garcia (at) essex.ac.uk, University of Essex, UK
