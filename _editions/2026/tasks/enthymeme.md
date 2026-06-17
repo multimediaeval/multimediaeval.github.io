@@ -149,7 +149,7 @@ This work is supported by projects:
 <a href="https://hybridsproject.eu/">
   <img src="https://hybridsproject.eu/wp-content/uploads/2023/03/Hybrids01_ppal_cmyk_negativo-157x133.png" 
        alt="Hybrids" 
-       width="640" 
+       width="153" 
        style="max-width: 100%; height: auto;"></a><br>
 <a href="https://aicode-project.eu/">
    <img src="https://multimediaeval.github.io/editions/2025/docs/ai-code-1.png" width=150/>
