@@ -98,7 +98,7 @@ See the [MediaEval 2020](http://ceur-ws.org/Vol-2882) and MediaEval 2021 Working
  <!--* XX November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
   <!--* XX November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 01 December 2022 AOE: Working notes paper  <!-- Fixed. Please do not change.-->
-* 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
+* 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with MMM 2023 in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
 #### Acknolwedgments
 This work was funded by the Norwegian Research Council under contracts #272019 and #303404 and has benefited from the Experimental Infrastructure for Exploration of Exascale Computing (eX3), which is financially supported by the Research Council of Norway under contract #270053. We also acknowledge support from Michael Kreil in the collection of Twitter data.
