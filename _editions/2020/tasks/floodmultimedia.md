@@ -49,7 +49,7 @@ The evaluation metric for the binary classification of tweets as relevant (1) or
 
 [4] Imran, M., Castillo, C., Lucas, J., Meier, P. and Vieweg, S., 2014, April. [AIDR: Artificial intelligence for disaster response](https://dl.acm.org/doi/abs/10.1145/2567948.2577034). In Proceedings of the 23rd International Conference on World Wide Web (pp. 159-162).
 
-[5] Brouwer, T., Eilander, D., Van Loenen, A., Booij, M.J., Wijnberg, K.M., Verkade, J.S. and Wagemaker, J., 2017. [Probabilistic flood extent estimates from social media flood observations](https://core.ac.uk/download/pdf/207400745.pdf). Natural Hazards & Earth System Sciences, 17(5).
+[5] Brouwer, T., Eilander, D., Van Loenen, A., Booij, M.J., Wijnberg, K.M., Verkade, J.S. and Wagemaker, J., 2017. Probabilistic flood extent estimates from social media flood observations. Natural Hazards & Earth System Sciences, 17(5).
 
 
 We also recommend to read past years’ task papers in the MediaEval Proceedings:
