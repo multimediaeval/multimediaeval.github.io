@@ -28,20 +28,11 @@ IEEE Speech & Language Processing Technical Committee Newsletter Feb. 2014 \\
 ### Who runs MediaEval?
 MediaEval is a community-driven benchmark that is run by the MediaEval organizing committee consisting of the task organizers of all the individual task in a given year. MediaEval tasks are largely autonomous, and each team of task organizers is responsible for running their own tasks.
 
-Two groups work in the background to guide MediaEval and keep it running smoothly.
+The overall operations of MediaEval are run by the MediaEval Coordination Committee:
 
-#### The MediaEval Logistics Committee (2021)
 * Mihai Gabriel Constantin, University Politehnica of Bucharest, Romania
 * Steven Hicks, SimulaMet, Norway
-* Ngoc-Thanh Nguyen, University of Information Technology, Vietnam
-* Ricardo Manhães Savii, Dafiti Group, Brasil (Website)
-
-#### The MediaEval Community Council (2021)
-* Martha Larson, Radboud University, Netherlands (Coordinator and contact person)
-* Minh-Son Dao, National Institute of Information and Communications Technology, Tokyo, Japan
-* Bogdan Ionescu, University Politehnica of Bucharest, Romania
-* Gareth J. F. Jones, Dublin City University, Ireland
-
+* Martha Larson, Radboud University, Netherlands
 
 ### How can I get involved?
 MediaEval is an open initiative, meaning that any interested research group is free to signup and participate. Groups sign up for one or more tasks, they then receive task definitions, data sets and supporting resources, which they use to develop their algorithms. At the very end of the season, groups submit their results and then they attend the MediaEval workshop. See also Why Participate? or watch some videos on the [MediaEval video page](http://www.multimediaeval.org/video/index.html).
