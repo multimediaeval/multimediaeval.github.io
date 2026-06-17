@@ -62,7 +62,7 @@ https://airtw.epa.gov.tw/ENG/Information/Standard/AirQualityIndicator.aspx (pref
 
 [3] N. Nguyen, M. Dao and K. Zettsu, [Complex Event Analysis for Traffic Risk Prediction based on 3D-CNN with Multi-sources Urban Sensing Data](https://ieeexplore.ieee.org/abstract/document/9005985), 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 1669-1674.
 
-[4] P. Vo, T. Phan, M. Dao and K. Zettsu, [Association Model between Visual Feature and AQI Rank Using Lifelog Data](https://ieeexplore.ieee.org/document/90056360), 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 4197-4200.
+[4] P. Vo, T. Phan, M. Dao and K. Zettsu, Association Model between Visual Feature and AQI Rank Using Lifelog Data, 2019 IEEE International Conference on Big Data (Big Data), Los Angeles, CA, USA, 2019, pp. 4197-4200.
 
 [5] Dao, M. S., Zhao, P., Sato, T., Zettsu, K., Dang-Nguyen D. T., Gurrin, C., Nguyen, N. T.: Overview of MediaEval 2019: Insights for Wellbeing TaskMultimodal Personal Health Lifelog Data Analysis, MediaEval Benchmarking Initiative for Multimedia Evaluation (MediaEval 2019), Antipolis, France (November 2019). 
 
