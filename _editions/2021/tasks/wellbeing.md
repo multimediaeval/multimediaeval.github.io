@@ -77,7 +77,7 @@ Please use the ACM format for references https://www.acm.org/publications/author
 
 [7] Minh-Son Dao, Peijiang Zhao, Tomohiro Sato, Koji Zettsu, Duc-Tien Dang-Nguyen, Cathal Gurrin, Ngoc-Thanh Nguyen. 2019. [Overview of MediaEval 2019: Insights for Wellbeing Task Multimodal Personal Health Lifelog Data Analysis](http://ceur-ws.org/Vol-2670/MediaEval_19_paper_10.pdf). 
 
-[8] Peijiang Zhao, Minh-Son Dao, Thanh Nguyen, Thanh-Binh Nguyen, Duc-Tien Dang-Nguyen, and Cathal Gurrin. 2020. [Overview of MediaEval 2020 Insights for Wellbeing: Multimodal Personal Health Lifelog Data Analysis](https://www.eigen.no/MediaEval_20_paper_11.pdf). 
+[8] Peijiang Zhao, Minh-Son Dao, Thanh Nguyen, Thanh-Binh Nguyen, Duc-Tien Dang-Nguyen, and Cathal Gurrin. 2020. [Overview of MediaEval 2020 Insights for Wellbeing: Multimodal Personal Health Lifelog Data Analysis](https://ceur-ws.org/Vol-2882/paper11.pdf). 
 
 [9] Dat Q. Duong, Quang M. Le, Tan-Loc Nguyen-Tai, Dong Bo, Dat Nguyen, Minh-Son Dao, and Binh T. Nguyen. 2020. [Multi-source Machine Learning for AQI Estimation](https://ieeexplore.ieee.org/document/9378322), IEEE Big Data 2020.
 
