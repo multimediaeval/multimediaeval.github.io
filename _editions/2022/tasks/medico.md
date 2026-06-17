@@ -60,10 +60,6 @@ The ground truth data provided in this task were prepared by expert computer sci
 #### Evaluation methodology
 For the evaluation, we will use mAP (mean average precision), mean squared error, mean absolute error, frames per seconds and the mean absolute percentage error for the first two subtasks. For the optional third and fourth task, we will use manual evaluation with the help of three different experts within human reproduction.  
 
-### Test data downlod link
-The prediction of this test dataset should be uploaded using the following submission form.
-[Test data download link](https://www.dropbox.com/sh/2ohitza5ouzh2d3/AAD_8VnvdhPqOVlCcAn21Uc8a?dl=0)
-
 ### Submission instructions
 
 [Submission form](https://forms.gle/Bgwt5pEwwKm6HPH26)
