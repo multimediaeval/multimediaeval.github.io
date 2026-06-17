@@ -104,5 +104,5 @@ You can email us directly at ![](https://user-images.githubusercontent.com/36887
 * ~~8 November 2022~~ 23 November 2022: Runs due <!-- # Replace XX with your date. We suggest setting enough time in order to have enough time to assess and return the results by the Results returned.-->
 * ~~10 November 2022~~ 23 November 2022: Results returned  <!-- Replace XX with your date. Latest possible should be 23 November-->
 * 28 November 2022: Working notes paper  <!-- Fixed. Please do not change.-->
-* 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with [MMM 2023](https://www.mmm2023.no/) in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
+* 12-13 January 2023: 13th Annual MediaEval Workshop, Collocated with MMM 2023 in Bergen, Norway and also online. <!-- Fixed. Please do not change.-->
 
