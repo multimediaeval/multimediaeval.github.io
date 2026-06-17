@@ -21,28 +21,104 @@ In 2022, MediaEval introduced the Quest for Insight, which encourages explicit d
 #### MediaEval Distinctive Mentions (MDMs)
 These are the distinctive mentions awarded at MediaEval.
 
+##### 2026
+
+The papers for 2026 are not yet officially published. We will update the links to the papers once they are updated.
+
+To *NTHU-CY team: Hao-Tien Yu and Yi-En Dong*
+* For: Their rigorous Insight into EEG subject-variability biases and their bold Risk-taking in proving that generic video aesthetics do not drive commercial memorability.
+* From: The organizers of Memorability
+
+To *CSAIL-TCNJ team: Olufela Fieulleteau, Conner Perriello, Sejong Yoon*
+* For: Their comprehensive study of the effect of different modalities and concepts on memorability.
+* From: The organizers of Memorability
+
+To *AIT-SoftBank - Hengwei Zhao & Takayuki Hori*
+* For: Elaborately evaluating, finetuning, and combining VLMs, resulting in very good generalizability
+* From: The organizers of Synthetic Images
+
+To *ANLAM-NET-M - Berkay Bayramoglu, Ismail Erol, Rukiye Savran Kiziltepe & Murat Karakus*
+* For: A novel fusion of complimentary forensic features
+* From: The organizers of Synthetic Images
+
+To *LaSID–UFSCar*
+* For: Going against the grain and finding that the best performing models do not need to be specialist models.
+* From: The organizers of Medico
+
+To *CERTH-ITI - Damianos Galanopoulos, Vasileios Mezaris*
+* For: Their Actor-Critic Image Generation approach for producing, evaluating, and refining image recommendation.
+* From: The organizers of NewsImages
+
+To *Jarno van Arkel*
+* For: A quest-for-insight paper and presentation that gave the most clear-eyed, comprehensive account of annotator disagreement in the task.
+* From: The organizers of Missing Pieces and Misinformation
+
+To *Moez Ur Rehman - FAST-NU*
+* For: The best-performing system, a distinctive approach, and failure analysis that genuinely illuminated the task.
+* From: The organizers of Missing Pieces
+
+To *Missing Pieces Task: Identifying social media posts with implicit messages*
+* For: An interesting, timely, and successful new task, at the intersection of linguistics, disinformation and AI.
+* From: The MediaEval Coordination Committee
+
+To *IIS ZHAW - Kimia Rabishokr*
+* For: An excellent contribution to multimodal city-level summarisation
+* From: The organizers of MultiSumm
+
+##### 2025
+
+The papers for 2025 are not yet officially published (we are sorry for the delay). We will update the links to the papers once they are updated.
+
+To *Team SSN-CSE-CODECATALYSTS*
+* For: An original approach for synthetic image detection, and participating in both subtasks.
+* From: The organizers of Synthetic Images: Advancing detection of generative AI used in real-world online images
+
+To *Aashutosh Ganesh, Iris Huijben, Bulat Khaertdinov, Iskaj Janssen, Mirela Popa and Nava Tintarev*
+* For: In-depth analysis of the data and task, as well as an original and reflective approach to the task
+* From: The organizers of Memorability: Predicting movie and commercial memorability
+
+To *Itbaan Safwan, Muhammad Annas Shaikh, Muhammad Haaris, Ramail Khan and Muhammad Atif*
+* For: For demonstrating that everywhere is somewhere, and their model knew where. “Everywhere’s been where it is ever since it was first put there. It’s called geography.” - Terry Pratchett
+* From: The organizers of Medico 2025: Visual Question Answering (with multimodal explanations) for Gastrointestinal Imaging
+
+To *Xiaomeng Wang and Bram Bakker*
+* For: The analysis of article-specific image retrieval and generation strategies
+* From: The organizers of NewsImages – Retrieval and generative AI for news thumbnails
+
+To *Lucien Heitz*
+* For: Leadership in the NewsImage Task. Stepping up to the plate when needed.
+* From: The MediaEval Coordinators
+
+To *Anastasia Potyagalova*
+* For: Pioneering a new task in summarization (and elegantly handling randomly flipping slides during the task overview presentation.)
+* From: The MediaEval Coordinators
+
 ##### 2023
-The papers for 2023 are not yet officially published. We will update the links to the papers once they are updated.
 
 To *Team SELAB-HCMUS*
 * For: Properly evaluating and addressing the data imbalance problem
 * From: The organizers of Medical Multimedia Task - Transparent Tracking of Spermatozoa
+* Paper: [Optimizing Sperm Detection and Tracking in Fluids with Equalize Class Representation Augmentation](https://ceur-ws.org/Vol-3658/paper16.pdf)
 
 To *Sci-LAB, Sensory-Cognitive Interaction Lab, Stockholm University*
 * For: Participating in all four subtasks, obtaining the best results in all, and reporting their work in detail
 * From: The organizers of MUSTI - Multimodal Understanding of Smells in Texts and Images with Zero-shot Evaluation
+* Paper: [Enhancing Multimodal Language Models with Olfactory Information](https://ceur-ws.org/Vol-3658/paper22.pdf)
 
 To *Lucien Heitz, Abraham Bernstein, and Luca Rossetto*
 * For: Giving new insights into user preferences based on empirical studies analyzing diverse matching strategies.
 * From: The organizers of NewsImages
+* Paper: [An Empirical Exploration of Perceived Similarity between News Article Texts and Images](https://ceur-ws.org/Vol-3658/paper8.pdf)
 
 To *Bhuvana Jayaraman, Mirnalinee Tt, Harshida Sujatha Palaniraj, Mohith Adluru and Sanjjit Sounderrajan Nadar College of Engineering, India*
 * For: Providing an efficient solution to text extraction in swimming scoreboards images
 * From: The organizers of SportsVideo
+* Paper: [Automated Recognition of Sports Scores using PyTessaract OCR and CNN: SportsVideo Task at MediaEval 2023](https://ceur-ws.org/Vol-3658/paper33.pdf)
 
 To *Team FAST-NUCES-KHI: Muhammad Mustafa Ali Usmani, Humna Faisal and Muhammad Atif Tahir*
 * For: Their interesting analysis of the differences between our datasets and the problems these differences pose
 * From: The organizers of Memorability
+* Paper: [The Impact of Transformers Ensemble on Model Memorability and Generalizability](https://ceur-ws.org/Vol-3658/paper28.pdf)
 
 ##### 2022
 
