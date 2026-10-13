@@ -1,6 +1,16 @@
 [
    
       {
+        "title"    : "Announcing MediaEval 2027",
+        "category" : "",
+        "tags"     : " ",
+        "url"      : "/2026/10/13/announcing-2027.html",
+        "date"     : "October 13, 2026",
+        "excerpt"  : "We are happy to announce that MediaEval 2027 will be held in Bucharest on Monday 13 September 2027 at the \nCAMPUS Research Institute, part of the National University of Science and ...",
+        "content"  : "We are happy to announce that MediaEval 2027 will be held in Bucharest on Monday 13 September 2027 at the \nCAMPUS Research Institute, part of the National University of Science and Technology Politehnica Bucharest, \nand will be co-located with CLEF 2027.\n\nMore details on this edition’s tasks will be posted to this page and will be available until the 30th of November 2027.\n\nThe Multimedia Evaluation Benchmark (MediaEval) offers challenges in the form of shared tasks. The goal of MediaEval is to develop and evaluate new algorithms and \ntechnologies for multimedia retrieval, access and exploration. MediaEval tasks are innovative, involving multiple modalities, (e.g., audio, visual, textual, and/or contextual) \nand focusing on the human and social aspects of multimedia. Our larger aim is to promote reproducible research that makes multimedia a positive force for society.\n"
+      } ,
+   
+      {
         "title"    : "MediaEval 2026 Workshop Registration",
         "category" : "",
         "tags"     : " ",
